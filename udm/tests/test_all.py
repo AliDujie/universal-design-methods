@@ -306,6 +306,83 @@ def test_generate_report():
 # 运行入口
 # ─────────────────────────────────────────────
 
+
+
+def test_add_method_roi():
+    """测试 CEO 方法 1: 方法 ROI 评估"""
+    skill = UDMSkill('旅行 APP 用户体验研究')
+
+    # 场景 A: 使用默认方法
+    result_default = skill.add_method_roi()
+    assert isinstance(result_default, str), '返回值应为字符串'
+    assert 'ROI' in result_default or '投资回报' in result_default, '应包含 ROI 标题'
+    assert '方法' in result_default, '应包含方法列表'
+    assert '成本' in result_default, '应包含成本维度'
+    assert '时间' in result_default, '应包含时间维度'
+    assert '价值' in result_default or '价值' in result_default, '应包含价值维度'
+    assert 'ROI 评分' in result_default or '评分' in result_default, '应包含 ROI 评分'
+    assert '投资建议' in result_default or '建议' in result_default, '应包含投资建议'
+
+    # 场景 B: 自定义方法
+    result_custom = skill.add_method_roi(methods=[
+        {'name': '用户访谈', 'cost': '低', 'time': '2 周', 'value': '高', 'roi_score': 8.5, 'confidence': '高'},
+        {'name': '问卷调查', 'cost': '中', 'time': '1 周', 'value': '中', 'roi_score': 7.0, 'confidence': '中'},
+    ])
+    assert '用户访谈' in result_custom, '应包含自定义方法名'
+    assert '8.5' in result_custom or '8' in result_custom, '应包含自定义 ROI 评分'
+
+    print('✅ test_add_method_roi passed')
+
+
+def test_generate_decision_outputs():
+    """测试 CEO 方法 2: 预期决策产出"""
+    skill = UDMSkill('旅行 APP 用户体验研究')
+
+    # 场景 A: 默认研究问题
+    result_default = skill.generate_decision_outputs()
+    assert isinstance(result_default, str), '返回值应为字符串'
+    assert '决策产出' in result_default or '产出' in result_default, '应包含决策产出标题'
+    assert '清单' in result_default or '清单' in result_default, '应包含产出清单'
+    assert '决策点' in result_default or '决策' in result_default, '应包含关键决策点'
+    assert '时间' in result_default or '交付' in result_default, '应包含交付时间'
+    assert '质量标准' in result_default or '标准' in result_default, '应包含质量标准'
+
+    # 场景 B: 自定义研究问题
+    result_custom = skill.generate_decision_outputs('如何提升预订转化率？')
+    assert '预订转化率' in result_custom, '应包含自定义研究问题'
+    assert '决策' in result_custom, '应包含决策相关内容'
+
+    print('✅ test_generate_decision_outputs passed')
+
+
+def test_generate_resource_allocation():
+    """测试 CEO 方法 3: 资源分配建议"""
+    skill = UDMSkill('旅行 APP 用户体验研究')
+
+    # 场景 A: 使用默认预算
+    result_default = skill.generate_resource_allocation()
+    assert isinstance(result_default, str), '返回值应为字符串'
+    assert '资源分配' in result_default or '资源' in result_default, '应包含资源分配标题'
+    assert '预算' in result_default, '应包含预算分配'
+    assert '人力' in result_default or '团队' in result_default, '应包含人力分配'
+    assert '时间' in result_default or '周期' in result_default, '应包含时间分配'
+    assert '风险' in result_default, '应包含资源风险'
+    assert '审批' in result_default or '建议' in result_default, '应包含 CEO 审批建议'
+
+    # 场景 B: 自定义预算
+    result_custom = skill.generate_resource_allocation(budget={
+        'total': 500000,
+        'headcount': 5,
+        'timeline': '8 周',
+        'currency': 'CNY',
+    })
+    assert '500000' in result_custom or '500,000' in result_custom, '应包含自定义预算'
+    assert '5 人' in result_custom or '5' in result_custom, '应包含自定义人力'
+    assert '8 周' in result_custom, '应包含自定义时间'
+
+    print('✅ test_generate_resource_allocation passed')
+
+
 if __name__ == "__main__":
     tests = [
         test_recommend_methods,
@@ -316,6 +393,10 @@ if __name__ == "__main__":
         test_build_journey_map,
         test_generate_research_plan,
         test_generate_report,
+        # CEO 视角方法测试
+        test_add_method_roi,
+        test_generate_decision_outputs,
+        test_generate_resource_allocation,
     ]
 
     passed = 0
@@ -336,7 +417,7 @@ if __name__ == "__main__":
     print("=" * 60)
     print(f"结果: {passed} 通过 / {failed} 失败 / {len(tests)} 总计")
     if failed == 0:
-        print("🎉 全部测试通过！")
+        print(f"🎉 全部 {len(tests)} 个测试用例通过！")
     else:
         print("⚠️ 存在失败的测试")
         sys.exit(1)
