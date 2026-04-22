@@ -254,3 +254,14 @@ A. 我很喜欢  B. 理应如此  C. 无所谓  D. 勉强接受  E. 我不喜欢
 | 中影响 | 快速修复 | 排期做 | 评估后决定 |
 | 低影响 | 顺手做 | 暂缓 | 不做 |
 ```
+
+---
+
+## 相关文档
+
+- [探索性研究方法](methods-exploration.md)
+- [衍生性研究方法](methods-generative.md)
+- [评估性研究方法](methods-evaluative.md)
+- [综合分析方法](methods-synthesis.md)
+- [成果沟通方法](methods-communication.md)
+- [决策框架](decision-framework.md)

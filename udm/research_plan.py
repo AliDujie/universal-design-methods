@@ -59,7 +59,7 @@ class ResearchPlanBuilder:
     """研究计划构建器
 
     用法::
-        builder = ResearchPlanBuilder("飞猪酒店预订体验研究")
+        builder = ResearchPlanBuilder("酒店预订体验研究")
         builder.set_background("用户反馈酒店预订流程复杂...")
         builder.add_objective("了解用户预订酒店的核心痛点", priority=1)
         builder.add_method(48, "访谈", "深入了解用户动机", participants=10)

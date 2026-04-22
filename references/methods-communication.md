@@ -175,3 +175,14 @@
 - **定义**：在不干扰用户的情况下收集行为数据
 - **类型**：物理痕迹（磨损、积累）、档案记录、行为观察
 - **关联方法**：42.隐蔽观察、57.观察法、97.网站分析
+
+---
+
+## 相关文档
+
+- [探索性研究方法](methods-exploration.md)
+- [衍生性研究方法](methods-generative.md)
+- [评估性研究方法](methods-evaluative.md)
+- [综合分析方法](methods-synthesis.md)
+- [执行模板集](execution-templates.md)
+- [决策框架](decision-framework.md)

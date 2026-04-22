@@ -238,3 +238,14 @@
   3. 与竞品进行对比评分
   4. 绘制价值机会雷达图
   5. 识别优势和改进机会
+
+---
+
+## 相关文档
+
+- [探索性研究方法](methods-exploration.md)
+- [衍生性研究方法](methods-generative.md)
+- [综合分析方法](methods-synthesis.md)
+- [成果沟通方法](methods-communication.md)
+- [执行模板集](execution-templates.md)
+- [决策框架](decision-framework.md)

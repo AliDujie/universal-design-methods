@@ -295,3 +295,14 @@
   3. 统计词频
   4. 生成文字云（词频越高字体越大）
   5. 分析关键主题和趋势
+
+---
+
+## 相关文档
+
+- [探索性研究方法](methods-exploration.md)
+- [衍生性研究方法](methods-generative.md)
+- [评估性研究方法](methods-evaluative.md)
+- [成果沟通方法](methods-communication.md)
+- [执行模板集](execution-templates.md)
+- [决策框架](decision-framework.md)

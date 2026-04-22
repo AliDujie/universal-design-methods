@@ -42,8 +42,8 @@ class ReportBuilder:
     """研究报告构建器
 
     用法::
-        builder = ReportBuilder("飞猪酒店预订体验研究报告")
-        builder.set_project("飞猪App")
+        builder = ReportBuilder("酒店预订体验研究报告")
+        builder.set_project("我的App")
         builder.set_summary("本次研究发现用户在预订流程中...")
         builder.add_finding("比价困难", "用户需要在多个平台间切换比价",
                            severity=3, recommendation="增加一键比价功能")

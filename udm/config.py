@@ -3,7 +3,7 @@ from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Dict, List, Tuple
 
-KNOWLEDGE_BASE_DIR = Path(__file__).parent.parent
+KNOWLEDGE_BASE_DIR = Path(__file__).parent.parent / "references"
 
 KNOWLEDGE_FILES: Dict[str, str] = {
     "exploration": "methods-exploration.md",
@@ -173,6 +173,9 @@ class AnalysisConfig:
     output_format: str = "markdown"
     language: str = "zh"
     max_recommendations: int = 5
+
+    def __post_init__(self) -> None:
+        self.validate()
 
     def validate(self) -> None:
         for p in self.include_phases:

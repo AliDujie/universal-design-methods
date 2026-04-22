@@ -154,8 +154,8 @@ class SurveyBuilder:
     """问卷构建器
 
     用法::
-        builder = SurveyBuilder("飞猪功能需求调研", "kano")
-        builder.set_target("过去3个月使用过飞猪的用户")
+        builder = SurveyBuilder("功能需求调研", "kano")
+        builder.set_target("过去3个月的活跃用户")
         builder.set_features(["智能推荐", "价格日历", "AR看房"])
         survey = builder.build()
         print(SurveyBuilder.render_markdown(survey))

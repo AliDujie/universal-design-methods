@@ -252,3 +252,14 @@
   5. 幕后人员实时模拟系统响应
   6. 观察用户行为和反应
   7. 分析可行性和用户接受度
+
+---
+
+## 相关文档
+
+- [探索性研究方法](methods-exploration.md)
+- [评估性研究方法](methods-evaluative.md)
+- [综合分析方法](methods-synthesis.md)
+- [成果沟通方法](methods-communication.md)
+- [执行模板集](execution-templates.md)
+- [决策框架](decision-framework.md)

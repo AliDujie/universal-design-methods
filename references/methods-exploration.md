@@ -208,3 +208,14 @@
   3. 记录所有活动、决策和互动
   4. 适时提问以理解行为动机
   5. 整理时间线和行为模式
+
+---
+
+## 相关文档
+
+- [衍生性研究方法](methods-generative.md)
+- [评估性研究方法](methods-evaluative.md)
+- [综合分析方法](methods-synthesis.md)
+- [成果沟通方法](methods-communication.md)
+- [执行模板集](execution-templates.md)
+- [决策框架](decision-framework.md)

@@ -169,7 +169,7 @@ class HeuristicEvaluator:
     """尼尔森十大启发性评估工具
 
     用法::
-        evaluator = HeuristicEvaluator("飞猪App首页")
+        evaluator = HeuristicEvaluator("我的App首页")
         evaluator.add_issue(1, "首页", "加载状态无反馈", severity=3,
                            recommendation="添加骨架屏或加载动画")
         evaluator.add_issue(4, "搜索结果", "筛选标签样式不一致", severity=2)
@@ -252,8 +252,8 @@ class UsabilityTestBuilder:
     """可用性测试计划构建器
 
     用法::
-        builder = UsabilityTestBuilder("飞猪酒店预订可用性测试", "formative")
-        builder.set_product("飞猪App")
+        builder = UsabilityTestBuilder("酒店预订可用性测试", "formative")
+        builder.set_product("我的App")
         builder.add_objective("评估酒店搜索流程的易用性")
         builder.add_task("搜索并预订一家杭州西湖附近的酒店",
                         scenario="你计划下周去杭州出差...",
