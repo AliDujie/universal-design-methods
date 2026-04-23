@@ -25,7 +25,7 @@
 
 ```bash
 # 复制到你的 AI Agent skills 目录
-cp -r skills/universal-design-methods ~/.aoneclaw/skills/
+cp -r universal-design-methods /your/agent/skills/
 ```
 
 #### 步骤 2: 作为 Python 包使用
@@ -340,7 +340,7 @@ print(jm.render())
 #### Step 1: Install
 
 ```bash
-cp -r skills/universal-design-methods ~/.aoneclaw/skills/
+cp -r universal-design-methods /your/agent/skills/
 ```
 
 #### Step 2: Use as Python Package
