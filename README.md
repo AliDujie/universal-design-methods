@@ -217,6 +217,52 @@ universal-design-methods/
 
 👉 **探索完整生态系统**: [JTBD](../jtbd-knowledge-skill/) | [人物角色](../web-persona-skill/) | [量化 UX 研究](../quantitative-ux-research/) | [价值主张设计](../value-proposition-design/) | [数据叙事](../storytelling-with-data/)
 
+### 🛠️ 故障排查 (Troubleshooting)
+
+#### 问题 1: 方法推荐结果不符合预期
+
+**检查**:
+- 研究阶段 (phase) 参数是否正确 (1-5)
+- 研究目标描述是否具体明确
+
+**解决**:
+```python
+# 模糊 (可能得到泛泛的结果)
+methods = skill.recommend_methods("研究用户")
+
+# 具体 (推荐更精准)
+methods = skill.recommend_methods("了解用户购物决策流程中的痛点", phase=1)
+# → 推荐：用户访谈 + 情境观察 + 日记研究
+```
+
+#### 问题 2: SUS 得分计算结果异常
+
+**检查**: 确保输入 10 个问题的评分 (1-5 分)
+
+```python
+# 正确
+sus = skill.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])
+# → SUS: 72.5 (良好)
+
+# 错误
+sus = skill.calculate_sus([4, 2, 5])  # ❌ 不足 10 个问题
+```
+
+#### 问题 3: 体验历程图渲染不清晰
+
+**建议**:
+- 每个阶段的 pain_points 不超过 3 个
+- emotions 使用 1-5 分制 (1=非常负面，5=非常正面)
+- 阶段数控制在 5-7 个以内
+
+```python
+jm = skill.build_journey_map("购物旅程", persona="小张")
+jm.add_stage("搜索", actions=["打开 App", "输入关键词"], emotions=4, pain_points=["搜索结果不精准"])
+jm.add_stage("比较", actions=["查看参数", "看评价"], emotions=3, pain_points=["评价真假难辨", "参数复杂"])
+jm.add_stage("购买", actions=["加入购物车", "付款"], emotions=5, pain_points=[])
+print(jm.render())
+```
+
 ### 🤝 最佳实践
 
 #### 方法选择原则
@@ -254,6 +300,13 @@ universal-design-methods/
 
 > "体验历程图生成让高管一眼看懂用户痛点，预算审批快了一倍。"  
 > — 某电商平台体验设计师
+
+### 📖 扩展阅读
+
+- **《Universal Methods of Design》** - Bella Martin & Bruce Hanington (2012)
+- **《The Design of Everyday Things》** - Don Norman (用户中心设计经典)
+- **《Don't Make Me Think》** - Steve Krug (可用性测试入门)
+- **《Rocket Surgery Made Easy》** - Steve Krug (可用性测试实战)
 
 ### 📚 关于《Universal Methods of Design》
 
