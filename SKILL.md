@@ -3,7 +3,7 @@ name: universal-design-methods
 description: >
   通用设计方法(UDM)执行技能。具备100种设计研究方法的知识查询、方法推荐、
   访谈提纲生成、观察记录、可用性测试、问卷设计、综合分析（亲和图/角色画像/体验历程图）、
-  研究计划与报告生成等完整执行能力。
+  研究计划与报告生成等完整执行能力，以及CEO决策视角的研究方法ROI评估、决策产出说明与资源分配建议。
 author: "渡劫"
 version: "2.0.0"
 ---
@@ -117,6 +117,28 @@ print(ReportBuilder.render_markdown(report.build()))
 | 研究报告、洞察报告 | 能力八 |
 | 设计研究、用户研究、UX研究 | 综合运用一+二+七 |
 | 产品评估、体验优化 | 综合运用四+六+八 |
+| 研究 ROI、投入产出、方法评估 | CEO: 方法 ROI 评估 |
+| 决策产出、研究价值、CEO 报告 | CEO: 预期决策产出 |
+| 资源分配、预算、人力规划 | CEO: 资源分配建议 |
+| 综合研究 + 决策 | 综合运用 + CEO 视角 |
+
+## CEO 决策视角
+
+在研究计划或报告生成后，自动附加商业决策支持分析：
+
+**能力九：研究方法 ROI 评估** — 为推荐的研究方法计算投入产出比，按 ROI 评分排序，输出投资建议和 P0/P1/P2 优先级。帮助 CEO 理解每种研究方法的价值。
+
+**API:** `skill.add_method_roi(methods)` — methods 可选，默认使用通用方法基线。
+
+**能力十：预期决策产出** — 明确研究完成后 CEO 可获得的决策依据：问题诊断、量化数据、用户洞察、机会识别、验证报告，以及各阶段关键决策点。
+
+**API:** `skill.generate_decision_outputs("如何提升预订转化率？")`
+
+**能力十一：资源分配建议** — 为研究项目提供预算分配（研究执行40%/用户招募15%/工具10%/分析报告20%/应急15%）、人力分配、时间分配和资源风险评估。
+
+**API:** `skill.generate_resource_allocation({"total": 500000, "headcount": 5, "timeline": "8 周"})`
+
+**默认行为**: 当生成研究计划（能力七）或研究报告（能力八）时，自动附加 CEO 决策视角的 ROI 评估和资源分配建议。
 
 ## Python 工具包
 
@@ -127,6 +149,37 @@ skill = UDMSkill("我的产品")
 ```
 
 核心模块：`config.py`(100种方法索引) / `utils.py`(知识库搜索) / `templates.py`(执行模板) / `interview.py`(访谈生成器) / `observation.py`(观察记录) / `usability.py`(可用性测试+SUS) / `survey.py`(问卷生成+卡诺+NPS) / `synthesis.py`(亲和图/画像/历程图/Elito/矩阵) / `recommender.py`(方法推荐引擎) / `research_plan.py`(研究计划) / `report.py`(研究报告)
+
+### UDMSkill 方法一览
+
+| 方法 | 能力 | 必填参数 | 返回 |
+|------|------|---------|------|
+| `recommend_methods()` | 智能方法推荐 | goal | Markdown |
+| `generate_interview()` | 访谈提纲 | title, interview_type | Markdown |
+| `generate_observation()` | 观察记录 | title, obs_type | Markdown |
+| `generate_usability_test()` | 可用性测试 | title, test_type | Markdown |
+| `generate_heuristic_checklist()` | 启发性评估 | — | Markdown |
+| `calculate_sus()` | SUS 评分 | responses | Dict |
+| `calculate_nps()` | NPS 评分 | responses | Dict |
+| `generate_survey()` | 问卷设计 | title, survey_type | Markdown |
+| `generate_research_plan()` | 研究计划 | title | PlanBuilder |
+| `generate_report()` | 研究报告 | title | ReportBuilder |
+| `search_knowledge()` | 知识检索 | keyword | Dict |
+| `add_method_roi()` | CEO: 方法 ROI | methods(可选) | Markdown |
+| `generate_decision_outputs()` | CEO: 决策产出 | research_question(可选) | Markdown |
+| `generate_resource_allocation()` | CEO: 资源分配 | budget(可选) | Markdown |
+
+### AI Agent 调用规则
+
+| # | 规则 | 说明 |
+|---|------|------|
+| 1 | **统一入口** | 始终通过 `UDMSkill` 类调用，不直接实例化子模块 |
+| 2 | **返回值** | 所有方法返回 Markdown 字符串，可直接展示 |
+| 3 | **触发映射** | 根据用户意图选择对应能力（参见触发条件表） |
+| 4 | **三角测量** | 组合至少 2-3 种方法，混合定性与定量 |
+| 5 | **知识优先** | 方法论问题先调用 `search_knowledge()` 查询 |
+| 6 | **CEO 决策默认附加** | 生成研究计划或报告时，自动附加 ROI 评估 + 资源分配建议 |
+| 7 | **完整交付** | 每个任务产出完整可用的计划/报告/建议 |
 
 ## 知识库
 
