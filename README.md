@@ -426,6 +426,7 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v1.8 | 2026-04-26 | 更新 Last Updated 日期，维护技能生态一致性 |
 | v1.7 | 2026-04-25 | 统一技能生态格式，更新交叉引用 |
 | v1.6 | 2026-04-23 | 更新 Last Updated 时间戳，统一技能生态系统格式 |
 | v1.5 | 2026-04-23 | 添加版本历史、Last Updated 徽章 |
@@ -434,4 +435,4 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 
 ---
 
-*Last Updated: 2026-04-25 | AliDujie Skill Ecosystem*
+*Last Updated: 2026-04-26 | AliDujie Skill Ecosystem*
