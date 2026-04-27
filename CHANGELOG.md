@@ -1,0 +1,35 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [1.8.0] - 2026-04-26
+
+### Changed
+- Updated Last Updated date for ecosystem consistency
+
+## [1.7.0] - 2026-04-25
+
+### Changed
+- Unified skill ecosystem format
+- Updated cross-references across all skills
+
+## [1.6.0] - 2026-04-23
+
+### Changed
+- Updated Last Updated timestamp
+- Unified skill ecosystem format
+
+## [1.5.0] - 2026-04-22
+
+### Added
+- Version history and Last Updated footer
+- CEO decision perspective in SKILL.md
+
+---
+
+*Format follows [Keep a Changelog](https://keepachangelog.com/)*
