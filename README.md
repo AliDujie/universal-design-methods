@@ -1,10 +1,29 @@
 # Universal Design Methods Skill
 
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--04--30-brightgreen.svg)
+
 > 📖 **100 种设计研究方法、8 大执行能力、1 个完整 Python 工具包**
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 构建，覆盖 UX 研究全生命周期。
 
 [English](#english) | [中文](#中文说明)
+
+---
+
+## 📚 快速参考 (Quick Reference)
+
+| 文档 | 说明 |
+|------|------|
+| [SKILL.md](SKILL.md) | AI Agent 技能定义（触发条件 + 能力说明 + API） |
+| [INSTALL.md](INSTALL.md) | 安装指南 |
+| [udm/recommender.py](udm/recommender.py) | 方法推荐引擎 |
+| [udm/interview.py](udm/interview.py) | 访谈框架生成器 |
+| [udm/usability.py](udm/usability.py) | 可用性测试 + SUS + 启发性评估 |
+| [udm/survey.py](udm/survey.py) | 问卷生成器 + 卡诺 + NPS |
+| [udm/synthesis.py](udm/synthesis.py) | 亲和图 / 画像 / 历程图 / 矩阵 |
+| [references/decision-framework.md](references/decision-framework.md) | 方法选择决策框架 |
 
 ---
 
@@ -524,7 +543,7 @@ universal-design-methods alicloud
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
-| v2.0 | 2026-04-29 | 统一交叉引用为 GitHub 绝对链接，添加 GitHub Topics，更新 Last Updated 日期 |
+| v2.1 | 2026-04-30 | 添加快速参考表、Badges、更新维护 |
 | v1.8 | 2026-04-26 | 更新 Last Updated 日期，维护技能生态一致性 |
 | v1.7 | 2026-04-25 | 统一技能生态格式，更新交叉引用 |
 | v1.6 | 2026-04-23 | 更新 Last Updated 时间戳，统一技能生态系统格式 |
@@ -534,4 +553,4 @@ universal-design-methods alicloud
 
 ---
 
-*Last Updated: 2026-04-30 | AliDujie Skill Ecosystem*
+*Last Updated: 2026-04-30 | AliDujie Skill Ecosystem | v2.1*
