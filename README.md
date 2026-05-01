@@ -12,6 +12,21 @@
 
 ---
 
+### 🤔 什么时候使用这个技能？(When to Use This Skill?)
+
+| 你的场景 | 推荐技能 |
+|----------|----------|
+| 需要选择研究方法、设计访谈、执行可用性测试 | ✅ **Universal Design Methods** (本技能) |
+| 需要定量验证假设、设计 A/B 测试、计算样本量 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| 需要理解用户"工作"、机会评分、竞争分析 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| 需要创建人物角色、用户细分、设计指导 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| 需要价值主张画布、实验验证、优先级排序 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| 需要将研究结果转化为数据叙事、图表呈现 | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
+
+> 💡 **提示**: UDM 与 QuantUX 配合使用，实现定性定量三角验证，提升研究信度。
+
+---
+
 ## 📚 快速参考 (Quick Reference)
 
 | 文档 | 说明 |
@@ -553,4 +568,4 @@ universal-design-methods alicloud
 
 ---
 
-*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.1*
+*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.2*
