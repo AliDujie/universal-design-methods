@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0.0-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.0-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--01-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、8 大执行能力、1 个完整 Python 工具包**
@@ -434,6 +434,9 @@ report = skill.generate_report("Research Report", summary="Found 3 core pain poi
 | 6 | **Research Planning** | `research_plan.py` | Complete research plan (goals / methods / timeline / resources) |
 | 7 | **Report Generation** | `report.py` | Standardized research report structure |
 | 8 | **Metric Calculation** | `usability.py` / `survey.py` | SUS / NPS / Kano classification auto-calculation |
+| 9 | **CEO: Method ROI** | `recommender.py` | ROI assessment for research methods, P0/P1/P2 prioritization |
+| 10 | **CEO: Decision Outputs** | `research.py` | Expected decision outputs from research, key decision points |
+| 11 | **CEO: Resource Allocation** | `research.py` | Budget/headcount/time allocation recommendations |
 
 ### 🔧 Practical Examples
 
@@ -580,6 +583,7 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2.0 | 2026-05-01 | 添加快速参考表、Badges、CEO 视角扩展、更新维护 |
 | v2.1 | 2026-04-30 | 添加快速参考表、Badges、更新维护 |
 | v1.8 | 2026-04-26 | 更新 Last Updated 日期，维护技能生态一致性 |
 | v1.7 | 2026-04-25 | 统一技能生态格式，更新交叉引用 |
@@ -590,4 +594,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ---
 
-*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.2*
+*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.2.0*

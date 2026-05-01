@@ -5,7 +5,7 @@ description: >
   访谈提纲生成、观察记录、可用性测试、问卷设计、综合分析（亲和图/角色画像/体验历程图）、
   研究计划与报告生成等完整执行能力，以及CEO决策视角的研究方法ROI评估、决策产出说明与资源分配建议。
 author: "渡劫"
-version: "2.0.0"
+version: "2.2.0"
 ---
 
 # 通用设计方法 (Universal Design Methods) 执行技能
@@ -192,3 +192,28 @@ skill = UDMSkill("我的产品")
 - `methods-communication.md` — 成果沟通与其他方法详解 (→ 关联: 能力七/八)
 - `execution-templates.md` — 执行模板集 (→ 关联: 全部能力)
 - `decision-framework.md` — 决策框架与速查索引 (→ 关联: 能力一)
+
+## 与其他 Skill 协作
+
+UDM 是 AliDujie UX 研究技能生态系统的方法论核心：
+
+| 协作场景 | 协作 Skill | 工作流 |
+|---------|-----------|--------|
+| UDM + JTBD | JTBD Knowledge | UDM 访谈方法挖掘用户 Job → JTBD 四力分析 → JTBD 机会评分 |
+| UDM + QuantUX | Quantitative UX Research | UDM 定性发现 → QuantUX 定量验证 → UDM 综合报告 |
+| UDM + VPD | Value Proposition Design | UDM 用户研究 → VPD 画布填充 → VPD 实验验证 |
+| UDM + Persona | Web Persona | UDM 访谈/观察 → Persona 数据收集 → Persona 质量评审 |
+| UDM + SWD | Storytelling with Data | UDM 研究发现 → SWD 图表选择 → SWD 数据故事构建 |
+
+**协作示例（UDM → SWD）**：
+```python
+# Step 1: UDM 生成研究报告
+from udm import UDMSkill
+udm = UDMSkill("电商体验")
+report = udm.generate_report("用户研究报告", summary="发现3个核心痛点")
+# Step 2: SWD 将研究发现可视化
+from swd import SWDSkill
+swd = SWDSkill("用户体验汇报")
+ctx = swd.build_context(audience="CEO", cta="批准体验优化预算")
+chart = swd.recommend_chart(data_type="categorical", category_count=3)
+```
