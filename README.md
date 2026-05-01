@@ -2,6 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.0.0-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--01-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、8 大执行能力、1 个完整 Python 工具包**
@@ -541,6 +542,27 @@ universal-design-methods alicloud
 - Cross-platform: macOS / Linux / Windows
 
 ---
+
+## Run Tests / 运行测试
+
+```bash
+cd /path/to/universal-design-methods
+python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
+```
+
+## 🤝 参与贡献 (Contributing)
+
+欢迎贡献！请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解贡献指南。
+
+- 🐛 **报告 Bug**: 提交 [Issue](https://github.com/AliDujie/universal-design-methods/issues)
+- 💡 **功能建议**: 提交 [Feature Request](https://github.com/AliDujie/universal-design-methods/issues/new?template=feature_request.md)
+- 📝 **改进文档**: PR 欢迎，特别是参考文档和代码示例
+
+## 🆘 获取帮助 (Getting Help)
+
+- 📖 查看 [故障排查](#故障排查-troubleshooting) 部分
+- 📚 阅读 [references/](references/) 目录下的方法论文档
+- 💬 在 [Issues](https://github.com/AliDujie/universal-design-methods/issues) 中提问
 
 ## 📜 许可 (License)
 
