@@ -437,9 +437,6 @@ report = skill.generate_report("Research Report", summary="Found 3 core pain poi
 | 8 | **Metric Calculation** | `usability.py` / `survey.py` | SUS / NPS / Kano classification auto-calculation |
 | 9 | **CEO: Method ROI** | `recommender.py` | ROI assessment for research methods, P0/P1/P2 prioritization |
 | 10 | **CEO: Decision Outputs** | `research.py` | Expected decision outputs from research, key decision points |
-| 11 | **CEO: Resource Allocation** | `research.py` | Budget/headcount/time allocation recommendations
-| 9 | **CEO: Method ROI** | `recommender.py` | ROI assessment for research methods, P0/P1/P2 prioritization |
-| 10 | **CEO: Decision Outputs** | `research.py` | Expected decision outputs from research, key decision points |
 | 11 | **CEO: Resource Allocation** | `research.py` | Budget/headcount/time allocation recommendations |
 
 ### 🔧 Practical Examples
@@ -547,6 +544,58 @@ universal-design-methods alicloud
 - Python >= 3.8
 - **No external dependencies** (pure standard library)
 - Cross-platform: macOS / Linux / Windows
+
+---
+
+## 🔗 Skill Ecosystem Workflow
+
+UDM is the methodological core of the **AliDujie UX Research Skills Ecosystem**. Here are typical workflows combining it with other skills:
+
+### 🧭 Quick Decision Guide
+
+| Your Question | Recommended Skill |
+|---------------|------------------|
+| "I don't know what research to do" | → **Universal Design Methods** (this skill) — Method recommendation |
+| "I need to validate a hypothesis" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B testing & sample size |
+| "I want to understand why users do this" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — Uncover the underlying "jobs" |
+| "I need to know who my users are" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — Create concrete personas |
+| "Is my product value strong enough?" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — Fit diagnosis |
+| "How do I present research results clearly?" | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — Data storytelling |
+
+### Workflow 1: Qualitative → Quantitative Triangulation
+
+```
+UDM (qualitative research) → QuantUX (quantitative validation) → SWD (result presentation)
+```
+
+**Scenario**: Research conclusion validation
+1. Use UDM for user interviews and usability testing to discover core hypotheses
+2. Use QuantUX to design A/B tests for quantitative validation
+3. Use SWD to transform results into executive-ready narratives
+
+### Workflow 2: User Research → Value Proposition
+
+```
+UDM (user interviews) → JTBD (needs insight) → VPD (value design)
+```
+
+**Scenario**: New product direction exploration
+1. Use UDM interviews to collect user pain points and behavioral insights
+2. Use JTBD to analyze core "jobs" and opportunity scores
+3. Use VPD to map findings to value proposition canvas and validate
+
+### Workflow 3: Research Insights → Design Decisions
+
+```
+UDM (usability testing) → Persona (role definition) → SWD (presentation)
+```
+
+**Scenario**: Product experience optimization
+1. Use UDM to execute usability testing, identify experience breakpoints
+2. Use Persona to define user segments based on behavioral data
+3. Use SWD to transform research findings into action-oriented presentations
+
+> 💡 **Tip**: UDM's method recommendation engine supports triangulation, auto-recommending 3-5 method combinations covering qualitative + quantitative.
 
 ---
 
