@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--04--30-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--01-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、8 大执行能力、1 个完整 Python 工具包**
 
@@ -311,13 +311,13 @@ print(jm.render())
 
 ### 🌟 用户评价
 
-> "UDM 技能的方法推荐功能帮我们避免了方法选择困难，三角测量让研究结论更有说服力！"  
+> "UDM 技能的方法推荐功能帮我们避免了方法选择困难，三角测量让研究结论更有说服力！"
 > — 某互联网大厂用研负责人
 
-> "SUS 和 NPS 自动计算太方便了，再也不用手动套公式。"  
+> "SUS 和 NPS 自动计算太方便了，再也不用手动套公式。"
 > — 某 SaaS 公司产品经理
 
-> "体验历程图生成让高管一眼看懂用户痛点，预算审批快了一倍。"  
+> "体验历程图生成让高管一眼看懂用户痛点，预算审批快了一倍。"
 > — 某电商平台体验设计师
 
 ### 📖 扩展阅读
