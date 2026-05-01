@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.0-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.0-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--01-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、8 大执行能力、1 个完整 Python 工具包**
@@ -546,6 +546,56 @@ universal-design-methods alicloud
 
 ---
 
+## 🔗 技能生态工作流 (Skill Ecosystem Workflow)
+
+UDM 是 **AliDujie UX 研究技能生态系统** 的方法论核心。以下是与其他技能配合使用的典型工作流：
+
+### 🧭 快速决策指南 (Quick Decision Guide)
+
+| 你的问题 | 推荐技能 |
+|----------|----------|
+| "我不知道该研究什么" | → **Universal Design Methods** (本技能) — 方法推荐帮你找到方向 |
+| "我需要验证一个假设" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B 测试和样本量计算 |
+| "我想理解用户为什么这样做" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 挖掘用户背后的"工作" |
+| "我需要知道用户是谁" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — 创建具体的人物角色 |
+| "我的产品价值够不够？" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 契合度诊断 |
+| "我怎么把研究结果讲清楚？" | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — 数据叙事和图表改造 |
+
+### 工作流 1: 定性 → 定量三角验证
+
+```
+UDM (定性研究) → QuantUX (定量验证) → SWD (结果呈现)
+```
+
+**场景**: 研究结论验证
+1. 用 UDM 进行用户访谈和可用性测试，发现核心假设
+2. 用 QuantUX 设计 A/B 测试定量验证假设
+3. 用 SWD 将验证结果转化为高管可读的叙事
+
+### 工作流 2: 用户研究 → 价值主张
+
+```
+UDM (用户访谈) → JTBD (需求洞察) → VPD (价值设计)
+```
+
+**场景**: 新产品方向探索
+1. 用 UDM 访谈方法收集用户痛点和行为洞察
+2. 用 JTBD 分析用户核心"工作"和机会分数
+3. 用 VPD 将发现映射到价值主张画布并验证
+
+### 工作流 3: 研究洞察 → 设计决策
+
+```
+UDM (可用性测试) → Persona (角色定义) → SWD (汇报呈现)
+```
+
+**场景**: 产品体验优化
+1. 用 UDM 执行可用性测试，识别体验断点
+2. 用 Persona 基于行为数据定义用户细分
+3. 用 SWD 将研究发现转化为行动导向的汇报
+
+> 💡 **提示**: UDM 的方法推荐引擎支持三角测量，自动推荐 3-5 种方法组合，覆盖定性+定量。
+
 ## Run Tests / 运行测试
 
 ```bash
@@ -594,4 +644,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ---
 
-*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.2.0*
+*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.3.0*

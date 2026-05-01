@@ -204,6 +204,7 @@ UDM 是 AliDujie UX 研究技能生态系统的方法论核心：
 | UDM + VPD | Value Proposition Design | UDM 用户研究 → VPD 画布填充 → VPD 实验验证 |
 | UDM + Persona | Web Persona | UDM 访谈/观察 → Persona 数据收集 → Persona 质量评审 |
 | UDM + SWD | Storytelling with Data | UDM 研究发现 → SWD 图表选择 → SWD 数据故事构建 |
+| UDM + STM | Structured Thinking Model | STM 分析框架 → UDM 研究方法匹配 → STM 决策建议 |
 
 **协作示例（UDM → SWD）**：
 ```python
