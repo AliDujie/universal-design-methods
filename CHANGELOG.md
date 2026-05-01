@@ -1,5 +1,13 @@
 # Changelog
 
+## [R21] - 2026-05-01
+
+### Added
+- Created INSTALL.md (was referenced in Quick Reference but missing)
+
+### Maintenance
+- Routine README maintenance: verified code examples, cross-references, and bilingual consistency
+
 ## [R20] - 2026-05-01
 
 ### Maintenance
