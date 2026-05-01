@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-2.3.0-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--01-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--02-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、8 大执行能力、1 个完整 Python 工具包**
 
@@ -23,6 +23,7 @@
 | 需要创建人物角色、用户细分、设计指导 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | 需要价值主张画布、实验验证、优先级排序 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
 | 需要将研究结果转化为数据叙事、图表呈现 | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
+| 需要商业分析框架、结构化思维、战略决策 | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 > 💡 **提示**: UDM 与 QuantUX 配合使用，实现定性定量三角验证，提升研究信度。
 
@@ -250,7 +251,7 @@ universal-design-methods/
 - **UDM + VPD** → 用 UDM 方法验证价值主张假设
 - **UDM + SWD** → 用 SWD 呈现 UDM 研究发现
 
-👉 **探索完整生态系统**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [人物角色](https://github.com/AliDujie/web-persona-skill) | [量化 UX 研究](https://github.com/AliDujie/Quantitative-UX-Research) | [价值主张设计](https://github.com/AliDujie/value-proposition-design) | [数据叙事](https://github.com/AliDujie/storytelling-with-data)
+👉 **探索完整生态系统**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [人物角色](https://github.com/AliDujie/web-persona-skill) | [量化 UX 研究](https://github.com/AliDujie/Quantitative-UX-Research) | [价值主张设计](https://github.com/AliDujie/value-proposition-design) | [数据叙事](https://github.com/AliDujie/storytelling-with-data) | [结构化思维](https://github.com/AliDujie/Structured-Thinking-Model)
 
 ### 🛠️ 故障排查 (Troubleshooting)
 
@@ -436,6 +437,9 @@ report = skill.generate_report("Research Report", summary="Found 3 core pain poi
 | 8 | **Metric Calculation** | `usability.py` / `survey.py` | SUS / NPS / Kano classification auto-calculation |
 | 9 | **CEO: Method ROI** | `recommender.py` | ROI assessment for research methods, P0/P1/P2 prioritization |
 | 10 | **CEO: Decision Outputs** | `research.py` | Expected decision outputs from research, key decision points |
+| 11 | **CEO: Resource Allocation** | `research.py` | Budget/headcount/time allocation recommendations
+| 9 | **CEO: Method ROI** | `recommender.py` | ROI assessment for research methods, P0/P1/P2 prioritization |
+| 10 | **CEO: Decision Outputs** | `research.py` | Expected decision outputs from research, key decision points |
 | 11 | **CEO: Resource Allocation** | `research.py` | Budget/headcount/time allocation recommendations |
 
 ### 🔧 Practical Examples
@@ -528,7 +532,7 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 - ✅ **Zero Dependencies** — Pure Python standard library, ready to use out of the box
 - ✅ **Bilingual Support** — Complete CN/EN documentation for international team collaboration
 
-👉 **Explore More Skills**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [Web Persona](https://github.com/AliDujie/web-persona-skill) | [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data)
+👉 **Explore More Skills**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [Web Persona](https://github.com/AliDujie/web-persona-skill) | [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | [Structured Thinking](https://github.com/AliDujie/Structured-Thinking-Model)
 
 ### 🏷️ GitHub Topics (Recommended)
 
@@ -633,7 +637,8 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
-| v2.2.0 | 2026-05-01 | 添加快速参考表、Badges、CEO 视角扩展、更新维护 |
+| v2.3.1 | 2026-05-02 | 修复 SKILL.md 版本号不一致 (v2.2.0→v2.3.0)，添加 CEO 能力到英文能力表，补充 Structured-Thinking-Model 交叉引用 |
+| v2.3.0 | 2026-05-01 | 添加快速参考表、Badges、CEO 视角扩展、更新维护 |
 | v2.1 | 2026-04-30 | 添加快速参考表、Badges、更新维护 |
 | v1.8 | 2026-04-26 | 更新 Last Updated 日期，维护技能生态一致性 |
 | v1.7 | 2026-04-25 | 统一技能生态格式，更新交叉引用 |
@@ -644,4 +649,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ---
 
-*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.3.0*
+*Last Updated: 2026-05-02 | AliDujie Skill Ecosystem | v2.3.1*
