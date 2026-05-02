@@ -5,7 +5,7 @@ description: >
   访谈提纲生成、观察记录、可用性测试、问卷设计、综合分析（亲和图/角色画像/体验历程图）、
   研究计划与报告生成等完整执行能力，以及CEO决策视角的研究方法ROI评估、决策产出说明与资源分配建议。
 author: "渡劫"
-version: "2.3.1"
+version: "2.3.2"
 ---
 
 # 通用设计方法 (Universal Design Methods) 执行技能
@@ -39,7 +39,7 @@ version: "2.3.1"
 
 ## 执行能力三：观察记录与行为分析
 
-支持4种观察类型：隐蔽观察(fly_on_wall)、参与观察(participant)、影形(shadowing)、行为地图(behavioral_mapping)。生成AEIOU观察框架（Activities/Environments/Interactions/Objects/Users）和结构化记录表。
+支持4种观察类型：隐蔽观察(fly_on_wall)、参与观察(participant)、影随(shadowing)、行为地图(behavioral_mapping)。生成AEIOU观察框架（Activities/Environments/Interactions/Objects/Users）和结构化记录表。
 
 **API:** `skill.generate_observation("门店观察", "shadowing", setting="旅行社门店")`
 
@@ -217,4 +217,17 @@ from swd import SWDSkill
 swd = SWDSkill("用户体验汇报")
 ctx = swd.build_context(audience="CEO", cta="批准体验优化预算")
 chart = swd.recommend_chart(data_type="categorical", category_count=3)
+```
+
+**协作示例（UDM → JTBD → VPD 端到端）**：
+```python
+# Step 1: UDM 定性研究收集用户洞察
+udm = UDMSkill("旅行预订")
+interview = udm.generate_interview("商务用户访谈", "contextual", context="出差预订")
+# Step 2: JTBD 分析核心 Jobs 和机会分数
+from jtbd import JTBDSkill
+jtbd = JTBDSkill("旅行预订平台")
+# Step 3: VPD 填充画布并验证
+from vpd import VPDSkill
+vpd = VPDSkill("旅行预订", "商务人士")
 ```
