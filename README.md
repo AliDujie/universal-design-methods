@@ -499,16 +499,16 @@ report = skill.generate_report("Research Report", summary="Found 3 core pain poi
 | # | Capability | Module | Description |
 |---|------------|--------|-------------|
 | 1 | **Method Recommendation** | `recommender.py` | Auto-recommend 3-5 method combinations based on research phase and goals |
-| 2 | **Interview Guide** | `interview.py` | 5 interview types (contextual / structured / semi-structured / etc.) |
-| 3 | **Usability Testing** | `usability.py` | Test script generation + SUS calculation + heuristic evaluation |
-| 4 | **Survey Design** | `survey.py` | Kano / NPS / Semantic Differential / SUS / Desirability surveys |
-| 5 | **Journey Mapping** | `synthesis.py` | User journey visualization + pain point annotation |
-| 6 | **Research Planning** | `research_plan.py` | Complete research plan (goals / methods / timeline / resources) |
-| 7 | **Report Generation** | `report.py` | Standardized research report structure |
-| 8 | **Metric Calculation** | `usability.py` / `survey.py` | SUS / NPS / Kano classification auto-calculation |
-| 9 | **CEO: Method ROI** | `recommender.py` | ROI assessment for research methods, P0/P1/P2 prioritization |
-| 10 | **CEO: Decision Outputs** | `research.py` | Expected decision outputs from research, key decision points |
-| 11 | **CEO: Resource Allocation** | `research.py` | Budget/headcount/time allocation recommendations |
+| 2 | **Interview Guide** | `interview.py` | 5 interview types (contextual / semi-structured / laddering / critical incident / narrative) |
+| 3 | **Observation Records** | `observation.py` | 4 observation types (covert / participant / shadowing / behavior mapping) + AEIOU framework |
+| 4 | **Usability Testing** | `usability.py` | Test script generation + SUS calculation + heuristic evaluation checklist |
+| 5 | **Survey Design** | `survey.py` | Kano / NPS / Semantic Differential / SUS / Desirability — 5 survey types |
+| 6 | **Synthesis Tools** | `synthesis.py` | Affinity diagram / Persona / Journey map / Elito method / Weighted matrix |
+| 7 | **Research Planning** | `research_plan.py` | Complete research plan (goals / methods / timeline / resources / risk) |
+| 8 | **Report Generation** | `report.py` | Standardized research report (findings / recommendations / prioritization) |
+| 9 | **CEO: Method ROI** | `recommender.py` | ROI assessment for research methods, P0/P1/P2 prioritization, investment recommendations |
+| 10 | **CEO: Decision Outputs** | `research.py` | Expected decision outputs, key decision points, problem diagnosis + quantified data |
+| 11 | **CEO: Resource Allocation** | `research.py` | Budget/headcount/time allocation recommendations with risk breakdown |
 
 ### 🔧 Practical Examples
 
@@ -629,6 +629,14 @@ universal-design-methods alicloud
 - Python >= 3.8
 - **No external dependencies** (pure standard library)
 - Cross-platform: macOS / Linux / Windows
+
+### 📋 Changelog
+
+| Version | Date | Changes |
+|---------|------|--------|
+| v2.3.2 | 2026-05-02 | Repo maintenance: fixed English capabilities table (added CEO rows 3 + observation), improved capability descriptions, added changelog to English section |
+| v2.3.1 | 2026-05-02 | Fixed SKILL.md version mismatch, added CEO capabilities to English table |
+| v2.3.0 | 2026-05-01 | Added quick reference table, badges, CEO perspective extension |
 
 ---
 
