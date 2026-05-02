@@ -699,6 +699,7 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.3.2 | 2026-05-02 | 仓库维护：优化英文 Quick Start 代码示例排版，补充 CEO 能力英文版表格，增强技能生态工作流描述，统一版本标签格式 |
 | v2.3.1 | 2026-05-02 | 修复 SKILL.md 版本号不一致 (v2.2.0→v2.3.0)，添加 CEO 能力到英文能力表，补充 Structured-Thinking-Model 交叉引用 |
 | v2.3.0 | 2026-05-01 | 添加快速参考表、Badges、CEO 视角扩展、更新维护 |
 | v2.1 | 2026-04-30 | 添加快速参考表、Badges、更新维护 |
@@ -711,4 +712,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ---
 
-*Last Updated: 2026-05-02 | AliDujie Skill Ecosystem | v2.3.1*
+*Last Updated: 2026-05-02 | AliDujie Skill Ecosystem | v2.3.2*
