@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "udm"
 version = "2.3.3"
-description = "通用设计方法(Universal Design Methods)执行工具包 — 100种设计研究方法的知识查询、方法推荐与执行支持"
+description = "Universal Design Methods toolkit — 100 design research methods with intelligent recommendations and Python execution (通用设计方法执行工具包 — 100种设计研究方法的知识查询、方法推荐与执行支持)"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [{name = "AliDujie"}]
+keywords = ["ux-research", "design-methods", "usability-testing", "user-interviews", "openclaw-skill"]
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0", "ruff>=0.1.0"]
