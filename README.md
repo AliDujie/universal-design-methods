@@ -450,6 +450,16 @@ universal-design-methods alicloud
 - **Bilingual Support** — Complete CN/EN documentation for international teams
 - **Zero Learning Curve** — Intuitive API, rich code examples, plug-and-play
 
+### 🎯 Features at a Glance
+
+| Feature | Description |
+|---------|-------------|
+| 100 Design Methods | Covering exploration → generation → evaluation → synthesis → communication |
+| 11 Capabilities | Method recommendation, interviews, usability testing, surveys, journey maps, research plans, reports, SUS/NPS, CEO support |
+| Smart Triangulation | Auto-recommend 3-5 method combinations based on research phase and goals |
+| Zero Dependencies | Pure Python standard library, 5-minute setup |
+| CEO Perspective | Method ROI assessment, resource allocation, decision output mapping |
+
 ### 🧭 Quick Decision Guide
 
 | Your Question | Recommended Skill |
