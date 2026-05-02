@@ -570,6 +570,15 @@ print(aj.render())  # Grouped insights + summary
 # Example 6: CEO decision support (auto-attached to research plans)
 plan = skill.generate_research_plan("Checkout Optimization", background="High abandonment rate")
 # Auto-attached: Method ROI + Resource allocation + Decision outputs
+
+# Example 7: End-to-end UX research plan with method triangulation
+skill = UDMSkill("Mobile Banking App")
+methods = skill.recommend_methods("Improve onboarding experience", phase=2)
+print(f"Recommended methods: {[m.name for m in methods]}")
+
+plan = skill.generate_research_plan("Onboarding Study", background="40% drop-off at KYC step")
+report = skill.generate_report("Onboarding Findings", summary="Users confused by ID verification requirements")
+# Both include CEO-perspective: ROI, resource allocation, decision outputs
 ```
 
 ### 👥 Who Is This For?
