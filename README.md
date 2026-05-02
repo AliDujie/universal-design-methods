@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/version-2.3.2-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--02-brightgreen.svg)
 
-> 📖 **100 种设计研究方法、8 大执行能力、1 个完整 Python 工具包**
+> 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 构建，覆盖 UX 研究全生命周期。
 
@@ -100,9 +100,26 @@ jm = skill.build_journey_map("预订体验", persona="用户小李")
 jm.add_stage("搜索", actions=["打开 App"], emotions=4, pain_points=["排序差"])
 print(jm.render())
 
-# ===== 场景 6: 研究计划 & 报告=====
+# ===== 场景 6: 研究计划 & 报告（自动附加 CEO 视角）=====
 plan = skill.generate_research_plan("体验研究", background="用户流失率上升")
-report = skill.generate_report("研究报告", summary="发现 3 个核心痛点")
+# 自动生成：目标 → 方法选择 → 参与者规划 → 时间表 → 预算 → 风险评估
+# 自动附加：方法 ROI 评估 + 资源分配建议
+
+# ===== 场景 7: 综合分析工具（亲和图/画像/Elito/矩阵）=====
+aj = skill.build_affinity_diagram("用户反馈归类")
+aj.add_note("搜索太慢", category="性能")
+aj.add_note("结果不准", category="相关性")
+print(aj.render())  # 亲和图分组 + 洞察汇总
+
+wm = skill.build_weighted_matrix("方案评估")
+wm.add_criterion("用户满意度", weight=0.3)
+wm.add_criterion("开发成本", weight=0.2)
+wm.add_option("方案A", {"用户满意度": 4, "开发成本": 3})
+print(wm.render_markdown())  # 加权评分表
+
+# ===== 场景 8: 观察记录生成 =====
+obs = skill.generate_observation("门店体验", "shadowing", setting="旅行社门店")
+print(obs)  # AEIOU 框架 + 结构化记录表
 ```
 
 ### 💡 11 大核心能力
@@ -110,13 +127,13 @@ report = skill.generate_report("研究报告", summary="发现 3 个核心痛点
 | # | 能力 | 模块 | 功能 |
 |---|------|------|------|
 | 1 | **方法推荐** | `recommender.py` | 基于研究阶段/目标自动推荐 3-5 种方法组合 |
-| 2 | **访谈提纲** | `interview.py` | 5 种访谈类型（情境/结构化/半结构化等） |
-| 3 | **可用性测试** | `usability.py` | 测试脚本生成 + SUS 计算 + 启发性评估 |
-| 4 | **问卷设计** | `survey.py` | 卡诺/NPS/语义差异/SUS/期望值 5 种问卷 |
-| 5 | **体验历程图** | `synthesis.py` | 用户旅程可视化 + 痛点标注 |
-| 6 | **研究计划** | `research_plan.py` | 完整研究方案（目标/方法/时间线/资源） |
-| 7 | **报告生成** | `report.py` | 标准化研究报告结构 |
-| 8 | **指标计算** | `usability.py` / `survey.py` | SUS/NPS/卡诺分类自动计算 |
+| 2 | **访谈提纲** | `interview.py` | 5 种访谈类型（情境/半结构化/阶梯法/关键事件/引导性叙事） |
+| 3 | **观察记录** | `observation.py` | 4 种观察类型（隐蔽/参与/影随/行为地图）+ AEIOU 框架 |
+| 4 | **可用性测试** | `usability.py` | 测试脚本生成 + SUS 计算 + 启发性评估检查清单 |
+| 5 | **问卷设计** | `survey.py` | 卡诺/NPS/语义差异/SUS/期望值 5 种问卷类型 |
+| 6 | **综合分析** | `synthesis.py` | 亲和图 / 角色画像 / 体验历程图 / Elito 方法 / 加权矩阵 |
+| 7 | **研究计划** | `research_plan.py` | 完整研究方案（目标/方法/时间线/资源/风险） |
+| 8 | **报告生成** | `report.py` | 标准化研究报告（发现/建议/优先级三层输出） |
 | 9 | **CEO: 方法 ROI** | `recommender.py` | 研究方法 ROI 评估、P0/P1/P2 优先级 |
 | 10 | **CEO: 决策输出** | `research.py` | 研究预期决策产出、关键决策点 |
 | 11 | **CEO: 资源分配** | `research.py` | 预算/人力/时间分配建议 |
@@ -312,6 +329,37 @@ jm.add_stage("购买", actions=["加入购物车", "付款"], emotions=5, pain_p
 print(jm.render())
 ```
 
+### 📊 CEO 决策视角
+
+当使用 `generate_research_plan()` 或 `generate_report()` 时，UDM 自动附加 CEO 级商业决策支持：
+
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("旅行预订平台")
+
+# CEO 方法 ROI 评估
+roi = skill.add_method_roi()  # 默认通用基线
+print(roi)  # 各方法 ROI 评分 + 投资建议 + P0/P1/P2 优先级
+
+# 预期决策产出
+decisions = skill.generate_decision_outputs("如何提升预订转化率？")
+print(decisions)  # 问题诊断 + 量化数据 + 用户洞察 + 机会识别 + 验证报告
+
+# 资源分配建议
+alloc = skill.generate_resource_allocation({
+    "total": 500000,     # 总预算 50 万
+    "headcount": 5,      # 5 人团队
+    "timeline": "8 周"   # 8 周周期
+})
+print(alloc)  # 预算 40/15/10/20/15 分配 + 人力 + 时间 + 风险
+```
+
+**自动附加规则**: 研究计划或报告生成后，自动包含：
+- 📈 方法 ROI 评分（P0/P1/P2 优先级排序）
+- 🎯 预期决策产出（问题诊断 → 量化数据 → 机会识别 → 验证报告）
+- 💰 资源分配建议（研究 40% / 招募 15% / 工具 10% / 分析 20% / 应急 15%）
+
 ### 🤝 最佳实践
 
 #### 方法选择原则
@@ -473,6 +521,20 @@ jm.add_stage("Compare", actions=["Price comparison"], emotions=3,
     pain_points=["Too many options"])
 jm.add_stage("Purchase", actions=["One-click buy"], emotions=5)
 print(jm.render_markdown())
+
+# Example 4: Observation with AEIOU framework
+obs = skill.generate_observation("Store Experience", "shadowing", setting="Travel agency")
+print(obs)  # Activities, Environments, Interactions, Objects, Users
+
+# Example 5: Affinity diagram for synthesis
+aj = skill.build_affinity_diagram("User Feedback")
+aj.add_note("Search too slow", category="Performance")
+aj.add_note("Results inaccurate", category="Relevance")
+print(aj.render())  # Grouped insights + summary
+
+# Example 6: CEO decision support (auto-attached to research plans)
+plan = skill.generate_research_plan("Checkout Optimization", background="High abandonment rate")
+# Auto-attached: Method ROI + Resource allocation + Decision outputs
 ```
 
 ### 👥 Who Is This For?
