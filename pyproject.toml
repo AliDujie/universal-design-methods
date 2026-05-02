@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "udm"
-version = "2.2.0"
+version = "2.3.2"
 description = "通用设计方法(Universal Design Methods)执行工具包 — 100种设计研究方法的知识查询、方法推荐与执行支持"
 readme = "README.md"
 requires-python = ">=3.8"
