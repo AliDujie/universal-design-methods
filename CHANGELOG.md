@@ -1,5 +1,13 @@
 # Changelog
 
+## [R25] - 2026-05-02
+
+### Added
+- Added "适合谁？(Who Is This For?)" table to Chinese section
+
+### Maintenance
+- Routine README maintenance: verified capability count consistency between CN/EN
+
 ## [R24] - 2026-05-02
 
 ### Maintenance
