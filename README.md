@@ -74,6 +74,8 @@
 cp -r universal-design-methods /your/agent/skills/
 ```
 
+> 📖 详细安装指南请查看 [INSTALL.md](INSTALL.md)
+
 #### 步骤 2: 作为 Python 包使用
 
 ```python
@@ -478,6 +480,8 @@ universal-design-methods alicloud
 ```bash
 cp -r universal-design-methods /your/agent/skills/
 ```
+
+> 📖 See [INSTALL.md](INSTALL.md) for detailed installation guide
 
 #### Step 2: Use as Python Package
 
