@@ -2,8 +2,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.11-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.12-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -815,6 +815,36 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 - **Emp ID**: 27768
 - **Nickname**: 渡劫
 
+### 🚀 完整端到端工作流：从 0 到高管汇报 (End-to-End Workflow)
+
+以下是一个真实产品优化场景中，6 个技能如何协作的完整工作流：
+
+**场景**: 电商 App 用户留存率下降 15%，需要找到原因并提出改进方案
+
+```
+Phase 1: 发现 (UDM + JTBD)
+  UDM: 用户访谈 (12 人) + 可用性测试 → 发现结账流程痛点
+  JTBD: 四力分析 → 用户"雇佣"竞品的原因是更快的结账体验
+
+Phase 2: 量化 (QuantUX + Persona)
+  QuantUX: A/B 测试新结账流程 vs 旧流程 (n=5000)
+  Persona: 发现 "时间敏感型买家" 流失最严重
+
+Phase 3: 验证与设计 (VPD + QuantUX)
+  VPD: 价值主张画布 → "一键结账" 契合度 0.82
+  QuantUX: CSat 调查验证，NPS 提升 23 分
+
+Phase 4: 呈现 (SWD)
+  SWD: 三幕叙事 → 问题(留存下降) → 方案(A/B 测试成功) → 行动(全量发布)
+  产出: CEO 级汇报材料，含 HEART 指标趋势图
+```
+
+> 💡 **每个阶段用对应技能**: UDM 发现 → JTBD 洞察 → QuantUX 量化 → Persona 细分 → VPD 验证 → SWD 呈现
+
+👉 **尝试完整工作流**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [Persona](https://github.com/AliDujie/web-persona-skill) · [VPD](https://github.com/AliDujie/value-proposition-design) · [SWD](https://github.com/AliDujie/storytelling-with-data)
+
+---
+
 ### 💡 Pro Tips / 专业提示
 
 - **三角测量优先** — 永远不要只用一种方法。至少组合 2 种方法（定性+定量）交叉验证
@@ -828,9 +858,9 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.12 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示 6 个技能协作场景），修复版本历史重复条目，对齐 pyproject.toml 版本 |
 | v2.3.10 | 2026-05-03 | 仓库维护：修复英文版版本历史表格格式（删除错误分隔符行），SKILL.md 版本对齐，Last Updated 时间戳更新 |
 | v2.3.11 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），提升技能使用效率指南 |
-| v2.3.10 | 2026-05-03 | 仓库维护：修复英文版版本历史表格格式（删除错误分隔符行），SKILL.md 版本对齐，Last Updated 时间戳更新 |
 | v2.3.9 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用
 | v2.3.8 | 2026-05-03 | 仓库维护：精简英文 Quick Start 代码示例（场景化注释优化），统一 SKILL.md 与 README.md 版本引用，添加 pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | 修复 SKILL.md 版本不一致 (2.3.5→2.3.7)，清理重复条目，统一所有版本引用 |
@@ -865,9 +895,9 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
+| v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
 | v2.3.11 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for expert usage guidance |
-| v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
 | v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), cleaned up duplicate changelog entries |
 | v2.3.6 | 2026-05-03 | Added English version history, added classifiers and project.urls to pyproject.toml |
@@ -885,4 +915,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.11*
+*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.3.12*
