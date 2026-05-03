@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.13-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.14-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -865,6 +865,7 @@ Phase 4: 呈现 (SWD)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.14 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.3.12→2.3.14)，对齐所有版本引用
 | v2.3.13 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.3.10→v2.3.11 顺序校正），增强英文版 Quick Start 场景注释 |
 | v2.3.12 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示 6 个技能协作场景），修复版本历史重复条目，对齐 pyproject.toml 版本 |
 | v2.3.11 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），提升技能使用效率指南 |
@@ -924,4 +925,4 @@ Phase 4: 呈现 (SWD)
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
-*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.3.13*
+*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.3.14*
