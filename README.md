@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.8-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.9-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -817,6 +817,7 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.9 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用
 | v2.3.8 | 2026-05-03 | 仓库维护：精简英文 Quick Start 代码示例（场景化注释优化），统一 SKILL.md 与 README.md 版本引用，添加 pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | 修复 SKILL.md 版本不一致 (2.3.5→2.3.7)，清理重复条目，统一所有版本引用 |
 | v2.3.6 | 2026-05-03 | 添加英文版版本历史表，统一 pyproject.toml 元数据 |
@@ -836,4 +837,26 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ---
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.8*
+
+## 📋 Version History (English)
+
+| Version | Date | Changes |
+|---------|------|--------|
+| v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
+| v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), cleaned up duplicate changelog entries |
+| v2.3.6 | 2026-05-03 | Added English version history, added classifiers and project.urls to pyproject.toml |
+| v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review |
+| v2.3.4 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
+| v2.3.3 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
+| v2.3.2 | 2026-05-02 | Repo maintenance: fixed English capabilities table (added CEO rows + observation), improved capability descriptions, added changelog to English section |
+| v2.3.1 | 2026-05-02 | Fixed SKILL.md version mismatch, added CEO capabilities to English table |
+| v2.3.0 | 2026-05-01 | Added quick reference table, badges, CEO perspective extension |
+| v2.1 | 2026-04-30 | Added quick reference table, badges, updated maintenance |
+| v1.8 | 2026-04-26 | Updated Last Updated date, maintained skill ecosystem consistency |
+| v1.7 | 2026-04-25 | Unified skill ecosystem format, updated cross-references |
+| v1.6 | 2026-04-23 | Updated Last Updated timestamp, unified skill ecosystem format |
+| v1.5 | 2026-04-23 | Added version history, Last Updated badge |
+| v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
+| v1.3 | 2026-04-22 | Initial release |
+
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.9*
