@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.10-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.11-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -815,10 +815,21 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 - **Emp ID**: 27768
 - **Nickname**: 渡劫
 
+### 💡 Pro Tips / 专业提示
+
+- **三角测量优先** — 永远不要只用一种方法。至少组合 2 种方法（定性+定量）交叉验证
+- **从 CEO 视角出发** — 在研究开始前就定义"这个研究要支持什么决策"
+- **先定性后定量** — 用 UDM 访谈发现问题，用 QuantUX 验证规模
+- **SUS 70 分是基准线** — 低于 70 分需要优先改进，高于 85 分可以考虑新功能
+- **体验历程图 5-7 阶段最佳** — 太少过于笼统，太多难以聚焦
+- **方法 ROI 评估** — 用 `add_method_roi()` 在研究规划前评估方法投入产出比
+
+
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
 | v2.3.10 | 2026-05-03 | 仓库维护：修复英文版版本历史表格格式（删除错误分隔符行），SKILL.md 版本对齐，Last Updated 时间戳更新 |
+| v2.3.11 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），提升技能使用效率指南 |
 | v2.3.10 | 2026-05-03 | 仓库维护：修复英文版版本历史表格格式（删除错误分隔符行），SKILL.md 版本对齐，Last Updated 时间戳更新 |
 | v2.3.9 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用
 | v2.3.8 | 2026-05-03 | 仓库维护：精简英文 Quick Start 代码示例（场景化注释优化），统一 SKILL.md 与 README.md 版本引用，添加 pyproject.toml classifiers |
@@ -841,10 +852,21 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 ---
 
 
+### 💡 Pro Tips
+
+- **Triangulation First** — Never rely on a single method. Combine at least 2 methods (qualitative + quantitative) for cross-validation
+- **Start from CEO Perspective** — Define "what decision does this research support" before starting
+- **Qualitative Before Quantitative** — Use UDM interviews to discover problems, QuantUX to validate scale
+- **SUS 70 is the Baseline** — Below 70 requires priority improvement, above 85 you can consider new features
+- **Journey Maps: 5-7 stages optimal** — Too few is vague, too many loses focus
+- **Method ROI Assessment** — Use `add_method_roi()` to evaluate research method ROI before planning
+
+
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
+| v2.3.11 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for expert usage guidance |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
 | v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), cleaned up duplicate changelog entries |
@@ -863,4 +885,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.10*
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.11*
