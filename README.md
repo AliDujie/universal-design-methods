@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.12-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.13-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -496,27 +496,34 @@ skill = UDMSkill("My Product")
 #### Step 3: Start Using
 
 ```python
-# Method recommendation
+# ===== Scenario 1: Method Recommendation (Auto-Triangulation) =====
 methods = skill.recommend_methods("Understand user needs", phase=1)
+print(methods)  # Recommends 3-5 method combinations
 
-# Interview guide
+# ===== Scenario 2: Interview Guide Generation (5 Types) =====
 guide = skill.generate_interview("User Interview", "contextual")
+print(guide)  # Includes opening, warm-up, core questions, closing
 
-# Usability test + SUS
+# ===== Scenario 3: Usability Testing + SUS Calculation =====
 test = skill.generate_usability_test("Flow Test", "formative")
 sus = skill.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])
+print(f"SUS Score: {sus}")  # 0-100 scale
 
-# Survey design (Kano/NPS/Semantic Differential/SUS/Desirability)
+# ===== Scenario 4: Survey Design (Kano/NPS/Semantic Differential) =====
 survey = skill.generate_survey("Needs Research", "kano", features=["Smart Recommendations"])
 nps = skill.calculate_nps([9, 10, 8, 7, 10, 6, 9, 8, 10, 5])
+print(f"NPS: {nps}")  # -100 to +100
 
-# Journey map
+# ===== Scenario 5: Experience Journey Map =====
 jm = skill.build_journey_map("Booking Experience", persona="User Li")
 jm.add_stage("Search", actions=["Open App"], emotions=4, pain_points=["Poor sorting"])
+print(jm.render())
 
-# Research plan & report
+# ===== Scenario 6: Research Plan & Report (CEO perspective auto-attached) =====
 plan = skill.generate_research_plan("Experience Research", background="High churn rate")
+# Auto-generated: goals → method selection → participant planning → timeline → budget → risk
 report = skill.generate_report("Research Report", summary="Found 3 core pain points")
+# Auto-attached: Method ROI assessment + Resource allocation + Decision outputs
 ```
 
 ### 💡 11 Core Capabilities
