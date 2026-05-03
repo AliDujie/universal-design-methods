@@ -1,5 +1,11 @@
 # Changelog
 
+## [R27] - 2026-05-03
+
+### Fixed
+- Fixed SKILL.md version mismatch (v2.3.5 → v2.3.7), aligned with README and pyproject.toml
+- All three version sources now consistently report v2.3.7
+
 ## [R26] - 2026-05-03
 
 ### Changed

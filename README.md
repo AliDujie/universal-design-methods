@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.6-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.7-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -667,6 +667,8 @@ universal-design-methods alicloud
 ### 📋 Changelog
 
 | Version | Date | Changes |
+| v2.3.7 | 2026-05-03 | Repo maintenance: fixed SKILL.md version mismatch (2.3.5→2.3.7), aligned all version references across README/SKILL.md/pyproject.toml |
+| v2.3.7 | 2026-05-03 | Repo maintenance: fixed SKILL.md version mismatch (2.3.5→2.3.7), aligned all version references across README/SKILL.md/pyproject.toml |
 | v2.3.6 | 2026-05-03 | Repo maintenance: added English version history to ecosystem repos, added classifiers and project.urls to pyproject.toml, fixed duplicate changelog entries |
 |---------|------|--------|
 | v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
@@ -835,4 +837,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ---
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.6*
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.7*
