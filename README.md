@@ -861,7 +861,6 @@ Phase 4: 呈现 (SWD)
 - **体验历程图 5-7 阶段最佳** — 太少过于笼统，太多难以聚焦
 - **方法 ROI 评估** — 用 `add_method_roi()` 在研究规划前评估方法投入产出比
 
-
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
@@ -890,7 +889,6 @@ Phase 4: 呈现 (SWD)
 
 ---
 
-
 ### 💡 Pro Tips
 
 - **Triangulation First** — Never rely on a single method. Combine at least 2 methods (qualitative + quantitative) for cross-validation
@@ -899,7 +897,6 @@ Phase 4: 呈现 (SWD)
 - **SUS 70 is the Baseline** — Below 70 requires priority improvement, above 85 you can consider new features
 - **Journey Maps: 5-7 stages optimal** — Too few is vague, too many loses focus
 - **Method ROI Assessment** — Use `add_method_roi()` to evaluate research method ROI before planning
-
 
 ## 📋 Version History (English)
 
@@ -924,5 +921,13 @@ Phase 4: 呈现 (SWD)
 | v1.5 | 2026-04-23 | Added version history, Last Updated badge |
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
+
+### 👨‍💻 Credits
+
+Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport Publishers, 2012), featuring 100 design research methods covering the complete design process.
+
+**Applicable to:** UX Researchers, Designers, Product Managers, Design Educators
+
+---
 
 *Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.3.14*
