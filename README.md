@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.7-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.8-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -667,6 +667,7 @@ universal-design-methods alicloud
 ### 📋 Changelog
 
 | Version | Date | Changes |
+| v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), aligned all version references, cleaned up duplicate changelog entries |
 | v2.3.6 | 2026-05-03 | Added English version history, added classifiers and project.urls to pyproject.toml |
 | v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
@@ -816,6 +817,7 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.8 | 2026-05-03 | 仓库维护：精简英文 Quick Start 代码示例（场景化注释优化），统一 SKILL.md 与 README.md 版本引用，添加 pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | 修复 SKILL.md 版本不一致 (2.3.5→2.3.7)，清理重复条目，统一所有版本引用 |
 | v2.3.6 | 2026-05-03 | 添加英文版版本历史表，统一 pyproject.toml 元数据 |
 | v2.3.5 | 2026-05-03 | 统一 pyproject.toml 版本，添加一致性审查日志 |
@@ -834,4 +836,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ---
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.7*
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.8*
