@@ -667,10 +667,8 @@ universal-design-methods alicloud
 ### 📋 Changelog
 
 | Version | Date | Changes |
-| v2.3.7 | 2026-05-03 | Repo maintenance: fixed SKILL.md version mismatch (2.3.5→2.3.7), aligned all version references across README/SKILL.md/pyproject.toml |
-| v2.3.7 | 2026-05-03 | Repo maintenance: fixed SKILL.md version mismatch (2.3.5→2.3.7), aligned all version references across README/SKILL.md/pyproject.toml |
-| v2.3.6 | 2026-05-03 | Repo maintenance: added English version history to ecosystem repos, added classifiers and project.urls to pyproject.toml, fixed duplicate changelog entries |
-|---------|------|--------|
+| v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), aligned all version references, cleaned up duplicate changelog entries |
+| v2.3.6 | 2026-05-03 | Added English version history, added classifiers and project.urls to pyproject.toml |
 | v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
 | v2.3.4 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment
 | v2.3.3 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
@@ -818,12 +816,11 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.3.6 | 2026-05-03 | 仓库维护：为生态仓库添加英文版版本历史表，统一 pyproject.toml 元数据，修复重复条目 |
-|------|------|------|
-| v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
-| v2.3.4 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment
-| v2.3.4 | 2026-05-03 | 仓库维护：跨技能一致性审查，验证交叉引用和版本对齐
-| v2.3.3 | 2026-05-02 | 仓库维护：为英文版添加 Quick Decision Guide 导航表，增强技能间交叉引用 |
+| v2.3.7 | 2026-05-03 | 修复 SKILL.md 版本不一致 (2.3.5→2.3.7)，清理重复条目，统一所有版本引用 |
+| v2.3.6 | 2026-05-03 | 添加英文版版本历史表，统一 pyproject.toml 元数据 |
+| v2.3.5 | 2026-05-03 | 统一 pyproject.toml 版本，添加一致性审查日志 |
+| v2.3.4 | 2026-05-03 | 跨技能一致性审查，验证交叉引用和版本对齐 |
+| v2.3.3 | 2026-05-02 | 为英文版添加 Quick Decision Guide 导航表，增强技能间交叉引用 |
 | v2.3.2 | 2026-05-02 | 仓库维护：优化英文 Quick Start 代码示例排版，补充 CEO 能力英文版表格，增强技能生态工作流描述，统一版本标签格式 |
 | v2.3.1 | 2026-05-02 | 修复 SKILL.md 版本号不一致 (v2.2.0→v2.3.0)，添加 CEO 能力到英文能力表，补充 Structured-Thinking-Model 交叉引用 |
 | v2.3.0 | 2026-05-01 | 添加快速参考表、Badges、CEO 视角扩展、更新维护 |
