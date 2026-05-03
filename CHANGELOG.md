@@ -1,5 +1,11 @@
 # Changelog
 
+## [R28] - 2026-05-03
+
+### Changed
+- Streamlined English Quick Start code comments for better readability
+- Aligned SKILL.md version with README.md (v2.3.8)
+
 ## [R27] - 2026-05-03
 
 ### Fixed
