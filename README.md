@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.4-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.5-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -668,7 +668,10 @@ universal-design-methods alicloud
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
 | v2.3.4 | 2026-05-03 | Repo maintenance: consistency review across ecosystem repos, verified cross-references and version alignment |
+| v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
+| v2.3.4 | 2026-05-03 | 仓库维护：跨技能一致性审查，验证交叉引用和版本对齐
 | v2.3.4 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified all cross-references and version alignment |
 | v2.3.3 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
 | v2.3.2 | 2026-05-02 | Repo maintenance: fixed English capabilities table (added CEO rows 3 + observation), improved capability descriptions, added changelog to English section |
@@ -816,7 +819,9 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
 | v2.3.4 | 2026-05-03 | Repo maintenance: consistency review across ecosystem repos, verified cross-references and version alignment |
+| v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
 | v2.3.4 | 2026-05-03 | 仓库维护：跨技能一致性审查，验证交叉引用和版本对齐 |
 | v2.3.3 | 2026-05-02 | 仓库维护：为英文版添加 Quick Decision Guide 导航表，增强技能间交叉引用 |
 | v2.3.2 | 2026-05-02 | 仓库维护：优化英文 Quick Start 代码示例排版，补充 CEO 能力英文版表格，增强技能生态工作流描述，统一版本标签格式 |
@@ -832,4 +837,4 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ---
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.4*
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.3.5*

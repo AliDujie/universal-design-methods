@@ -1,5 +1,11 @@
 # Changelog
 
+## [R26] - 2026-05-03
+
+### Changed
+- Synced pyproject.toml version (2.3.3 → 2.3.4) to match SKILL.md/README
+- Routine consistency review across all 6 ecosystem repos
+
 ## [R25] - 2026-05-02
 
 ### Added
