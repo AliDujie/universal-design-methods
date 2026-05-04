@@ -678,8 +678,8 @@ universal-design-methods alicloud
 | v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), aligned all version references, cleaned up duplicate changelog entries |
 | v2.3.6 | 2026-05-03 | Added English version history, added classifiers and project.urls to pyproject.toml |
-| v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review
-| v2.3.4 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment
+| v2.3.5 | 2026-05-03 | Repo maintenance: sync pyproject.toml version, add changelog entry for consistency review |
+| v2.3.4 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
 | v2.3.3 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
 | v2.3.2 | 2026-05-02 | Repo maintenance: fixed English capabilities table (added CEO rows 3 + observation), improved capability descriptions, added changelog to English section |
 | v2.3.1 | 2026-05-02 | Fixed SKILL.md version mismatch, added CEO capabilities to English table |
@@ -901,10 +901,12 @@ Phase 4: 呈现 (SWD)
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-| v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments
-| v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version
-| v2.3.11 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for expert usage guidance
+| v2.3.14 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.3.12→2.3.14), aligned all version references, added Credits section |
+| v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments |
+| v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version |
+| v2.3.11 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for expert usage guidance |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
+| v2.3.9 | 2026-05-03 | Repo maintenance: fixed changelog table formatting, added English version history table, aligned SKILL.md version |
 | v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), cleaned up duplicate changelog entries |
 | v2.3.6 | 2026-05-03 | Added English version history, added classifiers and project.urls to pyproject.toml |
