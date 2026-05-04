@@ -1003,6 +1003,18 @@ Phase 4: 呈现 (SWD)
 | v2.3.15 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.3.12→2.3.14), aligned all version references, added Credits section |
 | v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments |
 | v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version |
+| v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references in related skills tables
+| v2.3.18 | 2026-05-04 | Repo maintenance: fixed changelog table `| |` formatting, added end-to-end workflow English TOC entry
+| v2.3.17 | 2026-05-04 | Repo maintenance: added English TOC and 5-min checklist; enhanced English Features at a Glance and Quick Start scenario comments
+| v2.3.15 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.3.12→2.3.14), aligned all version references, added Credits section
+| v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments
+| v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version
+| v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references in related skills tables
+| v2.3.18 | 2026-05-04 | Repo maintenance: fixed changelog table `| |` formatting, added end-to-end workflow English TOC entry
+| v2.3.17 | 2026-05-04 | Repo maintenance: added English TOC and 5-min checklist; enhanced English Features at a Glance and Quick Start scenario comments
+| v2.3.15 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.3.12→2.3.14), aligned all version references, added Credits section
+| v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments
+| v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version
 | v2.3.11 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for expert usage guidance |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
 | v2.3.9 | 2026-05-03 | Repo maintenance: fixed changelog table formatting, added English version history table, aligned SKILL.md version |
@@ -1031,5 +1043,4 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 ---
 
-*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.3.18*
-| v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references |
+*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.3.19*
