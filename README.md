@@ -672,6 +672,31 @@ This skill is based on the methodology from *"Universal Methods of Design"* by B
 
 This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 
+```
+┌─────────────────────────────────────────────────────────────┐
+│           AliDujie Skill Ecosystem                          │
+├─────────────────────────────────────────────────────────────┤
+│   📊 Quantitative UX Research ←───→ 📖 Universal Design     │
+│    (quantitative)   triangulation       Methods (this skill)│
+│              ↑                          ↓                   │
+│              │                    🎯 JTBD Knowledge          │
+│              │                    (needs insight)            │
+│   📈 Storytelling with Data ←───→ 💎 Value Proposition      │
+│    (data narrative) presentation         Design              │
+│              ↑                          ↑                   │
+│              │                    👤 Web Persona             │
+│              └────────────────────  (personas)               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Integration patterns:**
+
+- **UDM + JTBD** → Validate JTBD insights with UDM research methods
+- **UDM + Persona** → Design targeted research methods based on personas
+- **UDM + QuantUX** → Qualitative-quantitative triangulation for research validity
+- **UDM + VPD** → Validate value proposition hypotheses with UDM methods
+- **UDM + SWD** → Present UDM research findings with SWD data narratives
+
 - **[JTBD-Knowledge-Skill](https://github.com/AliDujie/jtbd-knowledge-skill)** — Jobs-to-be-Done theory
 - **[Web-Persona-Skill](https://github.com/AliDujie/web-persona-skill)** — Persona creation
 - **[Quantitative-UX-Research](https://github.com/AliDujie/Quantitative-UX-Research)** — Quantitative research, HEART framework
