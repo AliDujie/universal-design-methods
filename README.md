@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.14-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.15-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -399,6 +399,23 @@ print(alloc)  # 预算 40/15/10/20/15 分配 + 人力 + 时间 + 风险
 | 0-30 | 一般 |
 | <0 | 需改进 |
 
+### ❓ 常见问题 (FAQ)
+
+**Q: UDM 和其他 UX 研究工具有什么区别？**
+A: UDM 是面向 AI Agent 的完整工具包，覆盖 100 种设计方法的知识查询 + 11 项可执行能力。与单一工具不同，UDM 提供方法推荐、三角测量、CEO 决策支持等全链路能力。
+
+**Q: 需要编程基础吗？**
+A: 不需要。你可以直接用自然语言向 AI Agent 提问（如"帮我设计用户访谈"），也可以作为 Python 包在代码中调用。两种方式都支持。
+
+**Q: 100 种方法真的都能用吗？**
+A: 是的。每种方法都有详细说明、适用场景、执行步骤和输出模板。方法推荐引擎会根据你的研究阶段和目标自动推荐 3-5 种方法组合。
+
+**Q: SUS/NPS 计算准确吗？**
+A: SUS 使用标准计算公式（Bangor et al.），NPS 使用行业标准算法。结果与专业调研工具一致。
+
+**Q: 可以和 QuantUX 一起用吗？**
+A: 强烈推荐！UDM 做定性发现，QuantUX 做定量验证，两者结合实现方法三角测量，显著提升研究信度。
+
 ### 🌟 用户评价
 
 > "UDM 技能的方法推荐功能帮我们避免了方法选择困难，三角测量让研究结论更有说服力！"
@@ -614,6 +631,23 @@ report = skill.generate_report("Onboarding Findings", summary="Users confused by
 3. **Document everything** — Use `generate_report()` to create structured research reports
 4. **Validate with SUS/NPS** — Always include standardized metrics for benchmarking
 5. **Iterate your journey maps** — Update after each research round to track improvement
+
+### ❓ FAQ
+
+**Q: How is UDM different from other UX research tools?**
+A: UDM is a complete AI Agent toolkit covering 100 design methods with knowledge query + 11 executable capabilities. Unlike single-purpose tools, UDM provides method recommendation, triangulation, and CEO-level decision support.
+
+**Q: Do I need coding skills?**
+A: No. You can ask the AI Agent in natural language (e.g., "Design a user interview for me") or use it as a Python package. Both modes are supported.
+
+**Q: Are all 100 methods actually usable?**
+A: Yes. Each method has detailed descriptions, applicable scenarios, execution steps, and output templates. The recommender engine automatically suggests 3-5 method combinations based on your research phase and goals.
+
+**Q: Are SUS/NPS calculations accurate?**
+A: SUS uses the standard formula (Bangor et al.), and NPS follows industry-standard algorithms. Results are consistent with professional research tools.
+
+**Q: Can I use it with QuantUX?**
+A: Highly recommended! UDM handles qualitative discovery, QuantUX handles quantitative validation. Together they achieve method triangulation for significantly improved research validity.
 
 ### 🌟 User Reviews
 
@@ -864,7 +898,7 @@ Phase 4: 呈现 (SWD)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.3.14 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.3.12→2.3.14)，对齐所有版本引用
+| v2.3.15 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.3.12→2.3.14)，对齐所有版本引用
 | v2.3.13 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.3.10→v2.3.11 顺序校正），增强英文版 Quick Start 场景注释 |
 | v2.3.12 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示 6 个技能协作场景），修复版本历史重复条目，对齐 pyproject.toml 版本 |
 | v2.3.11 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），提升技能使用效率指南 |
@@ -901,7 +935,7 @@ Phase 4: 呈现 (SWD)
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-| v2.3.14 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.3.12→2.3.14), aligned all version references, added Credits section |
+| v2.3.15 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.3.12→2.3.14), aligned all version references, added Credits section |
 | v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments |
 | v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version |
 | v2.3.11 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for expert usage guidance |
@@ -932,4 +966,4 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 ---
 
-*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.3.14*
+*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.3.15*
