@@ -9,6 +9,17 @@
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 构建，覆盖 UX 研究全生命周期。
 
+### ✅ 5 分钟快速开始检查清单
+
+- [ ] **安装** — `cp -r universal-design-methods /your/agent/skills/`
+- [ ] **导入** — `from udm import UDMSkill`
+- [ ] **初始化** — `skill = UDMSkill("你的产品")`
+- [ ] **方法推荐** — `skill.recommend_methods("了解用户需求", phase=1)`
+- [ ] **访谈提纲** — `skill.generate_interview("用户访谈", "contextual")`
+- [ ] **可用性测试** — `skill.generate_usability_test("流程测试", "formative")`
+- [ ] **问卷设计** — `skill.generate_survey("需求调研", "kano")`
+- [ ] **体验历程图** — `skill.build_journey_map("预订体验", persona="用户")`
+
 [English](#english) | [中文](#中文说明)
 
 ---
@@ -459,6 +470,23 @@ universal-design-methods alicloud
 ---
 
 ## English
+
+### 📑 Table of Contents
+
+- [Why Use This Skill?](#-why-use-this-skill)
+- [Features at a Glance](#-features-at-a-glance)
+- [Quick Decision Guide](#-quick-decision-guide)
+- [Quick Start](#-quick-start)
+- [11 Core Capabilities](#-11-core-capabilities)
+- [Practical Examples](#-practical-examples)
+- [Who Is This For?](#-who-is-this-for)
+- [Troubleshooting](#-troubleshooting)
+- [Best Practices](#-best-practices)
+- [FAQ](#-faq)
+- [User Reviews](#-user-reviews)
+- [Extended Reading](#-extended-reading)
+- [Related Skills](#-related-skills-1)
+- [Version History](#-version-history-english)
 
 ### 🌟 Why Use This Skill?
 
