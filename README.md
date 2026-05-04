@@ -958,8 +958,8 @@ Phase 4: 呈现 (SWD)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.3.18 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，添加端到端工作流英文目录条目
 | v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references in related skills tables |
+| v2.3.18 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，添加端到端工作流英文目录条目
 | v2.3.17 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单；优化英文版 Features at a Glance 和 Quick Start 场景注释清晰度
 | v2.3.15 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.3.12→2.3.14)，对齐所有版本引用
 | v2.3.13 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.3.10→v2.3.11 顺序校正），增强英文版 Quick Start 场景注释 |
