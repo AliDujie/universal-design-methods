@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.17-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.18-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -486,6 +486,7 @@ universal-design-methods alicloud
 - [User Reviews](#-user-reviews)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
+- [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Version History](#-version-history-english)
 
 ### 🌟 Why Use This Skill?
@@ -951,7 +952,8 @@ Phase 4: 呈现 (SWD)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.3.17 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单 | | 仓库维护：优化英文版 Features at a Glance 和 Quick Start 场景注释清晰度
+| v2.3.18 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，添加端到端工作流英文目录条目
+| v2.3.17 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单；优化英文版 Features at a Glance 和 Quick Start 场景注释清晰度
 | v2.3.15 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.3.12→2.3.14)，对齐所有版本引用
 | v2.3.13 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.3.10→v2.3.11 顺序校正），增强英文版 Quick Start 场景注释 |
 | v2.3.12 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示 6 个技能协作场景），修复版本历史重复条目，对齐 pyproject.toml 版本 |
@@ -989,7 +991,8 @@ Phase 4: 呈现 (SWD)
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-| v2.3.17 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单 | | Repo maintenance: improved English Features at a Glance and Quick Start scenario comment clarity
+| v2.3.18 | 2026-05-04 | Repo maintenance: fixed changelog table `| |` formatting, added end-to-end workflow English TOC entry
+| v2.3.17 | 2026-05-04 | Repo maintenance: added English TOC and 5-min checklist; improved English Features at a Glance and Quick Start scenario comments
 | v2.3.15 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.3.12→2.3.14), aligned all version references, added Credits section |
 | v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments |
 | v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version |
@@ -1021,4 +1024,4 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 ---
 
-*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.3.17*
+*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.3.18*
