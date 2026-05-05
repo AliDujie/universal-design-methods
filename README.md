@@ -1023,8 +1023,7 @@ Phase 4: 呈现 (SWD)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.3.20 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity |
-| v2.3.20 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity
+| v2.3.21 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity |
 | v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references in related skills tables |
 | v2.3.18 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，添加端到端工作流英文目录条目
 | v2.3.17 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单；优化英文版 Features at a Glance 和 Quick Start 场景注释清晰度
@@ -1070,8 +1069,7 @@ Phase 4: 呈现 (SWD)
 | v2.3.15 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.3.12→2.3.14), aligned all version references, added Credits section |
 | v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments |
 | v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version |
-| v2.3.20 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity |
-| v2.3.20 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity
+| v2.3.21 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity
 | v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references in related skills tables
 | v2.3.11 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for expert usage guidance |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
@@ -1101,4 +1099,4 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 ---
 
-*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.3.20*
+*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.3.21*
