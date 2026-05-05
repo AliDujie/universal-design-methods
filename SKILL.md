@@ -199,12 +199,12 @@ UDM 是 AliDujie UX 研究技能生态系统的方法论核心：
 
 | 协作场景 | 协作 Skill | 工作流 |
 |---------|-----------|--------|
-| UDM + JTBD | JTBD Knowledge | UDM 访谈方法挖掘用户 Job → JTBD 四力分析 → JTBD 机会评分 |
-| UDM + QuantUX | Quantitative UX Research | UDM 定性发现 → QuantUX 定量验证 → UDM 综合报告 |
-| UDM + VPD | Value Proposition Design | UDM 用户研究 → VPD 画布填充 → VPD 实验验证 |
-| UDM + Persona | Web Persona | UDM 访谈/观察 → Persona 数据收集 → Persona 质量评审 |
-| UDM + SWD | Storytelling with Data | UDM 研究发现 → SWD 图表选择 → SWD 数据故事构建 |
-| UDM + STM | Structured Thinking Model | STM 分析框架 → UDM 研究方法匹配 → STM 决策建议 |
+| UDM + JTBD | [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | UDM 访谈方法挖掘用户 Job → JTBD 四力分析 → JTBD 机会评分 |
+| UDM + QuantUX | [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | UDM 定性发现 → QuantUX 定量验证 → UDM 综合报告 |
+| UDM + VPD | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | UDM 用户研究 → VPD 画布填充 → VPD 实验验证 |
+| UDM + Persona | [Web Persona](https://github.com/AliDujie/web-persona-skill) | UDM 访谈/观察 → Persona 数据收集 → Persona 质量评审 |
+| UDM + SWD | [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | UDM 研究发现 → SWD 图表选择 → SWD 数据故事构建 |
+| UDM + STM | [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | STM 分析框架 → UDM 研究方法匹配 → STM 决策建议 |
 
 **协作示例（UDM → SWD）**：
 ```python
