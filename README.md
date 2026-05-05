@@ -1093,6 +1093,7 @@ Phase 4: 呈现 (SWD)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.23 | 2026-05-06 | Repo maintenance: fixed footer version alignment |
 | v2.3.22 | 2026-05-06 | Repo maintenance: added Structured Thinking Model and Quantitative UX Research collaboration references, improved skill ecosystem workflow descriptions |
 | v2.3.21 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity |
 | v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references in related skills tables |
@@ -1129,4 +1130,4 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.3.22*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.3.23*
