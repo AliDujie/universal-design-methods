@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.21-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--05-brightgreen-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.22-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1024,6 +1024,7 @@ Phase 4: 呈现 (SWD)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.22 | 2026-05-06 | 仓库维护：添加 Structured Thinking Model 和 Quantitative UX Research 协作引用，优化技能生态工作流描述 |
 | v2.3.21 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity |
 | v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references in related skills tables |
 | v2.3.18 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，添加端到端工作流英文目录条目
@@ -1066,6 +1067,7 @@ Phase 4: 呈现 (SWD)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.22 | 2026-05-06 | Repo maintenance: added Structured Thinking Model and Quantitative UX Research collaboration references, improved skill ecosystem workflow descriptions |
 | v2.3.21 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity |
 | v2.3.19 | 2026-05-05 | Repo maintenance: added Structured Thinking Model to ecosystem diagrams (CN+EN), enhanced cross-references in related skills tables |
 | v2.3.18 | 2026-05-04 | Repo maintenance: fixed changelog table `| |` formatting, added end-to-end workflow English TOC entry |
@@ -1101,4 +1103,4 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 ---
 
-*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.3.21*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.3.22*
