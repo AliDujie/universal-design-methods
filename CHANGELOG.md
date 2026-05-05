@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.3.22 - 2026-05-06
+
+- Repo maintenance: verified ecosystem cross-references, version alignment across all files
+
+## v2.3.21 - 2026-05-05
+
+- Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references
+
+## v2.3.20 - 2026-05-05
+
+- Repo maintenance: enhanced English Quick Start clarity
+
 ## v2.3.19 - 2026-05-05
 
 - Added Structured Thinking Model (🧠) to ecosystem ASCII diagrams (CN and EN sections)
