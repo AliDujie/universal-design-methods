@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.22-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.23-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -1009,6 +1009,32 @@ Phase 4: 呈现 (SWD)
 > 💡 **每个阶段用对应技能**: UDM 发现 → JTBD 洞察 → QuantUX 量化 → Persona 细分 → VPD 验证 → SWD 呈现
 
 👉 **尝试完整工作流**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [Persona](https://github.com/AliDujie/web-persona-skill) · [VPD](https://github.com/AliDujie/value-proposition-design) · [SWD](https://github.com/AliDujie/storytelling-with-data)
+
+---
+
+---
+
+### 🌟 为什么选择 AliDujie 技能生态系统？
+
+本技能是 **AliDujie UX 研究技能生态系统** 的核心组件，与其他技能无缝协作：
+
+| 技能 | 角色 | 协作方式 |
+|------|------|----------|
+| [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 需求洞察 | JTBD 发现用户"工作" → UDM 方法验证 |
+| [Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户角色 | Persona 角色 → UDM 针对性研究设计 |
+| [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 定量验证 | UDM 定性发现 → QuantUX 定量三角验证 |
+| [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值设计 | UDM 研究 → VPD 价值主张验证 |
+| [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | 数据叙事 | UDM 研究发现 → SWD 高管级呈现 |
+
+**使用完整生态系统的优势：**
+
+- ✅ **全流程覆盖** — 从发现需求 → 角色创建 → 研究验证 → 价值设计 → 数据呈现
+- ✅ **一致 API 设计** — 所有技能使用统一的 Skill("产品名") 入口
+- ✅ **零外部依赖** — 纯 Python 标准库实现，开箱即用
+- ✅ **双语支持** — 完整中英文文档，适合国际化团队
+- ✅ **积极维护** — 定期更新新功能和改进文档
+
+👉 **探索完整生态系统**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [Persona](https://github.com/AliDujie/web-persona-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [VPD](https://github.com/AliDujie/value-proposition-design) · [SWD](https://github.com/AliDujie/storytelling-with-data)
 
 ---
 
