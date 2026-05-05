@@ -386,6 +386,70 @@ print(alloc)  # 预算 40/15/10/20/15 分配 + 人力 + 时间 + 风险
 - 🎯 预期决策产出（问题诊断 → 量化数据 → 机会识别 → 验证报告）
 - 💰 资源分配建议（研究 40% / 招募 15% / 工具 10% / 分析 20% / 应急 15%）
 
+### 🏆 实战案例 (Case Studies)
+
+#### 案例 1: 电商 App 购物体验优化
+
+**背景**: 某头部电商平台发现购物车转化率连续 3 个月下滑
+
+**使用 UDM 技能**:
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("电商 App")
+
+# 步骤 1: 方法推荐 — 确定研究方案
+methods = skill.recommend_methods("了解购物车放弃原因", phase=1)
+# → 推荐：用户访谈（情境）+ 日记研究 + 可用性测试
+
+# 步骤 2: 生成情境访谈提纲
+guide = skill.generate_interview("购物车体验访谈", "contextual")
+
+# 步骤 3: 执行可用性测试 + SUS 评估
+sus_scores = [65, 72, 58, 70, 62, 75, 68, 71]
+avg_sus = sum(sus_scores) / len(sus_scores)  # 67.6 — 需要改进
+
+# 步骤 4: 构建体验历程图发现痛点
+jm = skill.build_journey_map("购物旅程")
+jm.add_stage("搜索", actions=["输入关键词"], emotions=4, pain_points=["搜索结果不相关"])
+jm.add_stage("加购", actions=["选择规格", "加入购物车"], emotions=2, pain_points=["规格选择复杂", "缺少对比"])
+jm.add_stage("结算", actions=["填写地址", "选择支付"], emotions=3, pain_points=["运费不透明"])
+
+# 步骤 5: 生成研究报告
+card = skill.calculate_nps([9, 10, 8, 7, 10, 6, 9, 8, 10, 5])
+report = skill.generate_report("购物车体验研究", summary=f"平均 SUS {avg_sus:.1f}，NPS {card}")
+```
+
+**成果**: 发现 3 个核心痛点 → 优化后购物车转化率提升 18%，SUS 从 67.6 提升到 78.2
+
+#### 案例 2: B2B SaaS 用户需求探索
+
+**背景**: 某协作工具需要进入新市场（中小企业），不了解目标用户需求
+
+**使用 UDM 技能**:
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("B2B 协作 SaaS")
+
+# 用 KANO 问卷区分功能需求优先级
+survey = skill.generate_survey(
+    "功能需求调研", "kano",
+    features=["AI 会议纪要", "任务自动化", "跨平台同步", "审批流程"]
+)
+
+# 加权矩阵评估方案优先级
+wm = skill.build_weighted_matrix("方案评估")
+wm.add_criterion("用户需求", weight=0.4)
+wm.add_criterion("技术可行性", weight=0.3)
+wm.add_criterion("商业价值", weight=0.3)
+wm.add_option("AI 会议纪要", {"用户需求": 5, "技术可行性": 3, "商业价值": 5})
+wm.add_option("任务自动化", {"用户需求": 4, "技术可行性": 2, "商业价值": 4})
+print(wm.render_markdown())
+```
+
+**成果**: 明确功能优先级 → 首季度推出 AI 会议纪要，获客成本降低 30%
+
 ### 🤝 最佳实践
 
 #### 方法选择原则
