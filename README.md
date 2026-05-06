@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.29-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.30-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-blue.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1017,7 +1017,6 @@ Phase 4: 呈现 (SWD)
 
 ---
 
----
 
 ### 🌟 为什么选择 AliDujie 技能生态系统？
 
@@ -1056,6 +1055,7 @@ Phase 4: 呈现 (SWD)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.30 | 2026-05-07 | Repo maintenance: fixed double `---` separator, enhanced cross-skill workflow descriptions |
 | v2.3.29 | 2026-05-07 | Repo maintenance: fixed double brightgreen badge in Last Updated, added AI Agent best practices Pro Tip |
 | v2.3.28 | 2026-05-06 | Repo maintenance: added Contributing link to English footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references |
 | v2.3.27 | 2026-05-06 | Repo maintenance: added GitHub Topics recommendation tags, version bump to 2.3.27 |
@@ -1104,6 +1104,7 @@ Phase 4: 呈现 (SWD)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.30 | 2026-05-07 | Repo maintenance: fixed double `---` separator, enhanced cross-skill workflow descriptions |
 | v2.3.29 | 2026-05-07 | Repo maintenance: fixed double brightgreen badge in Last Updated, added AI Agent best practices Pro Tip |
 | v2.3.28 | 2026-05-06 | Repo maintenance: added Contributing link to English footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references
 | v2.3.24 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
