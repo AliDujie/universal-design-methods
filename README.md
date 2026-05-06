@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.27-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.28-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -1100,6 +1100,7 @@ Phase 4: 呈现 (SWD)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.28 | 2026-05-06 | Repo maintenance: added Contributing link to English footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references
 | v2.3.24 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
 | v2.3.22 | 2026-05-06 | Repo maintenance: added Structured Thinking Model and Quantitative UX Research collaboration references, improved skill ecosystem workflow descriptions |
 | v2.3.21 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity |
@@ -1134,6 +1135,10 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 **Applicable to:** UX Researchers, Designers, Product Managers, Design Educators
 
+### 🤝 Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.3.27*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.3.28*

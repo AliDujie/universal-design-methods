@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.3.28 - 2026-05-06
+
+- Repo maintenance: added Contributing link to English section footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references
+
 ## v2.3.26 - 2026-05-06
 
 - Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references across README/SKILL.md/pyproject.toml/CHANGELOG, verified ecosystem cross-references and bilingual consistency
