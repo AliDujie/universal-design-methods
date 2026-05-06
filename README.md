@@ -836,6 +836,7 @@ persona-creation research-planning interview-generation
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.24 | 2026-05-06 | Repo maintenance: enhanced CN "Who Is This For" descriptions, expanded GitHub Topics, fixed version badge mismatch, improved EN/CN topic consistency |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
 | v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), aligned all version references, cleaned up duplicate changelog entries |
@@ -1105,7 +1106,6 @@ Phase 4: 呈现 (SWD)
 | v2.3.13 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.3.10→v2.3.11 sequence corrected), enhanced English Quick Start with scenario-based comments |
 | v2.3.12 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing complete 6-skill collaboration scenario, fixed duplicate v2.3.10 changelog entries, aligned pyproject.toml version |
 | v2.3.11 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for expert usage guidance |
-| v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
 | v2.3.9 | 2026-05-03 | Repo maintenance: fixed changelog table formatting, added English version history table, aligned SKILL.md version |
 | v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
 | v2.3.7 | 2026-05-03 | Fixed SKILL.md version mismatch (2.3.5→2.3.7), cleaned up duplicate changelog entries |
