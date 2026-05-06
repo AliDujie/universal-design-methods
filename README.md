@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.26-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.27-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -837,6 +837,7 @@ persona-creation research-planning interview-generation
 | Version | Date | Changes |
 |---------|------|--------|
 | v2.3.26 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
+| v2.3.27 | 2026-05-06 | 仓库维护：添加 GitHub Topics 推荐标签，更新版本至 2.3.27 |
 | v2.3.24 | 2026-05-06 | Repo maintenance: enhanced CN "Who Is This For" descriptions, expanded GitHub Topics, fixed version badge mismatch, improved EN/CN topic consistency |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
 | v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
@@ -1054,6 +1055,7 @@ Phase 4: 呈现 (SWD)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.27 | 2026-05-06 | Repo maintenance: added GitHub Topics recommendation tags, version bump to 2.3.27 |
 | v2.3.26 | 2026-05-06 | 仓库维护：修复版本徽章不一致（徽章比 SKILL.md/pyproject.toml 超前 1 个版本），对齐所有版本引用，验证生态交叉引用和双语一致性 |
 | v2.3.22 | 2026-05-06 | 仓库维护：添加 Structured Thinking Model 和 Quantitative UX Research 协作引用，优化技能生态工作流描述 |
 | v2.3.21 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references, enhanced English Quick Start clarity |
@@ -1134,4 +1136,4 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.3.26*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.3.27*
