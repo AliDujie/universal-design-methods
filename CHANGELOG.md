@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.3.29 - 2026-05-07
+
+- Repo maintenance: fixed double brightgreen badge in Last Updated (brightgreen-brightgreen → brightgreen), added AI Agent best practices Pro Tip (CN+EN)
+
 ## v2.3.28 - 2026-05-06
 
 - Repo maintenance: added Contributing link to English section footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references

@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.28-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.29-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1051,10 +1051,13 @@ Phase 4: 呈现 (SWD)
 - **SUS 70 分是基准线** — 低于 70 分需要优先改进，高于 85 分可以考虑新功能
 - **体验历程图 5-7 阶段最佳** — 太少过于笼统，太多难以聚焦
 - **方法 ROI 评估** — 用 `add_method_roi()` 在研究规划前评估方法投入产出比
+- **AI Agent 最佳实践** — 先用自然语言描述研究目标，再让 Agent 调用对应 API；复杂场景用 `search_knowledge()` 先查询方法索引
 
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.29 | 2026-05-07 | Repo maintenance: fixed double brightgreen badge in Last Updated, added AI Agent best practices Pro Tip |
+| v2.3.28 | 2026-05-06 | Repo maintenance: added Contributing link to English footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references |
 | v2.3.27 | 2026-05-06 | Repo maintenance: added GitHub Topics recommendation tags, version bump to 2.3.27 |
 | v2.3.26 | 2026-05-06 | 仓库维护：修复版本徽章不一致（徽章比 SKILL.md/pyproject.toml 超前 1 个版本），对齐所有版本引用，验证生态交叉引用和双语一致性 |
 | v2.3.22 | 2026-05-06 | 仓库维护：添加 Structured Thinking Model 和 Quantitative UX Research 协作引用，优化技能生态工作流描述 |
@@ -1095,11 +1098,13 @@ Phase 4: 呈现 (SWD)
 - **SUS 70 is the Baseline** — Below 70 requires priority improvement, above 85 you can consider new features
 - **Journey Maps: 5-7 stages optimal** — Too few is vague, too many loses focus
 - **Method ROI Assessment** — Use `add_method_roi()` to evaluate research method ROI before planning
+- **AI Agent Best Practice** — Describe your research goal in natural language first, then let the Agent call the right API; for complex scenarios, use `search_knowledge()` to query the method index first
 
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.29 | 2026-05-07 | Repo maintenance: fixed double brightgreen badge in Last Updated, added AI Agent best practices Pro Tip |
 | v2.3.28 | 2026-05-06 | Repo maintenance: added Contributing link to English footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references
 | v2.3.24 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
 | v2.3.22 | 2026-05-06 | Repo maintenance: added Structured Thinking Model and Quantitative UX Research collaboration references, improved skill ecosystem workflow descriptions |
@@ -1141,4 +1146,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.3.28*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.29*
