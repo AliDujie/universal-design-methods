@@ -231,3 +231,37 @@ jtbd = JTBDSkill("旅行预订平台")
 from vpd import VPDSkill
 vpd = VPDSkill("旅行预订", "商务人士")
 ```
+
+## 最佳实践
+
+| # | 原则 | 说明 |
+|---|------|------|
+| 1 | 三角测量 | 任何研究都应组合至少 2-3 种方法，混合定性与定量数据 |
+| 2 | 阶段匹配 | 根据设计五阶段选择方法：探索期用定性，评估期用定量 |
+| 3 | 资源适配 | 根据可用资源（时间/预算/人力）调整方法组合规模 |
+| 4 | 迭代递进 | 从探索→生成→评估→综合，方法选择随项目推进递进 |
+| 5 | CEO 视角 | 研究计划自动附加 ROI 评估和资源分配建议，辅助决策 |
+| 6 | 先定性后定量 | 用 UDM 定性发现方向，再用 QuantUX 定量验证假设 |
+| 7 | 知识检索优先 | 理论问题先调用 `search_knowledge()` 查询 100 种方法索引 |
+
+## 参考资料
+
+| 书名 | 作者 | 关键贡献 |
+|------|------|---------|
+| **Universal Design Methods** | Bella Martin & Bruce Hanington (2012) | 本 Skill 理论基础，100 种设计研究方法 |
+| Just Enough Research | Erika Hall (2013) | 精益研究方法选择 |
+| The Design of Everyday Things | Don Norman (2013) | 可用性评估原则 |
+| Sprint | Jake Knapp (2016) | 快速设计冲刺方法 |
+
+### AliDujie 技能生态
+
+UDM 是 **AliDujie UX 研究技能生态系统** 的方法论核心，与其他 6 个技能协作：
+
+| 技能 | 定位 | 协作模式 |
+|------|------|---------|
+| [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 需求洞察 | JTBD 发现 → UDM 验证 → 机会评分 |
+| [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 定量研究 | UDM 定性 → QuantUX 定量验证 |
+| [Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户角色 | UDM 访谈/观察 → Persona 数据收集 |
+| [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值验证 | UDM 用户研究 → VPD 画布填充 |
+| [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | 数据叙事 | UDM 研究发现 → SWD 可视化汇报 |
+| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 战略框架 | STM 分析框架 → UDM 方法匹配 |
