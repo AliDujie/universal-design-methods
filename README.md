@@ -1145,9 +1145,11 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.3.34 | 2026-05-07 | 仓库维护：SKILL.md 版本号升级至 2.3.34，验证生态交叉引用一致性
-| v2.3.32 | 2026-05-07 | 仓库维护：版本升级至 2.3.33，对齐 SKILL.md 和 pyproject.toml 版本号
-| v2.3.31 | 2026-05-07 | 仓库维护：修复页脚版本号偏差，添加生态系统工作流 Pro Tip，版本升级至 2.3.31
+|------|------|------|
+| v2.3.34 | 2026-05-07 | 仓库维护：SKILL.md 版本号升级至 2.3.34，验证生态交叉引用一致性 |
+| v2.3.33 | 2026-05-07 | 仓库维护：版本升级至 v2.3.33，对齐 SKILL.md 和 pyproject.toml 版本号，对齐变更日志条目 |
+| v2.3.32 | 2026-05-07 | 仓库维护：版本升级至 2.3.33，对齐 SKILL.md 和 pyproject.toml 版本号 |
+| v2.3.31 | 2026-05-07 | 仓库维护：修复页脚版本号偏差，添加生态系统工作流 Pro Tip，版本升级至 2.3.31 |
 | v2.3.30 | 2026-05-07 | Repo maintenance: fixed double `---` separator, enhanced cross-skill workflow descriptions |
 | v2.3.29 | 2026-05-07 | Repo maintenance: fixed double brightgreen badge in Last Updated, added AI Agent best practices Pro Tip |
 | v2.3.28 | 2026-05-06 | Repo maintenance: added Contributing link to English footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references |
