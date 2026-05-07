@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.3.35 - 2026-05-07
+
+- Repo maintenance: added "When to use UDM" decision guide to SKILL.md for better agent self-selection, version bump to 2.3.35
+
 ## v2.3.33 - 2026-05-07
 
 - Repo maintenance: added references/README.md index, fixed Last Updated badge color consistency (blue→brightgreen), standardized ecosystem documentation

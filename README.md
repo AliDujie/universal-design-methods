@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.34-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.35-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -1146,6 +1146,7 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.3.35 | 2026-05-07 | 仓库维护：在 SKILL.md 中添加"什么时候使用 UDM"决策指南，帮助 AI Agent 自主选择技能，版本升级至 2.3.35 |
 | v2.3.34 | 2026-05-07 | 仓库维护：SKILL.md 版本号升级至 2.3.34，验证生态交叉引用一致性 |
 | v2.3.33 | 2026-05-07 | 仓库维护：版本升级至 v2.3.33，对齐 SKILL.md 和 pyproject.toml 版本号，对齐变更日志条目 |
 | v2.3.32 | 2026-05-07 | 仓库维护：版本升级至 2.3.33，对齐 SKILL.md 和 pyproject.toml 版本号 |
@@ -1200,6 +1201,7 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.35 | 2026-05-07 | Repo maintenance: added "When to use UDM" decision guide to SKILL.md for better agent self-selection, version bump to 2.3.35 |
 | v2.3.34 | 2026-05-07 | Repo maintenance: SKILL.md version bump to 2.3.34, verified cross-skill ecosystem consistency
 | v2.3.32 | 2026-05-07 | Repo maintenance: version bump to 2.3.33, aligned SKILL.md and pyproject.toml versions
 | v2.3.31 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.3.31
@@ -1246,4 +1248,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.34*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.35*

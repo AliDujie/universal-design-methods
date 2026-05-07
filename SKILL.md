@@ -5,12 +5,25 @@ description: >
   访谈提纲生成、观察记录、可用性测试、问卷设计、综合分析（亲和图/角色画像/体验历程图）、
   研究计划与报告生成等完整执行能力，以及CEO决策视角的研究方法ROI评估、决策产出说明与资源分配建议。
 author: "渡劫"
-version: "2.3.34"
+version: "2.3.35"
 ---
 
 # 通用设计方法 (Universal Design Methods) 执行技能
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 的100种设计研究方法工具包。本Skill不仅提供方法知识，更具备直接执行能力——可以推荐方法组合、生成访谈提纲、创建观察记录、设计可用性测试、生成问卷量表、构建角色画像与体验历程图、输出研究计划与报告。
+
+## 🧭 快速决策：什么时候使用 UDM？
+
+| 你的需求 | 推荐技能 |
+|---------|---------|
+| 需要选择研究方法、设计访谈、执行可用性测试 | ✅ **UDM（本技能）** |
+| 需要理解用户"工作"、机会评分、竞争分析 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| 需要定量验证假设、设计 A/B 测试、计算样本量 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| 需要创建人物角色、用户细分、设计指导 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| 需要价值主张画布、实验验证、优先级排序 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| 需要将研究结果转化为数据叙事、图表呈现 | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
+
+> 💡 UDM 是方法论核心：先选方法做研究，再用其他技能深化分析或呈现。
 
 ## 🌐 AliDujie 技能生态系统
 
