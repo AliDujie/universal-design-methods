@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.3.32 - 2026-05-07
+
+- Repo maintenance: aligned footer version badge with SKILL.md (v2.3.31→v2.3.32), added end-to-end ecosystem integration workflow example
+
+## v2.3.31 - 2026-05-07
+
+- Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.3.31
+
+## v2.3.30 - 2026-05-07
+
+- Repo maintenance: fixed double `---` separator, enhanced cross-skill workflow descriptions
+
 ## v2.3.29 - 2026-05-07
 
 - Repo maintenance: fixed double brightgreen badge in Last Updated (brightgreen-brightgreen → brightgreen), added AI Agent best practices Pro Tip (CN+EN)

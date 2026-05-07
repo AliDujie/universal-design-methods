@@ -1049,6 +1049,64 @@ Phase 4: 呈现 (SWD)
 
 ---
 
+### 💻 实用集成示例 (Practical Integration Examples)
+
+#### 示例 1: UDM + Persona — 数据驱动的研究设计
+
+```python
+# 先用 Persona 定义目标用户，再用 UDM 针对性设计研究
+from persona import PersonaSkill
+from udm import UDMSkill
+
+persona_skill = PersonaSkill("电商平台")
+persona_skill.add_persona(
+    name="忙碌妈妈",
+    short_desc="碎片时间购物，重视效率和信任",
+    priority="primary",
+    goals=["快速找到所需商品", "确保商品质量"]
+)
+
+# 基于 Persona 的研究目标设计 UDM 访谈
+udm = UDMSkill("电商平台")
+methods = udm.recommend_methods("了解忙碌妈妈的购物痛点", phase=1)
+interview = udm.generate_interview("忙碌妈妈深访", "contextual")
+```
+
+#### 示例 2: UDM + QuantUX — 定性定量三角验证
+
+```python
+# UDM 发现假设 → QuantUX 验证假设
+from udm import UDMSkill
+from quantux import QuantUXSkill
+
+udm = UDMSkill("电商平台")
+usability = udm.generate_usability_test("结账流程", "summative")
+
+quantux = QuantUXSkill("电商平台")
+sample_size = quantux.calculate_ab_sample_size(baseline=0.15, mde=0.03)
+print(f"需要 {sample_size} 样本量 per variant")
+```
+
+#### 示例 3: UDM → JTBD → SWD — 从发现到呈现
+
+```python
+# 完整链路：UDM 发现痛点 → JTBD 结构化洞察 → SWD 高管呈现
+from udm import UDMSkill
+from jtbd import JTBDSkill
+from swd import SWDSkill
+
+udm = UDMSkill("电商平台")
+research = udm.generate_report("留存下降研究", include_ceo_analysis=True)
+
+jtbd = JTBDSkill("电商平台")
+opportunity = jtbd.score_opportunity("快速完成购买", struggle=4)
+
+swd = SWDSkill("电商平台")
+ctx = swd.build_context(audience="CEO", cta="批准新结账流程")
+story = swd.build_story(protagonist="用户", imbalance="结账太慢")
+```
+
+> 💡 **提示**: 这些示例展示了跨技能的数据流转 — 一个技能的输出可以作为下一个技能的输入。
 
 ### 🌟 为什么选择 AliDujie 技能生态系统？
 
@@ -1182,4 +1240,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.31*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.32*
