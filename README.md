@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.33-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.34-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -1145,6 +1145,8 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.34 | 2026-05-07 | 仓库维护：SKILL.md 版本号升级至 2.3.34，验证生态交叉引用一致性
+| v2.3.32 | 2026-05-07 | 仓库维护：版本升级至 2.3.33，对齐 SKILL.md 和 pyproject.toml 版本号
 | v2.3.31 | 2026-05-07 | 仓库维护：修复页脚版本号偏差，添加生态系统工作流 Pro Tip，版本升级至 2.3.31
 | v2.3.30 | 2026-05-07 | Repo maintenance: fixed double `---` separator, enhanced cross-skill workflow descriptions |
 | v2.3.29 | 2026-05-07 | Repo maintenance: fixed double brightgreen badge in Last Updated, added AI Agent best practices Pro Tip |
@@ -1196,6 +1198,8 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.34 | 2026-05-07 | Repo maintenance: SKILL.md version bump to 2.3.34, verified cross-skill ecosystem consistency
+| v2.3.32 | 2026-05-07 | Repo maintenance: version bump to 2.3.33, aligned SKILL.md and pyproject.toml versions
 | v2.3.31 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.3.31
 | v2.3.30 | 2026-05-07 | Repo maintenance: fixed double `---` separator, enhanced cross-skill workflow descriptions |
 | v2.3.29 | 2026-05-07 | Repo maintenance: fixed double brightgreen badge in Last Updated, added AI Agent best practices Pro Tip |
@@ -1240,4 +1244,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.33*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.34*
