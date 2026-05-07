@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.3.33 - 2026-05-07
+
+- Repo maintenance: added references/README.md index, fixed Last Updated badge color consistency (blue→brightgreen), standardized ecosystem documentation
+
 ## v2.3.32 - 2026-05-07
 
 - Repo maintenance: aligned footer version badge with SKILL.md (v2.3.31→v2.3.32), added end-to-end ecosystem integration workflow example
