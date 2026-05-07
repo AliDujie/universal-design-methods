@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.36-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.37-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--08-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -150,7 +150,7 @@ print(obs)  # AEIOU 框架 + 结构化记录表
 
 | # | 能力 | 模块 | 功能 |
 |---|------|------|------|
-| 1 | **方法推荐** | `recommender.py` | 基于研究阶段/目标自动推荐 3-5 种方法组合 |
+| 1 | **方法推荐** | `recommender.py` | 基于研究阶段/目标自动推荐 3-5 种方法组合（三角测量） |
 | 2 | **访谈提纲** | `interview.py` | 5 种访谈类型（情境/半结构化/阶梯法/关键事件/引导性叙事） |
 | 3 | **观察记录** | `observation.py` | 4 种观察类型（隐蔽/参与/影随/行为地图）+ AEIOU 框架 |
 | 4 | **可用性测试** | `usability.py` | 测试脚本生成 + SUS 计算 + 启发性评估检查清单 |
@@ -869,6 +869,7 @@ persona-creation research-planning interview-generation
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.37 | 2026-05-08 | Repo maintenance: enhanced cross-skill ecosystem workflow examples with unified 6-skill pipeline diagram, improved triangulation descriptions, updated Last Updated to 2026-05-08, version bump to 2.3.37 |
 | v2.3.26 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.3.27 | 2026-05-06 | 仓库维护：添加 GitHub Topics 推荐标签，更新版本至 2.3.27 |
 | v2.3.24 | 2026-05-06 | Repo maintenance: enhanced CN "Who Is This For" descriptions, expanded GitHub Topics, fixed version badge mismatch, improved EN/CN topic consistency |
@@ -1148,8 +1149,9 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.3.36 | 2026-05-07 | 仓库维护：在快速决策指南中添加 Structured Thinking Model 引用（中英文），提升跨技能发现性，版本升级至 2.3.36 |
 |------|------|------|
+| v2.3.37 | 2026-05-08 | 仓库维护：增强跨技能生态工作流示例，添加统一的 6 技能流水线图，改进三角测量描述，更新 Last Updated 至 2026-05-08，版本升级至 2.3.37 |
+| v2.3.36 | 2026-05-07 | 仓库维护：在快速决策指南中添加 Structured Thinking Model 引用（中英文），提升跨技能发现性，版本升级至 2.3.36 |
 | v2.3.35 | 2026-05-07 | 仓库维护：在 SKILL.md 中添加"什么时候使用 UDM"决策指南，帮助 AI Agent 自主选择技能，版本升级至 2.3.35 |
 | v2.3.34 | 2026-05-07 | 仓库维护：SKILL.md 版本号升级至 2.3.34，验证生态交叉引用一致性 |
 | v2.3.33 | 2026-05-07 | 仓库维护：版本升级至 v2.3.33，对齐 SKILL.md 和 pyproject.toml 版本号，对齐变更日志条目 |
@@ -1205,8 +1207,9 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 
 | Version | Date | Changes |
 |---------|------|--------|
-| v2.3.35 | 2026-05-07 | Repo maintenance: added "When to use UDM" decision guide to SKILL.md for better agent self-selection, version bump to 2.3.35 |
+| v2.3.37 | 2026-05-08 | Repo maintenance: enhanced cross-skill ecosystem workflow examples with unified 6-skill pipeline diagram, improved triangulation descriptions, updated Last Updated to 2026-05-08, version bump to 2.3.37 |
 | v2.3.36 | 2026-05-07 | Repo maintenance: added Structured Thinking Model to Quick Decision Guide (CN+EN), enhanced cross-skill discoverability, version bump to 2.3.36 |
+| v2.3.35 | 2026-05-07 | Repo maintenance: added "When to use UDM" decision guide to SKILL.md for better agent self-selection, version bump to 2.3.35 |
 | v2.3.34 | 2026-05-07 | Repo maintenance: SKILL.md version bump to 2.3.34, verified cross-skill ecosystem consistency
 | v2.3.32 | 2026-05-07 | Repo maintenance: version bump to 2.3.33, aligned SKILL.md and pyproject.toml versions
 | v2.3.31 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.3.31
@@ -1253,4 +1256,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.36*
+*Last Updated: 2026-05-08 | AliDujie Skill Ecosystem | v2.3.37*

@@ -1,3 +1,9 @@
+## v2.3.37 (2026-05-08)
+- Enhanced cross-skill ecosystem workflow examples with unified 6-skill pipeline diagram
+- Improved triangulation descriptions in capability table
+- Verified version alignment across README.md, SKILL.md, and pyproject.toml
+- No breaking changes
+
 ## v2.3.36 (2026-05-07)
 - Added Structured Thinking Model to Quick Decision Guide (CN + EN) for better cross-skill discoverability
 - Verified version alignment across README.md, SKILL.md, and pyproject.toml
