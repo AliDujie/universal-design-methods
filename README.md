@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.31-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.32-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-blue.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -478,6 +478,22 @@ print(wm.render_markdown())
 | 0-30 | 一般 |
 | <0 | 需改进 |
 
+### 💡 专业技巧
+
+- **尽早使用推荐器** — 在确定研究计划前，先用 `recommend_methods()` 获取方法建议，经常能发现你没考虑到的方法组合
+- **永远三角测量** — 不要依赖单一方法。推荐器建议 3-5 种方法组合是有原因的——不同方法揭示不同真相
+- **与竞品对比 SUS** — 不要只看自己的 SUS 分数，测试竞品产品来了解"好"的标准
+- **保存历程图基线** — 对历程图进行版本管理，每次设计迭代后更新地图并对比痛点，衡量改进进展
+- **利用 CEO 视角** — 即使你不是 CEO，ROI 和资源分配洞察也能帮你向利益相关者证明研究投入的价值
+
+### ❌ 常见错误
+
+- **方法跟风** — 不要因为方法听起来酷就选它。让推荐器根据你的研究阶段和目标来指导选择
+- **忽略阶段上下文** — 在探索阶段使用评估方法（可用性测试）会浪费资源。方法必须匹配阶段
+- **过度设计问卷** — 卡诺和 NPS 问卷很强大，但只有在问题聚焦时才有效。从 5-10 个关键问题开始
+- **跳过研究计划** — 没有计划就直接做访谈会导致数据不一致。先用 `generate_research_plan()` 生成计划
+- **把历程图当最终产物** — 历程图是活文档，随着对用户的了解不断更新
+
 ### ❓ 常见问题 (FAQ)
 
 **Q: UDM 和其他 UX 研究工具有什么区别？**
@@ -729,6 +745,22 @@ report = skill.generate_report("Onboarding Findings", summary="Users confused by
 3. **Document everything** — Use `generate_report()` to create structured research reports
 4. **Validate with SUS/NPS** — Always include standardized metrics for benchmarking
 5. **Iterate your journey maps** — Update after each research round to track improvement
+
+### 💡 Pro Tips
+
+- **Use the recommender early** — Before committing to a research plan, run `recommend_methods()` with your goal. It often suggests methods you hadn't considered.
+- **Always triangulate** — Never rely on a single method. The recommender suggests 3-5 method combinations for a reason — different methods reveal different truths.
+- **SUS benchmark against competitors** — Don't just measure your SUS score in isolation. Test competitor products for context on what "good" looks like.
+- **Save journey maps as baselines** — Version your journey maps. After each design iteration, update the map and compare pain points to measure progress.
+- **Use the CEO perspective** — Even if you're not a CEO, the ROI and resource allocation insights help justify research investment to stakeholders.
+
+### ❌ Common Mistakes to Avoid
+
+- **Method shopping** — Don't pick methods because they sound cool. Let the recommender guide you based on your research phase and goals.
+- **Ignoring phase context** — Using evaluative methods (usability testing) in exploratory phases wastes resources. Match methods to phases.
+- **Over-engineering surveys** — Kano and NPS surveys are powerful but only when questions are focused. Start with 5-10 key items.
+- **Skipping the research plan** — Jumping straight into interviews without a plan leads to inconsistent data. Use `generate_research_plan()` first.
+- **Treating journey maps as final** — Journey maps are living documents. Update them as you learn more about your users.
 
 ### ❓ FAQ
 
