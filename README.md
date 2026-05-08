@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.37-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.38-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--08-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -571,6 +571,7 @@ persona-creation research-planning interview-generation
 - [User Reviews](#-user-reviews)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
+- [End-to-End Workflow: All 6 Skills](#-end-to-end-workflow-all-6-skills)
 - [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Version History](#-version-history-english)
 
@@ -936,6 +937,40 @@ UDM (usability testing) → Persona (role definition) → SWD (presentation)
 3. Use SWD to transform research findings into action-oriented presentations
 
 > 💡 **Tip**: UDM's method recommendation engine supports triangulation, auto-recommending 3-5 method combinations covering qualitative + quantitative.
+
+### 🔄 End-to-End Workflow: All 6 Skills
+
+A complete user research-to-executive-presentation workflow using the full AliDujie ecosystem:
+
+```
+Step 1          Step 2          Step 3          Step 4          Step 5          Step 6
+┌──────┐       ┌──────┐       ┌──────┐       ┌──────┐       ┌──────┐       ┌──────┐
+│Persona│  ──►  │ JTBD │  ──►  │ UDM  │  ──►  │QuantUX│  ──►  │ VPD  │  ──►  │ SWD  │
+│ 👤   │       │ 🎯   │       │ 📖   │       │ 📊   │       │ 💎   │       │ 📈   │
+│角色定义│       │需求洞察│       │定性研究│       │定量验证│       │价值验证│       │数据汇报│
+└──────┘       └──────┘       └──────┘       └──────┘       └──────┘       └──────┘
+```
+
+**Real-World Scenario: E-commerce App Retention Improvement**
+
+1. **Persona**: Create "Efficient Shopper" and "Bargain Hunter" segments from behavioral data
+2. **JTBD**: Interview recent churners → discover core Job is "find the right product quickly without decision fatigue" (Opp Score: 7.8)
+3. **UDM**: Run contextual interviews + usability testing → identify 3 key pain points in search-to-purchase flow
+4. **QuantUX**: A/B test redesigned search results (n=10,000) → +12% conversion, p<0.001
+5. **VPD**: Update value proposition canvas → test new messaging "Find what you need in 3 taps"
+6. **SWD**: Build executive presentation → three-act story (problem → evidence → solution) → approval for $3M investment
+
+```python
+# Full ecosystem in action
+from persona import PersonaSkill; persona = PersonaSkill("电商 App")
+from jtbd import JTBDSkill; jtbd = JTBDSkill("电商购物")
+from udm import UDMSkill; udm = UDMSkill("电商购物")
+from quantux import QuantUXSkill; quantux = QuantUXSkill("电商购物")
+from vpd import VPDSkill; vpd = VPDSkill("电商 App", "效率型用户")
+from swd import SWDSkill; swd = SWDSkill("Q2 用户体验改进汇报")
+
+# Each skill feeds into the next — research-to-decision pipeline
+```
 
 ---
 

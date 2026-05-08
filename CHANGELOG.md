@@ -1,4 +1,8 @@
+## v2.3.38 (2026-05-08)
 ## v2.3.37 (2026-05-08)
+
+Repo maintenance: added English "End-to-End Workflow: All 6 Skills" section with real-world scenario and ecosystem code example, updated English TOC, enhanced cross-skill discoverability.
+
 - Enhanced cross-skill ecosystem workflow examples with unified 6-skill pipeline diagram
 - Improved triangulation descriptions in capability table
 - Verified version alignment across README.md, SKILL.md, and pyproject.toml
