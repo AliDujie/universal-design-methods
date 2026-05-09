@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.39-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--09-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.40-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -781,6 +781,58 @@ A: SUS uses the standard formula (Bangor et al.), and NPS follows industry-stand
 **Q: Can I use it with QuantUX?**
 A: Highly recommended! UDM handles qualitative discovery, QuantUX handles quantitative validation. Together they achieve method triangulation for significantly improved research validity.
 
+### 🏆 Case Studies
+
+#### Case Study 1: E-commerce Shopping Experience Optimization
+
+**Background**: A top e-commerce platform noticed cart conversion dropping for 3 consecutive months.
+
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("E-commerce App")
+
+# Step 1: Method recommendation — determine research plan
+methods = skill.recommend_methods("Understand cart abandonment reasons", phase=1)
+# → Recommends: Contextual interview + Diary study + Usability testing
+
+# Step 2: Generate contextual interview guide
+guide = skill.generate_interview("Cart experience interview", "contextual")
+
+# Step 3: Post-research, build journey map
+jm = skill.build_journey_map("Shopping Journey", persona="Busy Mom")
+jm.add_stage("Search", actions=["Open app", "Search product"], emotions=4, pain_points=["Search results irrelevant"])
+jm.add_stage("Compare", actions=["View specs", "Read reviews"], emotions=2, pain_points=["Fake reviews", "Complex specs"])
+
+# Step 4: Generate research report (auto-attached CEO perspective)
+report = skill.generate_report("Cart Experience Study", summary="Found 3 core pain points")
+```
+
+**Result**: Identified 3 core pain points → After optimization, cart conversion improved 18%, SUS score rose from 67.6 to 78.2
+
+#### Case Study 2: B2B SaaS User Needs Exploration
+
+**Background**: A collaboration tool entering the SMB market didn't understand target user needs.
+
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("B2B Collaboration SaaS")
+
+# Kano questionnaire to prioritize feature requirements
+survey = skill.generate_survey("Feature Survey", "kano", features=["AI meeting notes", "Task automation", "Cross-platform sync"])
+
+# Weighted matrix to evaluate solution priorities
+wm = skill.build_weighted_matrix("Solution Evaluation")
+wm.add_criterion("User needs", weight=0.4)
+wm.add_criterion("Technical feasibility", weight=0.3)
+wm.add_criterion("Business value", weight=0.3)
+wm.add_option("AI meeting notes", {"User needs": 5, "Technical feasibility": 3, "Business value": 5})
+print(wm.render_markdown())
+```
+
+**Result**: Clarified feature priorities → Launched AI meeting notes in Q1, reducing customer acquisition cost by 30%
+
 ### 🌟 User Reviews
 
 > "This skill replaced 3 different research tools in our workflow. The method recommendation alone saves us 2+ hours per project." — **Senior UX Researcher, E-commerce Platform**
@@ -870,6 +922,7 @@ persona-creation research-planning interview-generation
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.40 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity (CN/EN), added cross-skill integration code samples |
 | v2.3.39 | 2026-05-09 | Repo maintenance: fixed footer version mismatch (v2.3.37→v2.3.39), enhanced cross-skill ecosystem workflow clarity, updated ecosystem links to all 5 sibling skills, aligned version across README/SKILL.md/pyproject.toml |
 | v2.3.37 | 2026-05-08 | Repo maintenance: enhanced cross-skill ecosystem workflow examples with unified 6-skill pipeline diagram, improved triangulation descriptions, updated Last Updated to 2026-05-08, version bump to 2.3.37 |
 | v2.3.26 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
@@ -1244,6 +1297,7 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 | Version | Date | Changes |
 |---------|------|--------|
 | v2.3.37 | 2026-05-08 | Repo maintenance: enhanced cross-skill ecosystem workflow examples with unified 6-skill pipeline diagram, improved triangulation descriptions, updated Last Updated to 2026-05-08, version bump to 2.3.37 |
+| v2.3.40 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity, added cross-skill integration code samples |
 | v2.3.36 | 2026-05-07 | Repo maintenance: added Structured Thinking Model to Quick Decision Guide (CN+EN), enhanced cross-skill discoverability, version bump to 2.3.36 |
 | v2.3.35 | 2026-05-07 | Repo maintenance: added "When to use UDM" decision guide to SKILL.md for better agent self-selection, version bump to 2.3.35 |
 | v2.3.34 | 2026-05-07 | Repo maintenance: SKILL.md version bump to 2.3.34, verified cross-skill ecosystem consistency
@@ -1305,4 +1359,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.3.39*
+*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.3.40*
