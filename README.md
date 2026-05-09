@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.38-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--08-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.39-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--09-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -870,6 +870,7 @@ persona-creation research-planning interview-generation
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.39 | 2026-05-09 | Repo maintenance: fixed footer version mismatch (v2.3.37→v2.3.39), enhanced cross-skill ecosystem workflow clarity, updated ecosystem links to all 5 sibling skills, aligned version across README/SKILL.md/pyproject.toml |
 | v2.3.37 | 2026-05-08 | Repo maintenance: enhanced cross-skill ecosystem workflow examples with unified 6-skill pipeline diagram, improved triangulation descriptions, updated Last Updated to 2026-05-08, version bump to 2.3.37 |
 | v2.3.26 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.3.27 | 2026-05-06 | 仓库维护：添加 GitHub Topics 推荐标签，更新版本至 2.3.27 |
@@ -1279,6 +1280,19 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
+### 🚀 Next Steps / 下一步
+
+Ready to go deeper? Here's what to try next:
+
+1. **Explore all 100 methods** — Check [udm/recommender.py](udm/recommender.py) for the full method catalog organized by research phase
+2. **Combine with QuantUX** — Use UDM to generate qualitative hypotheses, then validate with [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) statistical testing
+3. **From insights to personas** — Feed UDM research findings into [Web Persona](https://github.com/AliDujie/web-persona-skill) to create evidence-based user profiles
+4. **Build your value proposition** — Translate user needs from UDM into canvas format with [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
+5. **Present findings** — Turn research insights into compelling narratives using [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data)
+6. **Identify user jobs** — Deepen understanding with [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity scoring
+
+> 💡 **Pro Tip**: The most powerful workflows combine 3+ skills. Try: UDM (research) → JTBD (opportunity) → QuantUX (validation) → SWD (presentation)
+
 ### 👨‍💻 Credits
 
 Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport Publishers, 2012), featuring 100 design research methods covering the complete design process.
@@ -1291,4 +1305,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-08 | AliDujie Skill Ecosystem | v2.3.37*
+*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.3.39*
