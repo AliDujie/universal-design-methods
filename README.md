@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.41-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.42-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -1053,6 +1053,7 @@ persona-creation research-planning interview-generation
 ### 📋 Changelog
 
 | Version | Date | Changes |
+| v2.3.42 | 2026-05-09 | Repo maintenance: fixed SKILL.md version mismatch, aligned README footer version, verified ecosystem cross-references, improved changelog table ordering |
 |---------|------|--------|
 | v2.3.40 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity (CN/EN), added cross-skill integration code samples |
 | v2.3.39 | 2026-05-09 | Repo maintenance: fixed footer version mismatch (v2.3.37→v2.3.39), enhanced cross-skill ecosystem workflow clarity, updated ecosystem links to all 5 sibling skills, aligned version across README/SKILL.md/pyproject.toml |
@@ -1370,6 +1371,7 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.3.42 | 2026-05-09 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README 页脚版本引用，验证生态交叉引用一致性，改进版本历史表格排序 |
 |------|------|------|
 | v2.3.37 | 2026-05-08 | 仓库维护：增强跨技能生态工作流示例，添加统一的 6 技能流水线图，改进三角测量描述，更新 Last Updated 至 2026-05-08，版本升级至 2.3.37 |
 | v2.3.36 | 2026-05-07 | 仓库维护：在快速决策指南中添加 Structured Thinking Model 引用（中英文），提升跨技能发现性，版本升级至 2.3.36 |
@@ -1491,4 +1493,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.3.40*
+*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.3.42*
