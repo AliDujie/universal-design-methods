@@ -234,6 +234,34 @@ skill = UDMSkill("我的产品")
 - `execution-templates.md` — 执行模板集 (→ 关联: 全部能力)
 - `decision-framework.md` — 决策框架与速查索引 (→ 关联: 能力一)
 
+## 跨技能协作示例
+
+UDM 与其他技能组合，覆盖用户研究全生命周期。以下是典型协作模式：
+
+**UDM → JTBD（定性发现 → 需求洞察）**：
+```python
+# Step 1: UDM 做用户访谈收集原始数据
+from udm import UDMSkill
+udm = UDMSkill("旅行预订")
+interview = udm.generate_interview("商务用户深访", "contextual", context="出差预订")
+# Step 2: JTBD 将访谈发现结构化
+from jtbd import JTBDSkill
+jtbd = JTBDSkill("旅行预订平台")
+opportunity = jtbd.score_opportunity("快速找到合适住处", struggle=4, alternative=3, market=4, budget=4)
+```
+
+**UDM → QuantUX（定性假设 → 定量验证）**：
+UDM 可用性测试发现痛点 → QuantUX 设计 A/B 测试验证改进效果
+
+**UDM → Persona（研究数据 → 角色创建）**：
+UDM 访谈/观察收集行为数据 → Persona 创建证据驱动的人物角色
+
+**UDM → VPD（用户研究 → 价值验证）**：
+UDM 用户研究输出 Jobs/Pains/Gains → VPD 填充价值主张画布
+
+**UDM → SWD（研究发现 → 数据叙事）**：
+UDM 生成研究报告 → SWD 将关键发现转化为高管级数据故事
+
 ## 与其他 Skill 协作
 
 UDM 是 AliDujie UX 研究技能生态系统的方法论核心：
