@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.40-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.41-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -551,6 +551,138 @@ persona-creation research-planning interview-generation
 - Python >= 3.8
 - **无外部依赖**（纯标准库实现）
 - 兼容 macOS / Linux / Windows
+
+---
+
+
+---
+
+### 🧭 快速决策指南 (Quick Decision Guide)
+
+| 你的问题 | 推荐技能 |
+|----------|----------|
+| "不知道选什么研究方法" | → **Universal Design Methods (本技能)** — 方法推荐与执行 |
+| "需要定量验证假设" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B 测试、HEART 指标、样本量计算 |
+| "想理解用户背后的「工作」" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 用户"工作"挖掘、机会评分 |
+| "需要创建用户画像" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — 人物角色创建与细分 |
+| "验证价值主张够不够强" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 价值主张画布、实验验证 |
+| "研究结果怎么讲给高管听" | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — 数据叙事与图表呈现 |
+| "需要结构化商业分析框架" | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — PESTEL、五力模型、决策树 |
+
+---
+
+### 🔄 完整端到端工作流：从 0 到高管汇报 (End-to-End Workflow)
+
+> 6 个技能串联，覆盖用户研究的完整生命周期。
+
+#### 阶段 1: 发现与理解 (Discovery)
+1. **Universal Design Methods** → 方法推荐 + 用户访谈 + 可用性测试
+2. **Web Persona** → 基于研究数据创建用户画像
+3. **JTBD Knowledge** → 挖掘用户背后的"工作"和未满足需求
+
+#### 阶段 2: 验证与量化 (Validation)
+4. **Quantitative UX Research** → HEART 指标、A/B 测试、MaxDiff 优先级
+5. **Value Proposition Design** → 价值主张实验验证 + 匹配度评分
+
+#### 阶段 3: 呈现与决策 (Presentation)
+6. **Storytelling with Data** → 将研究结果转化为高管可读的数据叙事
+
+```python
+# 示例：端到端工作流伪代码
+# 阶段 1: 定性发现
+from udm import UDMSkill
+from persona import PersonaSkill
+from jtbd import JTBDSkill
+
+udm = UDMSkill("电商平台")
+methods = udm.recommend_methods("了解用户购物痛点", phase=1)
+persona = PersonaSkill("电商平台")
+persona.add_persona(name="小明", archetype="效率型用户")
+jtbd = JTBDSkill("电商平台")
+jtbd.analyze(product="电商平台", jobs=[{"context": "工作日午餐", "motivation": "快速找到好吃的"}])
+
+# 阶段 2: 定量验证
+from quantux import QuantUXSkill
+from vpd import VPDSkill
+
+quantux = QuantUXSkill("电商平台")
+heart = quantux.build_heart_framework()
+vpd = VPDSkill("电商平台", "年轻白领")
+vpd.analyze_canvas(product_name="电商平台", jobs=[...], pains=[...], gains=[...])
+
+# 阶段 3: 数据叙事
+from swd import SWDSkill
+swd = SWDSkill("电商平台季度汇报")
+swd.build_context(audience="CEO", cta="批准 Q4 优化预算")
+```
+
+---
+
+### 💻 实用集成示例 (Practical Integration Examples)
+
+#### 集成 1: UDM 发现 → JTBD 分析
+
+```python
+from udm import UDMSkill
+from jtbd import JTBDSkill
+
+# 用 UDM 做访谈收集数据
+udm = UDMSkill("产品名")
+guide = udm.generate_interview("用户访谈", "contextual")
+# 访谈输出 → JTBD 输入
+
+# 用 JTBD 结构化分析
+jtbd = JTBDSkill("产品名")
+jtbd.analyze(product="产品名", jobs=[
+    {"context": "用户访谈中发现的场景", "motivation": "用户的核心动机", "outcome": "期望的结果"}
+], forces={"push": 4, "pull": 5, "anxiety": 3, "habit": 2})
+```
+
+#### 集成 2: JTBD → VPD 价值主张验证
+
+```python
+from jtbd import JTBDSkill
+from vpd import VPDSkill
+
+# JTBD 发现用户"工作"
+jtbd = JTBDSkill("产品名")
+jtbd.analyze(product="产品名", jobs=[{"context": "出差时", "motivation": "快速找到住处"}])
+
+# 将 JTBD 发现映射到 VPD 画布
+vpd = VPDSkill("产品名", "商务用户")
+vpd.analyze_canvas(
+    product_name="产品名",
+    jobs=[{"job": "快速预订", "type": "功能性", "importance": "高"}],
+    pains=[{"pain": "选择焦虑", "severity": "高"}],
+    gains=[{"gain": "省时省力", "relevance": "高"}]
+)
+```
+
+#### 集成 3: QuantUX → SWD 数据叙事
+
+```python
+from quantux import QuantUXSkill
+from swd import SWDSkill
+
+# QuantUX 定量分析
+quant = QuantUXSkill("产品名")
+heart = quant.build_heart_framework()
+
+# SWD 将结果转化为叙事
+swd = SWDSkill("产品名季度汇报")
+swd.build_context(audience="高管", cta="批准优化预算")
+swd.full_diagnosis(scores={...})  # 确保叙事质量 ≥ 80/100
+```
+
+---
+
+### 🚀 下一步 (Next Steps)
+
+1. **快速上手** — 复制技能到你的 skills 目录，5 分钟内完成首次调用
+2. **阅读 SKILL.md** — 了解 AI Agent 触发条件和完整 API 文档
+3. **安装 INSTALL.md** — 详细的安装和配置指南
+4. **贡献** — 查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与
+5. **探索生态** — 尝试其他 5 个技能，构建完整的用户研究工作流
 
 ---
 
