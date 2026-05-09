@@ -3,12 +3,28 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.45-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.46-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-10-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 构建，覆盖 UX 研究全生命周期。
+
+---
+
+## 🌐 技能生态系统 (Skill Ecosystem)
+
+本技能是 AliDujie 用户研究技能生态系统的**方法论核心**，覆盖定性研究全生命周期。与其他技能协同使用，效果更佳：
+
+| 技能 | 角色 | 协同场景 |
+|------|------|----------|
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 定量验证 | UDM 定性发现 → QuantUX 定量验证 → 综合报告 |
+| [📈 Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | 数据叙事 | UDM 研究结果 → SWD 图表改造 → 叙事构建 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 深度需求洞察 | UDM 访谈发现 → JTBD 机会评分 → 决策支持 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值设计 | UDM 用户需求 → VPD 画布分析 → 实验验证 |
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户画像 | UDM 研究数据 → Persona 角色创建 → 设计指导 |
+
+---
 
 ### ✅ 5 分钟快速开始检查清单
 
@@ -859,6 +875,45 @@ plan = skill.generate_research_plan("Onboarding Study", background="40% drop-off
 report = skill.generate_report("Onboarding Findings", summary="Users confused by ID verification requirements")
 # Both include CEO-perspective: ROI, resource allocation, decision outputs
 ```
+
+### 🔄 End-to-End Ecosystem Workflow
+
+UDM is the **qualitative research engine** of the ecosystem. Here's a complete workflow combining all 6 skills:
+
+```python
+# ===== Complete Product Research Cycle (6 Skills) =====
+# Step 1: UDM — Conduct qualitative research
+todo_list udm = UDMSkill("Mobile Banking App")
+guide = udm.generate_interview("User Interview", "contextual")
+
+# Step 2: JTBD — Structure raw insights into jobs
+from jtbd import JTBDSkill
+jtbd = JTBDSkill("Mobile Banking")
+jobs = jtbd.analyze(product="BankingApp", jobs=["Transfer money quickly", "Check balance on-the-go"])
+
+# Step 3: QuantUX — Quantify the opportunity
+from quantux import QuantUXSkill
+quantux = QuantUXSkill("BankingApp Validation")
+sample_size = quantux.calculate_ab_sample_size(baseline=0.15, mde=0.02)
+
+# Step 4: VPD — Design value proposition for top jobs
+from vpd import VPDSkill
+vpd = VPDSkill("BankingApp", "Young Professionals")
+canvas = vpd.analyze_canvas(product_name="BankingApp", jobs=["Quick transfers"])
+
+# Step 5: Web Persona — Create personas from research
+from persona import PersonaSkill
+persona = PersonaSkill("BankingApp")
+persona.add_persona(name="Young Professional Alex", archetype="Achiever",
+    goals=["Save time on banking", "Feel secure"])
+
+# Step 6: SWD — Present findings to stakeholders
+from swd import SWDSkill
+swd = SWDSkill("BankingApp Research Report")
+ctx = swd.build_context(audience="Product VP", cta="Approve redesign budget")
+```
+
+> 💡 **Pro Tip**: The most powerful workflows combine 3+ skills. Try: UDM (research) → JTBD (opportunity) → QuantUX (validation) → SWD (presentation)
 
 ### 👥 Who Is This For?
 
