@@ -1014,6 +1014,47 @@ A: SUS uses the standard formula (Bangor et al.), and NPS follows industry-stand
 **Q: Can I use it with QuantUX?**
 A: Highly recommended! UDM handles qualitative discovery, QuantUX handles quantitative validation. Together they achieve method triangulation for significantly improved research validity.
 
+### 📋 Cheat Sheet / Quick Reference Cards
+
+#### SUS Score Interpretation
+
+| Score Range | Rating | Percentile |
+|-------------|--------|------------|
+| 85-100 | Excellent | 90%+ |
+| 70-84 | Good | 70-89% |
+| 50-69 | Fair | 30-69% |
+| <50 | Needs Improvement | <30% |
+
+#### NPS Score Interpretation
+
+| Score Range | Rating |
+|-------------|--------|
+| >50 | Excellent |
+| 30-50 | Good |
+| 0-30 | Fair |
+| <0 | Needs Improvement |
+
+#### Method Selection by Research Phase
+
+| Phase | Goal | Recommended Methods |
+|-------|------|--------------------|
+| Phase 1 (Explore) | Discover user needs | Contextual inquiry, diary study, ethnography |
+| Phase 2 (Generate) | Create solutions | Co-design, participatory design, card sorting |
+| Phase 3 (Evaluate) | Test solutions | Usability testing, A/B testing, heuristic evaluation |
+| Phase 4 (Synthesize) | Make sense of data | Affinity diagramming, journey mapping, persona creation |
+| Phase 5 (Communicate) | Share findings | Storytelling, data visualization, executive presentations |
+
+#### Cross-Skill Quick Reference
+
+| Need | Skill | Key Method |
+|------|-------|------------|
+| Choose research methods | **UDM** (this skill) | `recommend_methods()` |
+| Validate quantitatively | [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) | `calculate_ab_sample_size()` |
+| Understand user "jobs" | [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | `analyze()` |
+| Create personas | [Persona](https://github.com/AliDujie/web-persona-skill) | `add_persona()` |
+| Design value prop | [VPD](https://github.com/AliDujie/value-proposition-design) | `analyze_canvas()` |
+| Present findings | [SWD](https://github.com/AliDujie/storytelling-with-data) | `build_story()` |
+
 ### 🏆 Case Studies
 
 #### Case Study 1: E-commerce Shopping Experience Optimization
@@ -1531,6 +1572,7 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.46 | 2026-05-10 | Repo maintenance: added English cheat sheet / quick reference card (SUS/NPS benchmarks, method selection guide), updated Last Updated badge |
 | v2.3.45 | 2026-05-10 | Repo maintenance: fixed missing trailing `|` in changelog rows, reordered changelog by date (newest first), updated Last Updated badge |
 | v2.3.44 | 2026-05-10 | Repo maintenance: enhanced changelog ordering and table formatting |
 | v2.3.40 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity, added cross-skill integration code samples |
@@ -1596,4 +1638,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-10 | AliDujie Skill Ecosystem | v2.3.45*
+*Last Updated: 2026-05-10 | AliDujie Skill Ecosystem | v2.3.46*
