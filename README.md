@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.36-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.3.37-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--09brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1253,4 +1253,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.3.36*
+*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.3.36*
