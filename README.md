@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.43-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.44-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -82,8 +82,11 @@
 #### 步骤 1: 安装技能
 
 ```bash
-# 复制到你的 AI Agent skills 目录
+# 方式 A: 复制到你的 AI Agent skills 目录
 cp -r universal-design-methods /your/agent/skills/
+
+# 方式 B: 作为 Python 包安装（支持 pip import）
+cd universal-design-methods && pip install -e .
 ```
 
 > 📖 详细安装指南请查看 [INSTALL.md](INSTALL.md)
@@ -743,7 +746,11 @@ swd.full_diagnosis(scores={...})  # 确保叙事质量 ≥ 80/100
 #### Step 1: Install
 
 ```bash
+# Option A: Copy to your AI Agent skills directory
 cp -r universal-design-methods /your/agent/skills/
+
+# Option B: Install as a Python package (enables pip import)
+cd universal-design-methods && pip install -e .
 ```
 
 > 📖 See [INSTALL.md](INSTALL.md) for detailed installation guide
@@ -918,6 +925,14 @@ universal-design-methods/
 - **SUS benchmark against competitors** — Don't just measure your SUS score in isolation. Test competitor products for context on what "good" looks like.
 - **Save journey maps as baselines** — Version your journey maps. After each design iteration, update the map and compare pain points to measure progress.
 - **Use the CEO perspective** — Even if you're not a CEO, the ROI and resource allocation insights help justify research investment to stakeholders.
+
+### ⛔ When NOT to Use This Skill
+
+- **Quick A/B test decisions** — Use [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) for statistical hypothesis testing
+- **Data visualization** — Use [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) for chart design and data narratives
+- **Market sizing / TAM calculations** — Use [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) for opportunity scoring and market analysis
+- **Competitive pricing analysis** — Use [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) for positioning and pricing strategy
+- **Quick persona creation without research** — Use [Web Persona](https://github.com/AliDujie/web-persona-skill) for rapid persona templates
 
 ### ❌ Common Mistakes to Avoid
 
@@ -1525,4 +1540,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.3.43*
+*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.3.44*
