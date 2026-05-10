@@ -757,6 +757,15 @@ swd.full_diagnosis(scores={...})  # 确保叙事质量 ≥ 80/100
 | "How do I present research results clearly?" | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — Data storytelling |
 | "I need a structured framework for analysis" | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — PESTEL, Five Forces, decision trees |
 
+### ✅ 5-Minute Quick Start Checklist
+
+- [ ] **Install** — `cp -r universal-design-methods /your/agent/skills/`
+- [ ] **Import** — `from udm import UDMSkill`
+- [ ] **Initialize** — `skill = UDMSkill("your product")`
+- [ ] **Recommend methods** — `skill.recommend_methods("understand user needs", phase=1)`
+- [ ] **Generate interview** — `skill.generate_interview("user interview", "contextual")`
+- [ ] **Calculate SUS** — `skill.calculate_sus([4,2,5,1,4,2,5,1,4,2])` → `72.5 (Good)`
+
 ### 🚀 Quick Start
 
 #### Step 1: Install
