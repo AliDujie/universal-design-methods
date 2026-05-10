@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.47-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.48-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-11-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -883,7 +883,7 @@ UDM is the **qualitative research engine** of the ecosystem. Here's a complete w
 ```python
 # ===== Complete Product Research Cycle (6 Skills) =====
 # Step 1: UDM — Conduct qualitative research
-todo_list udm = UDMSkill("Mobile Banking App")
+udm = UDMSkill("Mobile Banking App")
 guide = udm.generate_interview("User Interview", "contextual")
 
 # Step 2: JTBD — Structure raw insights into jobs
@@ -1613,6 +1613,23 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 | v1.5 | 2026-04-23 | Added version history, Last Updated badge |
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
+
+### 🗺️ Beginner Quick Reference Card
+
+> **New to UDM? Start here.** This card covers the most common first-time use cases.
+
+| I want to… | Start with this | Quick command |
+|---|---|---|
+| Figure out which research method to use | Method Recommendation | `skill.recommend_methods("understand why users churn", phase=1)` |
+| Conduct my first user interview | Interview Guide | `skill.generate_interview("New User Onboarding", "contextual")` |
+| Evaluate if our product is usable | Usability Testing | `skill.generate_usability_test("Checkout Flow", "formative")` |
+| Score our product's usability | SUS Calculation | `skill.calculate_sus([4,2,5,1,4,2,5,1,4,2])` → `72.5 (Good)` |
+| Measure customer loyalty | NPS Calculation | `skill.calculate_nps([9,10,8,7,10,6])` → `NPS: 40` |
+| Map the user's end-to-end experience | Journey Map | `skill.build_journey_map("Booking Flow", persona="Sarah")` |
+| Plan a full research project | Research Plan | `skill.generate_research_plan("App Redesign", background="Users drop off at signup")` |
+| Write up findings for stakeholders | Research Report | `skill.generate_report("Q2 Research", summary="3 blockers found in onboarding")` |
+
+> 💡 **Most common first step**: `skill.recommend_methods()` — tell it your research goal and it recommends 3-5 methods with execution order.
 
 ### 🚀 Next Steps / 下一步
 
