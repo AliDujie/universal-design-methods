@@ -1523,7 +1523,7 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.3.47 | 2026-05-11 | 仓库维护：修复 Next Steps 章节中的文件路径引用错误，增强跨技能集成示例，改进版本历史表格格式，添加新手入门指南 |
+| v2.3.50 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.3.47→v2.3.49），补齐缺失的变更日志条目（v2.3.48-v2.3.49），确保 README/徽章/CHANGELOG 三端版本对齐 |
 | v2.3.42 | 2026-05-09 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README 页脚版本引用，验证生态交叉引用一致性，改进版本历史表格排序 |
 | v2.3.37 | 2026-05-08 | 仓库维护：增强跨技能生态工作流示例，添加统一的 6 技能流水线图，改进三角测量描述，更新 Last Updated 至 2026-05-08，版本升级至 2.3.37 |
 | v2.3.36 | 2026-05-07 | 仓库维护：在快速决策指南中添加 Structured Thinking Model 引用（中英文），提升跨技能发现性，版本升级至 2.3.36 |
@@ -1582,7 +1582,8 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 
 | Version | Date | Changes |
 |---------|------|--------|
-| v2.3.46 | 2026-05-10 | Repo maintenance: added English cheat sheet / quick reference card (SUS/NPS benchmarks, method selection guide), updated Last Updated badge |
+| v2.3.50 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.3.47→v2.3.49), added missing changelog entries (v2.3.48–v2.3.49), ensured README/badge/CHANGELOG version alignment |
+| v2.3.47 | 2026-05-11 | Repo maintenance: fixed broken file path references in Next Steps section, enhanced cross-skill integration examples, improved changelog table formatting, added beginner-friendly setup guide |
 | v2.3.45 | 2026-05-10 | Repo maintenance: fixed missing trailing `|` in changelog rows, reordered changelog by date (newest first), updated Last Updated badge |
 | v2.3.44 | 2026-05-10 | Repo maintenance: enhanced changelog ordering and table formatting |
 | v2.3.40 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity, added cross-skill integration code samples |
@@ -1665,4 +1666,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.3.47*
+*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.3.50*
