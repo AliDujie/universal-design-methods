@@ -1,4 +1,4 @@
-## v2.3.51 (2026-05-11)
+## v2.3.52 (2026-05-11)
 
 Repo maintenance: fixed broken `jm.render()`/`aj.render()` code examples (corrected to `Builder.render_markdown(builder.build())`), added "Why Choose UDM" promotional section to SKILL.md, added Structured Thinking Model cross-reference, cleaned up duplicate separators, enhanced English TOC index.
 
