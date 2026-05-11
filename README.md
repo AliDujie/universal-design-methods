@@ -726,7 +726,6 @@ swd.full_diagnosis(scores={...})  # 确保叙事质量 ≥ 80/100
 - [End-to-End Workflow: All 6 Skills](#-end-to-end-workflow-all-6-skills)
 - [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Case Studies](#-case-studies)
-- [User Reviews](#-user-reviews)
 - [Version History](#-version-history-english)
 
 ### 🌟 Why Use This Skill?

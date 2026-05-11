@@ -1,3 +1,11 @@
+## v2.3.51 (2026-05-11)
+
+Repo maintenance: fixed broken `jm.render()`/`aj.render()` code examples (corrected to `Builder.render_markdown(builder.build())`), added "Why Choose UDM" promotional section to SKILL.md, added Structured Thinking Model cross-reference, cleaned up duplicate separators, enhanced English TOC index.
+
+## v2.3.50 (2026-05-11)
+
+Repo maintenance: fixed footer version mismatch (v2.3.47→v2.3.49), added missing changelog entries (v2.3.48–v2.3.49), ensured README/badge/CHANGELOG version alignment.
+
 ## v2.3.49 (2026-05-11)
 
 Repo maintenance: added English 5-minute Quick Start checklist to improve onboarding, enhanced discoverability for English-speaking users, verified all ecosystem cross-references.
