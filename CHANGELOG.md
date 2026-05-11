@@ -1,3 +1,7 @@
+## v2.3.56 (2026-05-12)
+
+Repo maintenance: fixed `__init__.py` version mismatch (2.3.51→2.3.56), verified all Python module exports are importable, confirmed ecosystem cross-references.
+
 ## v2.3.55 (2026-05-12)
 
 Repo maintenance: added "When to Combine Multiple Methods" section with practical triangulation patterns in English README, enhanced method combination guidance for researchers.
