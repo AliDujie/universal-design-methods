@@ -721,6 +721,7 @@ swd.full_diagnosis(scores={...})  # 确保叙事质量 ≥ 80/100
 - [Best Practices](#-best-practices)
 - [FAQ](#-faq)
 - [User Reviews](#-user-reviews)
+- [Getting Help](#-getting-help)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
 - [End-to-End Workflow: All 6 Skills](#-end-to-end-workflow-all-6-skills)
@@ -1674,6 +1675,20 @@ Ready to go deeper? Here's what to try next:
 Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport Publishers, 2012), featuring 100 design research methods covering the complete design process.
 
 **Applicable to:** UX Researchers, Designers, Product Managers, Design Educators
+
+### 🆘 Getting Help
+
+- 📖 Check the [Troubleshooting](#-troubleshooting) section for common issues
+- 📚 Read the methodology guides in [references/](references/)
+- 💬 Open an issue on [GitHub](https://github.com/AliDujie/universal-design-methods/issues)
+
+### 📖 Extended Reading
+
+| Book | Author | Related Capability |
+|------|--------|--------------------|
+| *Universal Design Methods* (100 Ways) | Bella Martin & Bruce Hanington | Full methodology — 100 research methods |
+| *Just Enough Research* | Erika Hall | Practical research planning |
+| *Interviewing Users* | Steve Portigal | In-depth interview techniques |
 
 ### 🤝 Contributing
 
