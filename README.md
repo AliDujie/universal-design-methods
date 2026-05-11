@@ -617,9 +617,13 @@ from jtbd import JTBDSkill
 udm = UDMSkill("电商平台")
 methods = udm.recommend_methods("了解用户购物痛点", phase=1)
 persona = PersonaSkill("电商平台")
-persona.add_persona(name="小明", archetype="效率型用户")
+persona.add_persona(
+    name="小明", short_desc="效率型用户", priority="primary",
+    quote="我只想快速完成", goals=["快速完成任务"],
+    behaviors=["高频使用"], attitudes=["效率优先"], bio="忙碌的职场人"
+)
 jtbd = JTBDSkill("电商平台")
-jtbd.analyze(product="电商平台", jobs=[{"context": "工作日午餐", "motivation": "快速找到好吃的"}])
+jobs = jtbd.analyze(include_ceo_analysis=True)
 
 # 阶段 2: 定量验证
 from quantux import QuantUXSkill
@@ -628,7 +632,8 @@ from vpd import VPDSkill
 quantux = QuantUXSkill("电商平台")
 heart = quantux.build_heart_framework()
 vpd = VPDSkill("电商平台", "年轻白领")
-vpd.analyze_canvas(product_name="电商平台", jobs=[...], pains=[...], gains=[...])
+# VPD requires full canvas inputs: jobs, pains, gains, products, pain_relievers, gain_creators
+# canvas = vpd.analyze_canvas(product_name="...", jobs=[...], pains=[...], gains=[...], ...)
 
 # 阶段 3: 数据叙事
 from swd import SWDSkill
@@ -653,9 +658,9 @@ guide = udm.generate_interview("用户访谈", "contextual")
 
 # 用 JTBD 结构化分析
 jtbd = JTBDSkill("产品名")
-jtbd.analyze(product="产品名", jobs=[
-    {"context": "用户访谈中发现的场景", "motivation": "用户的核心动机", "outcome": "期望的结果"}
-], forces={"push": 4, "pull": 5, "anxiety": 3, "habit": 2})
+# JTBD analyze() works on pre-configured job data; use analyze(include_ceo_analysis=True)
+# to generate structured JTBD analysis with CEO decision support
+jobs = jtbd.analyze(include_ceo_analysis=True)
 ```
 
 #### 集成 2: JTBD → VPD 价值主张验证
@@ -666,7 +671,7 @@ from vpd import VPDSkill
 
 # JTBD 发现用户"工作"
 jtbd = JTBDSkill("产品名")
-jtbd.analyze(product="产品名", jobs=[{"context": "出差时", "motivation": "快速找到住处"}])
+jtbd.analyze(include_ceo_analysis=True)  # Analyzes pre-configured jobs data
 
 # 将 JTBD 发现映射到 VPD 画布
 vpd = VPDSkill("产品名", "商务用户")
@@ -904,7 +909,7 @@ guide = udm.generate_interview("User Interview", "contextual")
 # Step 2: JTBD — Structure raw insights into jobs
 from jtbd import JTBDSkill
 jtbd = JTBDSkill("Mobile Banking")
-jobs = jtbd.analyze(product="BankingApp", jobs=["Transfer money quickly", "Check balance on-the-go"])
+jobs = jtbd.analyze(include_ceo_analysis=True)  # Analyzes pre-configured jobs data
 
 # Step 3: QuantUX — Quantify the opportunity
 from quantux import QuantUXSkill
@@ -914,13 +919,19 @@ sample_size = quantux.calculate_ab_sample_size(baseline=0.15, mde=0.02)
 # Step 4: VPD — Design value proposition for top jobs
 from vpd import VPDSkill
 vpd = VPDSkill("BankingApp", "Young Professionals")
-canvas = vpd.analyze_canvas(product_name="BankingApp", jobs=["Quick transfers"])
+# VPD analyze_canvas requires full canvas: jobs, pains, gains, products, pain_relievers, gain_creators
+# canvas = vpd.analyze_canvas(product_name="...", jobs=[...], pains=[...], ...)
 
 # Step 5: Web Persona — Create personas from research
 from persona import PersonaSkill
 persona = PersonaSkill("BankingApp")
-persona.add_persona(name="Young Professional Alex", archetype="Achiever",
-    goals=["Save time on banking", "Feel secure"])
+persona.add_persona(
+    name="Young Professional Alex", short_desc="Achiever",
+    priority="primary", quote="I want to get things done quickly",
+    goals=["Save time on banking", "Feel secure"],
+    behaviors=["Mobile-first", "Values speed"], attitudes=["Efficiency-driven"],
+    bio="Busy professional managing finances on the go"
+)
 
 # Step 6: SWD — Present findings to stakeholders
 from swd import SWDSkill
