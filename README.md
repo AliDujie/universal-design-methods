@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.51-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.52-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-11-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -1209,6 +1209,12 @@ persona-creation research-planning interview-generation
 ### 📋 Changelog
 
 | Version | Date | Changes |
+|---------|------|--------|
+| v2.3.52 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
+| v2.3.51 | 2026-05-11 | Repo maintenance: fixed `jm.render()`/`aj.render()` code examples (should use `Builder.render_markdown(builder.build())`), added "Why Choose UDM" promotional section to SKILL.md, added Structured Thinking Model cross-reference, cleaned up duplicate separators, enhanced English TOC index |
+| v2.3.50 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.3.47→v2.3.49), added missing changelog entries (v2.3.48–v2.3.49), ensured README/badge/CHANGELOG version alignment |
+| v2.3.49 | 2026-05-11 | Repo maintenance: added English 5-minute Quick Start checklist, enhanced discoverability for English-speaking users, verified ecosystem cross-references |
+| v2.3.48 | 2026-05-11 | Repo maintenance: added Beginner Quick Reference Card with 7 common use cases and quick commands |
 | v2.3.47 | 2026-05-11 | Repo maintenance: fixed broken file path references in Next Steps section, enhanced cross-skill integration examples, improved changelog table formatting, added beginner-friendly setup guide |
 | v2.3.43 | 2026-05-09 | Repo maintenance: added English Project Structure section for bilingual parity, enhanced documentation completeness |
 | v2.3.42 | 2026-05-09 | Repo maintenance: fixed SKILL.md version mismatch, aligned README footer version, verified ecosystem cross-references, improved changelog table ordering |
@@ -1589,6 +1595,7 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.52 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
 | v2.3.51 | 2026-05-11 | Repo maintenance: fixed `jm.render()`/`aj.render()` code examples (should use `Builder.render_markdown(builder.build())`), added "Why Choose UDM" promotional section to SKILL.md, added Structured Thinking Model cross-reference, cleaned up duplicate separators, enhanced English TOC index |
 | v2.3.50 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.3.47→v2.3.49), added missing changelog entries (v2.3.48–v2.3.49), ensured README/badge/CHANGELOG version alignment |
 | v2.3.47 | 2026-05-11 | Repo maintenance: fixed broken file path references in Next Steps section, enhanced cross-skill integration examples, improved changelog table formatting, added beginner-friendly setup guide |
@@ -1674,4 +1681,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.3.51*
+*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.3.52*
