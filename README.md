@@ -1215,8 +1215,8 @@ persona-creation research-planning interview-generation
 | v2.3.40 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity (CN/EN), added cross-skill integration code samples |
 | v2.3.39 | 2026-05-09 | Repo maintenance: fixed footer version mismatch (v2.3.37→v2.3.39), enhanced cross-skill ecosystem workflow clarity, updated ecosystem links to all 5 sibling skills, aligned version across README/SKILL.md/pyproject.toml |
 | v2.3.37 | 2026-05-08 | Repo maintenance: enhanced cross-skill ecosystem workflow examples with unified 6-skill pipeline diagram, improved triangulation descriptions, updated Last Updated to 2026-05-08, version bump to 2.3.37 |
-| v2.3.26 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.3.27 | 2026-05-06 | 仓库维护：添加 GitHub Topics 推荐标签，更新版本至 2.3.27 |
+| v2.3.26 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.3.24 | 2026-05-06 | Repo maintenance: enhanced CN "Who Is This For" descriptions, expanded GitHub Topics, fixed version badge mismatch, improved EN/CN topic consistency |
 | v2.3.10 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting (removed rogue separator rows), aligned SKILL.md version, updated Last Updated timestamp |
 | v2.3.8 | 2026-05-03 | Repo maintenance: streamlined English Quick Start code comments for clarity, aligned SKILL.md version with README.md, added pyproject.toml classifiers |
@@ -1528,6 +1528,7 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+|------|------|------|
 | v2.3.51 | 2026-05-11 | 仓库维护：修复 README 代码示例中 `jm.render()`/`aj.render()` 错误用法（应为 `Builder.render_markdown(builder.build())`），SKILL.md 新增「为什么选择 UDM」推广章节，添加 Structured Thinking Model 交叉引用，清理多余分隔符，完善英文目录索引 |
 | v2.3.50 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.3.47→v2.3.49），补齐缺失的变更日志条目（v2.3.48-v2.3.49），确保 README/徽章/CHANGELOG 三端版本对齐 |
 | v2.3.42 | 2026-05-09 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README 页脚版本引用，验证生态交叉引用一致性，改进版本历史表格排序 |
