@@ -5,12 +5,22 @@ description: >
   访谈提纲生成、观察记录、可用性测试、问卷设计、综合分析（亲和图/角色画像/体验历程图）、
   研究计划与报告生成等完整执行能力，以及CEO决策视角的研究方法ROI评估、决策产出说明与资源分配建议。
 author: "渡劫"
-version: "2.3.50"
+version: "2.3.51"
 ---
 
 # 通用设计方法 (Universal Design Methods) 执行技能
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 的100种设计研究方法工具包。本Skill不仅提供方法知识，更具备直接执行能力——可以推荐方法组合、生成访谈提纲、创建观察记录、设计可用性测试、生成问卷量表、构建角色画像与体验历程图、输出研究计划与报告。
+
+## 🌟 为什么选择 UDM？
+
+- **100 种方法全覆盖** — 从探索到沟通，一站式解决所有研究方法需求，无需拼接多个工具
+- **11 大执行能力** — 不只是知识库，而是能直接产出访谈提纲、测试脚本、问卷、历程图、研究报告的实战工具
+- **智能三角测量** — 自动推荐 3-5 种方法组合，混合定性+定量，提升研究信度
+- **零学习成本** — 纯 Python 标准库，无外部依赖，`from udm import UDMSkill` 即可使用
+- **CEO 决策视角** — 自动附加 ROI 评估、资源分配建议，帮你说清研究价值
+- **双语支持** — 完整中英文文档，适合国际化团队
+- **生态核心** — 与 JTBD、QuantUX、Persona、VPD、SWD 等 5 个技能无缝协作，覆盖用户研究全生命周期
 
 ## 🧭 快速决策：什么时候使用 UDM？
 
@@ -22,6 +32,7 @@ version: "2.3.50"
 | 需要创建人物角色、用户细分、设计指导 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | 需要价值主张画布、实验验证、优先级排序 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
 | 需要将研究结果转化为数据叙事、图表呈现 | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
+| 需要结构化商业分析框架 | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 > 💡 UDM 是方法论核心：先选方法做研究，再用其他技能深化分析或呈现。
 
