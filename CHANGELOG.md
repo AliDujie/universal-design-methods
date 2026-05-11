@@ -1,3 +1,7 @@
+## v2.3.54 (2026-05-12)
+
+Repo maintenance: updated README footer date (2026-05-11→2026-05-12), version bump, enhanced Beginner Quick Reference Card with more actionable descriptions, verified ecosystem cross-references.
+
 ## v2.3.53 (2026-05-12)
 
 Repo maintenance: fixed ecosystem workflow code examples with correct API signatures (jtbd.analyze, persona.add_persona, vpd.analyze_canvas), updated 7 code blocks across CN/EN sections.
