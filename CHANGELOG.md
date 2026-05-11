@@ -1,3 +1,7 @@
+## v2.3.53 (2026-05-12)
+
+Repo maintenance: fixed ecosystem workflow code examples with correct API signatures (jtbd.analyze, persona.add_persona, vpd.analyze_canvas), updated 7 code blocks across CN/EN sections.
+
 ## v2.3.52 (2026-05-11)
 
 Repo maintenance: fixed broken `jm.render()`/`aj.render()` code examples (corrected to `Builder.render_markdown(builder.build())`), added "Why Choose UDM" promotional section to SKILL.md, added Structured Thinking Model cross-reference, cleaned up duplicate separators, enhanced English TOC index.
