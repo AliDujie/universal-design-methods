@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.54-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.55-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -1007,6 +1007,20 @@ universal-design-methods/
 - **Save journey maps as baselines** — Version your journey maps. After each design iteration, update the map and compare pain points to measure progress.
 - **Use the CEO perspective** — Even if you're not a CEO, the ROI and resource allocation insights help justify research investment to stakeholders.
 
+### 🔄 When to Combine Multiple Methods
+
+UDM's triangulation engine recommends 3-5 method combinations. Here are common patterns:
+
+| Research Goal | Recommended Combination | Why |
+|--------------|------------------------|-----|
+| Understand why users churn | Contextual Inquiry + Diary Study + Exit Survey | Observe behavior → Track patterns → Understand reasons |
+| Validate a new feature concept | Concept Testing + Card Sorting + A/B Test (QuantUX) | Test appeal → Check IA → Validate with data |
+| Improve onboarding experience | Heuristic Evaluation + Usability Testing + SUS | Expert review → User testing → Quantify improvement |
+| Explore a new market | Stakeholder Interviews + Competitive Analysis + Cultural Probe | Internal alignment → Market landscape → User context |
+| Prioritize feature backlog | Kano Survey + MaxDiff (QuantUX) + JTBD Opportunity Score | Satisfaction → Preference → Underlying need |
+
+> 💡 **Rule of thumb**: Always pair at least one generative method (discover what you don't know) with one evaluative method (test what you think you know).
+
 ### ⛔ When NOT to Use This Skill
 
 - **Quick A/B test decisions** — Use [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) for statistical hypothesis testing
@@ -1707,4 +1721,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.54*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.55*

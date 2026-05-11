@@ -1,3 +1,7 @@
+## v2.3.55 (2026-05-12)
+
+Repo maintenance: added "When to Combine Multiple Methods" section with practical triangulation patterns in English README, enhanced method combination guidance for researchers.
+
 ## v2.3.54 (2026-05-12)
 
 Repo maintenance: updated README footer date (2026-05-11→2026-05-12), version bump, enhanced Beginner Quick Reference Card with more actionable descriptions, verified ecosystem cross-references.
