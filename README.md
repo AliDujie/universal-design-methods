@@ -943,13 +943,13 @@ ctx = swd.build_context(audience="Product VP", cta="Approve redesign budget")
 
 ### 👥 Who Is This For?
 
-| Role | How This Skill Helps |
-|------|---------------------|
-| **UX Researchers** | 100 methods at your fingertips, auto-recommendation saves hours |
-| **Product Managers** | Plan research without deep methodology knowledge |
-| **Designers** | Structured approach to user interviews and usability testing |
-| **Students/Educators** | Teaching material based on "Universal Methods of Design" |
-| **AI Agents** | Zero-dependency Python package, plug-and-play for LLM workflows |
+| Role | How This Skill Helps | Next Skill to Try |
+|------|---------------------|-------------------|
+| **UX Researchers** | 100 methods at your fingertips, auto-recommendation saves hours | → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) for validation |
+| **Product Managers** | Plan research without deep methodology knowledge | → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for opportunity scoring |
+| **Designers** | Structured approach to user interviews and usability testing | → [Web Persona](https://github.com/AliDujie/web-persona-skill) for persona creation |
+| **Students/Educators** | Teaching material based on "Universal Methods of Design" | → [SWD](https://github.com/AliDujie/storytelling-with-data) for presenting findings |
+| **AI Agents** | Zero-dependency Python package, plug-and-play for LLM workflows | → Any of the 5 companion skills for full workflow |
 
 ### 📁 Project Structure
 
@@ -1707,4 +1707,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.3.52*
+*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.3.53*
