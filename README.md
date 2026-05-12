@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.57-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.58-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -83,6 +83,18 @@
 | 智能三角测量 | 基于研究阶段和目标自动推荐 3-5 种方法组合 |
 | CEO 视角分析 | 方法 ROI 评估 + 资源分配建议 + 预期决策产出 |
 | 双语支持 | 完整中英文文档和代码示例 |
+
+### 🌍 实战场景指南
+
+| 你的场景 | 调用方式 | 输出结果 |
+|----------|---------|----------|
+| "需要了解用户为什么流失" | `generate_interview("用户访谈", "contextual")` | 结构化情境访谈提纲 |
+| "应该用哪些研究方法？" | `recommend_methods("了解用户痛点", phase=1)` | 3-5 种推荐方法及理由 |
+| "我们的 App 好用吗？" | `generate_usability_test("核心任务流", "summative")` | 任务清单 + 成功标准 + SUS 问卷 |
+| "用户对新功能评价如何？" | `generate_survey("功能满意度", "csat")` | CSAT/NPS 调查问卷 |
+| "可视化展示用户旅程" | `build_journey_map("预订流程", persona="新用户")` | 带痛点的用户旅程图 |
+
+> 💡 **提示**: 先用 `recommend_methods()` 获取方法推荐，再调用具体生成器执行。
 
 ### 🌟 为什么使用这个技能？(Why Use This Skill?)
 
@@ -844,6 +856,20 @@ plan = skill.generate_research_plan("Experience Research", background="High chur
 report = skill.generate_report("Research Report", summary="Found 3 core pain points")
 # Auto-attached: Method ROI assessment + Resource allocation + Decision outputs
 ```
+
+### 🌍 Real-World Scenario Guide
+
+> **New to UDM?** Here are common scenarios and exactly how to use this skill.
+
+| Scenario | What to Call | Expected Output |
+|----------|-------------|----------------|
+| "I need to understand why users drop off" | `generate_interview("用户访谈", "contextual")` | Structured interview guide with contextual probes |
+| "Which research methods should I use?" | `recommend_methods("了解用户痛点", phase=1)` | 3-5 recommended methods with rationale |
+| "Is our app usable?" | `generate_usability_test("核心任务流", "summative")` | Task list + success criteria + SUS survey |
+| "What do users think of our new feature?" | `generate_survey("功能满意度", "csat")` | Survey with CSAT/NPS questions |
+| "Show the user journey visually" | `build_journey_map("预订流程", persona="新用户")` | Customer journey map with pain points |
+
+**Quick Tip:** Start with `recommend_methods()` — it will suggest the right methods for your research goal, then use the specific generators.
 
 ### 💡 11 Core Capabilities
 
@@ -1758,4 +1784,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.57*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.58*
