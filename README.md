@@ -3,10 +3,19 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.58-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.59-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
+
+```text
+┌─────────┐    ┌──────────┐    ┌─────┐    ┌──────────┐    ┌─────┐    ┌─────┐
+│ Persona │ →  │   JTBD   │ →  │ UDM │ →  │ QuantUX  │ →  │ VPD │ →  │ SWD │
+│ 角色定义 │    │ 需求洞察  │    │ 研究方法 │    │ 定量验证  │    │ 价值设计│    │ 数据叙事 │
+└─────────┘    └──────────┘    └─────┘    └──────────┘    └─────┘    └─────┘
+```
+
+**UDM is the methodological core** — providing the research methods that fuel every other skill in the ecosystem. Start here when you don't know what research to do.
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 构建，覆盖 UX 研究全生命周期。
 
@@ -104,6 +113,9 @@
 - **智能推荐** — 基于研究阶段和目标自动推荐方法组合（三角测量）
 - **双语支持** — 完整中英文文档，适合国际化团队
 - **零学习成本** — API 设计直观，代码示例丰富，即插即用
+- **CEO 视角** — 每个方法都附带 ROI 评估、资源估算和决策产出建议
+- **从探索到交付** — 覆盖完整研究生命周期：发现假设 → 收集数据 → 分析综合 → 汇报呈现
+- **行业标杆** — 基于 Bella Martin & Bruce Hanington 的经典著作，100 种方法覆盖全设计流程
 
 ### ⚡ 5 分钟快速开始 (Quick Start)
 
