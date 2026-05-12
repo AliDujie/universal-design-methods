@@ -4,6 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-2.3.59-green.svg)](CHANGELOG.md)
+[![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -34,6 +35,39 @@
 | [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户画像 | UDM 研究数据 → Persona 角色创建 → 设计指导 |
 
 ---
+
+### 🔗 Ecosystem Quick Start / 生态系统快速上手
+
+UDM 是 6 技能工作流的**方法论核心**。典型完整工作流：
+
+```
+Persona (定义用户) → JTBD (挖掘需求) → UDM (研究方法) → QuantUX (定量验证) → VPD (价值设计) → SWD (数据叙事)
+```
+
+**组合调用示例：**
+```python
+# Step 1: UDM 推荐研究方法
+from udm import UDMSkill
+udm = UDMSkill("旅行平台")
+plan = udm.recommend_methods("了解用户流失原因", phase=1)
+
+# Step 2: 用 UDM 执行访谈后，用 JTBD 结构化分析
+from jtbd import JTBDSkill
+jtbd = JTBDSkill("旅行平台")
+report = jtbd.generate_analysis_report()
+
+# Step 3: QuantUX 定量验证假设
+from quantux import QuantUXSkill
+quantux = QuantUXSkill("旅行平台")
+heart = quantux.build_heart_framework()
+
+# Step 4: SWD 将结果转化为高管可读的数据叙事
+from swd import SWDSkill
+swd = SWDSkill("流失分析报告")
+story = swd.build_story(protagonist="产品团队", imbalance="用户流失加剧", call_to_action="批准优化投入")
+```
+
+> 💡 **提示**: 每个技能的 `references/` 目录都有对应的方法论文档，配合使用效果更佳。
 
 ### ✅ 5 分钟快速开始检查清单
 
@@ -1796,4 +1830,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.58*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.59*
