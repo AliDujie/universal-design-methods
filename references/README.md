@@ -15,12 +15,13 @@ This directory contains methodology reference documents for the Universal Design
 | `methods-exploration.md` | 探索阶段方法（情境访谈、日记研究、文化探针） |
 | `methods-generative.md` | 生成阶段方法（头脑风暴、共创工作坊、设计工作室） |
 | `methods-synthesis.md` | 综合阶段方法（亲和图、人物角色、体验历程图） |
+| `08-ecosystem-collaboration.md` | UDM 跨技能协作指南（UDM → JTBD/QuantUX/VPD/SWD/Persona 工作流） |
 
 ## 使用方法 / Usage
 
-这些参考文档供 AI Agent 在执行研究任务时查阅，不需要手动维护。Agent 会根据研究阶段自动选择对应的参考文档。
+这些参考文档供 AI Agent 在执行研究任务时查阅。`08-ecosystem-collaboration.md` 提供 UDM 与其他技能的端到端协作工作流。
 
-These reference documents are consulted by the AI Agent during research task execution and do not require manual maintenance. The Agent automatically selects the appropriate reference document based on the research phase.
+These reference documents are consulted by the AI Agent during research task execution. `08-ecosystem-collaboration.md` provides end-to-end collaboration workflows between UDM and other skills.
 
 ## 🌐 技能生态关联 / Skill Ecosystem Connections
 

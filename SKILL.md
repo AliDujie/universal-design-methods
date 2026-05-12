@@ -5,7 +5,7 @@ description: >
   访谈提纲生成、观察记录、可用性测试、问卷设计、综合分析（亲和图/角色画像/体验历程图）、
   研究计划与报告生成等完整执行能力，以及CEO决策视角的研究方法ROI评估、决策产出说明与资源分配建议。
 author: "渡劫"
-version: "2.3.60"
+version: "2.3.61"
 ---
 
 # 通用设计方法 (Universal Design Methods) 执行技能
@@ -63,6 +63,28 @@ version: "2.3.60"
 │  工作流: Persona → JTBD/UDM → QuantUX → VPD → SWD           │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+## ⚡ 快速上手 (Quick Start)
+
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("你的产品名")
+
+# 方法推荐 — 自动三角测量
+methods = skill.recommend_methods("了解用户为什么流失", phase=1)
+
+# 生成访谈提纲
+guide = skill.generate_interview("用户深访", "contextual")
+
+# 可用性测试 + SUS 计算
+sus = skill.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])  # → 72.5 (Good)
+
+# 体验历程图
+jm = skill.build_journey_map("预订流程", persona="用户")
+```
+
+> 💡 **5 分钟上手**: `from udm import UDMSkill` → 纯标准库，零依赖，开箱即用。
 
 ## 核心框架
 

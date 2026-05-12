@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "udm"
-version = "2.3.60"
+version = "2.3.61"
 description = "Universal Design Methods toolkit — 100 design research methods with intelligent recommendations and Python execution (通用设计方法执行工具包 — 100种设计研究方法的知识查询、方法推荐与执行支持)"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -32,7 +32,7 @@ include = ["udm*"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py38"
+target-version = "2.3.61"
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I"]

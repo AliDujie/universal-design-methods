@@ -1,3 +1,6 @@
+## v2.3.61 (2026-05-13)
+
+- Repo maintenance: added ecosystem collaboration guide reference doc (08-ecosystem-collaboration.md), updated references README
 ## v2.3.60 (2026-05-13)
 
 Repo maintenance: added ruff badge to README, added Chinese "为什么选择 AliDujie 技能生态系统" promotional section to README, verified version alignment across all files, updated last-updated date.
