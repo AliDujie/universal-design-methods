@@ -34,12 +34,13 @@
 | [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 深度需求洞察 | UDM 访谈发现 → JTBD 机会评分 → 决策支持 |
 | [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值设计 | UDM 用户需求 → VPD 画布分析 → 实验验证 |
 | [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户画像 | UDM 研究数据 → Persona 角色创建 → 设计指导 |
+| [🧠 Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 战略分析 | UDM 研究结果 → STM 商业框架 → 战略决策 |
 
 ---
 
 ### 🔗 Ecosystem Quick Start / 生态系统快速上手
 
-UDM 是 6 技能工作流的**方法论核心**。典型完整工作流：
+UDM 是 7 技能工作流的**方法论核心**。典型完整工作流：
 
 ```
 Persona (定义用户) → JTBD (挖掘需求) → UDM (研究方法) → QuantUX (定量验证) → VPD (价值设计) → SWD (数据叙事)
@@ -66,7 +67,19 @@ heart = quantux.build_heart_framework()
 from swd import SWDSkill
 swd = SWDSkill("流失分析报告")
 story = swd.build_story(protagonist="产品团队", imbalance="用户流失加剧", call_to_action="批准优化投入")
+
+# Step 5: STM 用商业框架做战略决策
+from stm import STMSkill
+stm = STMSkill("旅行平台")
+analysis = stm.run_pestel()
 ```
+
+> 💡 **Try it now / 立即尝试**:
+> ```python
+> from udm import UDMSkill
+> skill = UDMSkill("你的产品")
+> print(skill.recommend_methods("了解用户为什么流失", phase=1))  # 立即获取方法推荐
+> ```
 
 > 💡 **提示**: 每个技能的 `references/` 目录都有对应的方法论文档，配合使用效果更佳。
 
@@ -665,7 +678,7 @@ persona-creation research-planning interview-generation
 
 ### 🔄 完整端到端工作流：从 0 到高管汇报 (End-to-End Workflow)
 
-> 6 个技能串联，覆盖用户研究的完整生命周期。
+> 7 个技能串联，覆盖用户研究的完整生命周期。
 
 #### 阶段 1: 发现与理解 (Discovery)
 1. **Universal Design Methods** → 方法推荐 + 用户访谈 + 可用性测试
@@ -801,7 +814,7 @@ swd.full_diagnosis(scores={...})  # 确保叙事质量 ≥ 80/100
 - [Getting Help](#-getting-help)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
-- [End-to-End Workflow: All 6 Skills](#-end-to-end-workflow-all-6-skills)
+- [End-to-End Workflow: All 7 Skills](#-end-to-end-workflow-all-6-skills)
 - [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Case Studies](#-case-studies)
 - [Version History](#-version-history-english)
@@ -984,10 +997,10 @@ report = skill.generate_report("Onboarding Findings", summary="Users confused by
 
 ### 🔄 End-to-End Ecosystem Workflow
 
-UDM is the **qualitative research engine** of the ecosystem. Here's a complete workflow combining all 6 skills:
+UDM is the **qualitative research engine** of the ecosystem. Here's a complete workflow combining all 7 skills:
 
 ```python
-# ===== Complete Product Research Cycle (6 Skills) =====
+# ===== Complete Product Research Cycle (7 Skills) =====
 # Step 1: UDM — Conduct qualitative research
 udm = UDMSkill("Mobile Banking App")
 guide = udm.generate_interview("User Interview", "contextual")
@@ -1023,9 +1036,14 @@ persona.add_persona(
 from swd import SWDSkill
 swd = SWDSkill("BankingApp Research Report")
 ctx = swd.build_context(audience="Product VP", cta="Approve redesign budget")
+
+# Step 7: STM — Strategic framework analysis
+from stm import STMSkill
+stm = STMSkill("BankingApp")
+pestel = stm.run_pestel()  # PESTEL analysis for market context
 ```
 
-> 💡 **Pro Tip**: The most powerful workflows combine 3+ skills. Try: UDM (research) → JTBD (opportunity) → QuantUX (validation) → SWD (presentation)
+> 💡 **Pro Tip**: The most powerful workflows combine 3+ skills. Try: UDM (research) → JTBD (opportunity) → QuantUX (validation) → SWD (presentation) → STM (strategic framework) for maximum impact.
 
 ### 👥 Who Is This For?
 
@@ -1400,7 +1418,7 @@ UDM (usability testing) → Persona (role definition) → SWD (presentation)
 
 > 💡 **Tip**: UDM's method recommendation engine supports triangulation, auto-recommending 3-5 method combinations covering qualitative + quantitative.
 
-### 🔄 End-to-End Workflow: All 6 Skills
+### 🔄 End-to-End Workflow: All 7 Skills
 
 A complete user research-to-executive-presentation workflow using the full AliDujie ecosystem:
 
@@ -1522,7 +1540,7 @@ python3 -m pytest udm/tests/ -v 2>/dev/null || echo "Run test suite manually"
 
 ### 🚀 完整端到端工作流：从 0 到高管汇报 (End-to-End Workflow)
 
-以下是一个真实产品优化场景中，6 个技能如何协作的完整工作流：
+以下是一个真实产品优化场景中，7 个技能如何协作的完整工作流：
 
 **场景**: 电商 App 用户留存率下降 15%，需要找到原因并提出改进方案
 
