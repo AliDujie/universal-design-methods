@@ -1,3 +1,7 @@
+## v2.3.57 (2026-05-12)
+
+Repo maintenance: added "Power Workflow: Full Research Pipeline" code example in English README, demonstrating UDM → JTBD → SWD end-to-end workflow.
+
 ## v2.3.56 (2026-05-12)
 
 Repo maintenance: fixed `__init__.py` version mismatch (2.3.51→2.3.56), verified all Python module exports are importable, confirmed ecosystem cross-references.

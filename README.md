@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.56-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.57-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
@@ -1708,6 +1708,30 @@ Ready to go deeper? Here's what to try next:
 
 > 💡 **Pro Tip**: The most powerful workflows combine 3+ skills. Try: UDM (research) → JTBD (opportunity) → QuantUX (validation) → SWD (presentation)
 
+### ⚡ Power Workflow: Full Research Pipeline
+
+```python
+from udm import UDMSkill
+from jtbd import JTBDSkill
+from swd import SWDSkill
+
+# 1. UDM: Conduct user research
+udm = UDMSkill("旅行预订 App")
+interview = udm.generate_interview("用户访谈", "contextual", context="预订流程")
+
+# 2. JTBD: Extract core jobs from interview data
+jtbd = JTBDSkill("旅行预订平台")
+opportunity = jtbd.analyze(jobs=[...], pains=[...])  # From interview findings
+
+# 3. SWD: Create compelling presentation
+swd = SWDSkill("研究汇报")
+story = swd.build_story(protagonist="产品团队",
+    imbalance="用户在预订流程中存在未满足的核心 Job",
+    resolution="基于 JTBD 机会评分优化产品优先级")
+
+# → Complete research-to-presentation workflow in minutes
+```
+
 ### 👨‍💻 Credits
 
 Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport Publishers, 2012), featuring 100 design research methods covering the complete design process.
@@ -1734,4 +1758,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.56*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.57*
