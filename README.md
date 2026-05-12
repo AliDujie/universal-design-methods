@@ -3,9 +3,10 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.3.59-green.svg)](CHANGELOG.md)
+[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Version](https://img.shields.io/badge/version-2.3.60-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-13-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1830,4 +1831,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.59*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.3.60*

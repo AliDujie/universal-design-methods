@@ -1,3 +1,7 @@
+## v2.3.60 (2026-05-13)
+
+Repo maintenance: added ruff badge to README, added Chinese "为什么选择 AliDujie 技能生态系统" promotional section to README, verified version alignment across all files, updated last-updated date.
+
 ## v2.3.57 (2026-05-12)
 
 Repo maintenance: added "Power Workflow: Full Research Pipeline" code example in English README, demonstrating UDM → JTBD → SWD end-to-end workflow.
