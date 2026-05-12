@@ -814,7 +814,7 @@ swd.full_diagnosis(scores={...})  # 确保叙事质量 ≥ 80/100
 - [Getting Help](#-getting-help)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
-- [End-to-End Workflow: All 7 Skills](#-end-to-end-workflow-all-6-skills)
+- [End-to-End Workflow: All 7 Skills](#-end-to-end-workflow-all-7-skills)
 - [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Case Studies](#-case-studies)
 - [Version History](#-version-history-english)
@@ -1845,7 +1845,7 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport 
 
 ### 🌐 Explore the Full AliDujie UX Research Ecosystem
 
-This skill is part of a **6-skill UX research ecosystem** — each covers a different phase of the research lifecycle. Combine them for end-to-end workflows:
+This skill is part of a **7-skill UX research ecosystem** — each covers a different phase of the research lifecycle. Combine them for end-to-end workflows:
 
 | Skill | Role | When to Use |
 |-------|------|-------------|
