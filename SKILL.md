@@ -345,3 +345,14 @@ UDM 是 **AliDujie UX 研究技能生态系统** 的方法论核心，与其他 
 | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值验证 | UDM 用户研究 → VPD 画布填充 |
 | [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | 数据叙事 | UDM 研究发现 → SWD 可视化汇报 |
 | [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 战略框架 | STM 分析框架 → UDM 方法匹配 |
+
+### 🔗 扩展生态 (Extended Ecosystem)
+
+UDM 研究成果还可与以下管理技能结合，将用户洞察转化为战略决策：
+
+| 扩展技能 | 协作场景 |
+|---------|----------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | 研究 ROI 评估 → CEO 战略决策 |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | UDM 用户发现 → CPO 产品战略调整 |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | 用户洞察 → CMO 品牌定位与增长策略 |
+| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | 研究报告 → CEO 计划审查与范围调整 |

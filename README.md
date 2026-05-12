@@ -379,6 +379,19 @@ from udm import JourneyMapBuilder
 print(JourneyMapBuilder.render_markdown(jm.build()))
 ```
 
+### ⚠️ 常见研究陷阱 (Common Research Pitfalls)
+
+| 陷阱 | 表现 | 应对 |
+|------|------|------|
+| 只用一种方法 | "我们做了 5 个访谈就够了" | 三角测量：定性 + 定量 + 行为数据至少 2-3 种方法 |
+| 确认偏误 | 只收集支撑已有结论的数据 | 主动寻找反面证据，用 weighted matrix 客观评估 |
+| 样本偏差 | 访谈都是活跃用户 | 纳入流失用户、非用户，扩大样本多样性 |
+| 跳过综合阶段 | 收集数据后直接进入方案设计 | 用亲和图/Elito 方法做系统性综合分析 |
+| CEO 视角缺失 | 研究报告没有商业影响分析 | 用 `generate_report(include_ceo_analysis=True)` 自动附加 ROI 评估 |
+| 跳过知识检索 | 直接生成方案，忽略已有方法论 | 理论问题先用 `search_knowledge()` 查询 100 种方法索引 |
+
+> 💡 **提示**: UDM 的三角测量原则——任何研究都应组合至少 2-3 种方法，混合定性与定量数据，从多个角度验证发现。
+
 ### 📊 CEO 决策视角
 
 当使用 `generate_research_plan()` 或 `generate_report()` 时，UDM 自动附加 CEO 级商业决策支持：
