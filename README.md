@@ -22,6 +22,29 @@
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 构建，覆盖 UX 研究全生命周期。
 
 ---
+## 📑 目录 / Table of Contents
+
+- [中文说明](#中文说明)
+  - [🌐 技能生态系统](#-技能生态系统-skill-ecosystem)
+  - [📚 快速参考](#-快速参考-quick-reference)
+  - [🌟 为什么使用这个技能？](#-为什么使用这个技能why-use-this-skill)
+  - [⚡ 5 分钟快速开始](#-5-分钟快速开始-quick-start)
+  - [💡 11 大核心能力](#-11-大核心能力)
+  - [🔧 实用示例](#-实用示例)
+  - [📁 项目结构](#-项目结构)
+  - [👥 这个技能适合谁？](#-这个技能适合谁who-is-this-for)
+  - [🛠️ 疑难解答](#-疑难解答-troubleshooting)
+  - [🏆 案例研究](#-案例研究-case-studies)
+  - [🆘 获取帮助](#-获取帮助-getting-help)
+  - [🔗 相关技能](#-相关技能)
+- [English](#english)
+  - [🌟 Why Use This Skill?](#-why-use-this-skill)
+  - [🚀 Quick Start](#-quick-start)
+  - [🔗 Related Skills](#-related-skills-1)
+- [🤝 参与贡献](#-参与贡献-contributing)
+- [📜 许可](#-许可-license)
+- [🔗 技能生态工作流](#-技能生态工作流-skill-ecosystem-workflow)
+
 
 ## 🌐 技能生态系统 (Skill Ecosystem)
 
@@ -793,6 +816,81 @@ swd.full_diagnosis(scores={...})  # 确保叙事质量 ≥ 80/100
 3. **安装 INSTALL.md** — 详细的安装和配置指南
 4. **贡献** — 查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与
 5. **探索生态** — 尝试其他 5 个技能，构建完整的用户研究工作流
+
+### 👥 这个技能适合谁？(Who Is This For?)
+
+| 角色 | 这个技能如何帮助 | 下一步尝试 |
+|------|-----------------|-----------|
+| **UX 研究员** | 100 种研究方法随时调用，自动推荐节省数小时 | → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) 定量验证 |
+| **产品经理** | 无需深入方法论知识即可规划研究 | → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 机会评分 |
+| **设计师** | 结构化的用户访谈和可用性测试方法 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) 角色创建 |
+| **创业者** | 快速了解应该做什么研究来验证想法 | → [VPD](https://github.com/AliDujie/value-proposition-design) 价值主张设计 |
+| **学生/新手** | 系统学习 UX 研究方法的最佳入口 | → [SWD](https://github.com/AliDujie/storytelling-with-data) 数据呈现 |
+
+---
+
+### 🛠️ 疑难解答 (Troubleshooting)
+
+| 问题 | 解决方案 |
+|------|---------|
+| `ModuleNotFoundError: No module named 'udm'` | 确保技能目录在 Python 路径中 |
+| `recommend_methods()` 返回空列表 | 检查研究目标描述是否足够具体 |
+| SUS 分数看起来不对 | 确认你有恰好 10 个回复（每个 1-5 分制） |
+| 体验历程图渲染失败 | 确保每个阶段至少定义了一个动作 |
+
+---
+
+### 🏆 案例研究 (Case Studies)
+
+#### 案例 1: 电商购物体验优化
+
+**背景**: 某头部电商平台发现购物车转化率连续 3 个月下降。
+
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("电商 App")
+
+# 步骤 1: 方法推荐——确定研究计划
+methods = skill.recommend_methods("了解购物车放弃购买的原因", phase=1)
+# → 推荐: 情境访谈 + 日记研究 + 可用性测试
+
+# 步骤 2: 生成情境访谈提纲
+guide = skill.generate_interview("情境访谈", "contextual")
+
+# 步骤 3: 研究完成后，构建体验历程图
+journey = skill.build_journey_map("购物流程", persona="普通用户")
+
+# 步骤 4: 生成研究报告（自动附加 CEO 视角）
+report = skill.generate_research_plan("购物车优化研究")
+```
+
+#### 案例 2: B2B SaaS 用户需求探索
+
+**背景**: 某协作 SaaS 需要确定下一季度的功能优先级。
+
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("协作 SaaS")
+
+# Kano 问卷确定功能优先级
+survey = skill.generate_survey("功能优先级调研", "kano")
+
+# 优先级加权矩阵评估解决方案
+methods = skill.recommend_methods("评估功能需求优先级", phase=3)
+```
+
+---
+
+### 🆘 获取帮助 (Getting Help)
+
+- 📖 **详细安装指南**: [INSTALL.md](INSTALL.md)
+- 🐛 **报告问题**: [GitHub Issues](https://github.com/AliDujie/universal-design-methods/issues)
+- 💬 **讨论与反馈**: 在项目仓库发起 Discussion
+- 📝 **贡献指南**: [CONTRIBUTING.md](CONTRIBUTING.md)
+- 🔄 **版本历史**: [CHANGELOG.md](CHANGELOG.md)
+
 
 ---
 
