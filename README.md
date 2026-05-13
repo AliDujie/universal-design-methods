@@ -1074,14 +1074,16 @@ universal-design-methods/
 │   ├── research_plan.py  # Research plan generator
 │   ├── report.py         # Research report generator
 │   └── tests/            # Test suite
-├── references/           # Knowledge base documents
+├── references/           # Knowledge base (9 documents incl. ecosystem collaboration)
 │   ├── methods-exploration.md
 │   ├── methods-generative.md
 │   ├── methods-evaluative.md
 │   ├── methods-synthesis.md
 │   ├── methods-communication.md
 │   ├── execution-templates.md
-│   └── decision-framework.md
+│   ├── decision-framework.md
+│   ├── 08-ecosystem-collaboration.md  # Cross-skill ecosystem collaboration
+│   └── README.md              # Knowledge base index
 ├── pyproject.toml
 └── README.md
 ```
