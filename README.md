@@ -11,10 +11,10 @@
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
 ```text
-┌─────────┐    ┌──────────┐    ┌─────┐    ┌──────────┐    ┌─────┐    ┌─────┐
-│ Persona │ →  │   JTBD   │ →  │ UDM │ →  │ QuantUX  │ →  │ VPD │ →  │ SWD │
-│ 角色定义 │    │ 需求洞察  │    │ 研究方法 │    │ 定量验证  │    │ 价值设计│    │ 数据叙事 │
-└─────────┘    └──────────┘    └─────┘    └──────────┘    └─────┘    └─────┘
+┌─────────┐    ┌──────────┐    ┌─────┐    ┌──────────┐    ┌─────┐    ┌─────┐    ┌─────┐
+│ Persona │ →  │   JTBD   │ →  │ UDM │ →  │ QuantUX  │ →  │ VPD │ →  │ SWD │ →  │ STM │
+│ 角色定义 │    │ 需求洞察  │    │ 研究方法 │    │ 定量验证  │    │ 价值设计│    │ 数据叙事 │    │ 战略分析 │
+└─────────┘    └──────────┘    └─────┘    └──────────┘    └─────┘    └─────┘    └─────┘
 ```
 
 **UDM is the methodological core** — providing the research methods that fuel every other skill in the ecosystem. Start here when you don't know what research to do.
