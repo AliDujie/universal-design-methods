@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.64-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.65-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -1517,7 +1517,7 @@ persona-creation research-planning interview-generation
 ### 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-|------|------|------|| 2.3.63 | 2026-05-13 | 仓库维护：修复变更日志重复条目，清理独立的 Changelog 章节，增强版本历史表格一致性 |
+|------|------|------|| 2.3.65 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 
 | v2.3.51 | 2026-05-11 | 仓库维护：修复 README 代码示例中 `jm.render()`/`aj.render()` 错误用法（应为 `Builder.render_markdown(builder.build())`），SKILL.md 新增「为什么选择 UDM」推广章节，添加 Structured Thinking Model 交叉引用，清理多余分隔符，完善英文目录索引 |
 | v2.3.50 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.3.47→v2.3.49），补齐缺失的变更日志条目（v2.3.48-v2.3.49），确保 README/徽章/CHANGELOG 三端版本对齐 |
@@ -1578,7 +1578,7 @@ persona-creation research-planning interview-generation
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-|---------|------|--------|| v2.3.63 | 2026-05-13 | Repo maintenance: deduplicated changelog entries, removed standalone Changelog section, enhanced changelog table consistency |
+|---------|------|--------|| v2.3.65 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 
 | v2.3.62 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
 | v2.3.52 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
@@ -1760,4 +1760,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.3.64*
+*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.3.65*
