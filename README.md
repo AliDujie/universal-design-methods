@@ -894,6 +894,58 @@ methods = skill.recommend_methods("评估功能需求优先级", phase=3)
 
 ---
 
+## 🔗 技能生态工作流 (Skill Ecosystem Workflow)
+
+UDM 是 **AliDujie UX 研究技能生态系统** 的方法论核心。以下是与其他技能配合使用的典型工作流：
+
+### 🧭 快速决策指南 (Quick Decision Guide)
+
+| 你的问题 | 推荐技能 |
+|----------|----------|
+| "我不知道该研究什么" | → **Universal Design Methods** (本技能) — 方法推荐帮你找到方向 |
+| "我需要验证一个假设" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B 测试和样本量计算 |
+| "我想理解用户为什么这样做" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 挖掘用户背后的"工作" |
+| "我需要知道用户是谁" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — 创建具体的人物角色 |
+| "我的产品价值够不够？" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 契合度诊断 |
+| "我怎么把研究结果讲清楚？" | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — 数据叙事和图表改造 |
+
+### 工作流 1: 用户研究 → 需求洞察 → 价值设计
+
+```
+UDM (定性研究) → JTBD (需求洞察) → VPD (价值设计)
+```
+
+**场景**: 新产品功能探索
+1. 用 UDM 推荐方法并执行用户访谈，收集定性数据
+2. 用 JTBD 分析访谈数据，识别用户 Jobs 和机会评分
+3. 用 VPD 将发现转化为价值主张画布，设计产品方案
+
+### 工作流 2: 研究发现 → 定量验证 → 数据叙事
+
+```
+UDM (定性洞察) → QuantUX (定量验证) → SWD (数据叙事)
+```
+
+**场景**: 用户流失原因研究
+1. 用 UDM 进行流失用户访谈，发现 3 个关键痛点
+2. 用 QuantUX 设计 CSat 调查和 A/B 测试，验证痛点的影响程度
+3. 用 SWD 将研究结果转化为高管可读的数据叙事
+
+### 工作流 3: 研究数据 → 角色创建 → 设计指导
+
+```
+UDM (研究数据) → Persona (角色创建) → 设计决策
+```
+
+**场景**: 产品用户群细分
+1. 用 UDM 执行多种研究方法（访谈、可用性测试、日记研究）
+2. 用 Persona 基于 UDM 研究数据创建证据驱动的用户角色
+3. 用角色指导设计优先级和功能决策
+
+> 💡 **提示**: UDM 最适合在工作流的起点使用——帮你选择正确的研究方法，然后用其他技能深化和验证发现。
+
+---
+
 ## English
 
 ### 📑 Table of Contents
@@ -1601,6 +1653,45 @@ story = swd.build_story(protagonist="产品团队",
 # → Complete research-to-presentation workflow in minutes
 ```
 
+### 🔗 Skill Ecosystem Workflow
+
+UDM is the **methodological core** of the AliDujie UX Research Skills Ecosystem. Typical cross-skill workflows:
+
+### Workflow 1: Research → Insight → Value Design
+
+```
+UDM (Qualitative Research) → JTBD (Needs Insight) → VPD (Value Design)
+```
+
+**Scenario**: New feature discovery
+1. Use UDM to recommend methods and conduct user interviews, collecting qualitative data
+2. Use JTBD to analyze interview data, identify user Jobs and opportunity scores
+3. Use VPD to translate findings into a Value Proposition Canvas and design solutions
+
+### Workflow 2: Research Findings → Quantitative Validation → Data Storytelling
+
+```
+UDM (Qualitative Insight) → QuantUX (Quantitative Validation) → SWD (Data Narrative)
+```
+
+**Scenario**: User churn analysis
+1. Use UDM to conduct churn user interviews, discovering 3 key pain points
+2. Use QuantUX to design CSat surveys and A/B tests, validating pain point impact
+3. Use SWD to transform research findings into executive-ready data narratives
+
+### Workflow 3: Research Data → Persona Creation → Design Guidance
+
+```
+UDM (Research Data) → Persona (Persona Creation) → Design Decisions
+```
+
+**Scenario**: User segment definition
+1. Use UDM to execute multiple research methods (interviews, usability testing, diary studies)
+2. Use Persona to create evidence-based user roles from UDM research data
+3. Use personas to guide design priorities and feature decisions
+
+> 💡 **Tip**: UDM works best at the start of workflows — helping you choose the right research methods, then using other skills to deepen and validate findings.
+
 ### 👨‍💻 Credits
 
 Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (Rockport Publishers, 2012), featuring 100 design research methods covering the complete design process.
@@ -1643,4 +1734,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-13 | AliDujie Skill Ecosystem | v2.3.62*
+*Last Updated: 2026-05-13 | AliDujie Skill Ecosystem | v2.3.63*
