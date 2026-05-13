@@ -4,9 +4,9 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.61-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.62-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-13-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1440,6 +1440,8 @@ persona-creation research-planning interview-generation
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.62 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
+| v2.3.62 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
 | v2.3.52 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
 | v2.3.51 | 2026-05-11 | Repo maintenance: fixed `jm.render()`/`aj.render()` code examples (should use `Builder.render_markdown(builder.build())`), added "Why Choose UDM" promotional section to SKILL.md, added Structured Thinking Model cross-reference, cleaned up duplicate separators, enhanced English TOC index |
 | v2.3.50 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.3.47→v2.3.49), added missing changelog entries (v2.3.48–v2.3.49), ensured README/badge/CHANGELOG version alignment |
@@ -1825,6 +1827,8 @@ story = swd.build_story(protagonist="用户", imbalance="结账太慢")
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.62 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
+| v2.3.62 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
 | v2.3.52 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
 | v2.3.51 | 2026-05-11 | Repo maintenance: fixed `jm.render()`/`aj.render()` code examples (should use `Builder.render_markdown(builder.build())`), added "Why Choose UDM" promotional section to SKILL.md, added Structured Thinking Model cross-reference, cleaned up duplicate separators, enhanced English TOC index |
 | v2.3.50 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.3.47→v2.3.49), added missing changelog entries (v2.3.48–v2.3.49), ensured README/badge/CHANGELOG version alignment |
@@ -1965,4 +1969,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-13 | AliDujie Skill Ecosystem | v2.3.61*
+*Last Updated: 2026-05-13 | AliDujie Skill Ecosystem | v2.3.62*
