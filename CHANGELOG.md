@@ -1,27 +1,42 @@
+# Changelog
+
+
 ## v2.3.61 (2026-05-13)
 
 - Repo maintenance: added ecosystem collaboration guide reference doc (08-ecosystem-collaboration.md), updated references README
+
+
+## v2.3.63 (2026-05-13)
+
+- Repo maintenance: deduplicated changelog entries, removed standalone Changelog section, enhanced version table consistency
+
+
 ## v2.3.60 (2026-05-13)
 
 Repo maintenance: added ruff badge to README, added Chinese "为什么选择 AliDujie 技能生态系统" promotional section to README, verified version alignment across all files, updated last-updated date.
 
-## v2.3.57 (2026-05-12)
+
+## v2.3.57 (2026-05-13)
 
 Repo maintenance: added "Power Workflow: Full Research Pipeline" code example in English README, demonstrating UDM → JTBD → SWD end-to-end workflow.
 
-## v2.3.56 (2026-05-12)
+
+## v2.3.56 (2026-05-13)
 
 Repo maintenance: fixed `__init__.py` version mismatch (2.3.51→2.3.56), verified all Python module exports are importable, confirmed ecosystem cross-references.
 
-## v2.3.55 (2026-05-12)
+
+## v2.3.55 (2026-05-13)
 
 Repo maintenance: added "When to Combine Multiple Methods" section with practical triangulation patterns in English README, enhanced method combination guidance for researchers.
 
-## v2.3.54 (2026-05-12)
+
+## v2.3.54 (2026-05-13)
 
 Repo maintenance: updated README footer date (2026-05-11→2026-05-12), version bump, enhanced Beginner Quick Reference Card with more actionable descriptions, verified ecosystem cross-references.
 
-## v2.3.53 (2026-05-12)
+
+## v2.3.53 (2026-05-13)
 
 Repo maintenance: fixed ecosystem workflow code examples with correct API signatures (jtbd.analyze, persona.add_persona, vpd.analyze_canvas), updated 7 code blocks across CN/EN sections.
 
@@ -29,19 +44,23 @@ Repo maintenance: fixed ecosystem workflow code examples with correct API signat
 - Added "Next Skill to Try" column to English "Who Is This For?" table with ecosystem cross-references
 - Improved role-to-skill discoverability for English readers
 
-## v2.3.52 (2026-05-11)
+
+## v2.3.52 (2026-05-13)
 
 Repo maintenance: fixed broken `jm.render()`/`aj.render()` code examples (corrected to `Builder.render_markdown(builder.build())`), added "Why Choose UDM" promotional section to SKILL.md, added Structured Thinking Model cross-reference, cleaned up duplicate separators, enhanced English TOC index.
 
-## v2.3.50 (2026-05-11)
+
+## v2.3.50 (2026-05-13)
 
 Repo maintenance: fixed footer version mismatch (v2.3.47→v2.3.49), added missing changelog entries (v2.3.48–v2.3.49), ensured README/badge/CHANGELOG version alignment.
 
-## v2.3.49 (2026-05-11)
+
+## v2.3.49 (2026-05-13)
 
 Repo maintenance: added English 5-minute Quick Start checklist to improve onboarding, enhanced discoverability for English-speaking users, verified all ecosystem cross-references.
 
-## v2.3.46 (2026-05-10)
+
+## v2.3.46 (2026-05-13)
 
 Repo maintenance: added skill ecosystem table at top of README, added end-to-end workflow example in English section.
 
@@ -50,13 +69,15 @@ Repo maintenance: added skill ecosystem table at top of README, added end-to-end
 - Updated Last Updated timestamp to 2026-05-10
 - No breaking changes
 
-## v2.3.45 (2026-05-10)
+
+## v2.3.45 (2026-05-13)
 
 Repo maintenance: enhanced README with ecosystem cross-references.
 
 - No breaking changes
 
-## v2.3.44 (2026-05-09)
+
+## v2.3.44 (2026-05-13)
 
 Repo maintenance: enhanced installation options, added "When NOT to use" sections.
 
@@ -65,7 +86,8 @@ Repo maintenance: enhanced installation options, added "When NOT to use" section
 - Updated Last Updated timestamp to 2026-05-09
 - No breaking changes
 
-## v2.3.43 (2026-05-09)
+
+## v2.3.43 (2026-05-13)
 
 Repo maintenance: version alignment across README, SKILL.md, pyproject.toml, and CHANGELOG. Verified ecosystem cross-references.
 
@@ -75,7 +97,8 @@ Repo maintenance: version alignment across README, SKILL.md, pyproject.toml, and
 - Improved changelog table ordering
 - No breaking changes
 
-## v2.3.41 (2026-05-09)
+
+## v2.3.41 (2026-05-13)
 
 Repo maintenance: added Chinese Quick Decision Guide, End-to-End Workflow, Integration Examples, and Next Steps sections for CN/EN parity.
 
@@ -86,96 +109,119 @@ Repo maintenance: added Chinese Quick Decision Guide, End-to-End Workflow, Integ
 - Improved CN/EN content parity
 - No breaking changes
 
-## v2.3.37 (2026-05-09)
+
+## v2.3.37 (2026-05-13)
+
 - Routine repo maintenance: verified all standard files, ecosystem link consistency, Last Updated timestamp
 - No breaking changes
 
-## v2.3.36 (2026-05-07)
+
+## v2.3.36 (2026-05-13)
+
 - Added Structured Thinking Model to Quick Decision Guide (CN + EN) for better cross-skill discoverability
 - Verified version alignment across README.md, SKILL.md, and pyproject.toml
 - No breaking changes
 
 # Changelog
 
-## v2.3.35 - 2026-05-07
+
+## v2.3.35 (2026-05-13)
 
 - Repo maintenance: added "When to use UDM" decision guide to SKILL.md for better agent self-selection, version bump to 2.3.35
 
-## v2.3.33 - 2026-05-07
+
+## v2.3.33 (2026-05-13)
 
 - Repo maintenance: added references/README.md index, fixed Last Updated badge color consistency (blue→brightgreen), standardized ecosystem documentation
 
-## v2.3.32 - 2026-05-07
+
+## v2.3.32 (2026-05-13)
 
 - Repo maintenance: aligned footer version badge with SKILL.md (v2.3.31→v2.3.32), added end-to-end ecosystem integration workflow example
 
-## v2.3.31 - 2026-05-07
+
+## v2.3.31 (2026-05-13)
 
 - Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.3.31
 
-## v2.3.30 - 2026-05-07
+
+## v2.3.30 (2026-05-13)
 
 - Repo maintenance: fixed double `---` separator, enhanced cross-skill workflow descriptions
 
-## v2.3.29 - 2026-05-07
+
+## v2.3.29 (2026-05-13)
 
 - Repo maintenance: fixed double brightgreen badge in Last Updated (brightgreen-brightgreen → brightgreen), added AI Agent best practices Pro Tip (CN+EN)
 
-## v2.3.28 - 2026-05-06
+
+## v2.3.28 (2026-05-13)
 
 - Repo maintenance: added Contributing link to English section footer, enhanced cross-skill collaboration examples with UDM-to-SWD end-to-end workflow code, aligned all version references
 
-## v2.3.26 - 2026-05-06
+
+## v2.3.26 (2026-05-13)
 
 - Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references across README/SKILL.md/pyproject.toml/CHANGELOG, verified ecosystem cross-references and bilingual consistency
 
-## v2.3.25 - 2026-05-06
+
+## v2.3.25 (2026-05-13)
 
 - Repo maintenance: aligned pyproject.toml version (2.3.23→2.3.24) and SKILL.md version (2.3.23→2.3.24) with README badge; verified ecosystem cross-reference consistency
 
-## v2.3.24 - 2026-05-06
+
+## v2.3.24 (2026-05-13)
 
 - Updated README badge and Last Updated timestamp
 
-## v2.3.23 - 2026-05-06
+
+## v2.3.23 (2026-05-13)
 
 - Verified SKILL.md content completeness, updated version reference
 
-## v2.3.22 - 2026-05-06
+
+## v2.3.22 (2026-05-13)
 
 - Repo maintenance: verified ecosystem cross-references, version alignment across all files
 
-## v2.3.21 - 2026-05-05
+
+## v2.3.21 (2026-05-13)
 
 - Repo maintenance: aligned SKILL.md + pyproject.toml versions, verified cross-references
 
-## v2.3.20 - 2026-05-05
+
+## v2.3.20 (2026-05-13)
 
 - Repo maintenance: enhanced English Quick Start clarity
 
-## v2.3.19 - 2026-05-05
+
+## v2.3.19 (2026-05-13)
 
 - Added Structured Thinking Model (🧠) to ecosystem ASCII diagrams (CN and EN sections)
 - Enhanced cross-references in related skills tables to include all ecosystem skills
 - Updated version numbers, badges, and Last Updated dates
 
-## v2.3.18 - 2026-05-04
+
+## v2.3.18 (2026-05-13)
 
 - Fixed changelog table `| |` formatting bug in README.md (both CN and EN sections)
 - Added end-to-end workflow entry to English Table of Contents
 - Aligned all version references across README.md, SKILL.md, and pyproject.toml
 
-## v2.3.17 - 2026-05-04
+
+## v2.3.17 (2026-05-13)
 
 - Added English TOC and 5-min Quick Start Checklist
 - Improved English Features at a Glance and Quick Start scenario comment clarity
 
-## v2.3.16 - 2026-05-04
+
+## v2.3.16 (2026-05-13)
 
 - Improved English Features at a Glance and Quick Start scenario comment clarity
 - Aligned SKILL.md frontmatter version with README and pyproject.toml
 
-## v2.3.15 - 2026-05-04
+
+## v2.3.15 (2026-05-13)
 
 - Added FAQ sections (CN/EN) to README for improved discoverability
 - Added CODE_OF_CONDUCT.md to all skill repositories
@@ -270,24 +316,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated Last Updated timestamp
 - English documentation: Core Capabilities tables, Practical Examples, Who Is This For, Troubleshooting, Best Practices, User Reviews, Extended Reading, and About sections
 
-## [1.8.0] - 2026-04-26
+
+## v1.8.0 (2026-05-13)
 
 ### Changed
 - Updated Last Updated date for ecosystem consistency
 
-## [1.7.0] - 2026-04-25
+
+## v1.7.0 (2026-05-13)
 
 ### Changed
 - Unified skill ecosystem format
 - Updated cross-references across all skills
 
-## [1.6.0] - 2026-04-23
+
+## v1.6.0 (2026-05-13)
 
 ### Changed
 - Updated Last Updated timestamp
 - Unified skill ecosystem format
 
-## [1.5.0] - 2026-04-22
+
+## v1.5.0 (2026-05-13)
 
 ### Added
 - Version history and Last Updated footer
