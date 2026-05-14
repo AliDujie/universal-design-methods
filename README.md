@@ -977,7 +977,7 @@ UDM (研究数据) → Persona (角色创建) → 设计决策
 - [Getting Help](#-getting-help)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
-- [End-to-End Workflow: All 7 Skills](#-end-to-end-workflow-all-7-skills)
+- [End-to-End Workflow: All 7 Skills](#-end-to-end-ecosystem-workflow)
 - [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Case Studies](#-case-studies)
 - [Version History](#-version-history-english)
