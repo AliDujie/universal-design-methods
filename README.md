@@ -4,9 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.71-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.72-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen.svg)
+
+> 🆕 **What's New in v2.3.72**: Repository maintenance. Enhanced Beginner Quick Reference Card with cross-skill recipes. Added "When NOT to Use" section for better skill discoverability. Verified all ecosystem cross-references and bilingual consistency.
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1545,6 +1547,10 @@ persona-creation research-planning interview-generation
 ### 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| 2.3.72 | 2026-05-15 | 仓库维护：增强新手快速参考卡，添加跨技能集成速查表；补充英文版 FAQ 条目；验证生态交叉引用完整性和双语一致性 |
+| 2.3.71 | 2026-05-14 | 仓库维护：增强生态系统交叉引用工作流，添加 2026 年中更新；统一所有技能仓库的 Python 版本一致性检查；参考文档交叉链接更新至所有配套技能 |
+| 2.3.70 | 2026-05-14 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README/徽章/SKILL.md/pyproject.toml 版本 |
+| 2.3.69 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 | 2.3.68 | 2026-05-14 | 仓库维护：删除技能生态工作流章节中重复的快速决策指南表，提升文档简洁性和可读性 |
 |------|------|------|| 2.3.65 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 
@@ -1607,6 +1613,10 @@ persona-creation research-planning interview-generation
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
+| v2.3.72 | 2026-05-15 | Repo maintenance: enhanced Beginner Quick Reference Card with cross-skill integration cheat sheet; added English FAQ entries; verified ecosystem cross-reference completeness and bilingual consistency |
+| v2.3.71 | 2026-05-14 | Repo maintenance: enhanced ecosystem cross-reference workflows with 2026 mid-year updates. Added Python version consistency checks across all skill repos. Reference doc cross-links updated for all companion skills. |
+| v2.3.70 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
+| v2.3.69 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
 | v2.3.68 | 2026-05-14 | Repo maintenance: removed duplicate Quick Decision Guide tables from ecosystem workflow sections, improved documentation conciseness and readability |
 |---------|------|--------|| v2.3.65 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 
@@ -1790,4 +1800,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.3.70*
+*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.3.72*
