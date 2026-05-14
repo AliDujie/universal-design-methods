@@ -306,3 +306,15 @@
 - [成果沟通方法](methods-communication.md)
 - [执行模板集](execution-templates.md)
 - [决策框架](decision-framework.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+综合分析方法与生态系统技能的协同：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 综合发现 → JTBD 结构化分析用户目标 |
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 综合主题 → QuantUX 定量验证 |
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 综合洞察 → Persona 角色创建数据 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 综合发现 → VPD 价值主张输入 |
+| [📈 Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | 综合结果 → SWD 数据叙事 |

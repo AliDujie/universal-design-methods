@@ -249,3 +249,15 @@
 - [成果沟通方法](methods-communication.md)
 - [执行模板集](execution-templates.md)
 - [决策框架](decision-framework.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+评估性研究方法与生态系统技能的协同：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 可用性评分 → QuantUX 统计显著性检验 |
+| [📈 Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | 评估结果 → SWD 可视化呈现给利益相关者 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 评估性发现 → VPD 价值主张改进 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 可用性痛点 → JTBD 机会评分量化 |
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 按角色细分评估可用性 |

@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.69-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.70-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -1601,6 +1601,8 @@ persona-creation research-planning interview-generation
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.3.70 | 2026-05-14 | Repo maintenance: added cross-skill references to methods-evaluative.md, methods-synthesis.md, methods-communication.md |
+| v2.3.69 | 2026-05-14 | Repo maintenance: added cross-skill references to methods-generative.md, methods-exploration.md |
 | v2.3.68 | 2026-05-14 | Repo maintenance: fixed changelog table formatting (merged separator + data rows), verified ecosystem cross-reference completeness
 | v2.3.67 | 2026-05-14 | Repo maintenance: synced version badges/footers to pyproject.toml (v2.3.67), fixed ruff target-version, updated changelog
 | v2.3.66 | 2026-05-14 | Repo maintenance: fixed TOC anchor link, version bump to v2.3.66
@@ -1786,4 +1788,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.3.69*
+*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.3.70*

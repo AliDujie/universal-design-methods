@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v2.3.70 (2026-05-14)
+
+- Repo maintenance: add cross-skill reference sections to methods-evaluative.md, methods-synthesis.md, and methods-communication.md, expand ecosystem collaboration coverage
+
 ## v2.3.69 (2026-05-14)
 
 - Repo maintenance: add cross-skill reference sections to key reference docs (methods-generative.md, methods-exploration.md), expand ecosystem collaboration coverage across all 6 skills

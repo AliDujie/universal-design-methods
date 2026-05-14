@@ -186,3 +186,14 @@
 - [综合分析方法](methods-synthesis.md)
 - [执行模板集](execution-templates.md)
 - [决策框架](decision-framework.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+成果沟通方法与生态系统技能的协同：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [📈 Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | 沟通需求 → SWD 叙事结构和视觉设计 |
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 沟通数据 → QuantUX 统计支持 |
+| [🧠 Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 沟通框架 → STM 商业分析框架 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 沟通价值主张 → VPD 画布展示 |
