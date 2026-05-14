@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.70-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.68-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -39,15 +39,8 @@
   - [🔗 相关技能](#-相关技能)
 - [English](#english)
   - [🌟 Why Use This Skill?](#-why-use-this-skill)
-  - [🎯 Features at a Glance](#-features-at-a-glance)
-  - [🧭 Quick Decision Guide](#-quick-decision-guide)
-  - [✅ 5-Minute Quick Start Checklist](#-5-minute-quick-start-checklist)
   - [🚀 Quick Start](#-quick-start)
-  - [💡 11 Core Capabilities](#-11-core-capabilities)
-  - [💡 Practical Examples](#-practical-examples)
-  - [👥 Who Is This For?](#-who-is-this-for)
   - [🔗 Related Skills](#-related-skills-1)
-  - [End-to-End Workflow: All 7 Skills](#-end-to-end-ecosystem-workflow)
 - [🤝 参与贡献](#-参与贡献-contributing)
 - [📜 许可](#-许可-license)
 - [🔗 技能生态工作流](#-技能生态工作流-skill-ecosystem-workflow)
@@ -918,16 +911,7 @@ methods = skill.recommend_methods("评估功能需求优先级", phase=3)
 
 UDM 是 **AliDujie UX 研究技能生态系统** 的方法论核心。以下是与其他技能配合使用的典型工作流：
 
-### 🧭 快速决策指南 (Quick Decision Guide)
-
-| 你的问题 | 推荐技能 |
-|----------|----------|
-| "我不知道该研究什么" | → **Universal Design Methods** (本技能) — 方法推荐帮你找到方向 |
-| "我需要验证一个假设" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B 测试和样本量计算 |
-| "我想理解用户为什么这样做" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 挖掘用户背后的"工作" |
-| "我需要知道用户是谁" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — 创建具体的人物角色 |
-| "我的产品价值够不够？" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 契合度诊断 |
-| "我怎么把研究结果讲清楚？" | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — 数据叙事和图表改造 |
+> 💡 **快速决策**: 参见上方 [快速决策指南](#-快速决策指南-quick-decision-guide) 选择适合的技能。
 
 ### 工作流 1: 用户研究 → 需求洞察 → 价值设计
 
@@ -965,17 +949,6 @@ UDM (研究数据) → Persona (角色创建) → 设计决策
 > 💡 **提示**: UDM 最适合在工作流的起点使用——帮你选择正确的研究方法，然后用其他技能深化和验证发现。
 
 ---
-
-### 🔗 探索更多技能 (Explore More Skills)
-
-本技能是 **AliDujie UX 研究技能生态系统** 的一部分，与其他 6 个技能协同工作，覆盖从用户研究到数据呈现的完整工作流：
-
-- [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) — 人物角色创建（工作流起点）
-- [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 深度需求洞察
-- [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — 定量验证
-- [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 价值主张设计
-- [📈 Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — 数据叙事
-- [🧠 Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — 战略分析框架
 
 ## English
 
@@ -1535,11 +1508,8 @@ persona-creation research-planning interview-generation
 ### 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-|------|------|------|
-| 2.3.68 | 2026-05-14 | 仓库维护：修复变更日志表格格式（分隔符与数据行合并问题），验证生态交叉引用完整性
-| 2.3.67 | 2026-05-14 | 仓库维护：同步版本徽章/页脚到 pyproject.toml (v2.3.67)，修复 ruff target-version，更新变更日志
-| 2.3.66 | 2026-05-14 | 仓库维护：修复 TOC 锚点链接，版本升级至 v2.3.66
-| 2.3.65 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
+| 2.3.68 | 2026-05-14 | 仓库维护：删除技能生态工作流章节中重复的快速决策指南表，提升文档简洁性和可读性 |
+|------|------|------|| 2.3.65 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 
 | v2.3.51 | 2026-05-11 | 仓库维护：修复 README 代码示例中 `jm.render()`/`aj.render()` 错误用法（应为 `Builder.render_markdown(builder.build())`），SKILL.md 新增「为什么选择 UDM」推广章节，添加 Structured Thinking Model 交叉引用，清理多余分隔符，完善英文目录索引 |
 | v2.3.50 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.3.47→v2.3.49），补齐缺失的变更日志条目（v2.3.48-v2.3.49），确保 README/徽章/CHANGELOG 三端版本对齐 |
@@ -1600,13 +1570,8 @@ persona-creation research-planning interview-generation
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-|---------|------|--------|
-| v2.3.70 | 2026-05-14 | Repo maintenance: added cross-skill references to methods-evaluative.md, methods-synthesis.md, methods-communication.md |
-| v2.3.69 | 2026-05-14 | Repo maintenance: added cross-skill references to methods-generative.md, methods-exploration.md |
-| v2.3.68 | 2026-05-14 | Repo maintenance: fixed changelog table formatting (merged separator + data rows), verified ecosystem cross-reference completeness
-| v2.3.67 | 2026-05-14 | Repo maintenance: synced version badges/footers to pyproject.toml (v2.3.67), fixed ruff target-version, updated changelog
-| v2.3.66 | 2026-05-14 | Repo maintenance: fixed TOC anchor link, version bump to v2.3.66
-| v2.3.65 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
+| v2.3.68 | 2026-05-14 | Repo maintenance: removed duplicate Quick Decision Guide tables from ecosystem workflow sections, improved documentation conciseness and readability |
+|---------|------|--------|| v2.3.65 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 
 | v2.3.62 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
 | v2.3.52 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
@@ -1788,4 +1753,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.3.70*
+*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.3.68*
