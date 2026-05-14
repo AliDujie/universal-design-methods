@@ -1535,7 +1535,11 @@ persona-creation research-planning interview-generation
 ### 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-|------|------|------|| 2.3.65 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
+|------|------|------|
+| 2.3.68 | 2026-05-14 | 仓库维护：修复变更日志表格格式（分隔符与数据行合并问题），验证生态交叉引用完整性
+| 2.3.67 | 2026-05-14 | 仓库维护：同步版本徽章/页脚到 pyproject.toml (v2.3.67)，修复 ruff target-version，更新变更日志
+| 2.3.66 | 2026-05-14 | 仓库维护：修复 TOC 锚点链接，版本升级至 v2.3.66
+| 2.3.65 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 
 | v2.3.51 | 2026-05-11 | 仓库维护：修复 README 代码示例中 `jm.render()`/`aj.render()` 错误用法（应为 `Builder.render_markdown(builder.build())`），SKILL.md 新增「为什么选择 UDM」推广章节，添加 Structured Thinking Model 交叉引用，清理多余分隔符，完善英文目录索引 |
 | v2.3.50 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.3.47→v2.3.49），补齐缺失的变更日志条目（v2.3.48-v2.3.49），确保 README/徽章/CHANGELOG 三端版本对齐 |
@@ -1596,7 +1600,11 @@ persona-creation research-planning interview-generation
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-|---------|------|--------|| v2.3.65 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
+|---------|------|--------|
+| v2.3.68 | 2026-05-14 | Repo maintenance: fixed changelog table formatting (merged separator + data rows), verified ecosystem cross-reference completeness
+| v2.3.67 | 2026-05-14 | Repo maintenance: synced version badges/footers to pyproject.toml (v2.3.67), fixed ruff target-version, updated changelog
+| v2.3.66 | 2026-05-14 | Repo maintenance: fixed TOC anchor link, version bump to v2.3.66
+| v2.3.65 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 
 | v2.3.62 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
 | v2.3.52 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
