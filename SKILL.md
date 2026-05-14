@@ -36,6 +36,55 @@ version: "2.3.72"
 
 > 💡 UDM 是方法论核心：先选方法做研究，再用其他技能深化分析或呈现。
 
+### 💼 为什么团队选择 UDM
+
+| 挑战 | 没有 UDM | 使用 UDM |
+|------|----------|----------|
+| 研究规划 | 花数小时研究方法论 | 秒级推荐 3 种方法组合 |
+| 访谈提纲 | 质量参差不齐 | 5 种结构化类型，开箱即用 |
+| 可用性测试 | 临时清单，遗漏关键项 | SUS 评分 + 启发式评估内置 |
+| 问卷设计 | 复制粘贴模板 | 5 种问卷类型，含卡诺/NPS |
+| 研究报告 | 自由格式，遗漏关键信息 | 标准化格式 + CEO 决策支持 |
+
+### 🔗 Ecosystem Quick Start / 生态系统快速上手
+
+UDM 是 7 技能工作流的**方法论核心**——覆盖从探索到交付的完整研究生命周期。
+
+```python
+# Step 1: UDM 推荐研究方法
+from udm import UDMSkill
+udm = UDMSkill("旅行平台")
+plan = udm.recommend_methods("了解用户流失原因", phase=1)
+
+# Step 2: 生成访谈提纲
+guide = udm.generate_interview("用户深访", "contextual")
+
+# Step 3: 可用性测试 + SUS 计算
+sus = udm.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])  # → 72.5 (Good)
+
+# Step 4: 体验历程图
+jm = udm.build_journey_map("预订流程", persona="用户")
+```
+
+> 💡 **Try it now / 立即尝试**:
+> ```python
+> from udm import UDMSkill
+> skill = UDMSkill("你的产品")
+> print(skill.recommend_methods("了解用户为什么流失", phase=1))
+> ```
+
+### ✅ 5 分钟快速开始检查清单
+
+- [ ] **安装** — `cp -r universal-design-methods /your/agent/skills/`
+- [ ] **导入** — `from udm import UDMSkill`
+- [ ] **初始化** — `skill = UDMSkill("你的产品")`
+- [ ] **方法推荐** — `skill.recommend_methods("了解用户需求", phase=1)`
+- [ ] **访谈提纲** — `skill.generate_interview("用户访谈", "contextual")`
+- [ ] **可用性测试** — `skill.generate_usability_test("流程测试", "formative")`
+- [ ] **体验历程图** — `skill.build_journey_map("预订体验", persona="用户")`
+
+[English](#english) | [中文](#中文说明)
+
 ## 🌐 AliDujie 技能生态系统
 
 ```
