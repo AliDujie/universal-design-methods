@@ -263,3 +263,15 @@
 - [成果沟通方法](methods-communication.md)
 - [执行模板集](execution-templates.md)
 - [决策框架](decision-framework.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+生成性研究方法产出的概念和创意需要与其他技能配合，才能形成完整的工作流：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 生成概念 → QuantUX 快速原型测试验证可行性 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 生成的概念 → VPD 画布评估价值匹配度 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 生成性研究前 → JTBD 框架确定用户目标 |
+| [📈 Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | 生成概念展示 → SWD 可视化呈现给利益相关者 |
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 生成概念 → 按 Persona 细分评估适用性 |

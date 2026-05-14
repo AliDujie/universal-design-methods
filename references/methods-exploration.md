@@ -219,3 +219,13 @@
 - [成果沟通方法](methods-communication.md)
 - [执行模板集](execution-templates.md)
 - [决策框架](decision-framework.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+探索性研究方法产出用户行为模式和需求洞察，是下游技能的基础输入：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 探索性发现 → Persona 角色创建 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 探索性数据 → JTBD 机会评分 |
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 定性假设 → QuantUX 定量验证 |

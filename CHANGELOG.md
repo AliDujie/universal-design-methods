@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v2.3.69 (2026-05-14)
+
+- Repo maintenance: add cross-skill reference sections to key reference docs (methods-generative.md, methods-exploration.md), expand ecosystem collaboration coverage across all 6 skills
+
 ## v2.3.68 (2026-05-14)
 
 - Repo maintenance: version bump; all 6 skill repos audited for badge ordering consistency (Python → License standard)
