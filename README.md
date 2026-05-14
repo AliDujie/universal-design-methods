@@ -4,9 +4,9 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.70-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.71-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen.svg)
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -21,7 +21,7 @@
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 构建，覆盖 UX 研究全生命周期。
 
-> 🆕 **What's New in v2.3.70**: Cross-skill references added to evaluative, synthesis, and communication reference docs. Full ecosystem collaboration coverage across all 6 companion skills.
+> 🆕 **What's New in v2.3.71**: Enhanced ecosystem cross-reference workflows with 2026 mid-year updates. Added Python version consistency checks across all skill repos. Reference doc cross-links updated for all companion skills.
 
 ---
 ## 📑 目录 / Table of Contents
