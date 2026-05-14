@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.68-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.70-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -20,6 +20,8 @@
 **UDM is the methodological core** — providing the research methods that fuel every other skill in the ecosystem. Start here when you don't know what research to do.
 
 基于《通用设计方法》(贝拉·马丁 & 布鲁斯·汉宁顿) 构建，覆盖 UX 研究全生命周期。
+
+> 🆕 **What's New in v2.3.70**: Cross-skill references added to evaluative, synthesis, and communication reference docs. Full ecosystem collaboration coverage across all 6 companion skills.
 
 ---
 ## 📑 目录 / Table of Contents
@@ -1471,6 +1473,41 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 - **UDM + VPD** → Validate value proposition hypotheses with UDM methods
 - **UDM + SWD** → Present UDM research findings with SWD data narratives
 
+#### 💡 Cross-Skill Quick Recipes
+
+```python
+# Recipe 1: Discover → Validate → Present
+from udm import UDMSkill; from quantux import QuantUXSkill; from swd import SWDSkill
+
+udm = UDMSkill("e-commerce")
+methods = udm.recommend_methods("understand checkout abandonment", phase=1)
+# → Recommends: contextual inquiry, usability testing, diary study
+
+quantux = QuantUXSkill("e-commerce")
+sample = quantux.calculate_ab_sample_size(baseline=0.65, mde=0.05)
+# → Need 1,346 users per variant for statistical significance
+
+swd = SWDSkill("Checkout Optimization Report")
+story = swd.build_story(
+    protagonist="Checkout team",
+    imbalance="40% of users abandon at payment",
+    call_to_action="Approve streamlined checkout redesign"
+)
+```
+
+```python
+# Recipe 2: Persona-driven research
+from persona import PersonaSkill; from udm import UDMSkill
+
+persona = PersonaSkill("e-commerce")
+persona.add_persona("BusyParent", "time-poor parent", "secondary",
+                    "I need to shop quickly between kids' activities")
+
+udm = UDMSkill("e-commerce")
+guide = udm.generate_interview("BusyParent validation", ["contextual", "time-diary"])
+# → Generates persona-tailored interview questions
+```
+
 - **[JTBD-Knowledge-Skill](https://github.com/AliDujie/jtbd-knowledge-skill)** — Jobs-to-be-Done theory
 - **[Web-Persona-Skill](https://github.com/AliDujie/web-persona-skill)** — Persona creation
 - **[Quantitative-UX-Research](https://github.com/AliDujie/Quantitative-UX-Research)** — Quantitative research, HEART framework
@@ -1753,4 +1790,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.3.68*
+*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.3.70*
