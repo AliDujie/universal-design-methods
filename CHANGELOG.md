@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.3.76 (2026-05-15)
+
+- Repository maintenance: aligned `pyproject.toml` version with SKILL.md (v2.3.76)
+- Aligned package `__version__` in `udm/__init__.py` with SKILL.md (v2.3.76)
+- Added CMO Advisor cross-reference in extended ecosystem section
+- Verified all ecosystem links and badge consistency
+
+## v2.3.75 (2026-05-15)
+
+- Repository maintenance: aligned `pyproject.toml` version with SKILL.md
+
 ## v2.3.74 (2026-05-15)
 
 - Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
