@@ -4,9 +4,9 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.80-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.81-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen.svg)
 
 > 🆕 **What's New in v2.3.80**: Repository maintenance 2.3.80. v2.3.80: add unlinked reference file guides to README (CN+EN), link all method reference docs. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
 
@@ -1655,6 +1655,7 @@ persona-creation research-planning interview-generation
 ### 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| 2.3.81 | 2026-05-16 | 仓库维护：修复双 brightgreen 徽章，增强 UDM 推广章节，验证生态交叉引用完整性和双语一致性 |
 | 2.3.74 | 2026-05-15 | 仓库维护：更新 SKILL.md 版本对齐，增强生态系统协作指南，新增跨技能 API 手off示例；验证生态交叉引用完整性和双语一致性
 | 2.3.73 | 2026-05-15 | 仓库维护：添加第 3 个英文案例研究（Healthcare App 可用性重新设计）；增强生态系统工作流示例，添加明确的 JTBD→QuantUX→SWD 交接模式
 | 2.3.72 | 2026-05-15 | 仓库维护：增强新手快速参考卡，添加跨技能集成速查表；补充英文版 FAQ 条目；验证生态交叉引用完整性和双语一致性 |
@@ -1911,4 +1912,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.3.78*
+*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.3.81*
