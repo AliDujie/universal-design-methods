@@ -4,11 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.74-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.75-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen.svg)
 
-> 🆕 **What's New in v2.3.74**: Repository maintenance. Updated version alignment across all files. Enhanced ecosystem collaboration guide with bidirectional data flow patterns. Added 3 new cross-skill recipes to Beginner Quick Reference Card. Verified all ecosystem cross-references and bilingual consistency.
+> 🆕 **What's New in v2.3.75**: Repository maintenance v2.3.75. Filled changelog gaps for v2.3.71-v2.3.74. Updated What's New callout. Verified all ecosystem cross-references. Refreshed last-updated date. Enhanced README structure with improved navigation cues.
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -109,6 +109,59 @@ analysis = stm.run_pestel()
 > ```
 
 > 💡 **提示**: 每个技能的 `references/` 目录都有对应的方法论文档，配合使用效果更佳。
+
+
+### 🔀 Cross-Skill Recipes (跨技能配方)
+
+| Recipe | Workflow | Output |
+|--------|----------|--------|
+| **User Research Sprint** | UDM → JTBD → VPD | Research plan + Jobs + Value Canvas |
+| **Usability Benchmark** | UDM → QuantUX → SWD | SUS scores + Stats + Executive summary |
+| **Feature Discovery** | Persona → UDM → JTBD | Personas + Interview guide + Job Stories |
+| **Product Validation** | JTBD → QuantUX → VPD | Opportunity score + A/B test + Fit analysis |
+| **Stakeholder Report** | UDM → QuantUX → SWD | Findings + Metrics + Data narrative |
+
+#### Recipe: Usability Benchmark Sprint
+
+```python
+# Step 1: UDM - Generate usability test script
+from udm import UDMSkill
+udm = UDMSkill("电商App")
+test = udm.generate_usability_test("结账流程", "summative")
+
+# Step 2: Run test, collect SUS responses
+# Step 3: QuantUX - Statistical analysis
+from quantux import QuantUXSkill
+quantux = QuantUXSkill("电商App")
+sig = quantux.t_test_two_means(mean1=72, mean2=65, sd1=12, sd2=15, n1=30, n2=30)
+
+# Step 4: SWD - Build executive narrative
+from swd import SWDSkill
+swd = SWDSkill("可用性基准报告")
+story = swd.build_story(
+    protagonist="产品团队",
+    imbalance="结账流程SUS得分低于行业基准",
+    call_to_action="批准UI改版投入"
+)
+```
+
+#### Recipe: JTBD-Driven Interview
+
+```python
+# Step 1: Persona - Define target users
+from persona import PersonaSkill
+persona = PersonaSkill("旅行平台")
+persona.add_persona(name="商务旅客", archetype="效率型", priority="primary")
+
+# Step 2: JTBD - Generate job stories
+from jtbd import JTBDSkill
+jtbd = JTBDSkill("旅行平台")
+stories = jtbd.generate_job_stories()
+
+# Step 3: UDM - Generate interview guide tailored to jobs
+udm = UDMSkill("旅行平台")
+guide = udm.generate_interview("JTBD验证访谈", "contextual")
+```
 
 ### ✅ 5 分钟快速开始检查清单
 
@@ -1832,4 +1885,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.3.74*
+*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.3.75*

@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v2.3.71 (2026-05-15)
+
+- Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
+
+## v2.3.72 (2026-05-15)
+
+- Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
+
+## v2.3.73 (2026-05-15)
+
+- Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
+
+## v2.3.74 (2026-05-15)
+
+- Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
+
 ## v2.3.70 (2026-05-14)
 
 - Repo maintenance: add cross-skill reference sections to methods-evaluative.md, methods-synthesis.md, and methods-communication.md, expand ecosystem collaboration coverage
