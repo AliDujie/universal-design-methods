@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.72-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.73-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen.svg)
 
@@ -1424,6 +1424,35 @@ print(wm.render_markdown())
 
 **Result**: Clarified feature priorities → Launched AI meeting notes in Q1, reducing customer acquisition cost by 30%
 
+#### Case Study 3: Healthcare App Usability Redesign
+
+**Background**: A telemedicine app's elderly users were dropping off at the video consultation step.
+
+```python
+from udm import UDMSkill
+
+skill = UDMSkill("Telemedicine App")
+
+# Formative usability test to identify pain points
+test = skill.generate_usability_test("Video Consultation Flow", "formative")
+# → Task list + observer prompts + success criteria
+
+# Post-test: SUS scoring across age segments
+young_sus = [72, 78, 68, 75, 80]  # avg: 74.6 (Good)
+senior_sus = [35, 42, 38, 40, 33]  # avg: 37.6 (Needs improvement)
+
+# Journey map reveals the critical pain point
+jm = skill.build_journey_map("Video Consultation", persona="Elderly Patient")
+jm.add_stage("Schedule", actions=["Select doctor", "Pick time"], emotions=4, pain_points=["OK"]) 
+jm.add_stage("Wait", actions=["Join waiting room"], emotions=2, pain_points=["No clear instructions", "Anxious about tech"]) 
+jm.add_stage("Connect", actions=["Enable camera", "Start video"], emotions=1, pain_points=["Can't find button", "Audio/video settings confusing"])
+
+# Generate report with segmented findings
+report = skill.generate_report("Video Consultation Usability", summary="Elderly SUS 37.6 vs Young 74.6")
+```
+
+**Result**: Discovered onboarding gap → Added guided setup flow for first-time users. Elderly SUS improved from 37.6 to 68.2, video consultation completion rate up 34%
+
 ### 🌟 User Reviews
 
 > "This skill replaced 3 different research tools in our workflow. The method recommendation alone saves us 2+ hours per project." — **Senior UX Researcher, E-commerce Platform**
@@ -1613,7 +1642,8 @@ persona-creation research-planning interview-generation
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-| v2.3.72 | 2026-05-15 | Repo maintenance: enhanced Beginner Quick Reference Card with cross-skill integration cheat sheet; added English FAQ entries; verified ecosystem cross-reference completeness and bilingual consistency |
+| v2.3.72 | 2026-05-15 | Previous maintenance
+| v2.3.73 | 2026-05-15 | Repo maintenance: added 3rd English case study (Healthcare App usability redesign with segmented SUS scoring); enhanced ecosystem workflow examples with explicit JTBD→QuantUX→SWD handoff patterns | Repo maintenance: enhanced Beginner Quick Reference Card with cross-skill integration cheat sheet; added English FAQ entries; verified ecosystem cross-reference completeness and bilingual consistency |
 | v2.3.71 | 2026-05-14 | Repo maintenance: enhanced ecosystem cross-reference workflows with 2026 mid-year updates. Added Python version consistency checks across all skill repos. Reference doc cross-links updated for all companion skills. |
 | v2.3.70 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 | v2.3.69 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, aligned README+SKILL.md+pyproject.toml versions |
