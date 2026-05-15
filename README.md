@@ -4,11 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.79-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.80-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen-brightgreen.svg)
 
-> 🆕 **What's New in v2.3.79**: Repository maintenance v2.3.79. Synced Python __version__ with SKILL.md. Added usage example improvements. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
+> 🆕 **What's New in v2.3.80**: Repository maintenance 2.3.80. v2.3.80: add unlinked reference file guides to README (CN+EN), link all method reference docs. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -729,6 +729,18 @@ A: 强烈推荐！UDM 做定性发现，QuantUX 做定量验证，两者结合�
 - **《The Design of Everyday Things》** - Don Norman (用户中心设计经典)
 - **《Don't Make Me Think》** - Steve Krug (可用性测试入门)
 - **《Rocket Surgery Made Easy》** - Steve Krug (可用性测试实战)
+
+#### 📂 方法参考指南
+
+| 指南 | 内容 |
+|------|------|
+| [探索阶段方法](references/methods-exploration.md) | 情境访谈、日记研究、文化探针 |
+| [生成阶段方法](references/methods-generative.md) | 头脑风暴、共创工作坊、设计工作室 |
+| [评估阶段方法](references/methods-evaluative.md) | 可用性测试、启发式评估、A/B 测试 |
+| [综合阶段方法](references/methods-synthesis.md) | 亲和图、人物角色、体验历程图 |
+| [沟通阶段方法](references/methods-communication.md) | 故事板、用户旅程、利益相关者地图 |
+| [执行模板](references/execution-templates.md) | 访谈、观察和可用性测试模板 |
+| [跨技能协作](references/08-ecosystem-collaboration.md) | UDM → JTBD/QuantUX/VPD/SWD/Persona 工作流
 
 ### 📚 关于《Universal Methods of Design》
 
@@ -1521,6 +1533,18 @@ report = skill.generate_report("Video Consultation Usability", summary="Elderly 
 - **"Just Enough Research"** — Erika Hall, research for lean teams
 - **"SUS: A Quick and Dirty Usability Scale"** — John Brooke, original SUS paper
 
+#### 📂 Method Reference Guides
+
+| Guide | Content |
+|-------|--------|
+| [Exploration Phase Methods](references/methods-exploration.md) | Contextual interviews, diary studies, cultural probes |
+| [Generative Methods](references/methods-generative.md) | Brainstorming, co-creation workshops, design studios |
+| [Evaluative Methods](references/methods-evaluative.md) | Usability testing, heuristic evaluation, A/B testing |
+| [Synthesis Methods](references/methods-synthesis.md) | Affinity diagrams, personas, experience journey maps |
+| [Communication Methods](references/methods-communication.md) | Storyboards, user journeys, stakeholder maps |
+| [Execution Templates](references/execution-templates.md) | Interview, observation, and usability testing templates |
+| [Ecosystem Collaboration](references/08-ecosystem-collaboration.md) | UDM → JTBD/QuantUX/VPD/SWD/Persona workflows
+
 ### 📚 About This Skill
 
 This skill is based on the methodology from *"Universal Methods of Design"* by Bruce Hanington and Bella Martin, a comprehensive reference of 100 design research methods spanning exploration, synthesis, and communication phases.
@@ -1885,4 +1909,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.3.78*
+*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.3.78*
