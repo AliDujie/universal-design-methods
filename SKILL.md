@@ -5,7 +5,7 @@ description: >
   访谈提纲生成、观察记录、可用性测试、问卷设计、综合分析（亲和图/角色画像/体验历程图）、
   研究计划与报告生成等完整执行能力，以及CEO决策视角的研究方法ROI评估、决策产出说明与资源分配建议。
 author: "渡劫"
-version: "2.3.77"
+version: "2.3.78"
 ---
 
 # 通用设计方法 (Universal Design Methods) 执行技能
@@ -307,6 +307,15 @@ skill = UDMSkill("我的产品")
 | 5 | **知识优先** | 方法论问题先调用 `search_knowledge()` 查询 |
 | 6 | **CEO 决策默认附加** | 生成研究计划或报告时，自动附加 ROI 评估 + 资源分配建议 |
 | 7 | **完整交付** | 每个任务产出完整可用的计划/报告/建议 |
+
+### ⛔ 何时不使用 UDM
+
+- **纯 A/B 测试或统计分析** — 使用 [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) 做定量验证
+- **创建人物角色** — 使用 [Web Persona](https://github.com/AliDujie/web-persona-skill)
+- **数据可视化与叙事** — 使用 [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data)
+- **Jobs-to-be-Done 分析** — 使用 [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill)
+- **价值主张画布** — 使用 [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
+- **商业框架分析** — 使用 [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model)
 
 ## 知识库
 
