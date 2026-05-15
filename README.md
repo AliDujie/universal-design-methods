@@ -4,11 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.78-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.79-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen-brightgreen.svg)
 
-> 🆕 **What's New in v2.3.78**: Repository maintenance v2.3.78. Verified ecosystem cross-references and bilingual consistency. Checked all code examples for accuracy. Refreshed last-updated date.
+> 🆕 **What's New in v2.3.79**: Repository maintenance v2.3.79. Synced Python __version__ with SKILL.md. Added usage example improvements. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
