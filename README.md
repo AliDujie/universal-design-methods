@@ -4,11 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.81-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.82-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen.svg)
 
-> 🆕 **What's New in v2.3.80**: Repository maintenance 2.3.80. v2.3.80: add unlinked reference file guides to README (CN+EN), link all method reference docs. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
+> 🆕 **What's New in v2.3.82: Repository maintenance v2.3.82. Updated What's New callout to current version. Fixed version mismatch (header badge v2.3.81, What's New said v2.3.80). Verified ecosystem cross-references and bilingual consistency.**: Repository maintenance 2.3.80. v2.3.80: add unlinked reference file guides to README (CN+EN), link all method reference docs. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1616,6 +1616,23 @@ persona.add_persona("BusyParent", "time-poor parent", "secondary",
 udm = UDMSkill("e-commerce")
 guide = udm.generate_interview("BusyParent validation", ["contextual", "time-diary"])
 # → Generates persona-tailored interview questions
+```
+
+```python
+# Recipe 3: Research-to-Value-Prop pipeline
+from udm import UDMSkill; from jtbd import JTBDSkill; from vpd import VPDSkill
+
+# Phase 1: UDM conducts exploratory research
+udm = UDMSkill("fitness app")
+findings = udm.synthesize_affinity(["I quit after 2 weeks", "too many features", "no accountability"])
+
+# Phase 2: JTBD structures the jobs from research
+jtbd = JTBDSkill("fitness app")
+jobs = jtbd.create_job_stories(job_statement="Help me stay consistent with workouts")
+
+# Phase 3: VPD maps jobs to value propositions
+vpd = VPDSkill("fitness app")
+canvas = vpd.analyze_canvas()  # Pain relievers + gain creators mapped to job needs
 ```
 
 - **[JTBD-Knowledge-Skill](https://github.com/AliDujie/jtbd-knowledge-skill)** — Jobs-to-be-Done theory
