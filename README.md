@@ -4,11 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.84-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.85-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen.svg)
 
-> 🆕 **What's New in v2.3.84**: Added `__version__` to `__all__` export list for proper `import udm; udm.__version__` usage. Fixed trailing whitespace in code examples. Verified version alignment across pyproject.toml, SKILL.md, README, and `__init__.py`.: Cleaned up What's New callout. Verified ecosystem cross-references and bilingual consistency across all 7 skills. All reference docs linked in CN+EN. Refreshed last-updated date.
+> 🆕 **What's New in v2.3.85**: Fixed footer version mismatch (v2.3.81→v2.3.84), verified ecosystem cross-references and bilingual consistency across all 7 skills. All reference docs linked in CN+EN. Refreshed last-updated date.
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1672,6 +1672,7 @@ persona-creation research-planning interview-generation
 ### 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| 2.3.85 | 2026-05-16 | 仓库维护：修复页脚版本不一致，验证生态交叉引用完整性和双语一致性，全文件版本对齐 |
 | 2.3.81 | 2026-05-16 | 仓库维护：修复双 brightgreen 徽章，增强 UDM 推广章节，验证生态交叉引用完整性和双语一致性 |
 | 2.3.74 | 2026-05-15 | 仓库维护：更新 SKILL.md 版本对齐，增强生态系统协作指南，新增跨技能 API 手off示例；验证生态交叉引用完整性和双语一致性
 | 2.3.73 | 2026-05-15 | 仓库维护：添加第 3 个英文案例研究（Healthcare App 可用性重新设计）；增强生态系统工作流示例，添加明确的 JTBD→QuantUX→SWD 交接模式
@@ -1741,6 +1742,8 @@ persona-creation research-planning interview-generation
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
+| v2.3.85 | 2026-05-16 | Repo maintenance: fixed footer version mismatch, verified ecosystem cross-references and bilingual consistency across all 7 skills, version alignment across all config files |
+| v2.3.85 | 2026-05-16 | Repo maintenance: fixed footer version mismatch (v2.3.81→v2.3.84), verified ecosystem cross-references and bilingual consistency across all 7 skills, version alignment across all config files |
 | v2.3.72 | 2026-05-15 | Previous maintenance
 | v2.3.73 | 2026-05-15 | Repo maintenance: added 3rd English case study (Healthcare App usability redesign with segmented SUS scoring); enhanced ecosystem workflow examples with explicit JTBD→QuantUX→SWD handoff patterns | Repo maintenance: enhanced Beginner Quick Reference Card with cross-skill integration cheat sheet; added English FAQ entries; verified ecosystem cross-reference completeness and bilingual consistency |
 | v2.3.71 | 2026-05-14 | Repo maintenance: enhanced ecosystem cross-reference workflows with 2026 mid-year updates. Added Python version consistency checks across all skill repos. Reference doc cross-links updated for all companion skills. |
@@ -1929,4 +1932,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.3.81*
+*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.3.85*
