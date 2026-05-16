@@ -284,6 +284,7 @@ python -m pytest udm/tests/test_all.py -v
 | [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | UDM user findings → CPO product strategy |
 | [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | User insights → CMO brand positioning |
 | [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | Research reports → CEO plan review |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | UDM tech usability findings → CTO infrastructure decisions |
 
 ## 🤝 Contributing
 
