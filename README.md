@@ -174,10 +174,12 @@ from quantux import QuantUXSkill
 from vpd import VPDSkill
 from swd import SWDSkill
 
-persona = PersonaSkill("Travel App").build("Frequent Business Traveler")   # 1. Define user
+persona = PersonaSkill("Travel App")                          # 1. Define user
+persona.add_persona(name="Frequent Traveler", archetype="Business User",
+    priority="primary", goals=["Book hotel fast"])
 jtbd    = JTBDSkill("Travel App").score_opportunity("Book hotel fast", struggle=4, alternative=3, market=4, budget=4)  # 2. Validate need
 udm     = UDMSkill("Travel App").generate_interview("Booking Flow", "contextual")  # 3. Run research
-quantux = QuantUXSkill("Travel App").ab_test("Checkout A vs B", variant="B")  # 4. Quantitative validation
+quantux = QuantUXSkill("Travel App").calculate_ab_sample_size(baseline=0.35, mde=0.03)  # 4. Plan A/B test
 vpd     = VPDSkill("Travel App", "Business Travelers").analyze_canvas(jobs=[{"description": "Book fast"}])  # 5. Value proposition
 swd     = SWDSkill("Travel App").recommend_chart(data_type="categorical", category_count=3)  # 6. Executive presentation
 ```
