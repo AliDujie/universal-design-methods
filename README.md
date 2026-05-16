@@ -6,6 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
+![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
 ## 🇨🇳 中文概览
 
@@ -258,6 +259,26 @@ python -m pytest udm/tests/test_all.py -v
 ## 🤝 Contributing
 
 We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## ❓ FAQ / Troubleshooting
+
+**Q: Do I need to install any dependencies?**
+No. UDM uses only the Python standard library. Just `from udm import UDMSkill`.
+
+**Q: Which phase number should I use in `recommend_methods()`?**
+Phase 1 = Planning & Scoping, Phase 2 = Exploration & Synthesis, Phase 3 = Concept Generation, Phase 4 = Evaluation & Refinement, Phase 5 = Launch & Monitoring. When unsure, omit the phase parameter for cross-phase recommendations.
+
+**Q: How does the triangulation engine work?**
+It recommends 3-5 complementary methods mixing qualitative and quantitative approaches, ensuring methodological diversity and improving research reliability.
+
+**Q: Can I use UDM with other skills in the ecosystem?**
+Yes! UDM is designed as the methodology core. Pair it with [Persona](https://github.com/AliDujie/web-persona-skill) for user data, [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for needs analysis, [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) for quantitative validation, [VPD](https://github.com/AliDujie/value-proposition-design) for value mapping, and [SWD](https://github.com/AliDujie/storytelling-with-data) for executive presentations.
+
+**Q: SUS score seems off — what range should I expect?**
+SUS scores range 0-100. Grade thresholds: A (80+), B (68-79), C (52-67), D (37-51), F (<37). Average SUS score across industries is ~68.
+
+**Q: Is this skill suitable for non-researchers?**
+Absolutely. The CEO-level extensions (ROI, resource allocation) are designed for anyone who needs to justify research decisions to stakeholders.
 
 ## 📄 License
 
