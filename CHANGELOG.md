@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.3.83 (2026-05-16)
+
+- Repo maintenance: enhanced English Features at a Glance with additional rows
+- Improved What's New callout formatting (removed garbled text)
+- Verified ecosystem cross-references and bilingual consistency
+- Confirmed all reference files linked in CN+EN
+
+
 ## v2.3.79 (2026-05-16)
 
 - Synced Python `__version__` with SKILL.md version
