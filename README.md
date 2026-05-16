@@ -9,7 +9,7 @@
 
 Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A complete toolkit covering **100 design research methods** across 5 phases, with **11 executable capabilities** — from method recommendation to interview guides, usability testing, journey maps, research plans, reports, and CEO-level ROI analysis.
 
-## 🌟 Why UDM?
+## 💼 Why Teams Choose UDM
 
 | Challenge | Without UDM | With UDM |
 |-----------|------------|----------|
@@ -18,6 +18,16 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 | Usability Testing | Ad-hoc checklists | Built-in SUS scoring + heuristic evaluation |
 | Survey Design | Copy-paste templates | 5 survey types including Kano/NPS |
 | Research Reports | Free-form, missing key info | Standardized format + CEO decision support |
+
+## 🌟 Why UDM?
+
+- **100 methods covered** — From exploration to communication, one-stop solution for all research needs
+- **11 executable capabilities** — Not just knowledge, but produces interview guides, test scripts, surveys, journey maps, research plans, and reports
+- **Smart triangulation** — Auto-recommends 3-5 method combos, mixing qual + quant, improving research reliability
+- **Zero learning curve** — Pure Python standard library, no external dependencies, `from udm import UDMSkill` to start
+- **CEO decision perspective** — Auto-attaches ROI assessment, resource allocation advice, helps you articulate research value
+- **Bilingual support** — Full CN/EN documentation, suitable for international teams
+- **Ecosystem core** — Seamlessly collaborates with JTBD, QuantUX, Persona, VPD, SWD (5 skills), covering the full user research lifecycle
 
 ## ⚡ Quick Start (5 Minutes)
 
