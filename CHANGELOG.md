@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.3.84 (2026-05-16)
+
+- Repo maintenance: Added `__version__` to `__all__` export list for proper `from udm import __version__`
+- Fixed trailing whitespace in README code examples
+- Verified version alignment across pyproject.toml, SKILL.md, README, and `__init__.py`
+
 ## v2.3.83 (2026-05-16)
 
 - Repo maintenance: enhanced English Features at a Glance with additional rows

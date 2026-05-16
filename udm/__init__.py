@@ -34,7 +34,7 @@
     report = skill.generate_report("体验研究报告")
 """
 
-__version__ = "2.3.83"
+__version__ = "2.3.84"
 
 from .config import (
     AnalysisConfig, METHODS_INDEX, DESIGN_PHASES,
@@ -511,6 +511,7 @@ class UDMSkill:
 
 
 __all__ = [
+    "__version__",
     "UDMSkill",
     "AnalysisConfig", "METHODS_INDEX", "DESIGN_PHASES",
     "NIELSEN_HEURISTICS", "SUS_QUESTIONS", "KANO_CATEGORIES",

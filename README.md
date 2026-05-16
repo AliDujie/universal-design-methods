@@ -4,11 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.3.83-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.84-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen.svg)
 
-> 🆕 **What's New in v2.3.83**: Cleaned up What's New callout. Verified ecosystem cross-references and bilingual consistency across all 7 skills. All reference docs linked in CN+EN. Refreshed last-updated date.
+> 🆕 **What's New in v2.3.84**: Added `__version__` to `__all__` export list for proper `import udm; udm.__version__` usage. Fixed trailing whitespace in code examples. Verified version alignment across pyproject.toml, SKILL.md, README, and `__init__.py`.: Cleaned up What's New callout. Verified ecosystem cross-references and bilingual consistency across all 7 skills. All reference docs linked in CN+EN. Refreshed last-updated date.
 
 > 📖 **100 种设计研究方法、11 大执行能力、1 个完整 Python 工具包**
 
@@ -1509,8 +1509,8 @@ senior_sus = [35, 42, 38, 40, 33]  # avg: 37.6 (Needs improvement)
 
 # Journey map reveals the critical pain point
 jm = skill.build_journey_map("Video Consultation", persona="Elderly Patient")
-jm.add_stage("Schedule", actions=["Select doctor", "Pick time"], emotions=4, pain_points=["OK"]) 
-jm.add_stage("Wait", actions=["Join waiting room"], emotions=2, pain_points=["No clear instructions", "Anxious about tech"]) 
+jm.add_stage("Schedule", actions=["Select doctor", "Pick time"], emotions=4, pain_points=["OK"])
+jm.add_stage("Wait", actions=["Join waiting room"], emotions=2, pain_points=["No clear instructions", "Anxious about tech"])
 jm.add_stage("Connect", actions=["Enable camera", "Start video"], emotions=1, pain_points=["Can't find button", "Audio/video settings confusing"])
 
 # Generate report with segmented findings
