@@ -39,6 +39,33 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 - **Bilingual support** — Full CN/EN documentation, suitable for international teams
 - **Ecosystem core** — Seamlessly collaborates with JTBD, QuantUX, Persona, VPD, SWD (5 skills), covering the full user research lifecycle
 
+## 💡 为什么选择 UDM？
+
+> **UDM 是整个 AliDujie UX 研究生态的方法论引擎。** 无论你做定性访谈还是定量实验，UDM 都能帮你选对方法、产出可用文档。100 种方法覆盖从探索到沟通的完整周期，11 项执行能力让你从"知道用什么方法"升级到"直接产出访谈提纲、测试脚本、问卷、历程图、研究报告"。配合内置的 CEO 决策视角（ROI / 资源分配），让研究预算不再被质疑。
+>
+> *"有了 UDM，团队不再为'该用哪种研究方法'争论——系统直接推荐 3-5 种方法组合，附三角测量逻辑。"*
+
+## 🔗 Ecosystem Quick Start
+
+UDM is designed to work alongside other AliDujie skills. Here's how to chain them:
+
+```python
+# Persona (who) → JTBD (what they need) → UDM (how to research) → QuantUX (validate) → VPD (value) → SWD (present)
+from persona import PersonaSkill
+from jtbd import JTBDSkill
+from udm import UDMSkill
+from quantux import QuantUXSkill
+from vpd import VPDSkill
+from swd import SWDSkill
+
+p = PersonaSkill("Travel App")           # Define target users
+j = JTBDSkill("Travel App")             # Discover unmet needs
+u = UDMSkill("Travel App")              # Recommend methods + run research
+q = QuantUXSkill("Travel App")          # Quantitative validation
+v = VPDSkill("Travel App", "travelers") # Value proposition canvas
+s = SWDSkill("Q1 Report")               # Executive data story
+```
+
 ## ⚡ Quick Start (5 Minutes)
 
 ### Install
@@ -259,6 +286,16 @@ python -m pytest udm/tests/test_all.py -v
 ## 🤝 Contributing
 
 We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### Related Skills in the AliDujie Ecosystem
+
+| Skill | What It Does | GitHub |
+|-------|-------------|--------|
+| [Web Persona](https://github.com/AliDujie/web-persona-skill) | Evidence-driven user persona creation | `PersonaSkill` |
+| [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | Jobs-to-be-Done analysis (4-school fusion) | `JTBDSkill` |
+| [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | HEART framework, A/B testing, MaxDiff | `QuantUXSkill` |
+| [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD canvas, Blue Ocean strategy | `VPDSkill` |
+| [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | Data visualization & executive storytelling | `SWDSkill` |
 
 ## ❓ FAQ / Troubleshooting
 
