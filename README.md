@@ -75,6 +75,8 @@ s = SWDSkill("Q1 Report")               # Executive data story
 cp -r universal-design-methods /your/agent/skills/
 ```
 
+For detailed installation steps, configuration options, and agent integration guides, see [INSTALL.md](INSTALL.md).
+
 ### Use in Python
 
 ```python
@@ -316,6 +318,13 @@ SUS scores range 0-100. Grade thresholds: A (80+), B (68-79), C (52-67), D (37-5
 
 **Q: Is this skill suitable for non-researchers?**
 Absolutely. The CEO-level extensions (ROI, resource allocation) are designed for anyone who needs to justify research decisions to stakeholders.
+
+## 📚 Resources
+
+- [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
+- [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
+- [CHANGELOG.md](CHANGELOG.md) — Version history
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) — Community guidelines
 
 ## 📄 License
 
