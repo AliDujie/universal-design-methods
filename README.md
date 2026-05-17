@@ -240,6 +240,13 @@ canvas = vpd.analyze_canvas(product_name="Travel Booking", jobs=[{"description":
 - [ ] **SUS scoring** — `skill.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])`
 - [ ] **Research plan** — `skill.generate_research_plan("UX Study")`
 
+> 💡 **Try it now / 立即尝试**:
+> ```python
+> from udm import UDMSkill
+> skill = UDMSkill("你的产品")
+> print(skill.recommend_methods("了解用户为什么流失", phase=1))
+> ```
+
 ## 📖 Knowledge Base
 
 | Document | Topic | Linked Capabilities |
