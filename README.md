@@ -45,6 +45,27 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 >
 > *"有了 UDM，团队不再为'该用哪种研究方法'争论——系统直接推荐 3-5 种方法组合，附三角测量逻辑。"*
 
+## 🔗 生态快速开始
+
+UDM 被设计为与其他 AliDujie 技能协同工作。以下是串联方式：
+
+```python
+# Persona（谁）→ JTBD（需要什么）→ UDM（怎么研究）→ QuantUX（验证）→ VPD（价值）→ SWD（呈现）
+from persona import PersonaSkill
+from jtbd import JTBDSkill
+from udm import UDMSkill
+from quantux import QuantUXSkill
+from vpd import VPDSkill
+from swd import SWDSkill
+
+p = PersonaSkill("旅行应用")            # 定义目标用户
+j = JTBDSkill("旅行应用")              # 发现未满足的需求
+u = UDMSkill("旅行应用")              # 推荐方法 + 执行研究
+q = QuantUXSkill("旅行应用")          # 定量验证
+v = VPDSkill("旅行应用", "旅行者")    # 价值主张画布
+s = SWDSkill("Q1 报告")               # 数据故事
+```
+
 ## 🔗 Ecosystem Quick Start
 
 UDM is designed to work alongside other AliDujie skills. Here's how to chain them:
