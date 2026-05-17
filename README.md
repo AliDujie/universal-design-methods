@@ -209,6 +209,16 @@ vpd = VPDSkill("Travel Booking", "Business Travelers")
 canvas = vpd.analyze_canvas(product_name="Travel Booking", jobs=[{"description": "Find hotel quickly"}])
 ```
 
+### 📊 5-Minute Setup Checklist
+
+- [ ] **Install** — `cp -r universal-design-methods /your/agent/skills/`
+- [ ] **Import** — `from udm import UDMSkill`
+- [ ] **Initialize** — `skill = UDMSkill("Your Product")`
+- [ ] **Recommend methods** — `skill.recommend_methods("Understand user churn", phase=1)`
+- [ ] **Generate interview** — `skill.generate_interview("User Research", "contextual")`
+- [ ] **SUS scoring** — `skill.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])`
+- [ ] **Research plan** — `skill.generate_research_plan("UX Study")`
+
 ## 📖 Knowledge Base
 
 | Document | Topic | Linked Capabilities |
