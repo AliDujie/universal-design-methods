@@ -169,6 +169,17 @@ print(ResearchPlanBuilder.render_markdown(plan.build()))
 
 ## 📐 Design Five Phases
 
+```
+Phase 1          Phase 2              Phase 3              Phase 4               Phase 5
+Planning &      Exploration &        Concept             Evaluation &          Launch &
+Scoping ──────► Synthesis  ──────►  Generation  ──────►  Refinement  ──────►  Monitoring
+(Define)        (Infer)              (Derive)             (Assess)              (Monitor)
+  │                │                    │                    │                     │
+  ├─ Stakeholder   ├─ Analogies         ├─ Brainstorming     ├─ Heuristic Eval     ├─ Diary Studies
+  ├─ Desk Research ├─ Cultural Probe    ├─ Bodystorming      ├─ Usability Test     ├─ A/B Testing
+  └─ Frameworks    └─ Experience Map    └─ Affinity Diagram  └─ Cognitive Walkth.  └─ Analytics
+```
+
 1. **Planning & Scoping** — Explore and define project boundaries
 2. **Exploration & Synthesis** — Infer design implications
 3. **Concept Generation** — Derivative design activities
@@ -342,6 +353,15 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | Business framework analysis | `STMSkill` |
 
 ## ❓ FAQ / Troubleshooting
+
+**Q: I'm not sure which phase to start with — what do you recommend?**
+Start with Phase 1 (Planning & Scoping) if you're early in a project. If you already know what you're studying, skip to the relevant phase. Use `recommend_methods()` without a phase parameter for cross-phase suggestions.
+
+💡 **Pro Tips / 专业技巧**
+- **Triangulation is key**: Always pair at least one qualitative + one quantitative method for robust findings
+- **Start small**: Pick 3 methods from the recommendation, not 10 — depth beats breadth
+- **CEO ROI early**: Run `generate_research_plan(include_ceo_analysis=True)` before pitching research budget — it helps you speak the stakeholder's language
+- **Document as you go**: Each method output (interview guide, observation record) feeds into synthesis — don't skip the paper trail
 
 **Q: Do I need to install any dependencies?**
 No. UDM uses only the Python standard library. Just `from udm import UDMSkill`.
