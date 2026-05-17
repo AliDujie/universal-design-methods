@@ -369,11 +369,17 @@ No. UDM uses only the Python standard library. Just `from udm import UDMSkill`.
 **Q: Which phase number should I use in `recommend_methods()`?**
 Phase 1 = Planning & Scoping, Phase 2 = Exploration & Synthesis, Phase 3 = Concept Generation, Phase 4 = Evaluation & Refinement, Phase 5 = Launch & Monitoring. When unsure, omit the phase parameter for cross-phase recommendations.
 
+**Q: I have limited time/budget — what's the minimum viable research setup?**
+For a 2-week, low-budget study: run 5–8 contextual interviews (Capability 2), synthesize with an affinity diagram (Capability 6), and follow up with a quick SUS usability test (Capability 4). This gives you qual + quant triangulation without a full research sprint.
+
 **Q: How does the triangulation engine work?**
 It recommends 3-5 complementary methods mixing qualitative and quantitative approaches, ensuring methodological diversity and improving research reliability.
 
+**Q: How do I combine UDM with other AliDujie skills in practice?**
+Start with UDM to select research methods and generate interview guides → feed findings into [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for opportunity scoring → use [VPD](https://github.com/AliDujie/value-proposition-design) to map to value propositions → validate with [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) → present via [SWD](https://github.com/AliDujie/storytelling-with-data). See the [Complete Pipeline Example](#-complete-pipeline-example) section above.
+
 **Q: Can I use UDM with other skills in the ecosystem?**
-Yes! UDM is designed as the methodology core. Pair it with [Persona](https://github.com/AliDujie/web-persona-skill) for user data, [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for needs analysis, [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) for quantitative validation, [VPD](https://github.com/AliDujie/value-proposition-design) for value mapping, and [SWD](https://github.com/AliDujie/storytelling-with-data) for executive presentations.
+Yes! UDM is designed as the methodology core. Pair it with [Persona](https://github.com/AliDujie/web-persona-skill) for user data, [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for needs analysis, [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) for quantitative validation, [VPD](https://github.com/AliDujie/value-proposition-design) for value mapping, and [SWD](https://github.com/AliDujie/storytelling-with-data) for executive presentations. See the [complete pipeline example](#-complete-pipeline-example) above for the full 6-skill chain.
 
 **Q: SUS score seems off — what range should I expect?**
 SUS scores range 0-100. Grade thresholds: A (80+), B (68-79), C (52-67), D (37-51), F (<37). Average SUS score across industries is ~68.
