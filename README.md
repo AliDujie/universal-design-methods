@@ -258,6 +258,16 @@ canvas = vpd.analyze_canvas(product_name="Travel Booking", jobs=[{"description":
 > print(skill.recommend_methods("了解用户为什么流失", phase=1))
 > ```
 
+### ⏱️ 5 分钟快速开始检查清单
+
+- [ ] **安装** — `cp -r universal-design-methods /your/agent/skills/`
+- [ ] **导入** — `from udm import UDMSkill`
+- [ ] **初始化** — `skill = UDMSkill("你的产品")`
+- [ ] **方法推荐** — `skill.recommend_methods("了解用户为什么流失", phase=1)`
+- [ ] **生成访谈** — `skill.generate_interview("用户研究", "contextual", context="酒店预订")`
+- [ ] **SUS 评分** — `skill.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])`
+- [ ] **研究计划** — `skill.generate_research_plan("UX 研究")`
+
 ## 📖 Knowledge Base
 
 | Document | Topic | Linked Capabilities |
