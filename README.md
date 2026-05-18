@@ -396,7 +396,7 @@ udm = UDMSkill("Your Product")
 guide = udm.generate_interview("User Deep Dive", "contextual", context="Your context here")
 ```
 
-## 📋 When NOT to Use UDM
+## 🚧 When NOT to Use UDM
 
 - **Pure A/B testing or statistical analysis** → Use [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research)
 - **Creating user personas** → Use [Web Persona](https://github.com/AliDujie/web-persona-skill)
@@ -533,14 +533,6 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 - [CHANGELOG.md](CHANGELOG.md) — Version history
 - [SECURITY.md](SECURITY.md) — Security policy and responsible use
 - [references/](references/) — Method reference cards and templates
-
-## ⚠️ When NOT to Use UDM
-
-- **Creating user personas** → Use [Web Persona](https://github.com/AliDujie/web-persona-skill)
-- **JTBD analysis and opportunity scoring** → Use [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill)
-- **Value proposition canvas and PMF validation** → Use [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
-- **Statistical analysis / A/B testing** → Use [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research)
-- **Data visualization and storytelling** → Use [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data)
 
 ## 📄 License
 
