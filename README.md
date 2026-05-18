@@ -270,6 +270,16 @@ vpd     = VPDSkill("Travel App", "Business Travelers").analyze_canvas(jobs=[{"de
 swd     = SWDSkill("Travel App").recommend_chart(data_type="categorical", category_count=3)  # 6. Executive presentation
 ```
 
+### 🔗 Cross-Skill Collaboration / 跨技能协作
+
+| UDM 产出 → | 下游技能用它做... | 示例调用 |
+|-----------|-----------------|----------|
+| 研究报告 | [SWD](https://github.com/AliDujie/storytelling-with-data) 数据故事构建 | `swd.build_story(evidence=udm_report.findings)` |
+| 定性假设 | [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) A/B 验证 | `quantux.analyze_ab_test()` |
+| 用户痛点 | [VPD](https://github.com/AliDujie/value-proposition-design) 画布填充 | `vpd.analyze_canvas(pains=udm.findings)` |
+| 访谈数据 | [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 四力分析 | `jtbd.analyze_forces()` from transcripts |
+| 观察记录 | [Persona](https://github.com/AliDujie/web-persona-skill) 角色创建 | `persona.add_persona(behaviors=udm.observations)` |
+
 | Upstream | Downstream | Collaboration |
 |----------|-----------|---------------|
 | Persona (user data) | JTBD (need insights) | UDM interviews → JTBD structured analysis |
