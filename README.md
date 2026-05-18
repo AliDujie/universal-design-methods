@@ -395,13 +395,14 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD canvas, Blue Ocean strategy | `VPDSkill` |
 | [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | Data visualization & executive storytelling | `SWDSkill` |
 | [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | Business framework analysis | `STMSkill` |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | CTO-level tech strategy & architecture guidance | `CTOSkill` |
 
 ## ❓ FAQ / Troubleshooting
 
 **Q: I'm not sure which phase to start with — what do you recommend?**
 Start with Phase 1 (Planning & Scoping) if you're early in a project. If you already know what you're studying, skip to the relevant phase. Use `recommend_methods()` without a phase parameter for cross-phase suggestions.
 
-💡 **Pro Tips / 专业技巧**
+### 💡 Pro Tips / 专业技巧
 - **Triangulation is key**: Always pair at least one qualitative + one quantitative method for robust findings
 - **Start small**: Pick 3 methods from the recommendation, not 10 — depth beats breadth
 - **CEO ROI early**: Run `generate_research_plan(include_ceo_analysis=True)` before pitching research budget — it helps you speak the stakeholder's language
