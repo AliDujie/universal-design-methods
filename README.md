@@ -414,7 +414,21 @@ guide = udm.generate_interview("User Deep Dive", "contextual", context="Your con
 | The Design of Everyday Things | Don Norman (2013) | Usability evaluation principles |
 | Sprint | Jake Knapp (2016) | Rapid design sprint methods |
 
+### 🔗 扩展生态 (Extended Ecosystem)
+
+UDM 研究数据可与管理技能结合，将研究洞察转化为战略决策：
+
+| 扩展技能 | 协作场景 |
+|---------|----------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | 研究 ROI → CEO 战略决策 |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | UDM 用户发现 → CPO 产品战略 |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | 用户洞察 → CMO 品牌定位 |
+| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | 研究报告 → CEO 计划审查与范围对齐 |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | UDM 技术可用性发现 → CTO 基础设施决策 |
+
 ## 🔗 Extended Ecosystem
+
+UDM research data can be combined with management skills to turn research insights into strategic decisions:
 
 | Extended Skill | Collaboration Scenario |
 |---------------|----------------------|
