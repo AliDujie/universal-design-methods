@@ -397,6 +397,18 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | Business framework analysis | `STMSkill` |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | CTO-level tech strategy & architecture guidance | `CTOSkill` |
 
+## 🛡️ Common Pitfalls & How to Avoid Them
+
+| Pitfall | How UDM Helps |
+|---------|---------------|
+| "We need more research" — paralysis by analysis | `recommend_methods()` returns 3-5 focused methods, not an endless list |
+| Interviews drift off-topic | `generate_interview()` provides structured question flow with priority tags |
+| Usability tests miss critical issues | `generate_heuristic_checklist()` + SUS scoring catches what ad-hoc testing misses |
+| Research findings get lost | `generate_report()` produces structured, severity-ranked deliverables |
+| Budget gets rejected | `generate_research_plan()` auto-attaches ROI scores and resource allocation |
+
+**Rule of thumb**: Always pair at least one qualitative method with one quantitative method. UDM's triangulation engine does this automatically.
+
 ## ❓ FAQ / Troubleshooting
 
 **Q: I'm not sure which phase to start with — what do you recommend?**
@@ -416,6 +428,8 @@ Phase 1 = Planning & Scoping, Phase 2 = Exploration & Synthesis, Phase 3 = Conce
 
 **Q: I have limited time/budget — what's the minimum viable research setup?**
 For a 2-week, low-budget study: run 5–8 contextual interviews (Capability 2), synthesize with an affinity diagram (Capability 6), and follow up with a quick SUS usability test (Capability 4). This gives you qual + quant triangulation without a full research sprint.
+
+**Quick setup**: `skill.recommend_methods("Understand user pain points", phase=1, resource_level="minimal")` returns the leanest valid combo.
 
 **Q: How does the triangulation engine work?**
 It recommends 3-5 complementary methods mixing qualitative and quantitative approaches, ensuring methodological diversity and improving research reliability.
