@@ -2,7 +2,7 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.3.85-blue)
+![Version](https://img.shields.io/badge/version-2.3.86-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -536,7 +536,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.85)**: Added cross-skill collaboration table with 5 ecosystem skills, improved pipeline example clarity.
+**Latest (v2.3.86)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
+
+**Previous (v2.3.85)**: Added cross-skill collaboration table with 5 ecosystem skills, improved pipeline example clarity.
 
 ## 📚 Resources
 
