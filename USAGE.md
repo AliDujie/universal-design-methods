@@ -2,6 +2,18 @@
 
 > 通用设计方法 · 使用指南
 
+## 📐 Where UDM Fits in the Pipeline
+
+```
+Persona (Who) → JTBD (What) → UDM (How to Research) → QuantUX (Validate) → VPD (Value) → SWD (Present)
+                                            ↑
+                                       UDM sits here — the methodology engine
+```
+
+- **After** Persona & JTBD define users and their Jobs
+- **Before** QuantUX validates hypotheses statistically
+- **UDM** recommends methods, generates interview guides, runs usability tests, and produces reports
+
 ## ⚡ 5-Minute Quick Start / 5分钟快速开始
 
 ```bash
