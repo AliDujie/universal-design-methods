@@ -29,18 +29,6 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 
 > 🏆 **Proven Impact:** Teams using UDM report **40% faster research planning** and **3× more consistent interview quality** across projects. The built-in triangulation engine eliminates method selection guesswork, while CEO-level ROI scoring helps justify research budgets to stakeholders.
 
-### 💼 Why Teams Choose UDM
-
-| Challenge | Without UDM | With UDM |
-|-----------|------------|----------|
-| Research Planning | Hours studying methodology | Instant 3-method combo recommendation |
-| Interview Guides | Inconsistent quality | 5 structured types, out of the box |
-| Usability Testing | Ad-hoc checklists | Built-in SUS scoring + heuristic evaluation |
-| Survey Design | Copy-paste templates | 5 survey types including Kano/NPS |
-| Research Reports | Free-form, missing key info | Standardized format + CEO decision support |
-
-> 🏆 **Proven Impact:** Teams using UDM report **40% faster research planning** and **3× more consistent interview quality** across projects. The built-in triangulation engine eliminates method selection guesswork, while CEO-level ROI scoring helps justify research budgets to stakeholders.
-
 ### 🌟 UDM at a Glance
 
 - **100 methods covered** — From exploration to communication, one-stop solution for all research needs
