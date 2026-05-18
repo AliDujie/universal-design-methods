@@ -151,6 +151,40 @@ print(ResearchPlanBuilder.render_markdown(plan.build()))
 *Goal: Assess accessibility and ease-of-use for a patient-facing portal.*
 → Use heuristic evaluation via `generate_heuristic_checklist()` (Nielsen's 10 heuristics), run comparative testing with `generate_usability_test(..., "comparative")`, and produce a structured report with `generate_report()` including severity-ranked findings.
 
+## 🤖 AI Agent Integration
+
+UDM is designed to work as a **first-class agent skill** — drop it into any Python-based LLM agent and call methods directly from your agent's tool definitions:
+
+```python
+# Example: UDM as a LangChain-style tool
+from udm import UDMSkill
+
+skill = UDMSkill("My Product")
+
+# Tool: Method recommendation
+@tool
+def recommend_research_methods(research_goal: str, phase: int = None):
+    """Recommend 3-5 research methods for a given goal."""
+    return skill.recommend_methods(research_goal, phase=phase)
+
+# Tool: Interview guide generation
+@tool
+def generate_interview_guide(topic: str, method: str, context: str = None):
+    """Generate a structured interview guide."""
+    return skill.generate_interview(topic, method, context=context)
+
+# Tool: SUS scoring
+@tool
+def score_usability(responses: list[int]):
+    """Calculate SUS score from 10 questionnaire responses."""
+    return skill.calculate_sus(responses)
+```
+
+### Prompt Engineering Tips
+- **Context injection**: Pass UDM knowledge base entries (from `references/`) as system context when generating research plans
+- **Structured output**: Use `generate_research_plan()` to produce markdown-formatted plans that LLMs can refine
+- **Triangulation**: Let the agent call `recommend_methods()` first, then use the output to generate interview questions via JTBD + VPD skills
+
 ## 🧩 11 Executable Capabilities
 
 | # | Capability | What It Does |
