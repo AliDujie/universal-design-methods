@@ -486,6 +486,29 @@ SUS scores range 0-100. Grade thresholds: A (80+), B (68-79), C (52-67), D (37-5
 **Q: Is this skill suitable for non-researchers?**
 Absolutely. The CEO-level extensions (ROI, resource allocation) are designed for anyone who needs to justify research decisions to stakeholders.
 
+## 🏗️ Advanced: Custom Configuration
+
+UDM supports runtime configuration via the `AnalysisConfig` class:
+
+```python
+from udm import UDMSkill, AnalysisConfig
+
+config = AnalysisConfig()
+config.set_phase_range(1, 3)  # Only recommend methods from phases 1-3
+config.set_max_methods(5)     # Cap recommendations at 5 methods
+config.set_min_resource("minimal")  # Set minimum resource requirement
+
+skill = UDMSkill("My Product", config=config)
+```
+
+See [INSTALL.md](INSTALL.md) for full configuration options and agent integration guides.
+
+## 📊 Version History
+
+See [CHANGELOG.md](CHANGELOG.md) for full release notes.
+
+**Latest (v2.3.85)**: Added cross-skill collaboration table with 5 ecosystem skills, improved pipeline example clarity.
+
 ## 📚 Resources
 
 - [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
@@ -496,3 +519,9 @@ Absolutely. The CEO-level extensions (ROI, resource allocation) are designed for
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+**Built with ❤️ as part of the AliDujie UX Research Ecosystem**
+
+[Persona](https://github.com/AliDujie/web-persona-skill) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · **UDM** · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [VPD](https://github.com/AliDujie/value-proposition-design) · [SWD](https://github.com/AliDujie/storytelling-with-data) · [STM](https://github.com/AliDujie/Structured-Thinking-Model)
