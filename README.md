@@ -29,7 +29,19 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 
 > 🏆 **Proven Impact:** Teams using UDM report **40% faster research planning** and **3× more consistent interview quality** across projects. The built-in triangulation engine eliminates method selection guesswork, while CEO-level ROI scoring helps justify research budgets to stakeholders.
 
-## 🌟 Why UDM?
+### 🌟 Why UDM?
+
+### 💼 Why Teams Choose UDM
+
+| Challenge | Without UDM | With UDM |
+|-----------|------------|----------|
+| Research Planning | Hours studying methodology | Instant 3-method combo recommendation |
+| Interview Guides | Inconsistent quality | 5 structured types, out of the box |
+| Usability Testing | Ad-hoc checklists | Built-in SUS scoring + heuristic evaluation |
+| Survey Design | Copy-paste templates | 5 survey types including Kano/NPS |
+| Research Reports | Free-form, missing key info | Standardized format + CEO decision support |
+
+> 🏆 **Proven Impact:** Teams using UDM report **40% faster research planning** and **3× more consistent interview quality** across projects. The built-in triangulation engine eliminates method selection guesswork, while CEO-level ROI scoring helps justify research budgets to stakeholders.
 
 - **100 methods covered** — From exploration to communication, one-stop solution for all research needs
 - **11 executable capabilities** — Not just knowledge, but produces interview guides, test scripts, surveys, journey maps, research plans, and reports
@@ -225,7 +237,27 @@ Scoping ──────► Synthesis  ──────►  Generation  ─�
 UDM is the **methodology core** of the AliDujie UX Research Ecosystem:
 
 ```
-Persona → JTBD/UDM → QuantUX → VPD → SWD → STM
+┌──────────────┐    ┌──────────────┐    ┌──────────────┐
+│   Persona    │───►│  JTBD Skill  │───►│  UDM Skill   │
+│  👤 角色定义  │    │  🎯 需求洞察  │    │  📖 定性研究  │
+└──────────────┘    └──────────────┘    └──────┬───────┘
+                                              │
+                                     ┌────────▼───────┐
+                                     │  QuantUX Skill │
+                                     │  📊 定量验证    │
+                                     └────────┬───────┘
+                                              │
+                                     ┌────────▼───────┐
+                                     │  VPD Skill     │
+                                     │  💎 价值验证    │
+                                     └────────┬───────┘
+                                              │
+                                     ┌────────▼───────┐
+                                     │  SWD Skill     │
+                                     │  📈 数据叙事    │
+                                     └────────────────┘
+
+Workflow: Persona → JTBD/UDM → QuantUX → VPD → SWD → STM
 ```
 
 ### 🔀 Complete Pipeline Example
@@ -408,6 +440,16 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | Budget gets rejected | `generate_research_plan()` auto-attaches ROI scores and resource allocation |
 
 **Rule of thumb**: Always pair at least one qualitative method with one quantitative method. UDM's triangulation engine does this automatically.
+
+### 🔄 When to Combine with Other Skills
+
+| If you need to... | Start with | Then chain to |
+|-------------------|-----------|---------------|
+| Understand user needs before research | [Persona](https://github.com/AliDujie/web-persona-skill) | UDM method selection |
+| Structure Jobs from interview data | UDM interviews | [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity scoring |
+| Quantitatively validate qual findings | UDM qualitative research | [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) experiments |
+| Map Jobs to value propositions | UDM research findings | [VPD](https://github.com/AliDujie/value-proposition-design) canvas |
+| Present findings to executives | UDM research report | [SWD](https://github.com/AliDujie/storytelling-with-data) data story |
 
 ## ❓ FAQ / Troubleshooting
 
