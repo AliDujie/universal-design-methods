@@ -119,7 +119,7 @@ jm = udm.build_journey_map("预订流程", persona="用户")
 - [ ] **可用性测试** — `skill.generate_usability_test("流程测试", "formative")`
 - [ ] **体验历程图** — `skill.build_journey_map("预订体验", persona="用户")`
 
-[English](#english) | [中文](#中文说明)
+[English](README.md#quick-start-5-minutes) | [中文](#中文说明)
 
 ## ⚡ 快速上手 (Quick Start)
 
