@@ -487,7 +487,6 @@ Start with Phase 1 (Planning & Scoping) if you're early in a project. If you alr
 - **CEO ROI early**: Run `generate_research_plan(include_ceo_analysis=True)` before pitching research budget — it helps you speak the stakeholder's language
 - **Document as you go**: Each method output (interview guide, observation record) feeds into synthesis — don't skip the paper trail
 - **Chain with ecosystem**: UDM research → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) scores opportunities → [VPD](https://github.com/AliDujie/value-proposition-design) maps value → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) validates → [SWD](https://github.com/AliDujie/storytelling-with-data) presents → [Persona](https://github.com/AliDujie/web-persona-skill) defines users
-- **Combine with ecosystem**: UDM interviews → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity scoring → [VPD](https://github.com/AliDujie/value-proposition-design) canvas → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) validation → [SWD](https://github.com/AliDujie/storytelling-with-data) presentation → [Persona](https://github.com/AliDujie/web-persona-skill) user profiles
 
 **Q: Do I need to install any dependencies?**
 No. UDM uses only the Python standard library. Just `from udm import UDMSkill`.
