@@ -162,3 +162,19 @@ python udm/tests/test_all.py
 - [INSTALL.md](INSTALL.md) — Installation guide
 - [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
 - [CHANGELOG.md](CHANGELOG.md) — Version history
+- [SECURITY.md](SECURITY.md) — Security policy
+
+## 💡 Pro Tips / 专业技巧
+
+1. **Always start with `recommend_methods()`** — Before diving into a specific API, let UDM's triangulation engine suggest 3-5 complementary methods for your research goal. It automatically mixes qualitative and quantitative approaches so you don't miss blind spots.
+2. **Pair qual + quant for credible findings** — Run at least one qualitative method (e.g., `generate_interview("contextual")`) alongside one quantitative method (e.g., `calculate_sus()` or `generate_survey("kano")`). Stakeholders trust findings backed by both types of evidence.
+3. **Use `include_ceo_analysis=True` when pitching research budgets** — It auto-attaches ROI scoring, P0/P1/P2 prioritization, and resource allocation advice. Helps you speak the stakeholder's language before anyone asks "what's the return?"
+4. **Chain synthesis outputs downstream** — Journey maps, affinity diagrams, and persona outputs from UDM feed directly into JTBD opportunity scoring, VPD canvas filling, and SWD executive storytelling. Don't let artifacts sit in a folder — wire them into the next skill.
+
+**始终从 `recommend_methods()` 开始** — 在具体使用某个 API 之前，让 UDM 的三角测量引擎为你推荐 3-5 种互补的方法。它自动混合定性和定量方法，避免盲区。
+
+**定性+定量搭配，结论更有说服力** — 至少运行一种定性方法（如 `generate_interview("contextual")`）和一种定量方法（如 `calculate_sus()` 或 `generate_survey("kano")`）。同时拥有两类证据的研究结果更容易获得利益相关者信任。
+
+**推销研究预算时使用 `include_ceo_analysis=True`** — 自动附加 ROI 评分、P0/P1/P2 优先级排序和资源分配建议。在有人问"回报是什么"之前，用利益相关者的语言回答。
+
+**把综合产出串联到下游技能** — UDM 产出的体验历程图、亲和图和角色画像可以直接输入 JTBD 机会评分、VPD 画布填充和 SWD 高管叙事。不要让文档躺在文件夹里——把它们接入下一个技能。
