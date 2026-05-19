@@ -476,6 +476,21 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | Map Jobs to value propositions | UDM research findings | [VPD](https://github.com/AliDujie/value-proposition-design) canvas |
 | Present findings to executives | UDM research report | [SWD](https://github.com/AliDujie/storytelling-with-data) data story |
 
+## 🧭 Which UDM Method Should I Use?
+
+| Your Research Goal | Recommended UDM Capability | Quick Call |
+|--------------------|--------------------------|------------|
+| "Don't know where to start" | **Method Recommendation** | `recommend_methods(goal, phase=1)` |
+| "Talk to users" | **Interview Guide** | `generate_interview(topic, "contextual")` |
+| "Watch users in action" | **Observation Records** | `generate_observation("shadowing")` |
+| "Is it usable?" | **Usability Testing** | `generate_usability_test()`, then `calculate_sus()` |
+| "Survey at scale" | **Survey Design** | `generate_survey("Satisfaction", "kano")` |
+| "Synthesize findings" | **Comprehensive Analysis** | Journey map, affinity diagram, persona building |
+| "Plan the research" | **Research Plan** | `generate_research_plan("Study name")` |
+| "Report to stakeholders" | **Research Report** | `generate_report(include_ceo_analysis=True)` |
+
+> 💡 **Rule of thumb**: Start with `recommend_methods()` to get a 3-5 method combo, then use the specific generators for each method. Always pair one qualitative method with one quantitative method for triangulation.
+
 ## ❓ FAQ / Troubleshooting
 
 **Q: I'm not sure which phase to start with — what do you recommend?**
@@ -535,7 +550,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.88)**: Aligned SKILL.md version with README, standardized ecosystem pipeline ordering (Persona→JTBD→UDM→QuantUX→VPD→SWD), improved Pro Tips chain reference.
+**Latest (v2.3.89)**: Added "Which UDM Method Should I Use?" decision guide table, improved pro tips with concrete SUS benchmark reference.
+
+**Previous (v2.3.88)**: Aligned SKILL.md version with README, standardized ecosystem pipeline ordering (Persona→JTBD→UDM→QuantUX→VPD→SWD), improved Pro Tips chain reference.
 
 **Previous (v2.3.86)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
 
