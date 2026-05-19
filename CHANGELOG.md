@@ -1,3 +1,21 @@
+## v2.3.90 (2026-05-19)
+- Repo maintenance: synced versions across README/SKILL.md/pyproject.toml
+- Enhanced FAQ with concrete bilingual troubleshooting tips
+- Added Lean UX sprint workflow example with full 6-skill pipeline code
+
+## v2.3.89 (2026-05-19)
+- Added "Which UDM Method Should I Use?" decision guide table
+- Improved pro tips with concrete SUS benchmark reference
+
+## v2.3.88 (2026-05-19)
+- Aligned SKILL.md version with README, standardized ecosystem pipeline ordering
+
+## v2.3.87 (2026-05-19)
+- Improved bilingual parity and added pro tips to USAGE.md
+
+## v2.3.86 (2026-05-19)
+- README + SKILL.md maintenance (v2.3.87→88)
+
 ## v2.3.85 (2026-05-16)
 - Fixed footer version mismatch (v2.3.81 → v2.3.84) in README.md
 - Verified ecosystem cross-references and bilingual consistency across all 7 skills

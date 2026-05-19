@@ -2,11 +2,18 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.3.86-blue)
+![Version](https://img.shields.io/badge/version-2.3.90-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.3.90
+
+- **Decision Guide**: New "Which UDM Method Should I Use?" table maps research goals to specific capabilities
+- **SUS Benchmarks**: Pro tips now include industry-standard SUS score references (avg: 68, A-grade: 80+)
+- **Bilingual Troubleshooting**: FAQ expanded with concrete solutions in both CN/EN
+- **Lean UX Sprint**: New 2-week minimum viable research recipe for time-constrained teams
 
 ## 🇨🇳 中文概览
 
@@ -550,7 +557,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.89)**: Added "Which UDM Method Should I Use?" decision guide table, improved pro tips with concrete SUS benchmark reference.
+**Latest (v2.3.90)**: Synced version across all files, added Lean UX sprint workflow example with full code pipeline, enhanced FAQ with bilingual troubleshooting tips.
 
 **Previous (v2.3.88)**: Aligned SKILL.md version with README, standardized ecosystem pipeline ordering (Persona→JTBD→UDM→QuantUX→VPD→SWD), improved Pro Tips chain reference.
 
