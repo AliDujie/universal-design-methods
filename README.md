@@ -305,7 +305,7 @@ vpd = VPDSkill("Travel Booking", "Business Travelers")
 canvas = vpd.analyze_canvas(product_name="Travel Booking", jobs=[{"description": "Find hotel quickly"}])
 ```
 
-### 📊 5-Minute Setup Checklist
+### ⏱️ 5-Minute Quick-Start Checklist
 
 - [ ] **Install** — `cp -r universal-design-methods /your/agent/skills/`
 - [ ] **Import** — `from udm import UDMSkill`
@@ -535,7 +535,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.86)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
+**Latest (v2.3.87)**: Standardized quick-start checklist header (⏱️ emoji), improved cross-skill collaboration table with direct API call examples, enhanced pipeline documentation.
+
+**Previous (v2.3.86)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
 
 **Previous (v2.3.85)**: Added cross-skill collaboration table with 5 ecosystem skills, improved pipeline example clarity.
 
