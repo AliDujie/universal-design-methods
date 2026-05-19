@@ -568,6 +568,20 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 ## 📚 Resources
 
 - [SKILL.md](SKILL.md) — Agent-facing skill definition and prompt templates
+- [USAGE.md](USAGE.md) — Detailed usage guide with step-by-step workflows / 详细使用指南
+- [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
+- [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
+- [CHANGELOG.md](CHANGELOG.md) — Version history
+- [SECURITY.md](SECURITY.md) — Security policy and responsible use
+- [references/](references/) — Method reference cards, execution templates, and decision framework
+
+### 📖 Recommended Learning Path
+
+1. **Start with the README** — Quick start + 30-second example
+2. **Read USAGE.md** — Detailed workflows for each capability
+3. **Explore references/** — Deep dive into 100 methods by phase
+4. **Try the full pipeline** — Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#-complete-pipeline-example))
+5. **Customize via config** — Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
 - [USAGE.md](USAGE.md) — Detailed usage guide with code examples / 详细使用指南
 - [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
 - [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
