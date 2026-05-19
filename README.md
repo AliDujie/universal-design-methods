@@ -486,7 +486,7 @@ Start with Phase 1 (Planning & Scoping) if you're early in a project. If you alr
 - **Start small**: Pick 3 methods from the recommendation, not 10 — depth beats breadth
 - **CEO ROI early**: Run `generate_research_plan(include_ceo_analysis=True)` before pitching research budget — it helps you speak the stakeholder's language
 - **Document as you go**: Each method output (interview guide, observation record) feeds into synthesis — don't skip the paper trail
-- **Chain with ecosystem**: UDM research → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) scores opportunities → [VPD](https://github.com/AliDujie/value-proposition-design) maps value → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) validates → [SWD](https://github.com/AliDujie/storytelling-with-data) presents → [Persona](https://github.com/AliDujie/web-persona-skill) defines users
+- **Chain with ecosystem**: [Persona](https://github.com/AliDujie/web-persona-skill) defines who → UDM research → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) scores opportunities → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) validates → [VPD](https://github.com/AliDujie/value-proposition-design) maps value → [SWD](https://github.com/AliDujie/storytelling-with-data) presents
 
 **Q: Do I need to install any dependencies?**
 No. UDM uses only the Python standard library. Just `from udm import UDMSkill`.
@@ -535,7 +535,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.87)**: Standardized quick-start checklist header (⏱️ emoji), improved cross-skill collaboration table with direct API call examples, enhanced pipeline documentation.
+**Latest (v2.3.88)**: Aligned SKILL.md version with README, standardized ecosystem pipeline ordering (Persona→JTBD→UDM→QuantUX→VPD→SWD), improved Pro Tips chain reference.
 
 **Previous (v2.3.86)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
 
