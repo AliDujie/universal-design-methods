@@ -72,6 +72,58 @@ This skill is part of the AliDujie UX Research ecosystem. Consider exploring:
 - [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — UDM 生成阶段方法可与 VPD 结合
 - [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — UDM 研究报告可交给 SWD 进行数据叙事
 
+## Agent Integration / Agent 集成
+
+### OpenClaw Integration
+
+For OpenClaw users, UDM works as a first-class skill — drop it into `~/.openclaw/skills/` or `~/.agents/skills/` and the agent picks it up automatically:
+
+```bash
+# Clone directly into skills directory
+git clone https://github.com/AliDujie/universal-design-methods.git ~/.agents/skills/universal-design-methods
+```
+
+### LangChain / LLM Agent Integration
+
+```python
+from udm import UDMSkill
+
+# Wrap UDM as a tool for your agent
+skill = UDMSkill("My Product")
+
+# Tool definition example
+tools = [
+    {
+        "name": "recommend_research_methods",
+        "description": "Recommend 3-5 research methods for a given goal",
+        "function": lambda goal, phase=None: skill.recommend_methods(goal, phase=phase)
+    },
+    {
+        "name": "generate_interview_guide",
+        "description": "Generate a structured interview guide",
+        "function": lambda title, method, context=None: skill.generate_interview(title, method, context=context)
+    },
+    {
+        "name": "score_usability",
+        "description": "Calculate SUS score from 10 questionnaire responses (1-5 scale)",
+        "function": lambda responses: skill.calculate_sus(responses)
+    }
+]
+```
+
+### When to Chain with Other Skills / 何时与其他技能串联
+
+| If you need... | UDM first, then... |
+|---------------|--------------------|
+| User personas from research data | → [Persona Skill](https://github.com/AliDujie/web-persona-skill) |
+| Structured Jobs analysis from interviews | → [JTBD Skill](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| Statistical validation of findings | → [QuantUX Skill](https://github.com/AliDujie/Quantitative-UX-Research) |
+| Value proposition mapping | → [VPD Skill](https://github.com/AliDujie/value-proposition-design) |
+| Executive data storytelling | → [SWD Skill](https://github.com/AliDujie/storytelling-with-data) |
+| Strategic business frameworks | → [STM Skill](https://github.com/AliDujie/Structured-Thinking-Model) |
+| CEO-level ROI & resource planning | → UDM CEO capabilities (built-in) |
+| CTO/CMO/CPO strategic alignment | → [CEO/CPO/CMO/CTO Advisor Skills](https://github.com/AliDujie) |
+
 ---
 
-*Last Updated: 2026-05-08 | AliDujie Skill Ecosystem*
+*Last Updated: 2026-05-20 | AliDujie Skill Ecosystem | Version 2.3.90*
