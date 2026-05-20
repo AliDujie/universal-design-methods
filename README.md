@@ -504,6 +504,24 @@ udm = UDMSkill("Your Product")
 guide = udm.generate_interview("User Deep Dive", "contextual", context="Your context here")
 ```
 
+## 🧭 When to Use UDM / 什么时候使用 UDM
+
+Reach for UDM when:
+
+- **You're planning user research** but don't know which method(s) to use
+- **You need interview guides, survey templates, or usability test scripts** — fast
+- **You want standardized, consistent research outputs** across a team
+- **You need to justify research budgets** to stakeholders with ROI analysis
+- **You're working across phases** — from discovery to post-launch monitoring
+
+| 场景 | 使用 UDM | Use UDM When |
+|------|---------|-------------|
+| 选择研究方法组合 | ✅ 推荐 3-5 种方法 | Method selection |
+| 生成访谈提纲 | ✅ 5 种结构化类型 | Interview guides |
+| 可用性测试 + SUS 评分 | ✅ 内置表单 + 自动计分 | Usability testing |
+| 用户旅程地图 | ✅ 结构化构建器 | Journey maps |
+| 研究计划含 ROI 分析 | ✅ CEO 决策视角 | Research plans |
+
 ## 🚧 When NOT to Use UDM / 什么时候不该用 UDM
 
 | 你的需求 | 推荐技能 | Your Need | Recommended Skill |
@@ -527,6 +545,14 @@ guide = udm.generate_interview("User Deep Dive", "contextual", context="Your con
 ### 🔗 扩展生态 (Extended Ecosystem)
 
 UDM 研究数据可与管理技能结合，将研究洞察转化为战略决策：
+
+| 管理技能 | 应用场景 | 组合效果 |
+|---------|---------|--------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | 研究结果转战略决策 | UDM findings → CEO strategy |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | 产品路线图规划 | UDM insights → product roadmap |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | 市场策略制定 | Research-backed marketing |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | 技术架构决策 | User needs → tech priorities |
+| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 商业问题拆解 | STM frames research goals → UDM executes |
 
 | 扩展技能 | 协作场景 |
 |---------|----------|
