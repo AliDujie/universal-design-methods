@@ -614,7 +614,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.91)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation.
+**Latest (v2.3.92)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation, added Impact Metrics Table with measurable before/after statistics.
 
 **Previous (v2.3.90)**: Synced version across all files, added Lean UX sprint workflow example with full code pipeline, enhanced FAQ with bilingual troubleshooting tips.
 
