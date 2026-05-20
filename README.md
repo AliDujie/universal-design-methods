@@ -418,14 +418,16 @@ udm = UDMSkill("Your Product")
 guide = udm.generate_interview("User Deep Dive", "contextual", context="Your context here")
 ```
 
-## 🚧 When NOT to Use UDM
+## 🚧 When NOT to Use UDM / 什么时候不该用 UDM
 
-- **Pure A/B testing or statistical analysis** → Use [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research)
-- **Creating user personas** → Use [Web Persona](https://github.com/AliDujie/web-persona-skill)
-- **Data visualization & storytelling** → Use [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data)
-- **Jobs-to-be-Done analysis** → Use [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill)
-- **Value proposition canvas** → Use [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
-- **Business framework analysis** → Use [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model)
+| 你的需求 | 推荐技能 | Your Need | Recommended Skill |
+|---------|---------|----------|------------------|
+| 定量 A/B 测试、统计分析 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | Pure A/B testing or statistical analysis |
+| 创建用户画像、用户细分 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) | Creating user personas |
+| 数据可视化与故事化呈现 | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) | Data visualization & storytelling |
+| Jobs-to-be-Done 分析 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | Jobs-to-be-Done analysis |
+| 价值主张画布分析 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | Value proposition canvas |
+| 商业框架分析 | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | Business framework analysis |
 
 ## 📚 References
 
@@ -614,7 +616,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.92)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation, added Impact Metrics Table with measurable before/after statistics.
+**Latest (v2.3.93)**: Repo maintenance — converted "When NOT to Use UDM" to bilingual CN/EN table format, added missing cross-skill references, enhanced SEO-friendly headings.
+
+**Previous (v2.3.92)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation, added Impact Metrics Table with measurable before/after statistics.
 
 **Previous (v2.3.90)**: Synced version across all files, added Lean UX sprint workflow example with full code pipeline, enhanced FAQ with bilingual troubleshooting tips.
 
