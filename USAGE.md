@@ -290,3 +290,21 @@ python udm/tests/test_all.py
 **把综合产出串联到下游技能** — UDM 产出的体验历程图、亲和图和角色画像可以直接输入 JTBD 机会评分、VPD 画布填充和 SWD 高管叙事。不要让文档躺在文件夹里——把它们接入下一个技能。
 
 **精益 UX 冲刺（2 周最简方案）** — 时间紧张的团队：5-8 次情境访谈（能力二）→ 亲和图综合（能力六）→ 快速 SUS 测试（能力四）。定性+定量三角测量，无需完整研究周期。
+
+## ❓ FAQ / Troubleshooting
+
+**Q: I have 50 methods — which do I pick first?**
+Don't pick manually. Use `recommend_methods()` with your research goal and it will auto-suggest 3-5 complementary methods with triangulation logic.
+*不要手动选。用 `recommend_methods()` 输入研究目标，系统自动推荐 3-5 种互补方法。*
+
+**Q: Can I use UDM for agile sprints?**
+Yes — use the 2-week lean sprint template: 5 interviews → affinity diagram → SUS test. See the Research Sprint Template in README.md.
+*可以——使用 2 周精益冲刺模板：5 次访谈→亲和图→SUS 测试。详见 README 中的 Research Sprint Template。*
+
+**Q: My stakeholders don't value qualitative research — how do I change that?**
+Use `generate_research_plan(include_ceo_analysis=True)` to attach ROI scoring and resource allocation. Speak their language: time saved, risk reduced, revenue impact.
+*用 `generate_research_plan(include_ceo_analysis=True)` 附加 ROI 评分。用他们的语言说话：节省时间、降低风险、收入影响。*
+
+**Q: How does UDM chain with other skills?**
+UDM is the methodology engine: Persona/JTBD define who and what → UDM runs research → QuantUX validates → VPD maps value → SWD presents. See ecosystem pipeline in README.md.
+*UDM 是方法论引擎：Persona/JTBD 定义用户和需求→UDM 执行研究→QuantUX 验证→VPD 映射价值→SWD 呈现。*
