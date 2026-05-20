@@ -595,6 +595,21 @@ skill = UDMSkill("My Product", config=config)
 
 See [INSTALL.md](INSTALL.md) for full configuration options and agent integration guides.
 
+## ✅ Best Practices / 最佳实践
+
+1. **Start with the research goal, not the method** — Use `recommend_methods()` with your specific goal; let UDM suggest the right approach rather than forcing a familiar method.
+2. **Triangulate, don't rely on one method** — Always combine ≥3 methods from different phases (e.g., exploratory interviews + usability testing + survey). The `execution_guidance()` output shows optimal combos.
+3. **Always attach CEO-level ROI context** — Generate research plans with `generate_research_plan()` which auto-attaches resource allocation advice; stakeholders approve funded plans faster.
+4. **Use SUS benchmarks for usability** — SUS scores of 68 (avg), 80+ (A-grade), and 90+ (best-in-class) provide objective targets for your `generate_usability_test()` output.
+5. **Chain with ecosystem skills** — UDM is the methodological engine. Pair it with Persona (who), JTBD (what they need), QuantUX (quantitative validation), VPD (value fit), and SWD (stakeholder presentation) for end-to-end rigor.
+
+## ⚠️ Limitations / 局限性
+
+- **Method recommendation, not replacement for expertise** — UDM guides you to the right research methods but doesn't replace the judgment of experienced researchers for complex, multi-stakeholder studies.
+- **Knowledge is text-based** — The skill provides structured knowledge and templates but doesn't auto-execute research (e.g., it generates interview guides, but you still conduct the interviews).
+- **No real-time data collection** — UDM plans and structures research; actual data collection (surveys, tests, observations) requires external tools or manual execution.
+- **Bilingual documentation only** — Pro Tips and guides are provided in CN/EN only; localization to other languages requires community contributions.
+
 ## 📊 Version History
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
