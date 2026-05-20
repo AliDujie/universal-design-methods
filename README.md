@@ -2,7 +2,7 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.3.91-blue)
+![Version](https://img.shields.io/badge/version-2.3.92-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -12,6 +12,7 @@
 
 - **Impact Metrics Table**: Added measurable before/after statistics for UDM adoption
 - **Bilingual Pro Tips**: Added CN translations to impact metrics section
+- **Research Sprint Template**: New 2-week sprint recipe with day-by-day plan + Method Selector Cheat Sheet for time-constrained teams
 
 ## 🆕 What's New in v2.3.90
 
@@ -458,6 +459,33 @@ UDM research data can be combined with management skills to turn research insigh
 | [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | User insights → CMO brand positioning |
 | [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | Research reports → CEO plan review & scope alignment |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | UDM tech usability findings → CTO infrastructure decisions |
+
+## 🏃 Research Sprint Template (2 Weeks)
+
+When you need fast answers, this lean sprint delivers qual + quant triangulation in 10 working days:
+
+| Day | Activity | UDM Capability | Deliverable |
+|-----|----------|---------------|-------------|
+| 1 | Kickoff + method selection | `recommend_methods()` | 3-method plan |
+| 2-4 | 5 contextual interviews (1/day) | `generate_interview(topic, "contextual")` | Interview transcripts |
+| 5-6 | Affinity diagram synthesis | `build_journey_map()` or manual | Top 5 themes |
+| 7-8 | SUS usability test (n=5) | `generate_usability_test()` + `calculate_sus()` | SUS score + grade |
+| 9 | Journey map + severity ranking | `build_journey_map()` + heuristic eval | Visual pain map |
+| 10 | Research report + CEO ROI | `generate_report(include_ceo_analysis=True)` | Stakeholder-ready deck |
+
+**Minimum viable combo**: If you only have 3 days, run 3 interviews → affinity diagram → 1 heuristic checklist. Qual + qual triangulation still beats guessing.
+
+### 🧭 Method Selector Cheat Sheet
+
+| Time Available | Budget | Recommended Approach |
+|---------------|--------|---------------------|
+| 1 day | $0 | Heuristic checklist (`generate_heuristic_checklist()`) + desk research |
+| 3 days | Low | 3 interviews → affinity diagram → quick SUS test |
+| 1 week | Medium | 5 interviews → journey map → Kano survey (`generate_survey(..., "kano")`) |
+| 2 weeks | Standard | Full sprint (see table above) |
+| 4+ weeks | High | Multi-phase: exploratory → evaluative → longitudinal (diary study) |
+
+> 💡 **Pro Tip**: Always pair at least one qualitative method with one quantitative method. UDM's `recommend_methods()` auto-does this via triangulation.
 
 ## 🤝 Contributing
 
