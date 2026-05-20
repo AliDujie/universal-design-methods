@@ -2,11 +2,17 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.3.92-blue)
+![Version](https://img.shields.io/badge/version-2.3.95-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.3.95
+
+- **Interview Prompt Library**: Added 10 reusable interview prompts with follow-up probes (CN/EN)
+- **SUS Score Quick-Ref**: One-line SUS benchmark cheat sheet with percentile context
+- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
 
 ## 🆕 What's New in v2.3.92
 
@@ -405,6 +411,34 @@ n = qx.calculate_ab_sample_size(baseline=0.30, mde=0.05)
 >
 > **始终从 `recommend_methods()` 开始** — 即使你觉得自己知道正确的方法。UDM 的三角测量引擎经常会推荐你没想到的组合，混合定性深度和定量信心。
 
+## 🎙️ Interview Prompt Library / 访谈提示库
+
+10 reusable prompts with follow-up probes for any research context:
+
+| # | Prompt | Follow-Up Probe | Best For |
+|---|--------|----------------|----------|
+| 1 | "Tell me about the last time you used [product]." | "Can you walk me through what happened next?" | Contextual inquiry |
+| 2 | "What did you use before this?" | "What frustrated you about that approach?" | Competitive analysis |
+| 3 | "What made you try [new product]?" | "How did that moment feel?" | Switch analysis |
+| 4 | "Did anything make you stop or pause?" | "How did you work around it?" | Barrier diagnosis |
+| 5 | "If [product] disappeared tomorrow, what would you do?" | "Would you find an alternative or accept the loss?" | Value assessment |
+| 6 | "What would your ideal [feature] look like?" | "What's the gap between that and reality?" | Need discovery |
+| 7 | "Who influences your [decision]?" | "What did they say? How did you weigh it?" | Social influence |
+| 8 | "How much would you pay for [improvement]?" | "At what price would you hesitate?" | Willingness to pay |
+| 9 | "How would you recommend this to a friend?" | "What's the one thing you'd emphasize?" | Word-of-mouth analysis |
+| 10 | "If you could change one thing, what?" | "Why that one and not the other?" | Priority ranking |
+
+## 📏 SUS Score Quick-Ref / SUS 分数速查
+
+| SUS Score | Grade | Percentile | Recommended Action |
+|-----------|-------|-----------|--------------------|
+| ≥ 90 | A+ | Top 10% | Industry benchmark, share best practices |
+| 80-89 | A/B | Top 25% | Good, optimize details |
+| 68-79 | C | Average | Industry average, systematic improvement needed |
+| 52-67 | D | Bottom 25% | Below average, priority fixes |
+| < 52 | F | Bottom 10% | Critical issues, major redesign |
+
+> 📌 Industry average ≈ **68**. **80+** is the excellence threshold. Calculate instantly with `skill.calculate_sus(responses)`.
 
 ## 📖 Knowledge Base
 
@@ -668,7 +702,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.94)**: Repo maintenance — converted "When NOT to Use UDM" to bilingual CN/EN table format, added missing cross-skill references, enhanced SEO-friendly headings.
+**Latest (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
 
 **Previous (v2.3.92)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation, added Impact Metrics Table with measurable before/after statistics.
 
