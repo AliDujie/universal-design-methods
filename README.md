@@ -2,11 +2,16 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.3.90-blue)
+![Version](https://img.shields.io/badge/version-2.3.91-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.3.91
+
+- **Ecosystem Badge Consistency**: Standardized ecosystem badge labels across all 6 repos
+- **Pro Tips Refresh**: Added specific cross-skill pipeline invocation examples
 
 ## 🆕 What's New in v2.3.90
 
@@ -557,7 +562,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.90)**: Synced version across all files, added Lean UX sprint workflow example with full code pipeline, enhanced FAQ with bilingual troubleshooting tips.
+**Latest (v2.3.91)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation.
+
+**Previous (v2.3.90)**: Synced version across all files, added Lean UX sprint workflow example with full code pipeline, enhanced FAQ with bilingual troubleshooting tips.
 
 **Previous (v2.3.88)**: Aligned SKILL.md version with README, standardized ecosystem pipeline ordering (Persona→JTBD→UDM→QuantUX→VPD→SWD), improved Pro Tips chain reference.
 
