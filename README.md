@@ -354,6 +354,58 @@ canvas = vpd.analyze_canvas(product_name="Travel Booking", jobs=[{"description":
 - [ ] **SUS 评分** — `skill.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])`
 - [ ] **研究计划** — `skill.generate_research_plan("UX 研究")`
 
+## 📋 Research Recipe Cards / 研究食谱卡片
+
+Quick recipes for common research scenarios — copy-paste and go:
+
+### 🏷️ Recipe 1: "I need to understand users fast" (1-3 days)
+```python
+from udm import UDMSkill
+u = UDMSkill("My Product")
+# 3 focused interviews → affinity diagram → actionable themes
+guide = u.generate_interview("User Needs", "contextual")
+methods = u.recommend_methods("Understand user needs quickly", phase=1, resource_level="minimal")
+# → Returns: contextual inquiry + desk research + quick heuristic checklist
+```
+
+### 🧪 Recipe 2: "Is our redesign working?" (1 week)
+```python
+from udm import UDMSkill
+u = UDMSkill("My Product")
+# Before/after SUS comparison
+old_sus = u.calculate_sus([3, 2, 4, 1, 3, 2, 4, 1, 3, 2])  # Score: 65.0, Grade C
+new_sus = u.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])  # Score: 85.0, Grade A
+# → 20-point improvement, A-grade now meets industry benchmark
+```
+
+### 📊 Recipe 3: "Stakeholders need a research plan" (30 min)
+```python
+from udm import UDMSkill
+u = UDMSkill("My Product")
+plan = u.generate_research_plan("Q2 UX Research", include_ceo_analysis=True)
+# → Complete plan with objectives, methods, timeline, budget + CEO ROI scoring
+```
+
+### 🔀 Recipe 4: Full Qual → Quant Handoff
+```python
+# UDM qualitative findings → QuantUX validation
+from udm import UDMSkill
+from quantux import QuantUXSkill
+udm = UDMSkill("Travel App")
+# Step 1: UDM interviews reveal pain point
+interview = udm.generate_interview("Booking Flow", "contextual")
+# Step 2: QuantUX designs A/B test to validate
+qx = QuantUXSkill("Travel App")
+n = qx.calculate_ab_sample_size(baseline=0.30, mde=0.05)
+# → 3,492 samples per group needed for 80% power
+```
+
+### 💡 Pro Tip / 专业技巧
+> **Always start with `recommend_methods()`** — even if you think you know the right method. UDM's triangulation engine often suggests a combo you wouldn't think of alone, mixing qualitative depth with quantitative confidence.
+>
+> **始终从 `recommend_methods()` 开始** — 即使你觉得自己知道正确的方法。UDM 的三角测量引擎经常会推荐你没想到的组合，混合定性深度和定量信心。
+
+
 ## 📖 Knowledge Base
 
 | Document | Topic | Linked Capabilities |
@@ -616,7 +668,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.93)**: Repo maintenance — converted "When NOT to Use UDM" to bilingual CN/EN table format, added missing cross-skill references, enhanced SEO-friendly headings.
+**Latest (v2.3.94)**: Repo maintenance — converted "When NOT to Use UDM" to bilingual CN/EN table format, added missing cross-skill references, enhanced SEO-friendly headings.
 
 **Previous (v2.3.92)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation, added Impact Metrics Table with measurable before/after statistics.
 
