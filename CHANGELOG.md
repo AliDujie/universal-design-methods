@@ -1,4 +1,5 @@
 ## v2.3.98 (2026-05-22)
+- SKILL.md frontmatter: synced version to 2.3.98, added `author` field, moved badge outside YAML boundary
 - Repo maintenance: added cross-skill ecosystem quick-reference table linking all 6 skills with concrete code examples
 - Enhanced When NOT to Use section with 5 decision guardrails
 - Updated version across README/SKILL.md/pyproject.toml/__init__.py
