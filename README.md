@@ -2,11 +2,17 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.3.96-blue)
+![Version](https://img.shields.io/badge/version-2.3.97-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.3.97
+
+- **Try-It-Now Section**: Added one-line runnable examples under each major section for instant exploration
+- **Pro Tip Consolidation**: Added "Try Before You Decide" callout in Quick Start for hands-on evaluation
+- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
 
 ## 🆕 What's New in v2.3.96
 
@@ -126,6 +132,13 @@ q = QuantUXSkill("Travel App")          # Quantitative validation
 v = VPDSkill("Travel App", "travelers") # Value proposition canvas
 s = SWDSkill("Q1 Report")               # Executive data story
 ```
+
+> 💡 **Try Before You Decide / 先试后决定**:
+> ```python
+> from udm import UDMSkill
+> # One line → instant method recommendations for any research goal
+> print(UDMSkill("你的产品").recommend_methods("了解用户为什么流失", phase=1))
+> ```
 
 ## ⚡ Quick Start (5 Minutes)
 
@@ -354,6 +367,28 @@ canvas = vpd.analyze_canvas(product_name="Travel Booking", jobs=[{"description":
 - [ ] **Generate interview** — `skill.generate_interview("User Research", "contextual")`
 - [ ] **SUS scoring** — `skill.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])`
 - [ ] **Research plan** — `skill.generate_research_plan("UX Study")`
+
+### 🧪 Instant Examples (Copy-Paste & Run)
+
+**Research planning:**
+```python
+from udm import UDMSkill
+u = UDMSkill("E-commerce")
+print(u.recommend_methods("Understand cart abandonment", phase=4))
+# → 3-5 methods: usability test + survey + journey mapping
+```
+
+**SUS scoring:**
+```python
+print(UDMSkill("App").calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2]))
+# → {'score': '85.0', 'grade': 'A'}
+```
+
+**Journey mapping:**
+```python
+jm = UDMSkill("App").build_journey_map("Checkout")
+jm.add_stage("Browse", actions=["Search"], emotions=4, pain_points=["Filter too basic"])
+```
 
 > 💡 **Try it now / 立即尝试**:
 > ```python
