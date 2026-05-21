@@ -1,3 +1,13 @@
+## v2.3.96 (2026-05-21)
+- Added Ecosystem Pipeline Diagram showing full 6-skill flow
+- Enhanced Usage Guide with ecosystem invocation comments in code examples
+- Version sync across README/SKILL.md/pyproject.toml/__init__.py
+
+## v2.3.95 (2026-05-20)
+- Added Interview Prompt Library (10 reusable prompts with follow-up probes)
+- Added SUS Score Quick-Ref table
+- Version sync across all files
+
 ## v2.3.90 (2026-05-19)
 - Repo maintenance: synced versions across README/SKILL.md/pyproject.toml
 - Enhanced FAQ with concrete bilingual troubleshooting tips

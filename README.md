@@ -2,11 +2,17 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.3.95-blue)
+![Version](https://img.shields.io/badge/version-2.3.96-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.3.96
+
+- **Ecosystem Pipeline Diagram**: Added ASCII visual pipeline diagram showing full 6-skill flow
+- **Usage Guide Enhancement**: Added 2 new real-world recipe cards (Lean Startup + Enterprise)
+- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
 
 ## 🆕 What's New in v2.3.95
 
@@ -86,6 +92,9 @@ from quantux import QuantUXSkill
 from vpd import VPDSkill
 from swd import SWDSkill
 
+# 💡 快速生态调用:
+# Persona(who) → JTBD(what) → UDM(how to research) → QuantUX(validate) → VPD(value) → SWD(present)
+
 p = PersonaSkill("旅行应用")            # 定义目标用户
 j = JTBDSkill("旅行应用")              # 发现未满足的需求
 u = UDMSkill("旅行应用")              # 推荐方法 + 执行研究
@@ -106,6 +115,9 @@ from udm import UDMSkill
 from quantux import QuantUXSkill
 from vpd import VPDSkill
 from swd import SWDSkill
+
+# 💡 Quick ecosystem invocation:
+# Persona(who) → JTBD(what) → UDM(how) → QuantUX(validate) → VPD(value) → SWD(present)
 
 p = PersonaSkill("Travel App")           # Define target users
 j = JTBDSkill("Travel App")             # Discover unmet needs
@@ -728,7 +740,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
+**Latest (v2.3.96)**: Repo maintenance — added Ecosystem Pipeline Diagram, enhanced Usage Guide with Lean Startup + Enterprise recipe cards, synced versions.
+
+**Previous (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
 
 **Previous (v2.3.92)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation, added Impact Metrics Table with measurable before/after statistics.
 
