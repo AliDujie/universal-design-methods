@@ -1,3 +1,8 @@
+## v2.3.98 (2026-05-22)
+- Repo maintenance: added cross-skill ecosystem quick-reference table linking all 6 skills with concrete code examples
+- Enhanced When NOT to Use section with 5 decision guardrails
+- Updated version across README/SKILL.md/pyproject.toml/__init__.py
+
 ## v2.3.96 (2026-05-21)
 - Added Ecosystem Pipeline Diagram showing full 6-skill flow
 - Enhanced Usage Guide with ecosystem invocation comments in code examples
