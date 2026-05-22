@@ -34,7 +34,7 @@
     report = skill.generate_report("体验研究报告")
 """
 
-__version__ = "2.3.99"
+__version__ = "2.4.00"
 
 from .config import (
     AnalysisConfig, METHODS_INDEX, DESIGN_PHASES,

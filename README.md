@@ -8,6 +8,12 @@
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
+## 🆕 What's New in v2.4.00
+
+- **Structured Thinking Model Cross-Reference**: Added explicit STM skill link in ecosystem footer and pipeline diagram
+- **Ecosystem Pipeline Enhancement**: Added forward/backward reference arrows in ASCII diagram showing STM→UDM strategic loop
+- **Version Bump**: Synced version to 2.4.00 across README/SKILL.md/pyproject.toml/__init__.py
+
 ## 🆕 What's New in v2.3.99
 
 - **Ecosystem Badge Update**: Updated AliDujie ecosystem badge consistency check across all 6 skills
@@ -809,6 +815,7 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 - [CHANGELOG.md](CHANGELOG.md) — Version history
 - [SECURITY.md](SECURITY.md) — Security policy and responsible use
 - [references/](references/) — Method reference cards, execution templates, and decision framework
+- [udm/](udm/) — Core Python module source code
 
 ### 📖 Recommended Learning Path
 
