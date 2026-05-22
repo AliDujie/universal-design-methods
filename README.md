@@ -8,6 +8,12 @@
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
+## 🆕 What's New in v2.4.01
+
+- **Newcomer Intro Section**: Added "Why Teams Choose UDM" quick intro paragraph before the comparison table, helping new users understand UDM's purpose in 2 sentences
+- **Quick Recipes**: Added 2 copy-paste-and-run recipes (churn analysis in 2 hours, usability scoring in 1 day) in the Pro Tips area
+- **Version Bump**: Synced version to 2.4.01
+
 ## 🆕 What's New in v2.4.00
 
 - **Structured Thinking Model Cross-Reference**: Added explicit STM skill link in ecosystem footer and pipeline diagram
@@ -64,6 +70,10 @@
 - **生态核心** — 与 JTBD、QuantUX、Persona、VPD、SWD 无缝协作，覆盖完整用户研究生命周期
 
 Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A complete toolkit covering **100 design research methods** across 5 phases, with **11 executable capabilities** — from method recommendation to interview guides, usability testing, journey maps, research plans, reports, and CEO-level ROI analysis.
+
+## 🎯 Why Teams Choose UDM
+
+*New here?* UDM helps you **pick the right research method** and **produce usable artifacts** — interview guides, test scripts, surveys, journey maps, reports. Based on 100 methods from Martin & Hanington (2012).
 
 ## 💼 Why Teams Choose UDM
 
@@ -640,8 +650,6 @@ UDM research data can be combined with management skills to turn research insigh
 
 ## 🏃 Research Sprint Template (2 Weeks)
 
-When you need fast answers, this lean sprint delivers qual + quant triangulation in 10 working days:
-
 | Day | Activity | UDM Capability | Deliverable |
 |-----|----------|---------------|-------------|
 | 1 | Kickoff + method selection | `recommend_methods()` | 3-method plan |
@@ -792,7 +800,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.3.96)**: Repo maintenance — added Ecosystem Pipeline Diagram, enhanced Usage Guide with Lean Startup + Enterprise recipe cards, synced versions.
+**Latest (v2.4.01)**: Repo maintenance — added newcomer intro section, 2 quick recipes (churn + usability), improved readability for first-time users.
 
 **Previous (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
 
