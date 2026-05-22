@@ -2,7 +2,7 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.3.99-blue)
+![Version](https://img.shields.io/badge/version-2.4.00-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,6 +13,7 @@
 - **Newcomer Intro Section**: Added "Why Teams Choose UDM" quick intro paragraph before the comparison table, helping new users understand UDM's purpose in 2 sentences
 - **Quick Recipes**: Added 2 copy-paste-and-run recipes (churn analysis in 2 hours, usability scoring in 1 day) in the Pro Tips area
 - **Version Bump**: Synced version to 2.4.01
+- **Version Sync**: Aligned README badge (2.4.00) with SKILL.md frontmatter, __init__.py, and pyproject.toml
 
 ## 🆕 What's New in v2.4.00
 
