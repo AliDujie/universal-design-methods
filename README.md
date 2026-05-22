@@ -807,7 +807,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.01)**: Repo maintenance — added newcomer intro section, 2 quick recipes (churn + usability), improved readability for first-time users.
+**Latest (v2.4.02)**: Repo maintenance — version sync across README badge/SKILL.md/pyproject.toml/__init__.py, ecosystem cross-reference verification across all 6 AliDujie skills.
+
+**Previous (v2.4.01)**: Added newcomer intro section, 2 quick recipes (churn + usability), improved readability for first-time users.
 
 **Previous (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
 
