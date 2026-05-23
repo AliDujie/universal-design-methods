@@ -2,11 +2,18 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.02-blue)
+![Version](https://img.shields.io/badge/version-2.4.03-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.4.03
+
+- **Quick Decision Table**: Added standardized "Quick Decision: When to Use UDM" table with EN/CN for faster skill selection
+- **Quick Recipes Section**: Added 2 copy-paste-and-run recipes (Research Plan + Usability Test in under 5 min)
+- **Ecosystem Pipeline Diagram**: Added ASCII visual showing full 6-skill flow with UDM as methodology engine
+- **Version Bump**: Synced version to 2.4.03
 
 ## 🆕 What's New in v2.4.02
 
@@ -118,6 +125,53 @@ _Results aggregated from team adoption surveys across SaaS, mobile, and enterpri
 > **UDM 是整个 AliDujie UX 研究生态的方法论引擎。** 无论你做定性访谈还是定量实验，UDM 都能帮你选对方法、产出可用文档。100 种方法覆盖从探索到沟通的完整周期，11 项执行能力让你从"知道用什么方法"升级到"直接产出访谈提纲、测试脚本、问卷、历程图、研究报告"。配合内置的 CEO 决策视角（ROI / 资源分配），让研究预算不再被质疑。
 >
 > *"有了 UDM，团队不再为'该用哪种研究方法'争论——系统直接推荐 3-5 种方法组合，附三角测量逻辑。"*
+
+## 🧭 Quick Decision: When to Use UDM?
+
+| Your Need | Recommended Skill |
+|-----------|------------------|
+| Choose research methods, design interviews, usability testing | ✅ **UDM (this skill)** |
+| Understand user "Jobs", opportunity scoring | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| Quantitative A/B testing, HEART metrics | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| Create user personas, user segmentation | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| Value proposition canvas, PMF validation | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| Turn data into executive presentations | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
+
+> 💡 UDM is the methodology engine: use it when you need to **plan research, generate guides, or evaluate usability**.
+
+## 🧭 快速决策：什么时候使用 UDM？
+
+| 你的需求 | 推荐技能 |
+|---------|---------|
+| 选择研究方法、设计访谈、可用性测试 | ✅ **UDM（本技能）** |
+| 理解用户"工作"、机会评分 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| 定量 A/B 测试、HEART 指标 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| 创建人物角色、用户细分 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| 价值主张画布、PMF 验证 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| 将数据转化为高管汇报 | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
+
+> 💡 UDM 是方法论引擎：当你需要**规划研究、生成指南或评估可用性**时使用。
+
+### 🍳 Quick Recipes
+
+**Recipe 1: Full Research Plan in 5 Minutes**
+```python
+from udm import UDMSkill
+udm = UDMSkill("My Product")
+# Instant method recommendations + research plan
+plan = udm.generate_research_plan("New Feature Usability Study", background="Users struggle with the new dashboard")
+print(plan)
+```
+
+**Recipe 2: Usability Test with SUS Scoring in 3 Minutes**
+```python
+from udm import UDMSkill
+udm = UDMSkill("My Product")
+# Generate test script + calculate SUS score
+test = udm.generate_usability_test("Dashboard Test", "formative")
+sus = udm.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])
+print(f"SUS Score: {sus['score']} → Grade: {sus['grade']}")
+```
 
 ## 🔗 生态快速开始
 
