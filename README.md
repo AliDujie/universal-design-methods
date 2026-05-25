@@ -880,6 +880,7 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 - [SKILL.md](SKILL.md) — Agent-facing skill definition and prompt templates
 - [USAGE.md](USAGE.md) — Detailed usage guide with step-by-step workflows / 详细使用指南
 - [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
+- [examples/](examples/) — Runnable Python examples (zero dependencies)
 - [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
 - [CHANGELOG.md](CHANGELOG.md) — Version history
 - [SECURITY.md](SECURITY.md) — Security policy and responsible use
