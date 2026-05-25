@@ -2,13 +2,19 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.22-blue)
+![Version](https://img.shields.io/badge/version-2.4.23-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
+![Examples](https://img.shields.io/badge/Examples-3%20runnable%20scripts-brightgreen)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
-## 🆕 What's New in v2.4.21
+## 🆕 What's New in v2.4.23
+
+- **Repo Maintenance**: Added Examples badge (3 runnable scripts), confirmed examples directory discoverable in Resources, ecosystem cross-reference audit
+- **Version Bump**: Synced to 2.4.23
+
+## 🆕 What's New in v2.4.22
 
 - **Duplicate Header Consolidation**: Merged `🎯 Why Teams Choose UDM` + `💼 Why Teams Choose UDM` + `💡 为什么选择 UDM？` into a single bilingual section `🎯 Why Teams Choose UDM / 为什么选择 UDM`, removing redundant headers while preserving all content (comparison table, impact metrics, CN rationale)
 - **Version Bump**: Synced to 2.4.21
@@ -866,7 +872,7 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 - [SKILL.md](SKILL.md) — Agent-facing skill definition and prompt templates
 - [USAGE.md](USAGE.md) — Detailed usage guide with step-by-step workflows / 详细使用指南
 - [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
-- [examples/](examples/) — Runnable Python examples (zero dependencies)
+- [examples/](examples/) — Runnable Python examples: method recommendation, journey mapping, ecosystem pipeline (zero dependencies)
 - [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
 - [CHANGELOG.md](CHANGELOG.md) — Version history
 - [SECURITY.md](SECURITY.md) — Security policy and responsible use

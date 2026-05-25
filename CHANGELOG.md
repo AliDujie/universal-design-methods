@@ -1,3 +1,15 @@
+## v2.4.23 (2026-05-26)
+
+- Repo maintenance: added Examples badge (3 runnable scripts), enhanced examples description in Resources
+- Version sync across README badge/SKILL.md/pyproject.toml/__init__.py
+
+## v2.4.22 (2026-05-25)
+
+- Added runnable examples directory (3 scripts + README) and fixed examples reference in Resources
+- Version sync across README badge/SKILL.md/pyproject.toml/__init__.py
+
+## v2.4.21 (2026-05-25)
+
 ## v2.4.03 (2026-05-25)
 
 - Ecosystem audit across all 6 AliDujie skill repos
