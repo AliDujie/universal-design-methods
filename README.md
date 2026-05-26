@@ -2,12 +2,17 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.24-blue)
+![Version](https://img.shields.io/badge/version-2.4.25-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
-![Examples](https://img.shields.io/badge/Examples-3%20runnable%20scripts-brightgreen)
+![Examples](https://img.shields.io/badge/Examples-6%20runnable%20scripts-brightgreen)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.4.25
+
+- **Repo Maintenance**: Fixed Examples badge count (3 → 6 scripts to match actual `examples/*.py` files), corrected Version History "Latest" entry (v2.4.23 → v2.4.24), ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.4.25
 
 ## 🆕 What's New in v2.4.24
 
@@ -866,7 +871,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.23)**: Added Examples badge (3 runnable scripts), ecosystem cross-reference audit across all 6 AliDujie skills, version sync across all files.
+**Latest (v2.4.24)**: Added 'Who This Skill Is For' section targeting UX researchers, PMs, designers, team leads, and AI agent developers, version sync across all files.
 
 **Previous (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
 
