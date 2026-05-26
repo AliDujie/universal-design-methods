@@ -313,6 +313,18 @@ print(ResearchPlanBuilder.render_markdown(plan.build()))
 - **Team Leads** — Standardize research quality across projects, produce CEO-ready reports with decision support
 - **AI Agent Developers** — Drop into any Python agent, call methods directly, zero dependencies
 
+## 🚫 Common Mistakes / 常见错误
+
+| Mistake | What Happens | Fix |
+|---------|-------------|----- |
+| Using one method for every research question | Missed blind spots, low confidence in findings | Use UDM's `recommend_methods()` for triangulation — it suggests 2-3 complementary methods |
+| Skipping pilot testing | Bad interview questions, confusing survey items | Run a 1-person pilot with `generate_interview()` before full study |
+| Treating SUS scores as absolute truth | Context-free scores mislead stakeholders | Always pair `calculate_sus()` with qualitative findings from usability tests |
+| Ignoring research phase alignment | Wrong method for the wrong stage | Check the Quick Decision guide — Phase 1 (explore) ≠ Phase 4 (evaluate) |
+| Building journey maps without real data | Fictional pain points waste stakeholder time | Feed `build_journey_map()` with actual observation and interview data from JTBD + Persona |
+
+> **每个研究问题只用一种方法？用 `recommend_methods()` 做三角验证。跳过预测试？先用 `generate_interview()` 做1人预研。把SUS分数当绝对真理？搭配定性发现一起用。阶段不对？看Quick Decision指南——探索期≠评估期。**
+
 ## 📋 Real-World Use Cases
 
 ### SaaS Onboarding Research
