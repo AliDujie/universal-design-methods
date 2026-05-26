@@ -2,12 +2,17 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.23-blue)
+![Version](https://img.shields.io/badge/version-2.4.24-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Examples](https://img.shields.io/badge/Examples-3%20runnable%20scripts-brightgreen)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.4.24
+
+- **Who This Skill Is For**: Added dedicated audience section targeting UX researchers, PMs, designers, team leads, and AI agent developers
+- **Version Bump**: Synced to 2.4.24
 
 ## 🆕 What's New in v2.4.23
 
@@ -265,6 +270,14 @@ print(ResearchPlanBuilder.render_markdown(plan.build()))
 ```
 
 **Zero dependencies** — pure Python standard library. No `pip install` needed.
+
+## 👥 Who This Skill Is For
+
+- **UX Researchers** — Select the right methods from 100+ options, produce interview guides, test scripts, and survey instruments
+- **Product Managers** — Justify research budgets with ROI scoring, get 3-5 method combos without hours of methodology study
+- **Designers** — Run heuristic evaluations, build journey maps, and conduct usability tests with built-in SUS scoring
+- **Team Leads** — Standardize research quality across projects, produce CEO-ready reports with decision support
+- **AI Agent Developers** — Drop into any Python agent, call methods directly, zero dependencies
 
 ## 📋 Real-World Use Cases
 
