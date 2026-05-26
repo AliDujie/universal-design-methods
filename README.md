@@ -30,6 +30,8 @@
 ## 🆕 What's New in v2.4.25
 
 - **Repo Maintenance**: Fixed Examples badge count (3 → 6 scripts to match actual `examples/*.py` files), corrected Version History "Latest" entry (v2.4.23 → v2.4.24), ecosystem cross-reference audit across all 6 AliDujie skills
+- **Duplicate Section Fix**: Removed duplicate "Who This Skill Is For" section (appeared at lines 144 and 308); kept the earlier bilingual version with CN translation
+- **Example Cleanup**: Removed duplicate example scripts (01_method_recommend.py, 02_journey_map.py, 03_ecosystem_pipeline.py), renamed remaining files to consistent naming
 - **Version Bump**: Synced to 2.4.25
 
 ## 🆕 What's New in v2.4.24
@@ -293,14 +295,6 @@ print(ResearchPlanBuilder.render_markdown(plan.build()))
 ```
 
 **Zero dependencies** — pure Python standard library. No `pip install` needed.
-
-## 👥 Who This Skill Is For
-
-- **UX Researchers** — Select the right methods from 100+ options, produce interview guides, test scripts, and survey instruments
-- **Product Managers** — Justify research budgets with ROI scoring, get 3-5 method combos without hours of methodology study
-- **Designers** — Run heuristic evaluations, build journey maps, and conduct usability tests with built-in SUS scoring
-- **Team Leads** — Standardize research quality across projects, produce CEO-ready reports with decision support
-- **AI Agent Developers** — Drop into any Python agent, call methods directly, zero dependencies
 
 ## 🚫 Common Mistakes / 常见错误
 
