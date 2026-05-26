@@ -9,9 +9,27 @@
 ![Examples](https://img.shields.io/badge/Examples-3%20runnable%20scripts-brightgreen)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
+## 📑 Table of Contents
+
+- [What's New](#-whats-new-in-v2424)
+- [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
+- [Quick Decision Guide](#-quick-decision-when-to-use-udm)
+- [Quick Start](#-quick-start-5-minutes)
+- [Ecosystem Quick Start](#-ecosystem-quick-start)
+- [Core Capabilities](#️-core-capabilities--核心能力)
+- [Real-World Use Cases](#-real-world-use-cases)
+- [Research Recipe Cards](#-research-recipe-cards--研究食谱卡片)
+- [Ecosystem Integration](#-ecosystem-integration)
+- [AI Agent Integration](#-ai-agent-integration)
+- [When NOT to Use UDM](#-when-not-to-use-udm--什么时候不该用-udm)
+- [Resources](#-resources)
+
+---
+
 ## 🆕 What's New in v2.4.24
 
 - **Who This Skill Is For**: Added dedicated audience section targeting UX researchers, PMs, designers, team leads, and AI agent developers
+- **Table of Contents**: Added navigable TOC after badges linking to all major sections
 - **Version Bump**: Synced to 2.4.24
 
 ## 🆕 What's New in v2.4.23
@@ -122,6 +140,22 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 | Interview guide consistency | Subjective quality | Standardized 5 types | 3× more consistent |
 | Method selection errors | Trial-and-error | Triangulation engine | 60% fewer mistakes |
 | Stakeholder buy-in rate | ~30% | ~72% | 2.4× higher |
+
+## 👥 Who This Skill Is For
+
+- **UX Researchers** — Need to plan studies, design interview guides, run usability tests, and produce standardized research reports
+- **Product Managers** — Want to pick the right research method for any question without a methodology degree
+- **Designers** — Need structured journey maps, persona frameworks, and contextual inquiry guides
+- **Startup Founders** — Need fast, evidence-based research to validate product direction before investing engineering time
+- **AI Agent Developers** — Want a drop-in skill that generates research artifacts from natural language prompts
+
+### 👥 这个技能适合谁
+
+- **UX 研究员** — 需要规划研究、设计访谈提纲、执行可用性测试、产出标准化研究报告
+- **产品经理** — 想为任何问题选对研究方法，不需要专门的方法论学位
+- **设计师** — 需要结构化的用户旅程图、人物画像框架、情境调研指南
+- **创业者** — 需要快速、基于证据的研究来验证产品方向，避免盲目投入开发
+- **AI Agent 开发者** — 需要一个自然语言驱动的技能，从提示词直接生成研究产出
 
 ## 🧭 Quick Decision: When to Use UDM?
 
