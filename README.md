@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2425)
+- [What's New](#-whats-new-in-v2426)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -27,6 +27,11 @@
 - [Resources](#-resources)
 
 ---
+
+## 🆕 What's New in v2.4.27
+
+- **Repo Maintenance**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.4.27
 
 ## 🆕 What's New in v2.4.26
 
@@ -916,7 +921,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.25)**: Added 'Who This Skill Is For' section targeting UX researchers, PMs, designers, team leads, and AI agent developers, version sync across all files.
+**Latest (v2.4.26)**: Corrected What's New TOC link (v2.4.25 → v2.4.26), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
 
