@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2426)
+- [What's New](#-whats-new-in-v2427)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -325,7 +325,7 @@ print(ResearchPlanBuilder.render_markdown(plan.build()))
 
 | Mistake | What Happens | Fix |
 |---------|-------------|-----|
-| Using one method for every research question | Missed blind spots, low confidence in findings | Use UDM'''s `recommend_methods()` for triangulation — it suggests 2-3 complementary methods |
+| Using one method for every research question | Missed blind spots, low confidence in findings | Use UDM's `recommend_methods()` for triangulation — it suggests 2-3 complementary methods |
 | Skipping pilot testing | Bad interview questions, confusing survey items | Run a 1-person pilot with `generate_interview()` before full study |
 | Treating SUS scores as absolute truth | Context-free scores mislead stakeholders | Always pair `calculate_sus()` with qualitative findings from usability tests |
 | Ignoring research phase alignment | Wrong method for the wrong stage | Check the Quick Decision guide — Phase 1 (explore) ≠ Phase 4 (evaluate) |
@@ -921,7 +921,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.26)**: Corrected What's New TOC link (v2.4.25 → v2.4.26), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.4.27)**: Fixed stale What's New TOC link (v2.4.26 → v2.4.27), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
 
