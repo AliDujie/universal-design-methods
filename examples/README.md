@@ -8,8 +8,8 @@ Zero-dependency Python examples demonstrating UDM capabilities. Each script is s
 # All examples require Python 3.8+ and the udm module in your path
 # From the repo root:
 PYTHONPATH=. python examples/01_method_recommendation.py
-PYTHONPATH=. python examples/02_journey_map.py
-PYTHONPATH=. python examples/03_ecosystem_pipeline.py
+PYTHONPATH=. python examples/02_journey_map_usability.py
+PYTHONPATH=. python examples/03_interview_guide.py
 ```
 
 ## Examples
@@ -17,8 +17,8 @@ PYTHONPATH=. python examples/03_ecosystem_pipeline.py
 | Script | What It Shows |
 |--------|--------------|
 | `01_method_recommendation.py` | Research method selection for a real product scenario |
-| `02_journey_map.py` | Building and rendering an experience journey map |
-| `03_ecosystem_pipeline.py` | Full 6-skill pipeline: Persona → JTBD → UDM → QuantUX → VPD → SWD |
+| `02_journey_map_usability.py` | Building an experience journey map + usability SUS scoring |
+| `03_interview_guide.py` | Generating structured interview guides with context |
 
 ## Try Before You Decide
 

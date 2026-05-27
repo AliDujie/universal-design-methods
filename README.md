@@ -2,11 +2,11 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.25-blue)
+![Version](https://img.shields.io/badge/version-2.4.26-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
-![Examples](https://img.shields.io/badge/Examples-6%20runnable%20scripts-brightgreen)
+![Examples](https://img.shields.io/badge/Examples-3%20runnable%20scripts-brightgreen)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
 ## 📑 Table of Contents
@@ -28,9 +28,12 @@
 
 ---
 
-## 🆕 What's New in v2.4.25
+## 🆕 What's New in v2.4.26
 
-- **Repo Maintenance**: Fixed Examples badge count (3 → 6 scripts to match actual `examples/*.py` files), corrected Version History "Latest" entry (v2.4.23 → v2.4.24), ecosystem cross-reference audit across all 6 AliDujie skills
+- **Repo Maintenance**: Corrected Examples badge count (6 → 3 scripts to match actual `examples/*.py` files), updated examples/README.md to match current script names, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.4.26
+
+## 🆕 What's New in v2.4.25
 - **Duplicate Section Fix**: Removed duplicate "Who This Skill Is For" section (appeared at lines 144 and 308); kept the earlier bilingual version with CN translation
 - **Example Cleanup**: Removed duplicate example scripts (01_method_recommend.py, 02_journey_map.py, 03_ecosystem_pipeline.py), renamed remaining files to consistent naming
 - **Version Bump**: Synced to 2.4.25
@@ -913,7 +916,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.24)**: Added 'Who This Skill Is For' section targeting UX researchers, PMs, designers, team leads, and AI agent developers, version sync across all files.
+**Latest (v2.4.25)**: Added 'Who This Skill Is For' section targeting UX researchers, PMs, designers, team leads, and AI agent developers, version sync across all files.
 
 **Previous (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
 
