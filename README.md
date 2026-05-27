@@ -13,6 +13,7 @@
 
 - [What's New](#-whats-new-in-v2425)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
+- [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
 - [Quick Decision: When NOT to Use UDM?](#-quick-decision-when-not-to-use-udm)
 - [Quick Start](#-quick-start-5-minutes)
@@ -147,6 +148,22 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 | Interview guide consistency | Subjective quality | Standardized 5 types | 3× more consistent |
 | Method selection errors | Trial-and-error | Triangulation engine | 60% fewer mistakes |
 | Stakeholder buy-in rate | ~30% | ~72% | 2.4× higher |
+
+## 👥 Who This Skill Is For
+
+- **UX Researchers** — Need a structured method recommendation system and standardized templates for interviews, usability tests, and surveys
+- **Product Managers** — Want to plan research sprints quickly and generate CEO-ready reports with ROI context
+- **Designers** — Need journey map templates, affinity diagram guidance, and synthesis frameworks
+- **Team Leads** — Want to standardize research quality across projects and justify research budgets
+- **AI Agent Developers** — Need a programmatic UX research toolkit with zero dependencies
+
+### 👥 这个技能适合谁
+
+- **UX 研究员** — 需要结构化的方法推荐系统和标准化的访谈、可用性测试、问卷模板
+- **产品经理** — 想快速规划研究冲刺并生成带 ROI 背景的 CEO 级报告
+- **设计师** — 需要历程图模板、亲和图指导和综合框架
+- **团队负责人** — 想跨项目标准化研究质量并证明研究预算
+- **AI Agent 开发者** — 需要零依赖的可编程 UX 研究工具包
 
 ## 🧭 Quick Decision: When to Use UDM?
 
