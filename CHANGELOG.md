@@ -1,3 +1,15 @@
+## v2.4.30 (2026-05-28)
+
+- Fix empty v2.4.27 changelog entry
+- Correct stale Version History "Latest" entry (was v2.4.28 while badge shows 2.4.29)
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## v2.4.29 (2026-05-28)
+
+- Sync versions to 2.4.29 across README/SKILL.md/pyproject.toml/__init__.py
+- Fix TOC link (v2427→v2429)
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
 ## v2.4.28 (2026-05-28)
 
 - Version sync: SKILL.md, pyproject.toml, __init__.py all → 2.4.28
