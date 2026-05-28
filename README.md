@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2427)
+- [What's New](#-whats-new-in-v2429)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -32,6 +32,11 @@
 
 - **Repo Maintenance**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.4.27
+
+## 🆕 What's New in v2.4.29
+
+- **Repo Maintenance**: Version sync across SKILL.md/pyproject.toml/__init__.py (all → 2.4.29), README badge set to 2.4.29, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.4.29
 
 ## 🆕 What's New in v2.4.28
 
