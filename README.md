@@ -2,7 +2,7 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.28-blue)
+![Version](https://img.shields.io/badge/version-2.4.29-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -35,7 +35,7 @@
 
 ## 🆕 What's New in v2.4.28
 
-- **TOC Audit**: Verified all TOC links current, confirmed "When NOT to Use UDM" entry present in TOC, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Repo Maintenance**: Version sync across SKILL.md/pyproject.toml/__init__.py (all → 2.4.28), README badge set to 2.4.29 (next maintenance cycle), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.4.28
 
 ## 🆕 What's New in v2.4.26
@@ -926,9 +926,11 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.27)**: Fixed stale What's New TOC link (v2.4.26 → v2.4.27), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.4.28)**: Version sync across SKILL.md/pyproject.toml/__init__.py (all → 2.4.28), README badge → 2.4.29, ecosystem cross-reference audit across all 6 AliDujie skills.
 
-**Previous (v2.3.95)**: Repo maintenance — added Interview Prompt Library (10 reusable prompts), added SUS Score Quick-Ref table, synced versions across all files.
+**Previous (v2.4.27)**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills.
+
+**Previous (v2.4.26)**: Repo maintenance — corrected Examples badge count (6 → 3 scripts), updated examples/README.md, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.3.92)**: Repo maintenance — added ecosystem badge consistency, refreshed cross-skill pipeline examples, enhanced Pro Tips with full 6-skill invocation, added Impact Metrics Table with measurable before/after statistics.
 
