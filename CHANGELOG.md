@@ -1,3 +1,7 @@
+## v2.4.34 (2026-05-29)
+
+- Repo maintenance: version bump 2.4.33→2.4.34, Version History text cleanup, ecosystem cross-reference audit
+
 ## v2.4.33 (2026-05-29)
 
 - Repo maintenance: version bump 2.4.32→2.4.33, CHANGELOG duplicate entry merges across ecosystem repos, ecosystem cross-reference audit
