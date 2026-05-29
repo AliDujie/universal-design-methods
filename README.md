@@ -2,7 +2,7 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.34-blue)
+![Version](https://img.shields.io/badge/version-2.4.35-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2434)
+- [What's New](#-whats-new-in-v2435)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -28,9 +28,14 @@
 
 ---
 
+## 🆕 What's New in v2.4.35
+
+- **README Cleanup**: Consolidated 21 redundant What's New entries (v2.4.31→v2.3.90) into a single summary line with CHANGELOG link, reducing README by ~110 lines while preserving full history reference
+- **Version Bump**: Synced to 2.4.35
+
 ## 🆕 What's New in v2.4.34
 
-- **Repo Maintenance**: Version bump 2.4.33→2.4.34, Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version History text cleanup**: Removed stale entries from Version History table, ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.4.34
 
 ## 🆕 What's New in v2.4.33
@@ -43,121 +48,7 @@
 - **Repo Maintenance**: Removed empty/duplicate What's New entries (stale v2.4.30 empty section, consolidated v2.4.31 duplicate), updated Version History "Latest" entry to v2.4.32, ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.4.32
 
-## 🆕 What's New in v2.4.31
-
-- **Version Bump**: Bumped to 2.4.31 — aligned README badge, SKILL.md, pyproject.toml, __init__.py
-- **Repo Maintenance**: Ecosystem cross-reference audit, improved cross-skill documentation consistency across all 6 AliDujie skills
-
-## 🆕 What's New in v2.4.30
-
-- **Version History Fix**: Corrected stale Version History "Latest" entry (was pointing to v2.4.28 while badge shows 2.4.29), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.30
-
-## 🆕 What's New in v2.4.29
-
-- **Repo Maintenance**: Version sync across SKILL.md/pyproject.toml/__init__.py (all → 2.4.29), README badge set to 2.4.29, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.29
-
-## 🆕 What's New in v2.4.28
-
-- **Repo Maintenance**: Version sync across SKILL.md/pyproject.toml/__init__.py (all → 2.4.28), README badge set to 2.4.29 (next maintenance cycle), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.28
-
-## 🆕 What's New in v2.4.27
-
-- **Repo Maintenance**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.27
-
-## 🆕 What's New in v2.4.26
-
-- **Repo Maintenance**: Corrected Examples badge count (6 → 3 scripts to match actual `examples/*.py` files), updated examples/README.md to match current script names, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.26
-
-## 🆕 What's New in v2.4.25
-- **Duplicate Section Fix**: Removed duplicate "Who This Skill Is For" section (appeared at lines 144 and 308); kept the earlier bilingual version with CN translation
-- **Example Cleanup**: Removed duplicate example scripts (01_method_recommend.py, 02_journey_map.py, 03_ecosystem_pipeline.py), renamed remaining files to consistent naming
-- **Version Bump**: Synced to 2.4.25
-
-## 🆕 What's New in v2.4.24
-
-- **Who This Skill Is For**: Added dedicated audience section targeting UX researchers, PMs, designers, team leads, and AI agent developers
-- **Version Bump**: Synced to 2.4.24
-
-## 🆕 What's New in v2.4.23
-
-- **Repo Maintenance**: Added Examples badge (3 runnable scripts), confirmed examples directory discoverable in Resources, ecosystem cross-reference audit
-- **Version Bump**: Synced to 2.4.23
-
-## 🆕 What's New in v2.4.22
-
-- **Duplicate Header Consolidation**: Merged `🎯 Why Teams Choose UDM` + `💼 Why Teams Choose UDM` + `💡 为什么选择 UDM？` into a single bilingual section `🎯 Why Teams Choose UDM / 为什么选择 UDM`, removing redundant headers while preserving all content (comparison table, impact metrics, CN rationale)
-- **Version Bump**: Synced to 2.4.21
-
-## 🆕 What's New in v2.4.20
-
-- **Repo Maintenance**: Version badge sync (2.4.03 → 2.4.20), confirmed all cross-references valid, validated bilingual (CN/EN) section parity across README/SKILL.md
-- **Version Bump**: Synced version to 2.4.20
-
-## 🆕 What's New in v2.4.02
-
-- **Repo Maintenance**: Version sync across all files (README badge → SKILL.md → pyproject.toml → __init__.py)
-- **Ecosystem Cross-Reference Verification**: Verified all 6-skill pipeline links across AliDujie skills
-- **Version Bump**: Synced version to 2.4.02
-
-## 🆕 What's New in v2.4.01
-
-- **Newcomer Intro Section**: Added "Why Teams Choose UDM" quick intro paragraph before the comparison table, helping new users understand UDM's purpose in 2 sentences
-- **Quick Recipes**: Added 2 copy-paste-and-run recipes (churn analysis in 2 hours, usability scoring in 1 day) in the Pro Tips area
-- **Version Bump**: Synced version to 2.4.01
-- **Version Sync**: Aligned README badge (2.4.00) with SKILL.md frontmatter, __init__.py, and pyproject.toml
-
-## 🆕 What's New in v2.4.00
-
-- **Structured Thinking Model Cross-Reference**: Added explicit STM skill link in ecosystem footer and pipeline diagram
-- **Ecosystem Pipeline Enhancement**: Added forward/backward reference arrows in ASCII diagram showing STM→UDM strategic loop
-- **Version Bump**: Synced version to 2.4.00 across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.3.99
-
-- **Ecosystem Badge Update**: Updated AliDujie ecosystem badge consistency check across all 6 skills
-- **Version Bump**: Synced version to 2.3.99 across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.3.98
-
-- **SKILL.md Frontmatter Fix**: Synced version to 2.3.98, fixed YAML frontmatter to include `author` field
-- **SKILL.md Badge Leak Fix**: Moved markdown badge outside YAML frontmatter boundary (invalid YAML)
-- **Ecosystem Consistency**: Verified cross-references across all 6 AliDujie skills
-
-## 🆕 What's New in v2.3.97
-
-- **Try-It-Now Section**: Added one-line runnable examples under each major section for instant exploration
-- **Pro Tip Consolidation**: Added "Try Before You Decide" callout in Quick Start for hands-on evaluation
-- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.3.96
-
-- **Ecosystem Pipeline Diagram**: Added ASCII visual pipeline diagram showing full 6-skill flow
-- **Usage Guide Enhancement**: Added 2 new real-world recipe cards (Lean Startup + Enterprise)
-- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.3.95
-
-- **Interview Prompt Library**: Added 10 reusable interview prompts with follow-up probes (CN/EN)
-- **SUS Score Quick-Ref**: One-line SUS benchmark cheat sheet with percentile context
-- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.3.92
-
-- **Impact Metrics Table**: Added measurable before/after statistics for UDM adoption
-- **Bilingual Pro Tips**: Added CN translations to impact metrics section
-- **Research Sprint Template**: New 2-week sprint recipe with day-by-day plan + Method Selector Cheat Sheet for time-constrained teams
-
-## 🆕 What's New in v2.3.90
-
-- **Decision Guide**: New "Which UDM Method Should I Use?" table maps research goals to specific capabilities
-- **SUS Benchmarks**: Pro tips now include industry-standard SUS score references (avg: 68, A-grade: 80+)
-- **Bilingual Troubleshooting**: FAQ expanded with concrete solutions in both CN/EN
-- **Lean UX Sprint**: New 2-week minimum viable research recipe for time-constrained teams
+> **📦 Earlier versions (v2.4.31 → v2.3.90)**: Added ecosystem pipeline diagrams, interview prompt library, SUS benchmarks, impact metrics, lean UX sprint templates, decision guides, bilingual FAQ, try-it-now examples, and comprehensive cross-skill pipeline integration. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
 ## 🇨🇳 中文概览
 
