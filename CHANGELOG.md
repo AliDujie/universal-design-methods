@@ -1,3 +1,10 @@
+## v2.4.32 (2026-05-29)
+
+- Remove empty v2.4.30 What's New section
+- Merge duplicate v2.4.31 entries into single consolidated entry
+- Update Version History "Latest" to v2.4.32
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
 ## v2.4.30 (2026-05-28)
 
 - Fix empty v2.4.27 changelog entry

@@ -2,7 +2,7 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.31-blue)
+![Version](https://img.shields.io/badge/version-2.4.32-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2430)
+- [What's New](#-whats-new-in-v2432)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -28,12 +28,17 @@
 
 ---
 
-## 🆕 What's New in v2.4.30
+## 🆕 What's New in v2.4.32
+
+- **Repo Maintenance**: Removed empty/duplicate What's New entries (stale v2.4.30 empty section, consolidated v2.4.31 duplicate), updated Version History "Latest" entry to v2.4.32, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.4.32
 
 ## 🆕 What's New in v2.4.31
 
 - **Version Bump**: Bumped to 2.4.31 — aligned README badge, SKILL.md, pyproject.toml, __init__.py
 - **Repo Maintenance**: Ecosystem cross-reference audit, improved cross-skill documentation consistency across all 6 AliDujie skills
+
+## 🆕 What's New in v2.4.30
 
 - **Version History Fix**: Corrected stale Version History "Latest" entry (was pointing to v2.4.28 while badge shows 2.4.29), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.4.30
@@ -941,7 +946,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.30)**: Version History "Latest" entry corrected (was stale v2.4.28 while badge showed 2.4.29), ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.4.32)**: Removed empty/duplicate What's New entries, updated Version History "Latest" entry, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.4.27)**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills.
 
