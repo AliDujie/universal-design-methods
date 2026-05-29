@@ -2,7 +2,7 @@
 
 > **100 Design Research Methods — From Knowledge to Execution.**
 
-![Version](https://img.shields.io/badge/version-2.4.29-blue)
+![Version](https://img.shields.io/badge/version-2.4.31-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -29,6 +29,11 @@
 ---
 
 ## 🆕 What's New in v2.4.30
+
+## 🆕 What's New in v2.4.31
+
+- **Version Bump**: Bumped to 2.4.31 — aligned README badge, SKILL.md, pyproject.toml, __init__.py
+- **Repo Maintenance**: Ecosystem cross-reference audit, improved cross-skill documentation consistency across all 6 AliDujie skills
 
 - **Version History Fix**: Corrected stale Version History "Latest" entry (was pointing to v2.4.28 while badge shows 2.4.29), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.4.30
