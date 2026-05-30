@@ -29,6 +29,8 @@
 - [Best Practices](#-best-practices--最佳实践)
 - [Limitations](#-limitations--局限性)
 - [Resources](#-resources)
+- [Recommended Learning Path](#-recommended-learning-path)
+- [Recommended Learning Path](#-recommended-learning-path)
 
 ---
 
