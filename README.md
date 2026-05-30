@@ -18,14 +18,18 @@
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
 - [Quick Decision: When NOT to Use UDM?](#-quick-decision-when-not-to-use-udm)
+- [Quick Recipes](#-quick-recipes--快速食谱)
 - [Quick Start](#-quick-start-5-minutes)
 - [Ecosystem Quick Start](#-ecosystem-quick-start)
 - [Core Capabilities](#-11-executable-capabilities)
 - [Real-World Use Cases](#-real-world-use-cases)
+- [Quick Recipes](#-quick-recipes--快速食谱)
 - [Research Recipe Cards](#-research-recipe-cards--研究食谱卡片)
 - [Ecosystem Integration](#-ecosystem-integration)
 - [AI Agent Integration](#-ai-agent-integration)
 - [FAQ / Troubleshooting](#-faq--troubleshooting)
+- [Best Practices](#-best-practices--最佳实践)
+- [Limitations](#-limitations--局限性)
 - [Resources](#-resources)
 
 ---
@@ -196,6 +200,32 @@ s = SWDSkill("Q1 Report")               # Executive data story
 > # One line → instant method recommendations for any research goal
 > print(UDMSkill("你的产品").recommend_methods("了解用户为什么流失", phase=1))
 > ```
+
+## 🍽️ Quick Recipes / 快速食谱
+
+### Recipe: "I need a research plan fast" (5 min)
+```python
+from udm import UDMSkill
+udm = UDMSkill("My Product")
+plan = udm.generate_research_plan("New Feature Usability Study", background="Users struggle with the dashboard")
+print(plan)
+```
+
+### Recipe: "Is our design usable?" (15 min)
+```python
+udm = UDMSkill("My App")
+test = udm.generate_usability_test("Checkout Flow", "formative")
+# Run test → calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2]) → Grade A
+```
+
+### Recipe: "What research methods should I use?" (2 min)
+```python
+print(UDMSkill("My Product").recommend_methods("Understand why users churn", phase=1))
+# → 3-5 methods with resource estimates
+```
+
+> 💡 **Pro Tip**: Start with `recommend_methods()` to get the right method combo, then generate execution templates — don't force a familiar method onto the wrong question.
+> **专业技巧**: 先用 `recommend_methods()` 获取正确的方法组合，再生成执行模板——不要将熟悉的方法套用到错误的问题上。
 
 ## ⚡ Quick Start (5 Minutes)
 
