@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.36-blue)
+![Version](https://img.shields.io/badge/version-2.4.37-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -29,6 +29,11 @@
 - [Resources](#-resources)
 
 ---
+
+## 🆕 What's New in v2.4.37
+
+- **Repo Maintenance**: Enhanced Quick Start code examples, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.4.37
 
 ## 🆕 What's New in v2.4.35
 
@@ -113,6 +118,13 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 | Turn data into executive presentations | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
 
 > 💡 UDM is the methodology engine: use it when you need to **plan research, generate guides, or evaluate usability**.
+
+> 💡 **Try Before You Decide / 先试后决定**:
+> ```python
+> from udm import UDMSkill
+> # One line → instant method recommendations for any research goal
+> print(UDMSkill("你的产品").recommend_methods("了解用户为什么流失", phase=1))
+> ```
 
 ## 🧭 快速决策：什么时候使用 UDM？
 
@@ -849,7 +861,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.34)**: CHANGELOG duplicate version entry consolidation across ecosystem repos, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.4.37)**: Enhanced Quick Start code examples, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.4.27)**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills.
 
