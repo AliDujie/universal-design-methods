@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2435)
+- [What's New](#-whats-new-in-v2437)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -32,28 +32,10 @@
 
 ## 🆕 What's New in v2.4.37
 
-- **Repo Maintenance**: Enhanced Quick Start code examples, ecosystem cross-reference audit across all 6 AliDujie skills
+- **CHANGELOG Sync**: Backfilled v2.4.34→v2.4.37 entries in CHANGELOG.md (was 3 versions behind), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.4.37
 
-## 🆕 What's New in v2.4.35
-
-- **README Cleanup**: Consolidated 21 redundant What's New entries (v2.4.31→v2.3.90) into a single summary line with CHANGELOG link, reducing README by ~110 lines while preserving full history reference
-- **Version Bump**: Synced to 2.4.35
-
-## 🆕 What's New in v2.4.34
-
-- **Version History text cleanup**: Removed stale entries from Version History table, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.34
-
-## 🆕 What's New in v2.4.33
-
-- **CHANGELOG Maintenance**: Merged duplicate version entries in CHANGELOG.md (consolidated 2× v2.2.114, 2× v2.3.119, 2× v3.2.10 across ecosystem repos), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.33
-
-## 🆕 What's New in v2.4.32
-
-- **Repo Maintenance**: Removed empty/duplicate What's New entries (stale v2.4.30 empty section, consolidated v2.4.31 duplicate), updated Version History "Latest" entry to v2.4.32, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.32
+> **📦 Recent versions (v2.4.35 → v2.4.32)**: CHANGELOG sync, Version History cleanup, CHANGELOG duplicate entry consolidation, What's New dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
 > **📦 Earlier versions (v2.4.31 → v2.3.90)**: Added ecosystem pipeline diagrams, interview prompt library, SUS benchmarks, impact metrics, lean UX sprint templates, decision guides, bilingual FAQ, try-it-now examples, and comprehensive cross-skill pipeline integration. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
@@ -861,7 +843,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.37)**: Enhanced Quick Start code examples, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.4.37)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.4.27)**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills.
 
