@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2439)
+- [What's New](#-whats-new-in-v2440)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -33,7 +33,7 @@
 
 ---
 
-## 🆕 What's New in v2.4.39
+## 🆕 What's New in v2.4.40
 
 - **Version Bump**: Synced to 2.4.39, repo maintenance - ecosystem cross-reference audit across all 6 AliDujie skills
 
@@ -886,6 +886,19 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 **Previous (v2.3.86)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
 
 **Previous (v2.3.85)**: Added cross-skill collaboration table with 5 ecosystem skills, improved pipeline example clarity.
+
+## 🌐 Ecosystem FAQ / 生态常见问题
+
+**Q: UDM vs QuantUX — when do I use each?**
+A: UDM is for qualitative methods (interviews, observations, usability testing). QuantUX is for quantitative methods (A/B testing, surveys, HEART metrics). Use UDM first to generate hypotheses, then QuantUX to validate them at scale.
+
+**Q: Can I use UDM without the other AliDujie skills?**
+A: Absolutely. UDM is fully self-contained. But chaining with Persona (user definition) → JTBD (need discovery) → QuantUX (validation) → VPD (value) → SWD (presentation) gives you the full research-to-decision pipeline.
+
+**Q: What if my team already has research processes?**
+A: UDM's 11 executable capabilities complement existing workflows. Start with method recommendation and interview generation, then adopt other modules gradually.
+
+---
 
 ## 📚 Resources
 
