@@ -35,7 +35,7 @@
 
 ## 🆕 What's New in v2.4.41
 
-- **Repo maintenance**: ecosystem cross-reference audit across all 6 AliDujie skills
+- **Repo maintenance 2026-06-01**: TOC anchor version verification, Version History sync, ecosystem cross-reference audit across all 6 AliDujie skills
 
 > **📦 Recent versions (v2.4.35 → v2.4.32)**: CHANGELOG sync, Version History cleanup, CHANGELOG duplicate entry consolidation, What's New dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
@@ -871,7 +871,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.39)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.4.41)**: TOC anchor version fix, ecosystem cross-reference audit across all 6 AliDujie skills.
+
+**Previous (v2.4.39)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.4.27)**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills.
 
