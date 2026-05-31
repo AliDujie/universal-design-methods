@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.40-blue)
+![Version](https://img.shields.io/badge/version-2.4.41-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2440)
+- [What's New](#-whats-new-in-v2441)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -33,9 +33,9 @@
 
 ---
 
-## 🆕 What's New in v2.4.40
+## 🆕 What's New in v2.4.41
 
-- **Version Bump**: Synced to 2.4.39, repo maintenance - ecosystem cross-reference audit across all 6 AliDujie skills
+- **Repo maintenance**: ecosystem cross-reference audit across all 6 AliDujie skills
 
 > **📦 Recent versions (v2.4.35 → v2.4.32)**: CHANGELOG sync, Version History cleanup, CHANGELOG duplicate entry consolidation, What's New dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 

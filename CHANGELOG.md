@@ -1,8 +1,10 @@
+## v2.4.41 (2026-06-01)
+
+- Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills, enhanced README with cross-skill collaboration examples and improved pro tips
+
 ## v2.4.40 (2026-05-31)
 
 - Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills
-
-## v2.4.39 (2026-05-31)
 
 - Repo maintenance: fixed stale What's New TOC link, version sync audit, cross-reference check across all 6 AliDujie skills
 
