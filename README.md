@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.42-blue)
+![Version](https://img.shields.io/badge/version-2.4.43-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2441)
+- [What's New](#-whats-new-in-v2443)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -32,6 +32,10 @@
 - [Recommended Learning Path](#-recommended-learning-path)
 
 ---
+
+## 🆕 What's New in v2.4.43
+
+- **Repo maintenance 2026-06-01**: Removed duplicate "Try Before You Decide" block from Ecosystem Quick Start, cleaned up redundant quick recipe definitions. Minor version bump.
 
 ## 🆕 What's New in v2.4.42
 
@@ -73,6 +77,10 @@ Based on *Universal Design Methods* by Bella Martin & Bruce Hanington (2012). A 
 | Interview guide consistency | Subjective quality | Standardized 5 types | 3× more consistent |
 | Method selection errors | Trial-and-error | Triangulation engine | 60% fewer mistakes |
 | Stakeholder buy-in rate | ~30% | ~72% | 2.4× higher |
+
+### 🤖 UDM in the AI Era
+
+UDM is built for **AI-assisted research workflows**. Every capability is callable from Python or an AI agent, making it the only design methods toolkit that bridges human expertise with machine execution. Use it with LLM agents to auto-generate interview guides, score usability tests, and produce research plans — while keeping humans in control of method selection and quality review.
 
 ## 👥 Who This Skill Is For
 
@@ -144,7 +152,7 @@ sus = udm.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])
 print(f"SUS Score: {sus['score']} → Grade: {sus['grade']}")
 ```
 
-## 🔗 生态快速开始
+## 🔗 Ecosystem Quick Start
 
 UDM 被设计为与其他 AliDujie 技能协同工作。以下是串联方式：
 
@@ -191,13 +199,6 @@ q = QuantUXSkill("Travel App")          # Quantitative validation
 v = VPDSkill("Travel App", "travelers") # Value proposition canvas
 s = SWDSkill("Q1 Report")               # Executive data story
 ```
-
-> 💡 **Try Before You Decide / 先试后决定**:
-> ```python
-> from udm import UDMSkill
-> # One line → instant method recommendations for any research goal
-> print(UDMSkill("你的产品").recommend_methods("了解用户为什么流失", phase=1))
-> ```
 
 ## 🍽️ Quick Recipes / 快速食谱
 
@@ -871,7 +872,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.42)**: TOC anchor version fix, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.4.43)**: README maintenance - removed duplicate recipe/try blocks, added AI era section, version bump.
 
 **Previous (v2.4.39)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
 

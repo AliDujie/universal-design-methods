@@ -1,3 +1,7 @@
+## v2.4.43 (2026-06-01)
+
+- Repo maintenance: Removed duplicate "Try Before You Decide" block from Ecosystem Quick Start, cleaned up redundant quick recipe definitions, added AI era promotional section, version bump
+
 ## v2.4.41 (2026-06-01)
 
 - Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills, enhanced README with cross-skill collaboration examples and improved pro tips
