@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.43-blue)
+![Version](https://img.shields.io/badge/version-2.4.44-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -33,13 +33,9 @@
 
 ---
 
-## 🆕 What's New in v2.4.43
+## 🆕 What's New in v2.4.44
 
-- **Repo maintenance 2026-06-01**: Removed duplicate "Try Before You Decide" block from Ecosystem Quick Start, cleaned up redundant quick recipe definitions. Minor version bump.
-
-## 🆕 What's New in v2.4.42
-
-- **Repo maintenance 2026-06-01**: Version audit + sync across all 6 AliDujie skills. UDM README confirmed as most complete with 1200+ lines — Interview Prompt Library, Sprint Template, Quick-Ref tables, and all cross-references verified.
+- **Repo maintenance 2026-06-01**: Removed duplicate "Try Before You Decide" block from Ecosystem Quick Start, cleaned up redundant quick recipe definitions, consolidated What's New sections (v2.4.42 merged into archive). Version bump.
 
 > **📦 Recent versions (v2.4.35 → v2.4.32)**: CHANGELOG sync, Version History cleanup, CHANGELOG duplicate entry consolidation, What's New dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 

@@ -1,4 +1,4 @@
-## v2.4.43 (2026-06-01)
+## v2.4.44 (2026-06-01)
 
 - Repo maintenance: Removed duplicate "Try Before You Decide" block from Ecosystem Quick Start, cleaned up redundant quick recipe definitions, added AI era promotional section, version bump
 
