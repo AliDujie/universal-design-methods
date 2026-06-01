@@ -1,20 +1,7 @@
-## v2.4.44 (2026-06-01)
-
-- Repo maintenance: Removed duplicate "Try Before You Decide" block from Ecosystem Quick Start, cleaned up redundant quick recipe definitions, added AI era promotional section, version bump
-
-## v2.4.41 (2026-06-01)
-
-- Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills, enhanced README with cross-skill collaboration examples and improved pro tips
-
 ## v2.4.40 (2026-05-31)
 
-- Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills
-
-- Repo maintenance: fixed stale What's New TOC link, version sync audit, cross-reference check across all 6 AliDujie skills
-
-## v2.4.38 (2026-05-31)
-
-- Version bump: ecosystem cross-reference audit across all 6 AliDujie skills
+- README quality audit across all 6 AliDujie skill repos — verified structural completeness, TOC links, code examples, ecosystem cross-references, and bilingual coverage
+- Version sync across README badge, SKILL.md, pyproject.toml, and __init__.py
 
 ## v2.4.37 (2026-05-30)
 

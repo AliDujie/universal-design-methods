@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.45-blue)
+![Version](https://img.shields.io/badge/version-2.4.40-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -33,7 +33,12 @@
 
 ---
 
-## 🆕 What's New in v2.4.45
+## 🆕 What's New in v2.4.40
+
+- **Repo Maintenance 2026-05-31**: README quality audit across all 6 AliDujie skill repos — verified structural completeness, TOC links, code examples, ecosystem cross-references, and bilingual coverage
+- **Version Bump**: Synced to 2.4.40
+
+## 🆕 What's New in v2.4.39
 
 - **Repo maintenance 2026-06-01**: Fixed stale What's New TOC anchor (v2443 → v2445), TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
