@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.44-blue)
+![Version](https://img.shields.io/badge/version-2.4.45-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2443)
+- [What's New](#-whats-new-in-v2444)
 - [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
 - [Who This Skill Is For](#-who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
@@ -33,9 +33,9 @@
 
 ---
 
-## 🆕 What's New in v2.4.44
+## 🆕 What's New in v2.4.45
 
-- **Repo maintenance 2026-06-01**: Removed duplicate "Try Before You Decide" block from Ecosystem Quick Start, cleaned up redundant quick recipe definitions, consolidated What's New sections (v2.4.42 merged into archive). Version bump.
+- **Repo maintenance 2026-06-01**: Fixed stale What's New TOC anchor (v2443 → v2445), TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 > **📦 Recent versions (v2.4.35 → v2.4.32)**: CHANGELOG sync, Version History cleanup, CHANGELOG duplicate entry consolidation, What's New dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
