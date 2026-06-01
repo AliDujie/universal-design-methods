@@ -153,12 +153,14 @@ sus = udm.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])
 print(f"SUS Score: {sus['score']} → Grade: {sus['grade']}")
 ```
 
-## 🔗 Ecosystem Quick Start
+## 🔗 Ecosystem Quick Start / 生态快速开始
+
+UDM is designed to work alongside other AliDujie skills. Here's how to chain them:
 
 UDM 被设计为与其他 AliDujie 技能协同工作。以下是串联方式：
 
 ```python
-# Persona（谁）→ JTBD（需要什么）→ UDM（怎么研究）→ QuantUX（验证）→ VPD（价值）→ SWD（呈现）
+# Persona (who/谁) → JTBD (what they need/需要什么) → UDM (how to research/怎么研究) → QuantUX (validate/验证) → VPD (value/价值) → SWD (present/呈现)
 from persona import PersonaSkill
 from jtbd import JTBDSkill
 from udm import UDMSkill
@@ -166,39 +168,12 @@ from quantux import QuantUXSkill
 from vpd import VPDSkill
 from swd import SWDSkill
 
-# 💡 快速生态调用:
-# Persona(who) → JTBD(what) → UDM(how to research) → QuantUX(validate) → VPD(value) → SWD(present)
-
-p = PersonaSkill("旅行应用")            # 定义目标用户
-j = JTBDSkill("旅行应用")              # 发现未满足的需求
-u = UDMSkill("旅行应用")              # 推荐方法 + 执行研究
-q = QuantUXSkill("旅行应用")          # 定量验证
-v = VPDSkill("旅行应用", "旅行者")    # 价值主张画布
-s = SWDSkill("Q1 报告")               # 数据故事
-```
-
-## 🔗 Ecosystem Quick Start
-
-UDM is designed to work alongside other AliDujie skills. Here's how to chain them:
-
-```python
-# Persona (who) → JTBD (what they need) → UDM (how to research) → QuantUX (validate) → VPD (value) → SWD (present)
-from persona import PersonaSkill
-from jtbd import JTBDSkill
-from udm import UDMSkill
-from quantux import QuantUXSkill
-from vpd import VPDSkill
-from swd import SWDSkill
-
-# 💡 Quick ecosystem invocation:
-# Persona(who) → JTBD(what) → UDM(how) → QuantUX(validate) → VPD(value) → SWD(present)
-
-p = PersonaSkill("Travel App")           # Define target users
-j = JTBDSkill("Travel App")             # Discover unmet needs
-u = UDMSkill("Travel App")              # Recommend methods + run research
-q = QuantUXSkill("Travel App")          # Quantitative validation
-v = VPDSkill("Travel App", "travelers") # Value proposition canvas
-s = SWDSkill("Q1 Report")               # Executive data story
+p = PersonaSkill("Travel App / 旅行应用")           # Define target users / 定义目标用户
+j = JTBDSkill("Travel App / 旅行应用")             # Discover unmet needs / 发现未满足的需求
+u = UDMSkill("Travel App / 旅行应用")              # Recommend methods + run research / 推荐方法 + 执行研究
+q = QuantUXSkill("Travel App / 旅行应用")          # Quantitative validation / 定量验证
+v = VPDSkill("Travel App / 旅行应用", "travelers") # Value proposition canvas / 价值主张画布
+s = SWDSkill("Q1 Report / Q1 报告")                # Executive data story / 高管数据故事
 ```
 
 ## 🍽️ Quick Recipes / 快速食谱
