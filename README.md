@@ -13,23 +13,23 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v2441)
-- [Why Teams Choose UDM](#-why-teams-choose-udm--为什么选择-udm)
-- [Who This Skill Is For](#-who-this-skill-is-for)
-- [Quick Decision: When to Use UDM?](#-quick-decision-when-to-use-udm)
-- [Quick Decision: When NOT to Use UDM?](#-quick-decision-when-not-to-use-udm)
-- [Quick Start](#-quick-start-5-minutes)
-- [Ecosystem Quick Start](#-ecosystem-quick-start)
-- [Core Capabilities](#-11-executable-capabilities)
-- [Real-World Use Cases](#-real-world-use-cases)
-- [Quick Recipes](#-quick-recipes--快速食谱)
-- [Ecosystem Integration](#-ecosystem-integration)
-- [AI Agent Integration](#-ai-agent-integration)
-- [FAQ / Troubleshooting](#-faq--troubleshooting)
-- [Best Practices](#-best-practices--最佳实践)
-- [Limitations](#-limitations--局限性)
-- [Resources](#-resources)
-- [Recommended Learning Path](#-recommended-learning-path)
+- [What's New](#whats-new-in-v2441)
+- [Why Teams Choose UDM](#why-teams-choose-udm-udm)
+- [Who This Skill Is For](#who-this-skill-is-for)
+- [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
+- [Quick Decision: When NOT to Use UDM?](#when-not-to-use-udm-udm)
+- [Quick Start](#quick-start-5-minutes)
+- [Ecosystem Quick Start](#ecosystem-quick-start)
+- [Core Capabilities](#11-executable-capabilities)
+- [Real-World Use Cases](#real-world-use-cases)
+- [Quick Recipes](#quick-recipes)
+- [Ecosystem Integration](#ecosystem-integration)
+- [AI Agent Integration](#ai-agent-integration)
+- [FAQ / Troubleshooting](#faq-troubleshooting)
+- [Best Practices](#best-practices)
+- [Limitations](#limitations)
+- [Resources](#resources)
+- [Recommended Learning Path](#recommended-learning-path)
 
 ---
 
@@ -826,10 +826,10 @@ For a 2-week, low-budget study: run 5–8 contextual interviews (Capability 2), 
 It recommends 3-5 complementary methods mixing qualitative and quantitative approaches, ensuring methodological diversity and improving research reliability.
 
 **Q: How do I combine UDM with other AliDujie skills in practice?**
-Start with UDM to select research methods and generate interview guides → feed findings into [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for opportunity scoring → use [VPD](https://github.com/AliDujie/value-proposition-design) to map to value propositions → validate with [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) → present via [SWD](https://github.com/AliDujie/storytelling-with-data). See the [Complete Pipeline Example](#-complete-pipeline-example) section above.
+Start with UDM to select research methods and generate interview guides → feed findings into [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for opportunity scoring → use [VPD](https://github.com/AliDujie/value-proposition-design) to map to value propositions → validate with [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) → present via [SWD](https://github.com/AliDujie/storytelling-with-data). See the [Complete Pipeline Example](#complete-pipeline-example) section above.
 
 **Q: Can I use UDM with other skills in the ecosystem?**
-Yes! UDM is designed as the methodology core. Pair it with [Persona](https://github.com/AliDujie/web-persona-skill) for user data, [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for needs analysis, [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) for quantitative validation, [VPD](https://github.com/AliDujie/value-proposition-design) for value mapping, and [SWD](https://github.com/AliDujie/storytelling-with-data) for executive presentations. See the [complete pipeline example](#-complete-pipeline-example) above for the full 6-skill chain.
+Yes! UDM is designed as the methodology core. Pair it with [Persona](https://github.com/AliDujie/web-persona-skill) for user data, [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for needs analysis, [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) for quantitative validation, [VPD](https://github.com/AliDujie/value-proposition-design) for value mapping, and [SWD](https://github.com/AliDujie/storytelling-with-data) for executive presentations. See the [complete pipeline example](#complete-pipeline-example) above for the full 6-skill chain.
 
 **Q: SUS score seems off — what range should I expect?**
 SUS scores range 0-100. Grade thresholds: A (80+), B (68-79), C (52-67), D (37-51), F (<37). Average SUS score across industries is ~68.
@@ -923,7 +923,7 @@ A: UDM's 11 executable capabilities complement existing workflows. Start with me
 1. **Start with the README** — Quick start + 30-second example
 2. **Read USAGE.md** — Detailed workflows for each capability
 3. **Explore references/** — Deep dive into 100 methods by phase
-4. **Try the full pipeline** — Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#-complete-pipeline-example))
+4. **Try the full pipeline** — Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#complete-pipeline-example))
 5. **Customize via config** — Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
 
 ## 📄 License
