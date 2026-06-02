@@ -2,12 +2,13 @@
 
 - Version sync: align SKILL.md and CHANGELOG with pyproject.toml/README badge (2.4.44)
 
-## v2.4.40 (2026-05-31)
-## [2.4.42] - 2026-06-02
+## [2.4.43] - 2026-06-02
+
+- Repo maintenance: Version bump to 2.4.43, ecosystem cross-reference audit across all 6 AliDujie skills.
+
+## [2.4.42] - 2026-06-01
 
 - Repo maintenance: Version bump to 2.4.42, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-
 - README quality audit across all 6 AliDujie skill repos — verified structural completeness, TOC links, code examples, ecosystem cross-references, and bilingual coverage
 - Version sync across README badge, SKILL.md, pyproject.toml, and __init__.py
 
