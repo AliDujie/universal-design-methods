@@ -34,3 +34,27 @@ print(methods)
 ```
 
 No `pip install` needed — UDM uses only Python standard library.
+
+## 🔗 Ecosystem Integration / 生态集成
+
+UDM is the methodology engine of the AliDujie UX Research Ecosystem. Chain it with other skills:
+
+- **Persona → UDM**: [Persona](https://github.com/AliDujie/web-persona-skill) defines users → UDM selects research methods
+- **UDM → JTBD**: UDM interview transcripts → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity scoring
+- **UDM → QuantUX**: UDM qualitative findings → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) A/B validation
+- **UDM → VPD**: UDM pain points → [VPD](https://github.com/AliDujie/value-proposition-design) canvas filling
+- **UDM → SWD**: UDM research reports → [SWD](https://github.com/AliDujie/storytelling-with-data) executive stories
+
+See the [full pipeline example](../README.md#complete-pipeline-example) in README.md for a 6-skill end-to-end workflow.
+
+## 🔗 Ecosystem Integration / 生态集成
+
+UDM is the methodology engine of the AliDujie UX Research Ecosystem. Chain it with other skills:
+
+- **Persona → UDM**: [Persona](https://github.com/AliDujie/web-persona-skill) defines users → UDM selects research methods
+- **UDM → JTBD**: UDM interview transcripts → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity scoring
+- **UDM → QuantUX**: UDM qualitative findings → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) A/B validation
+- **UDM → VPD**: UDM pain points → [VPD](https://github.com/AliDujie/value-proposition-design) canvas filling
+- **UDM → SWD**: UDM research reports → [SWD](https://github.com/AliDujie/storytelling-with-data) executive stories
+
+See the [full pipeline example](../README.md#complete-pipeline-example) in README.md for a 6-skill end-to-end workflow.
