@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.42-blue)
+![Version](https://img.shields.io/badge/version-2.4.43-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2442)
+- [What's New](#whats-new-in-v2443)
 - [Why Teams Choose UDM](#why-teams-choose-udm-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -33,7 +33,7 @@
 
 ---
 
-## 🆕 What's New in v2.4.42
+## 🆕 What's New in v2.4.43
 
 - **Repo Maintenance 2026-06-02**: Version bump to 2.4.42, ecosystem cross-reference audit across all 6 AliDujie skills.
 
@@ -682,6 +682,7 @@ UDM 研究数据可与管理技能结合，将研究洞察转化为战略决策�
 | [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | 用户洞察 → CMO 品牌定位 |
 | [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | 研究报告 → CEO 计划审查与范围对齐 |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | UDM 技术可用性发现 → CTO 基础设施决策 |
+| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | STM 分析框架 → UDM 执行研究方法 |
 
 ## 🔗 Extended Ecosystem
 
