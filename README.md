@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.41-blue)
+![Version](https://img.shields.io/badge/version-2.4.42-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -33,10 +33,14 @@
 
 ---
 
-## 🆕 What's New in v2.4.41
+## 🆕 What's New in v2.4.42
+
+## 🆕 What's New in v2442
+
+- **Repo Maintenance 2026-06-02**: Version bump to 2.4.42, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 - **Repo Maintenance 2026-06-02**: Fixed stale TOC anchor (v2444 → v2440), Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.4.41
+- **Version Bump**: Synced to 2.4.42
 
 ## 🆕 What's New in v2.4.39
 
@@ -848,7 +852,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.41)**: Repo maintenance 2026-06-02 — fixed stale What's New TOC anchor (v2444 → v2440), Version History consistency audit (corrected stale v2.4.43 → v2.4.40), ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+**Latest (v2.4.42)**: Repo maintenance 2026-06-02 — fixed stale What's New TOC anchor (v2444 → v2440), Version History consistency audit (corrected stale v2.4.43 → v2.4.40), ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 **Previous (v2.4.43)**: README maintenance - removed duplicate recipe/try blocks, added AI era section, version bump.
 
