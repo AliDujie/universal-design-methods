@@ -1,3 +1,7 @@
+## [2.4.44] - 2026-06-03
+
+- Version sync: align SKILL.md and CHANGELOG with pyproject.toml/README badge (2.4.44)
+
 ## v2.4.40 (2026-05-31)
 ## [2.4.42] - 2026-06-02
 
