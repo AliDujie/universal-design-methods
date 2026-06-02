@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.43-blue)
+![Version](https://img.shields.io/badge/version-2.4.44-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2443)
+- [What's New](#whats-new-in-v2444)
 - [Why Teams Choose UDM](#why-teams-choose-udm-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -33,9 +33,13 @@
 
 ---
 
+## 🆕 What's New in v2.4.44
+
+- **Repo Maintenance 2026-06-03**: Added Beginner's First Tutorial (60-min end-to-end research sprint with 7 steps), version bump 2.4.43→2.4.44.
+
 ## 🆕 What's New in v2.4.43
 
-- **Repo Maintenance 2026-06-02**: Version bump to 2.4.42, ecosystem cross-reference audit across all 6 AliDujie skills.
+- **Repo Maintenance 2026-06-02**: Version bump to 2.4.43, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 ## 🆕 What's New in v2.4.39
 
@@ -900,6 +904,111 @@ A: UDM's 11 executable capabilities complement existing workflows. Start with me
 3. **Explore references/** — Deep dive into 100 methods by phase
 4. **Try the full pipeline** — Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#complete-pipeline-example))
 5. **Customize via config** — Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
+
+## 🧪 Beginner's First Tutorial — 60-Minute Research Sprint / 新手入门教程
+
+> **Goal:** Go from research question to actionable findings.
+> **目标：** 从研究问题到可执行的发现。
+> **Time:** ~60 minutes | **Prerequisites:** Python 3.8+
+
+### Step 1: Initialize (1 min)
+
+```python
+from udm import UDMSkill
+udm = UDMSkill("FreshMart 生鲜电商")
+```
+
+### Step 2: Get Method Recommendations (2 min)
+
+Tell UDM your research goal — it auto-recommends 3-5 methods with resource estimates:
+
+```python
+methods = udm.recommend_methods("了解用户为什么放弃购物车", phase=1)
+# Returns methods ranked by fit: e.g., contextual inquiry + usability test + Kano survey
+```
+
+### Step 3: Generate Interview Guide (10 min)
+
+Create a structured interview guide for your first user sessions:
+
+```python
+guide = udm.generate_interview("Cart Abandonment", "contextual", context="Checkout flow")
+print(guide)
+# → Structured questions with warm-up → deep-dive → wrap-up sections
+```
+
+### Step 4: Run a Quick Usability Test (15 min)
+
+Generate a test script and score with SUS:
+
+```python
+test = udm.generate_usability_test("Checkout Flow", "formative")
+# After collecting responses:
+sus = udm.calculate_sus([3, 2, 4, 1, 3, 2, 4, 1, 3, 2])
+print(f"SUS: {sus['score']} → Grade {sus['grade']}")
+# → SUS: 65.0 → Grade C (needs improvement)
+```
+
+### Step 5: Synthesize with Affinity Diagram (15 min)
+
+Organize observations into themes:
+
+```python
+affinity = udm.build_affinity_diagram("Cart Abandonment")
+affinity.add_observation("用户抱怨运费太贵")
+affinity.add_observation("结账流程太长，需要填太多信息")
+affinity.add_observation("不确定支付方式是否安全")
+themes = affinity.synthesize()
+# → Grouped themes: Pricing, UX Friction, Trust
+```
+
+### Step 6: Build a Journey Map (10 min)
+
+Visualize the pain points:
+
+```python
+jm = udm.build_journey_map("Checkout Journey", persona="First-time Buyer")
+jm.add_stage("Browse", actions=["Search products"], emotions=4, pain_points=["Filter too basic"])
+jm.add_stage("Cart", actions=["Add to cart"], emotions=2, pain_points=["Surprise shipping cost"])
+jm.add_stage("Checkout", actions=["Fill shipping info"], emotions=1, pain_points=["Too many fields"])
+print(jm.build())
+```
+
+### Step 7: Generate Research Plan + CEO ROI (7 min)
+
+Package everything into a stakeholder-ready report:
+
+```python
+plan = udm.generate_research_plan("Cart Abandonment Research", include_ceo_analysis=True)
+report = udm.generate_report("Cart Abandonment Findings", include_ceo_analysis=True)
+print(report.build())
+```
+
+### ✅ Tutorial Checklist
+
+- [ ] Initialized UDM with your product name
+- [ ] Got 3-5 method recommendations
+- [ ] Generated and ran interview guide
+- [ ] Calculated SUS score for usability
+- [ ] Synthesized findings into themes
+- [ ] Built journey map with pain points
+- [ ] Produced stakeholder-ready report
+
+### 🔀 What's Next?
+
+Chain with other AliDujie skills for end-to-end research:
+
+```python
+# UDM findings → QuantUX validation → SWD presentation
+from quantux import QuantUXSkill
+from swd import SWDSkill
+
+qx = QuantUXSkill("FreshMart")
+ab = qx.calculate_ab_sample_size(baseline=0.30, mde=0.05)  # Plan A/B test to validate findings
+
+swd = SWDSkill("Q1 Research Report")
+story = swd.build_story(context="UDM cart abandonment findings", use_case="executive_presentation")
+```
 
 ## 📄 License
 
