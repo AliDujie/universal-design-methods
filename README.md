@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2441)
+- [What's New](#whats-new-in-v2442)
 - [Why Teams Choose UDM](#why-teams-choose-udm-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -35,11 +35,7 @@
 
 ## 🆕 What's New in v2.4.42
 
-## 🆕 What's New in v2442
-
 - **Repo Maintenance 2026-06-02**: Version bump to 2.4.42, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-- **Repo Maintenance 2026-06-02**: Fixed stale TOC anchor (v2444 → v2440), Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.4.42
 
 ## 🆕 What's New in v2.4.39
@@ -854,7 +850,7 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 **Latest (v2.4.42)**: Repo maintenance 2026-06-02 — fixed stale What's New TOC anchor (v2444 → v2440), Version History consistency audit (corrected stale v2.4.43 → v2.4.40), ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
-**Previous (v2.4.43)**: README maintenance - removed duplicate recipe/try blocks, added AI era section, version bump.
+**Previous (v2.4.41)**: README maintenance - removed duplicate recipe/try blocks, added AI era section, version bump.
 
 **Previous (v2.4.39)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
 
