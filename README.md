@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2445)
+- [What's New](#whats-new-in-v2446)
 - [Why Teams Choose UDM](#why-teams-choose-udm-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -860,7 +860,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.44)**: Repo maintenance 2026-06-02 — TOC anchor verification, Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+**Latest (v2.4.46)**: Repo maintenance 2026-06-03 — Fixed stale TOC What's New anchor (v2.4.45 → v2.4.46), removed duplicate Ecosystem Integration section in examples/README.md, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+
+**Previous (v2.4.44)**: Repo maintenance 2026-06-02 — TOC anchor verification, Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 **Previous (v2.4.41)**: README maintenance - removed duplicate recipe/try blocks, added AI era section, version bump.
 
