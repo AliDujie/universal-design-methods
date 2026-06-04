@@ -1,3 +1,11 @@
+## [2.4.48] - 2026-06-04
+
+- Repo maintenance: CHANGELOG backfill for v2.4.47 entry, updated Version History Latest entry to v2.4.47, version consistency audit across all files, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump 2.4.47→2.4.48.
+
+## [2.4.47] - 2026-06-04
+
+- Repo maintenance: Audit completed, verified version consistency across all files, confirmed ecosystem cross-references are intact across all 6 AliDujie skills. Version bump 2.4.46→2.4.47.
+
 ## [2.4.46] - 2026-06-03
 
 - Repo maintenance: CHANGELOG backfill for v2.4.46, TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump 2.4.45→2.4.46.
