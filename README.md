@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.48-blue)
+![Version](https://img.shields.io/badge/version-2.4.49-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -32,6 +32,10 @@
 - [Recommended Learning Path](#recommended-learning-path)
 
 ---
+
+## 🆕 What's New in v2.4.49
+
+- **Repo Maintenance 2026-06-04 (PM)**: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, confirmed TOC anchors intact, version bump 2.4.48→2.4.49.
 
 ## 🆕 What's New in v2.4.47
 
@@ -864,7 +868,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.47)**: Repo maintenance 2026-06-03 — Fixed stale TOC What's New anchor (v2.4.45 → v2.4.46), removed duplicate Ecosystem Integration section in examples/README.md, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+**Latest (v2.4.49)**: Repo maintenance 2026-06-04 PM — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor confirmation. Version bump.
+
+**Previous (v2.4.47)**: Repo maintenance 2026-06-03 — Fixed stale TOC What's New anchor (v2.4.45 → v2.4.46), removed duplicate Ecosystem Integration section in examples/README.md, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 **Previous (v2.4.44)**: Repo maintenance 2026-06-02 — TOC anchor verification, Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
