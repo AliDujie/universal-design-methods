@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.50-blue)
+![Version](https://img.shields.io/badge/version-2.4.51-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2450)
+- [What's New](#whats-new-in-v2451)
 - [Why Teams Choose UDM](#why-teams-choose-udm-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -33,9 +33,9 @@
 
 ---
 
-## 🆕 What's New in v2450
+## 🆕 What's New in v2451
 
-- **Repo Maintenance 2026-06-04 (PM)**: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, fixed stale TOC anchor, version bump 2.4.49→2.4.50.
+- **Repo Maintenance 2026-06-05 (PM)**: Version bump 2.4.50→2.4.51, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 ## 🆕 What's New in v2.4.49
 
