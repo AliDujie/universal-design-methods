@@ -1,3 +1,8 @@
+## [2.4.52] - 2026-06-05 (Evening)
+
+- Added PR template and CODEOWNERS for better contribution workflow
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
 ## [2.4.51] - 2026-06-05 (PM)
 
 - Repo maintenance: Version bump 2.4.50→2.4.51, ecosystem cross-reference audit across all 6 AliDujie skills.
