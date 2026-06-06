@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.53-blue)
+![Version](https://img.shields.io/badge/version-2.4.54-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2453)
+- [What's New](#whats-new-in-v2454)
 - [Why Teams Choose UDM](#why-teams-choose-udm-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -30,6 +30,11 @@
 - [Limitations](#limitations)
 - [Resources](#resources)
 - [Recommended Learning Path](#recommended-learning-path)
+- [Beginner's First Tutorial](#beginners-first-tutorial--60-minute-research-sprint--新手入门教程)
+
+## 🆕 What's New in v2.4.54
+
+- **Repo Maintenance 2026-06-06 (Night)**: SKILL.md version sync (2.4.52→2.4.54 to match pyproject.toml/__init__.py/README badge), added missing Beginner's First Tutorial TOC entry. Version bump 2.4.53→2.4.54.
 
 ---
 
@@ -917,6 +922,10 @@ A: Absolutely. UDM is fully self-contained. But chaining with Persona (user defi
 **Q: What if my team already has research processes?**
 A: UDM's 11 executable capabilities complement existing workflows. Start with method recommendation and interview generation, then adopt other modules gradually.
 
+## 🆕 What's New in v2.4.54
+
+- **Repo Maintenance 2026-06-06 (Night)**: SKILL.md version sync (2.4.52→2.4.54 to match pyproject.toml/__init__.py/README badge), added missing Beginner's First Tutorial TOC entry. Version bump 2.4.53→2.4.54.
+
 ---
 
 ## 📚 Resources
@@ -1047,6 +1056,10 @@ story = swd.build_story(context="UDM cart abandonment findings", use_case="execu
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+## 🆕 What's New in v2.4.54
+
+- **Repo Maintenance 2026-06-06 (Night)**: SKILL.md version sync (2.4.52→2.4.54 to match pyproject.toml/__init__.py/README badge), added missing Beginner's First Tutorial TOC entry. Version bump 2.4.53→2.4.54.
 
 ---
 
