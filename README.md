@@ -4,7 +4,11 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
+<<<<<<< HEAD
 ![Version](https://img.shields.io/badge/version-2.4.52-blue)
+=======
+[![Version](https://img.shields.io/badge/version-2.4.55-blue)](CHANGELOG.md)
+>>>>>>> aa9db0f039cc78874ffd47863bde673bfe33c5b8
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +17,11 @@
 
 ## 📑 Table of Contents
 
+<<<<<<< HEAD
 - [What's New](#whats-new-in-v2451)
+=======
+- [What's New](#whats-new-in-v2454)
+>>>>>>> aa9db0f039cc78874ffd47863bde673bfe33c5b8
 - [Why Teams Choose UDM](#why-teams-choose-udm-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -30,16 +38,39 @@
 - [Limitations](#limitations)
 - [Resources](#resources)
 - [Recommended Learning Path](#recommended-learning-path)
+- [Beginner's First Tutorial](#beginners-first-tutorial--60-minute-research-sprint--新手入门教程)
+
+## 🆕 What's New in v2.4.55
+
+- **Repo Maintenance 2026-06-07 (Morning)**: Duplicate "What's New" entry cleanup across FAQ, Resources, and License sections. All stray duplicate What's New entries removed (found 2 instances after line 900). Ecosystem cross-reference validation. Version bump 2.4.54→2.4.55.
 
 ---
 
+<<<<<<< HEAD
 ## 🆕 What's New in v2451
 
 - **Repo Maintenance 2026-06-05**: Version consistency audit across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, verified TOC anchors, cleaned up duplicate SECURITY.md entry in web-persona-skill Resources table. Version bump 2.4.50→2.4.51.
 
 ## 🆕 What's New in v2450
+=======
+## 🆕 What's New in v2.4.54
+>>>>>>> aa9db0f039cc78874ffd47863bde673bfe33c5b8
 
-- **Repo Maintenance 2026-06-04 (PM)**: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, fixed stale TOC anchor, version bump 2.4.49→2.4.50.
+- **Repo Maintenance 2026-06-06 (Night)**: SKILL.md version sync (2.4.52→2.4.54 to match pyproject.toml/__init__.py/README badge), added missing Beginner's First Tutorial TOC entry. Version bump 2.4.53→2.4.54.
+
+---
+
+## 🆕 What's New in v2.4.53
+
+- **Repo Maintenance 2026-06-06 (Evening)**: TOC anchor verification, version consistency audit, duplicate entry cleanup, ecosystem cross-reference validation across all 6 AliDujie skills. Version bump 2.4.53→2.4.53.
+
+## 🆕 What's New in v2.4.52
+
+- **Repo Maintenance 2026-06-05 (Evening)**: Added PR template and CODEOWNERS, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump 2.4.51→2.4.52.
+
+## 🆕 What's New in v2.4.51
+
+- **Repo Maintenance 2026-06-05 (PM)**: Version bump 2.4.50→2.4.51, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 ## 🆕 What's New in v2.4.49
 
@@ -1047,8 +1078,6 @@ story = swd.build_story(context="UDM cart abandonment findings", use_case="execu
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
-
----
 
 **Built with ❤️ as part of the AliDujie UX Research Ecosystem**
 

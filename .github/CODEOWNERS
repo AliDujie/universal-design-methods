@@ -1,0 +1,11 @@
+# CODEOWNERS for AliDujie UX Research Ecosystem
+# Default owners for everything
+* @AliDujie
+
+# Python package ownership
+udm/ @AliDujie
+vpd/ @AliDujie
+swd/ @AliDujie
+quantux/ @AliDujie
+jtbd/ @AliDujie
+persona/ @AliDujie

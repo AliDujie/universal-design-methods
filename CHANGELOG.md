@@ -1,4 +1,24 @@
-## [2.4.48] - 2026-06-04
+## [2.4.55] - 2026-06-07 (Morning)
+
+- Repo maintenance: Duplicate "What's New" entry cleanup across README.md (found entries leaked into FAQ, Resources, and License sections). All stray duplicate What's New entries removed. Version sync across README badge, SKILL.md, pyproject.toml, __init__.py. Ecosystem cross-reference validation.
+
+## [2.4.52] - 2026-06-05 (Evening)
+
+- Added PR template and CODEOWNERS for better contribution workflow
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## [2.4.51] - 2026-06-05 (PM)
+
+- Repo maintenance: Version bump 2.4.50→2.4.51, ecosystem cross-reference audit across all 6 AliDujie skills.
+
+## [2.4.50] - 2026-06-04 (PM)
+
+- Repo maintenance: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, confirmed TOC anchors intact, version bump 2.4.49→2.4.50.
+
+## [2.4.49] - 2026-06-04 (PM)
+
+- Repo maintenance: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, fixed stale TOC anchor (v2447 → v2449), version bump 2.4.48→2.4.49.
+
 
 - Repo maintenance: CHANGELOG backfill for v2.4.47 entry, updated Version History Latest entry to v2.4.47, version consistency audit across all files, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump 2.4.47→2.4.48.
 
