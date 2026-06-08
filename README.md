@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.51-blue)
+![Version](https://img.shields.io/badge/version-2.4.52-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -136,6 +136,7 @@ UDM is built for **AI-assisted research workflows**. Every capability is callabl
 | Create user personas, user segmentation | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | Value proposition canvas, PMF validation | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
 | Turn data into executive presentations | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
+| Business framework analysis (SWOT, PESTEL, etc.) | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 > 💡 UDM is the methodology engine: use it when you need to **plan research, generate guides, or evaluate usability**.
 
@@ -156,6 +157,7 @@ UDM is built for **AI-assisted research workflows**. Every capability is callabl
 | 创建人物角色、用户细分 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | 价值主张画布、PMF 验证 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
 | 将数据转化为高管汇报 | → [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) |
+| 商业框架分析（SWOT、PESTEL 等） | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 > 💡 UDM 是方法论引擎：当你需要**规划研究、生成指南或评估可用性**时使用。
 
