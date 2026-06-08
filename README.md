@@ -878,7 +878,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.51)**: Repo maintenance 2026-06-05 — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor confirmation, cleaned up duplicate SECURITY.md entry in web-persona-skill Resources table. Version bump.
+**Latest (2.4.56)**: Repo maintenance 2026-06-05 — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor confirmation, cleaned up duplicate SECURITY.md entry in web-persona-skill Resources table. Version bump.
 
 **Previous (v2.4.50)**: Repo maintenance 2026-06-04 PM — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor confirmation. Version bump.
 
