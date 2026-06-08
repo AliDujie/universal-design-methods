@@ -160,6 +160,11 @@
 
 # Changelog
 
+## [2.4.56] - 2026-06-09
+
+- **Repo Maintenance**: merge conflict resolution + version sync + README restore + ecosystem audit
+
+
 ## v2.3.84 (2026-05-16)
 
 - Repo maintenance: Added `__version__` to `__all__` export list for proper `from udm import __version__`
