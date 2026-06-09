@@ -33,41 +33,14 @@
 
 ---
 
-## 🆕 What's New in v2451
+## 🆕 What's New in v2.4.56
 
-- **Repo Maintenance 2026-06-05**: Version consistency audit across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, verified TOC anchors, cleaned up duplicate SECURITY.md entry in web-persona-skill Resources table. Version bump 2.4.50→2.4.51.
+- **Repo Maintenance 2026-06-10**: Consolidated 9 What's New entries into 1, synced CHANGELOG to v2.4.56, ecosystem cross-reference audit across all 6 AliDujie skills
+- **2026-06-09**: Fixed stale Version History 'Latest' entry (v2.4.51→2.4.56), ecosystem cross-reference validation
+- **2026-06-07**: Duplicate What's New entry cleanup (stray entries in FAQ/Resources/License sections)
+- **2026-06-05 → 2026-06-01**: Version consistency audits, TOC anchor fixes, beginner tutorial additions, ecosystem cross-reference audits
 
-## 🆕 What's New in v2450
-
-- **Repo Maintenance 2026-06-04 (PM)**: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, fixed stale TOC anchor, version bump 2.4.49→2.4.50.
-
-## 🆕 What's New in v2.4.49
-
-- **Repo Maintenance 2026-06-04 (PM)**: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, confirmed TOC anchors intact, fixed stale TOC anchor (v2447 → v2449), version bump 2.4.48→2.4.49.
-
-## 🆕 What's New in v2.4.47
-
-- **Repo Maintenance 2026-06-04**: Audit completed, verified version consistency across all files, confirmed ecosystem cross-references are intact across all 6 AliDujie skills, version bump 2.4.46→2.4.47.
-
-## 🆕 What's New in v2.4.46
-
-- **Repo Maintenance 2026-06-03**: Enhanced Beginner's First Tutorial with clearer step-by-step output comments, added ecosystem cross-skill validation example (UDM→QuantUX handoff), version bump 2.4.45→2.4.46.
-
-## 🆕 What's New in v2.4.45
-
-- **Repo Maintenance 2026-06-03**: Version sync fix (`__version__` in `__init__.py` aligned with `pyproject.toml` 2.4.45), TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-## 🆕 What's New in v2.4.44
-
-- **Repo Maintenance 2026-06-03**: Added Beginner's First Tutorial (60-min end-to-end research sprint with 7 steps), version bump 2.4.43→2.4.44.
-
-## 🆕 What's New in v2.4.43
-
-- **Repo Maintenance 2026-06-02**: Version bump to 2.4.43, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-## 🆕 What's New in v2.4.39
-
-- **Repo maintenance 2026-06-01**: Fixed stale What's New TOC anchor (v2443 → v2445), TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+> **📦 Full history**: See [CHANGELOG.md](CHANGELOG.md) for complete version details.
 
 > **📦 Recent versions (v2.4.35 → v2.4.32)**: CHANGELOG sync, Version History cleanup, CHANGELOG duplicate entry consolidation, What's New dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
