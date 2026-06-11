@@ -291,6 +291,44 @@ python udm/tests/test_all.py
 
 **精益 UX 冲刺（2 周最简方案）** — 时间紧张的团队：5-8 次情境访谈（能力二）→ 亲和图综合（能力六）→ 快速 SUS 测试（能力四）。定性+定量三角测量，无需完整研究周期。
 
+## 💡 Best Practices / 最佳实践
+
+1. **Start with `recommend_methods()` — even if you think you know the right method**
+   Before diving into a specific API, let UDM's triangulation engine suggest 3-5 complementary methods for your research goal. It automatically mixes qualitative and quantitative approaches so you don't miss blind spots.
+   *在具体使用某个 API 之前，让 UDM 的三角测量引擎为你推荐 3-5 种互补的方法。它自动混合定性和定量方法，避免盲区。*
+
+2. **Always pair qual + quant for credible findings**
+   Run at least one qualitative method (e.g., `generate_interview("contextual")`) alongside one quantitative method (e.g., `calculate_sus()` or `generate_survey("kano")`). Stakeholders trust findings backed by both types of evidence.
+   *至少运行一种定性方法和一种定量方法。同时拥有两类证据的研究结果更容易获得利益相关者信任。*
+
+3. **Use `include_ceo_analysis=True` when pitching research budgets**
+   It auto-attaches ROI scoring, P0/P1/P2 prioritization, and resource allocation advice. Helps you speak the stakeholder's language before anyone asks "what's the return?"
+   *推销研究预算时使用 `include_ceo_analysis=True`——自动附加 ROI 评分、优先级排序和资源分配建议。*
+
+4. **Chain synthesis outputs downstream — don't let artifacts sit in a folder**
+   Journey maps, affinity diagrams, and persona outputs from UDM feed directly into JTBD opportunity scoring, VPD canvas filling, and SWD executive storytelling.
+   *把综合产出串联到下游技能——体验历程图、亲和图可以直接输入 JTBD、VPD 和 SWD。*
+
+5. **Lean UX Sprint: 2-week minimum viable combo**
+   For time-constrained teams: 5-8 contextual interviews → affinity diagram synthesis → quick SUS usability test. This gives you qual + quant triangulation without a full research cycle.
+   *精益 UX 冲刺（2 周最简方案）：5-8 次情境访谈 → 亲和图综合 → 快速 SUS 测试。*
+
+6. **Fix the method, not the question**
+   If a research question feels hard, don't force a familiar method onto it. Use `recommend_methods()` to find the right approach. Phase 1 (explore) ≠ Phase 4 (evaluate) — using the wrong phase is the most common mistake.
+   *如果研究问题感觉很难，不要强行套用熟悉的方法。用 `recommend_methods()` 找对方法。*
+
+## 🔗 Extended Ecosystem / 扩展生态
+
+UDM research data can be combined with management skills to turn research insights into strategic decisions:
+
+| Extended Skill | Collaboration Scenario |
+|---------------|------------------------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | Research ROI → CEO strategic decisions / 研究 ROI → CEO 战略决策 |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | UDM user findings → CPO product roadmap / UDM 用户发现 → CPO 产品战略 |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | User insights → CMO brand positioning / 用户洞察 → CMO 品牌定位 |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | Tech usability findings → CTO infrastructure decisions / 技术可用性发现 → CTO 架构决策 |
+| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | Research reports → CEO plan review & scope alignment / 研究报告 → CEO 计划审查 |
+
 ## ❓ FAQ / Troubleshooting
 
 **Q: I have 50 methods — which do I pick first?**
