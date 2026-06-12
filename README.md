@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2456)
+- [What's New](#whats-new-in-v2458)
 - [Why Teams Choose UDM](#why-teams-choose-udm-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -704,38 +704,19 @@ Reach for UDM when:
 | The Design of Everyday Things | Don Norman (2013) | Usability evaluation principles |
 | Sprint | Jake Knapp (2016) | Rapid design sprint methods |
 
-### 🔗 扩展生态 (Extended Ecosystem)
+## 🔗 Extended Ecosystem / 扩展生态
 
+UDM research data can be combined with management skills to turn research insights into strategic decisions.
 UDM 研究数据可与管理技能结合，将研究洞察转化为战略决策：
 
-| 管理技能 | 应用场景 | 组合效果 |
-|---------|---------|--------|
-| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | 研究结果转战略决策 | UDM findings → CEO strategy |
-| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | 产品路线图规划 | UDM insights → product roadmap |
-| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | 市场策略制定 | Research-backed marketing |
-| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | 技术架构决策 | User needs → tech priorities |
-| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 商业问题拆解 | STM frames research goals → UDM executes |
-
-| 扩展技能 | 协作场景 |
-|---------|----------|
-| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | 研究 ROI → CEO 战略决策 |
-| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | UDM 用户发现 → CPO 产品战略 |
-| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | 用户洞察 → CMO 品牌定位 |
-| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | 研究报告 → CEO 计划审查与范围对齐 |
-| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | UDM 技术可用性发现 → CTO 基础设施决策 |
-| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | STM 分析框架 → UDM 执行研究方法 |
-
-## 🔗 Extended Ecosystem
-
-UDM research data can be combined with management skills to turn research insights into strategic decisions:
-
-| Extended Skill | Collaboration Scenario |
-|---------------|----------------------|
-| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | Research ROI → CEO strategic decisions |
-| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | UDM user findings → CPO product strategy |
-| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | User insights → CMO brand positioning |
-| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | Research reports → CEO plan review & scope alignment |
-| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | UDM tech usability findings → CTO infrastructure decisions |
+| Extended Skill 扩展技能 | Collaboration Scenario 协作场景 |
+|----------------------|--------------------------------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | Research ROI → CEO strategic decisions / 研究结果转战略决策 |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | UDM user findings → CPO product strategy / UDM 用户发现 → CPO 产品战略 |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | User insights → CMO brand positioning / 用户洞察 → CMO 品牌定位 |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | UDM tech usability findings → CTO infrastructure decisions / UDM 技术可用性发现 → CTO 基础设施决策 |
+| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | Research reports → CEO plan review & scope alignment / 研究报告 → CEO 计划审查与范围对齐 |
+| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | STM frames research goals → UDM executes / STM 分析框架 → UDM 执行研究方法 |
 
 ## 🏃 Research Sprint Template (2 Weeks)
 
