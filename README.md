@@ -1039,6 +1039,7 @@ Chain with other AliDujie skills for end-to-end research:
 | 定量验证假设 | [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) | A/B 测试 + HEART 指标 |
 | 验证价值主张 | [VPD](https://github.com/AliDujie/value-proposition-design) | 画布 + PMF 验证 |
 | 数据故事呈现 | [SWD](https://github.com/AliDujie/storytelling-with-data) | 三幕叙事 + 图表优化 |
+| 战略决策分析 | [STM](https://github.com/AliDujie/Structured-Thinking-Model) | 结构化思维 + 战略框架 |
 
 ```python
 # UDM findings → QuantUX validation → SWD presentation
