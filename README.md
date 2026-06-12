@@ -35,7 +35,8 @@
 
 ## 🆕 What's New in v2.4.58
 
-- **Repo Maintenance 2026-06-12**: Version sync audit (SKILL.md 2.4.57→2.4.58), CHANGELOG entries for 2.4.57-2.4.58, ecosystem cross-reference validation across all 6 AliDujie skills
+- **Repo Maintenance 2026-06-12 PM**: Bilingual "What's Next / 下一步" cross-skill navigation tables added, Quick Start section enhanced with CN translations, ecosystem cross-reference validation
+- **Repo Maintenance 2026-06-12 AM**: Version sync audit (SKILL.md 2.4.57→2.4.58), CHANGELOG entries for 2.4.57-2.4.58, ecosystem cross-reference validation across all 6 AliDujie skills
 - **Repo Maintenance 2026-06-10**: Consolidated 9 What's New entries into 1, synced CHANGELOG to v2.4.56, ecosystem cross-reference audit across all 6 AliDujie skills
 - **2026-06-09**: Fixed stale Version History 'Latest' entry (v2.4.51→2.4.56), ecosystem cross-reference validation
 - **2026-06-07**: Duplicate What's New entry cleanup (stray entries in FAQ/Resources/License sections)
@@ -209,12 +210,13 @@ print(methods)
 > 💡 **Pro Tip**: Start with `recommend_methods()` to get the right method combo, then generate execution templates — don't force a familiar method onto the wrong question.
 > **专业技巧**: 先用 `recommend_methods()` 获取正确的方法组合，再生成执行模板——不要将熟悉的方法套用到错误的问题上。
 
-## ⚡ Quick Start (5 Minutes)
+## ⚡ Quick Start (5 Minutes) / 快速开始（5 分钟）
 
-### Install
+### Install / 安装
 
 ```bash
 # Copy the skill to your agent's skills directory
+# 将技能复制到你 Agent 的技能目录
 cp -r universal-design-methods /your/agent/skills/
 ```
 
@@ -1024,9 +1026,19 @@ print(report.build())
 - [ ] Built journey map with pain points
 - [ ] Produced stakeholder-ready report
 
-### 🔀 What's Next?
+### 🔀 What's Next? / 下一步？
 
 Chain with other AliDujie skills for end-to-end research:
+
+与其他 AliDujie 技能串联，实现端到端研究：
+
+| 你的下一步 | 推荐技能 | 作用 |
+|-----------|---------|------|
+| 定义目标用户 | [Persona](https://github.com/AliDujie/web-persona-skill) | 创建数据驱动的人物角色 |
+| 发现用户 Jobs | [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | 机会评分 + 四力分析 |
+| 定量验证假设 | [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) | A/B 测试 + HEART 指标 |
+| 验证价值主张 | [VPD](https://github.com/AliDujie/value-proposition-design) | 画布 + PMF 验证 |
+| 数据故事呈现 | [SWD](https://github.com/AliDujie/storytelling-with-data) | 三幕叙事 + 图表优化 |
 
 ```python
 # UDM findings → QuantUX validation → SWD presentation
