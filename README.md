@@ -435,6 +435,43 @@ vpd = VPDSkill("Travel Booking", "Business Travelers")
 canvas = vpd.analyze_canvas(product_name="Travel Booking", jobs=[{"description": "Find hotel quickly"}])
 ```
 
+### 🔗 UDM + Other Skills: Collaboration Examples
+
+**UDM + Persona: From observations to evidence-based personas**
+```python
+from udm import UDMSkill
+from persona import PersonaSkill
+
+udm = UDMSkill("Travel App")
+observations = udm.build_journey_map("Booking Flow").observations
+p = PersonaSkill("Travel App")
+p.add_persona("Efficiency User", "primary", "Fast booking", behaviors=observations)
+# → Evidence-based persona from real research data
+```
+
+**UDM + QuantUX: From qualitative to quantitative validation**
+```python
+from udm import UDMSkill
+from quantux import QuantUXSkill
+
+udm = UDMSkill("Checkout")
+methods = udm.recommend_methods("Validate new checkout flow", phase=4)
+# → Suggests A/B test + survey → use QuantUX for sample size + analysis
+qx = QuantUXSkill("Checkout")
+qx.calculate_ab_sample_size(baseline=0.35, mde=0.05)
+```
+
+**UDM + SWD: From research reports to executive stories**
+```python
+from udm import UDMSkill
+from swd import SWDSkill
+
+udm = UDMSkill("Onboarding")
+report = udm.generate_research_plan("Onboarding Usability", background="High drop-off")
+swd = SWDSkill("Research Review")
+story = swd.build_story("Onboarding Research", evidence=["Task completion 42%", "SUS score 62"])
+```
+
 ### ⏱️ 5-Minute Quick-Start Checklist
 
 - [ ] **Install** — `cp -r universal-design-methods /your/agent/skills/`
