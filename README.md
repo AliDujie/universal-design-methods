@@ -181,7 +181,7 @@ s = SWDSkill("Q1 Report / Q1 报告")                # Executive data story / �
 
 ## 🍽️ Quick Recipes / 快速食谱
 
-### Recipe: "I need a research plan fast" (5 min)
+### Recipe: "I need a research plan fast" / 快速制定研究计划 (5 min)
 ```python
 from udm import UDMSkill
 udm = UDMSkill("My Product")
@@ -189,16 +189,20 @@ plan = udm.generate_research_plan("New Feature Usability Study", background="Use
 print(plan)
 ```
 
-### Recipe: "Is our design usable?" (15 min)
+### Recipe: "Is our design usable?" / 设计可用性检查 (15 min)
 ```python
+from udm import UDMSkill
 udm = UDMSkill("My App")
 test = udm.generate_usability_test("Checkout Flow", "formative")
 # Run test → calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2]) → Grade A
 ```
 
-### Recipe: "What research methods should I use?" (2 min)
+### Recipe: "What research methods should I use?" / 选择研究方法 (2 min)
 ```python
-print(UDMSkill("My Product").recommend_methods("Understand why users churn", phase=1))
+from udm import UDMSkill
+udm = UDMSkill("My Product")
+methods = udm.recommend_methods("Understand why users churn", phase=1)
+print(methods)
 # → 3-5 methods with resource estimates
 ```
 
