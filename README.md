@@ -883,21 +883,11 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (2.4.58)**: Repo maintenance 2026-06-05 — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor confirmation, cleaned up duplicate SECURITY.md entry in web-persona-skill Resources table. Version bump.
+**Latest (v2.4.61)**: Repo maintenance 2026-06-13 PM — Enhanced "Why Teams Choose UDM" section with bilingual impact metrics and ecosystem pipeline diagram, consolidated What's New entries, version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.4.60 → 2.4.61), ecosystem cross-reference validation across all 6 AliDujie skills.
 
-**Previous (v2.4.50)**: Repo maintenance 2026-06-04 PM — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor confirmation. Version bump.
+**Previous (v2.4.60)**: TOC anchor fix (#whats-new-in-v2458 → v2460), version sync across all artifacts (README/pyproject.toml/SKILL.md: 2.4.59 → 2.4.60), ecosystem cross-reference validation.
 
-**Previous (v2.4.49)**: Repo maintenance 2026-06-04 PM — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor fix. Version bump.
-
-**Previous (v2.4.47)**: Repo maintenance 2026-06-03 — Fixed stale TOC What's New anchor (v2.4.45 → v2.4.46), removed duplicate Ecosystem Integration section in examples/README.md, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
-
-**Previous (v2.4.44)**: Repo maintenance 2026-06-02 — TOC anchor verification, Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
-
-**Previous (v2.4.41)**: README maintenance - removed duplicate recipe/try blocks, added AI era section, version bump.
-
-**Previous (v2.4.39)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-**Previous (v2.4.27)**: Fixed stale What's New TOC link (v2425 → v2426), updated Version History "Latest" entry (v2.4.25 → v2.4.26), ecosystem cross-reference audit across all 6 AliDujie skills.
+**Previous (v2.4.59)**: Enhanced "What's Next" pipeline code example to include all 6 skills (Persona → JTBD → UDM → QuantUX → VPD → SWD end-to-end), ecosystem cross-reference validation.
 
 **Previous (v2.4.26)**: Repo maintenance — corrected Examples badge count (6 → 3 scripts), updated examples/README.md, ecosystem cross-reference audit across all 6 AliDujie skills.
 
