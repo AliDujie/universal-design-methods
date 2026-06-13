@@ -1,3 +1,10 @@
+## [2.4.61] - 2026-06-13
+
+- Enhanced "Why Teams Choose UDM" section with bilingual impact metrics and ecosystem pipeline diagram
+- Consolidated What's New entries for clarity
+- Version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.4.60 → 2.4.61)
+- Ecosystem cross-reference validation across all 6 AliDujie skills
+
 ## [2.4.60] - 2026-06-13
 
 - TOC anchor fix (#whats-new-in-v2458 → v2460), version sync across all artifacts (README/pyproject.toml/SKILL.md: 2.4.59 → 2.4.60)
