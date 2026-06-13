@@ -1,4 +1,7 @@
 ## [2.4.61] - 2026-06-13
+## v2.4.62 (2026-06-14)
+
+- Ecosystem cross-reference parity audit, consolidated maintenance entries, version sync across all artifacts
 
 - Enhanced "Why Teams Choose UDM" section with bilingual impact metrics and ecosystem pipeline diagram
 - Consolidated What's New entries for clarity
