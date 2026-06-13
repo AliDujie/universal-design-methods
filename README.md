@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.59-blue)
+![Version](https://img.shields.io/badge/version-2.4.60-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2458)
+- [What's New](#whats-new-in-v2460)
 - [Why Teams Choose UDM](#why-teams-choose-udm-为什么选择-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -33,7 +33,10 @@
 
 ---
 
-## 🆕 What's New in v2.4.59
+## 🆕 What's New in v2.4.60
+
+- **Repo Maintenance 2026-06-13 AM**: TOC anchor fix (v2458→v2460), version sync across all artifacts (README/pyproject.toml/SKILL.md), ecosystem cross-reference validation
+
 
 - **Repo Maintenance 2026-06-13**: Enhanced "What's Next" pipeline code example to include all 6 skills (was missing Persona, JTBD, VPD), ecosystem cross-reference validation
 
