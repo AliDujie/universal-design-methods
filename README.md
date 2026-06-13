@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.62-blue)
+![Version](https://img.shields.io/badge/version-2.4.63-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2461)
+- [What's New](#whats-new-in-v2463)
 - [Why Teams Choose UDM](#why-teams-choose-udm-为什么选择-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -33,7 +33,9 @@
 
 ---
 
-## 🆕 What's New in v2.4.62
+## 🆕 What's New in v2.4.63
+
+- **Repo Maintenance 2026-06-14 PM**: Added ecosystem skills cross-link parity table in Contributing section, fixed stale What's New TOC anchor (v2461 → v2463), consolidated maintenance entries, version sync across all artifacts (2.4.62 → 2.4.63)
 
 - **Repo Maintenance 2026-06-14**: Ecosystem cross-reference parity audit, consolidated maintenance entries, version sync across all artifacts (2.4.61 → 2.4.62), README readability improvements
 
@@ -885,7 +887,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.61)**: Repo maintenance 2026-06-13 PM — Enhanced "Why Teams Choose UDM" section with bilingual impact metrics and ecosystem pipeline diagram, consolidated What's New entries, version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.4.60 → 2.4.61), ecosystem cross-reference validation across all 6 AliDujie skills.
+**Latest (v2.4.62)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v2461 → v2462), added ecosystem skills cross-link parity audit, consolidated maintenance entries.
+
+**Previous (v2.4.61)**: Repo maintenance 2026-06-13 PM — Enhanced "Why Teams Choose UDM" section with bilingual impact metrics and ecosystem pipeline diagram, consolidated What's New entries, version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.4.60 → 2.4.61), ecosystem cross-reference validation across all 6 AliDujie skills.
 
 **Previous (v2.4.60)**: TOC anchor fix (#whats-new-in-v2458 → v2460), version sync across all artifacts (README/pyproject.toml/SKILL.md: 2.4.59 → 2.4.60), ecosystem cross-reference validation.
 
