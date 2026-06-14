@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/universal-design-methods)
 
-![Version](https://img.shields.io/badge/version-2.4.63-blue)
+![Version](https://img.shields.io/badge/version-2.4.64-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v2463)
+- [What's New](#whats-new-in-v2464)
 - [Why Teams Choose UDM](#why-teams-choose-udm-为什么选择-udm)
 - [Who This Skill Is For](#who-this-skill-is-for)
 - [Quick Decision: When to Use UDM?](#quick-decision-when-to-use-udm)
@@ -33,7 +33,9 @@
 
 ---
 
-## 🆕 What's New in v2.4.63
+## 🆕 What's New in v2.4.64
+
+- **Repo Maintenance 2026-06-14 PM**: Version sync across all artifacts (2.4.63 → 2.4.64), added Structured Thinking Model (STM) cross-reference to examples/README.md ecosystem section, enhanced ecosystem documentation consistency
 
 - **Repo Maintenance 2026-06-14 PM**: Added ecosystem skills cross-link parity table in Contributing section, fixed stale What's New TOC anchor (v2461 → v2463), version sync across all artifacts (2.4.62 → 2.4.63)
 
