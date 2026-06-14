@@ -23,6 +23,8 @@ This directory contains methodology reference documents for the Universal Design
 
 These reference documents are consulted by the AI Agent during research task execution. `08-ecosystem-collaboration.md` provides end-to-end collaboration workflows between UDM and other skills.
 
+> 💡 **完整生态链**: UDM (方法引擎) → JTBD (深层需求) → Persona (用户定义) → VPD (价值设计) → QuantUX (数据验证) → SWD (数据叙事) → [STM](https://github.com/AliDujie/Structured-Thinking-Model) (战略决策)
+
 ## 🌐 技能生态关联 / Skill Ecosystem Connections
 
 UDM 的参考文档与其他技能协同工作：
@@ -32,6 +34,7 @@ UDM 的参考文档与其他技能协同工作：
 - **UDM → Persona**: `methods-synthesis.md` 的人物角色方法可直接使用 Persona 技能的输出格式
 - **UDM → VPD**: `methods-generative.md` 的共创工作坊可与 VPD 的价值主张画布结合使用
 - **UDM → SWD**: 所有方法的研究报告输出可交给 SWD 进行数据叙事改造
+- **UDM → STM**: UDM 的研究洞察可输入 [STM](https://github.com/AliDujie/Structured-Thinking-Model) 进行结构化战略分析
 
 ## 来源 / Source
 
