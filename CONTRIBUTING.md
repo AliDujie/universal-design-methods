@@ -67,6 +67,7 @@ When contributing, consider how UDM fits into the broader AliDujie UX Research e
 - [Web Persona](https://github.com/AliDujie/web-persona-skill) — UDM 合成阶段产出可构建 Persona
 - [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — UDM 生成阶段方法可与 VPD 结合
 - [Storytelling with Data](https://github.com/AliDujie/storytelling-with-data) — UDM 研究报告可交给 SWD 进行数据叙事
+- [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — SWOT、PESTEL 等战略分析框架
 
 ---
 
