@@ -35,9 +35,9 @@
 
 ## 🆕 What's New in v2.4.63
 
-- **Repo Maintenance 2026-06-14 PM**: Added ecosystem skills cross-link parity table in Contributing section, fixed stale What's New TOC anchor (v2461 → v2463), consolidated maintenance entries, version sync across all artifacts (2.4.62 → 2.4.63)
+- **Repo Maintenance 2026-06-14 PM**: Added ecosystem skills cross-link parity table in Contributing section, fixed stale What's New TOC anchor (v2461 → v2463), version sync across all artifacts (2.4.62 → 2.4.63)
 
-- **Repo Maintenance 2026-06-14**: Ecosystem cross-reference parity audit, consolidated maintenance entries, version sync across all artifacts (2.4.61 → 2.4.62), README readability improvements
+- **Repo Maintenance 2026-06-14**: Ecosystem cross-reference parity audit, version sync across all artifacts (2.4.61 → 2.4.62), README readability improvements
 
 - **Repo Maintenance 2026-06-13 PM**: Enhanced "Why Teams Choose UDM" section with bilingual impact metrics table, added ecosystem pipeline diagram after Why section, consolidated What's New entries
 
@@ -887,7 +887,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.4.62)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v2461 → v2462), added ecosystem skills cross-link parity audit, consolidated maintenance entries.
+**Latest (v2.4.63)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v2461 → v2463), added ecosystem skills cross-link parity audit, version sync across all artifacts.
 
 **Previous (v2.4.61)**: Repo maintenance 2026-06-13 PM — Enhanced "Why Teams Choose UDM" section with bilingual impact metrics and ecosystem pipeline diagram, consolidated What's New entries, version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.4.60 → 2.4.61), ecosystem cross-reference validation across all 6 AliDujie skills.
 
